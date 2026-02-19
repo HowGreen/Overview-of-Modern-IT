@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="600"
+   viewBox="0 0 1000 600"
+   id="svg-golden-ami-pipeline"
+   version="1.1"
+   sodipodi:docname="golden-ami-pipeline.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.015"
+     inkscape:cx="465.17413"
+     inkscape:cy="300"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg-golden-ami-pipeline" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrow-black"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#000000"
+         id="polygon1" />
+    </marker>
+  </defs>
+  <!-- Title -->
+  <text
+     x="500"
+     y="40"
+     font-size="24px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     font-family="Arial, sans-serif"
+     id="text1">Automated Golden AMI Pipeline with EC2 Image Builder</text>
+  <!-- A. Source AMI -->
+  <g
+     id="group-source-ami">
+    <rect
+       id="rect-source-ami"
+       x="50.012989"
+       y="200.01299"
+       width="159.97401"
+       height="105.28082"
+       rx="9.9983759"
+       ry="10.528082"
+       fill="#e9ecef"
+       stroke="#adb5bd"
+       stroke-width="1.02598" />
+    <text
+       id="icon-source-ami"
+       x="130"
+       y="255"
+       font-size="40px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif">💿</text>
+    <text
+       id="label-source-ami"
+       x="130"
+       y="285"
+       font-size="14px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif">Source AMI</text>
+    <text
+       x="129.33665"
+       y="297.02985"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#555555"
+       font-family="Arial, sans-serif"
+       id="text2">(e.g., AWS Linux 2)</text>
+  </g>
+  <!-- B. Arrow 1 (Source AMI to Image Builder) -->
+  <line
+     id="arrow1"
+     x1="210"
+     y1="250"
+     x2="290"
+     y2="250"
+     stroke="#000000"
+     stroke-width="2"
+     marker-end="url(#arrow-black)" />
+  <!-- C. EC2 Image Builder Process -->
+  <g
+     id="group-image-builder">
+    <rect
+       id="rect-image-builder-main"
+       x="289.97424"
+       y="119.97424"
+       width="220.05151"
+       height="233.84918"
+       rx="10.002341"
+       ry="8.9941998"
+       fill="#e0f7fa"
+       stroke="#80deea"
+       stroke-width="0.948489" />
+    <text
+       id="title-image-builder"
+       x="400"
+       y="150"
+       font-size="16px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#1976d2"
+       font-family="Arial, sans-serif">EC2 Image Builder</text>
+    <!-- Component 1: Build Components -->
+    <rect
+       x="315"
+       y="170"
+       width="170"
+       height="30"
+       fill="#ffffff"
+       stroke="#b0bec5"
+       rx="5"
+       ry="5"
+       id="rect2" />
+    <text
+       x="400"
+       y="190"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif"
+       id="text3">1. Build Components</text>
+    <!-- Small vertical arrow 1 -->
+    <line
+       x1="400"
+       y1="200"
+       x2="400"
+       y2="210"
+       stroke="#80deea"
+       stroke-width="1"
+       marker-end="url(#arrow-black)"
+       id="line3" />
+    <!-- Component 2: Security Hardening -->
+    <rect
+       x="315"
+       y="210"
+       width="170"
+       height="30"
+       fill="#ffffff"
+       stroke="#b0bec5"
+       rx="5"
+       ry="5"
+       id="rect3" />
+    <text
+       x="400"
+       y="230"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif"
+       id="text4">2. Security Hardening</text>
+    <!-- Small vertical arrow 2 -->
+    <line
+       x1="400"
+       y1="240"
+       x2="400"
+       y2="250"
+       stroke="#80deea"
+       stroke-width="1"
+       marker-end="url(#arrow-black)"
+       id="line4" />
+    <!-- Component 3: OS Patches -->
+    <rect
+       x="315"
+       y="250"
+       width="170"
+       height="30"
+       fill="#ffffff"
+       stroke="#b0bec5"
+       rx="5"
+       ry="5"
+       id="rect4" />
+    <text
+       x="400"
+       y="270"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif"
+       id="text5">3. OS Patches &amp; Updates</text>
+    <!-- Small vertical arrow 3 -->
+    <line
+       x1="400"
+       y1="280"
+       x2="400"
+       y2="290"
+       stroke="#80deea"
+       stroke-width="1"
+       marker-end="url(#arrow-black)"
+       id="line5" />
+    <!-- Component 4: Validation Tests -->
+    <rect
+       x="315"
+       y="290"
+       width="170"
+       height="30"
+       fill="#ffffff"
+       stroke="#b0bec5"
+       rx="5"
+       ry="5"
+       id="rect5" />
+    <text
+       x="400"
+       y="310"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif"
+       id="text6">4. Validation Tests</text>
+  </g>
+  <!-- D. Arrow 2 (Image Builder to Golden AMI) -->
+  <line
+     id="arrow2"
+     x1="510"
+     y1="250"
+     x2="590"
+     y2="250"
+     stroke="#000000"
+     stroke-width="2"
+     marker-end="url(#arrow-black)" />
+  <!-- E. Output Golden AMI -->
+  <g
+     id="group-golden-ami">
+    <rect
+       id="rect-golden-ami"
+       x="590.01221"
+       y="200.01219"
+       width="159.97562"
+       height="104.95074"
+       rx="9.998476"
+       ry="10.495075"
+       fill="#e8f5e9"
+       stroke="#a5d6a7"
+       stroke-width="1.02438" />
+    <text
+       id="icon-golden-ami"
+       x="670"
+       y="255"
+       font-size="40px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif">🌟</text>
+    <text
+       id="label-golden-ami"
+       x="670"
+       y="285"
+       font-size="14px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif">Golden AMI</text>
+    <text
+       x="669.33667"
+       y="298.35654"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#555555"
+       font-family="Arial, sans-serif"
+       id="text7">(Patched, Compliant)</text>
+  </g>
+  <!-- F. Arrow 3 (Golden AMI to Deployment) -->
+  <line
+     id="arrow3"
+     x1="750"
+     y1="250"
+     x2="830"
+     y2="250"
+     stroke="#000000"
+     stroke-width="2"
+     marker-end="url(#arrow-black)" />
+  <!-- G. Deployment / Usage -->
+  <g
+     id="group-deployment">
+    <rect
+       id="rect-deployment-main"
+       x="830"
+       y="150"
+       width="120"
+       height="200"
+       rx="10"
+       ry="10"
+       fill="#fff9c4"
+       stroke="#fff176"
+       stroke-width="1" />
+    <text
+       id="text-launch-template"
+       x="890"
+       y="180"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif">EC2 Launch</text>
+    <text
+       id="text-launch-template-2"
+       x="890"
+       y="195"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif">Templates</text>
+    <!-- Small Down Arrow -->
+    <line
+       x1="890"
+       y1="205"
+       x2="890"
+       y2="225"
+       stroke="#000000"
+       stroke-width="1.5"
+       marker-end="url(#arrow-black)"
+       id="line7" />
+    <text
+       id="icon-servers"
+       x="890"
+       y="260"
+       font-size="30px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif">🖥️ 🖥️</text>
+    <text
+       id="label-servers"
+       x="890"
+       y="290"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif">Consistent Internal</text>
+    <text
+       x="890"
+       y="305"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       font-family="Arial, sans-serif"
+       id="text8">Servers (Linux/Win)</text>
+  </g>
+</svg>

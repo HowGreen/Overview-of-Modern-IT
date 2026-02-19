@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="600"
+   viewBox="0 0 900 600"
+   version="1.1"
+   id="svg48"
+   sodipodi:docname="multi-az-cluster-deployment.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview48"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.9566667"
+     inkscape:cx="450.16911"
+     inkscape:cy="327.0575"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg48" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .region-border { fill: #f8f9fa; stroke: #212529; stroke-width: 3; }
+      .az-border { fill: #e9ecef; stroke: #495057; stroke-width: 2; stroke-dasharray: 5,5; }
+      .master-node { fill: #4dabf7; stroke: #1864ab; stroke-width: 2; }
+      .worker-node { fill: #74c0fc; stroke: #1864ab; stroke-width: 1.5; }
+      .text-label { font-family: Arial, sans-serif; font-size: 14px; fill: #212529; }
+      .heading-label { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #212529; }
+      .title-label { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #212529; text-anchor: middle; }
+      .subtitle-label { font-family: Arial, sans-serif; font-size: 16px; fill: #495057; text-anchor: middle; }
+      .node-label { font-family: Arial, sans-serif; font-size: 12px; fill: white; font-weight: bold; text-anchor: middle; dominant-baseline: central; }
+      .connection { stroke: #495057; stroke-width: 1.5; stroke-dasharray: 3,3; fill: none; }
+      .az-label { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #495057; }
+      .note-text { font-family: Arial, sans-serif; font-size: 13px; fill: #495057; font-style: italic; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <text
+     x="450"
+     y="40"
+     class="title-label"
+     id="text1">Distributed Consensus System Architecture</text>
+  <text
+     x="450"
+     y="65"
+     class="subtitle-label"
+     id="text2">Resilient deployment across multiple AWS Availability Zones</text>
+  <!-- AWS Region -->
+  <rect
+     x="50"
+     y="100"
+     width="800"
+     height="420"
+     rx="10"
+     ry="10"
+     class="region-border"
+     id="rect2" />
+  <text
+     x="450"
+     y="125"
+     class="heading-label"
+     text-anchor="middle"
+     id="text3">AWS Region (us-east-1)</text>
+  <!-- Availability Zone A -->
+  <rect
+     x="80"
+     y="150"
+     width="220"
+     height="350"
+     rx="8"
+     ry="8"
+     class="az-border"
+     id="rect3" />
+  <text
+     x="190"
+     y="175"
+     class="az-label"
+     text-anchor="middle"
+     id="text4">Availability Zone A</text>
+  <!-- Availability Zone B -->
+  <rect
+     x="340"
+     y="150"
+     width="220"
+     height="350"
+     rx="8"
+     ry="8"
+     class="az-border"
+     id="rect4" />
+  <text
+     x="450"
+     y="175"
+     class="az-label"
+     text-anchor="middle"
+     id="text5">Availability Zone B</text>
+  <!-- Availability Zone C -->
+  <rect
+     x="600"
+     y="150"
+     width="220"
+     height="350"
+     rx="8"
+     ry="8"
+     class="az-border"
+     id="rect5" />
+  <text
+     x="710"
+     y="175"
+     class="az-label"
+     text-anchor="middle"
+     id="text6">Availability Zone C</text>
+  <!-- Master Nodes - One per AZ -->
+  <rect
+     x="140"
+     y="220"
+     width="100"
+     height="60"
+     rx="5"
+     ry="5"
+     class="master-node"
+     id="rect6" />
+  <text
+     x="190"
+     y="250"
+     class="node-label"
+     id="text7">Master 1</text>
+  <rect
+     x="400"
+     y="220"
+     width="100"
+     height="60"
+     rx="5"
+     ry="5"
+     class="master-node"
+     id="rect7" />
+  <text
+     x="450"
+     y="250"
+     class="node-label"
+     id="text8">Master 2</text>
+  <rect
+     x="660"
+     y="220"
+     width="100"
+     height="60"
+     rx="5"
+     ry="5"
+     class="master-node"
+     id="rect8" />
+  <text
+     x="710"
+     y="250"
+     class="node-label"
+     id="text9">Master 3</text>
+  <!-- Worker Nodes in AZ-A -->
+  <rect
+     x="120"
+     y="320"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect9" />
+  <text
+     x="150"
+     y="340"
+     class="node-label"
+     id="text10">W1</text>
+  <rect
+     x="120"
+     y="380"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect10" />
+  <text
+     x="150"
+     y="400"
+     class="node-label"
+     id="text11">W2</text>
+  <rect
+     x="200"
+     y="320"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect11" />
+  <text
+     x="230"
+     y="340"
+     class="node-label"
+     id="text12">W3</text>
+  <rect
+     x="200"
+     y="380"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect12" />
+  <text
+     x="230"
+     y="400"
+     class="node-label"
+     id="text13">W4</text>
+  <!-- Worker Nodes in AZ-B -->
+  <rect
+     x="380"
+     y="320"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect13" />
+  <text
+     x="410"
+     y="340"
+     class="node-label"
+     id="text14">W5</text>
+  <rect
+     x="380"
+     y="380"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect14" />
+  <text
+     x="410"
+     y="400"
+     class="node-label"
+     id="text15">W6</text>
+  <rect
+     x="460"
+     y="320"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect15" />
+  <text
+     x="490"
+     y="340"
+     class="node-label"
+     id="text16">W7</text>
+  <rect
+     x="460"
+     y="380"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect16" />
+  <text
+     x="490"
+     y="400"
+     class="node-label"
+     id="text17">W8</text>
+  <!-- Worker Nodes in AZ-C -->
+  <rect
+     x="640"
+     y="320"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect17" />
+  <text
+     x="670"
+     y="340"
+     class="node-label"
+     id="text18">W9</text>
+  <rect
+     x="640"
+     y="380"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect18" />
+  <text
+     x="670"
+     y="400"
+     class="node-label"
+     id="text19">W10</text>
+  <rect
+     x="720"
+     y="320"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect19" />
+  <text
+     x="750"
+     y="340"
+     class="node-label"
+     id="text20">W11</text>
+  <rect
+     x="720"
+     y="380"
+     width="60"
+     height="40"
+     rx="4"
+     ry="4"
+     class="worker-node"
+     id="rect20" />
+  <text
+     x="750"
+     y="400"
+     class="node-label"
+     id="text21">W12</text>
+  <!-- Master to Master Consensus Connections (Quorum) -->
+  <path
+     d="M 240,240 C 300,220 340,220 400,240"
+     class="connection"
+     id="path21" />
+  <path
+     d="M 500,240 C 560,220 600,220 660,240"
+     class="connection"
+     id="path22" />
+  <path
+     d="m 190,280 c 157.80639,173.16168 518.62697,8.23816 520,0"
+     class="connection"
+     id="path23"
+     sodipodi:nodetypes="cc" />
+  <!-- Master to Worker Connections -->
+  <!-- Master 1 to its workers -->
+  <path
+     d="M 170,280 L 140,320"
+     class="connection"
+     id="path24" />
+  <path
+     d="m 170,280 c 8.24899,41.08717 15.84218,83.66732 -30,100"
+     class="connection"
+     id="path25"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 200,280 c 8.91274,16.70244 19.67374,36.17728 20,40"
+     class="connection"
+     id="path26"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 200,280 c -11.28918,44.35169 -8.32254,79.9555 20,100"
+     class="connection"
+     id="path27"
+     sodipodi:nodetypes="cc" />
+  <!-- Master 2 to its workers -->
+  <path
+     d="M 430,280 L 400,320"
+     class="connection"
+     id="path28" />
+  <path
+     d="m 430,280 c -10,33.33333 5.15722,71.69811 -30,100"
+     class="connection"
+     id="path29"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="M 460,280 L 480,320"
+     class="connection"
+     id="path30" />
+  <path
+     d="M 460,280 L 480,380"
+     class="connection"
+     id="path31" />
+  <!-- Master 3 to its workers -->
+  <path
+     d="M 690,280 L 660,320"
+     class="connection"
+     id="path32" />
+  <path
+     d="m 690,280 c -2.91022,35.69659 -1.20664,72.93112 -30,100"
+     class="connection"
+     id="path33"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="M 720,280 L 740,320"
+     class="connection"
+     id="path34" />
+  <path
+     d="M 720,280 L 740,380"
+     class="connection"
+     id="path35" />
+  <!-- Cross-zone connections (masters can access workers in other zones) -->
+  <!-- Master 1 to AZ-B and AZ-C workers -->
+  <path
+     d="M 240,250 C 300,260 360,290 380,320"
+     class="connection"
+     id="path36" />
+  <path
+     d="M 240,260 C 450,300 640,330 640,340"
+     class="connection"
+     id="path37" />
+  <!-- Master 2 to AZ-A and AZ-C workers -->
+  <path
+     d="m 400,260 c -50,40 -135.4566,83.86697 -200,90"
+     class="connection"
+     id="path38"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="M 500,260 C 550,290 600,310 660,320"
+     class="connection"
+     id="path39" />
+  <!-- Master 3 to AZ-A and AZ-B workers -->
+  <path
+     d="M 660,250 C 600,260 540,290 520,320"
+     class="connection"
+     id="path40" />
+  <path
+     d="M 660,260 C 500,290 305.07328,346.2345 200,350"
+     class="connection"
+     id="path41"
+     sodipodi:nodetypes="cc" />
+  <!-- Legend -->
+  <!-- Notes -->
+  <text
+     x="450"
+     y="534.88165"
+     class="heading-label"
+     text-anchor="middle"
+     id="text45">Key Resilience Properties</text>
+  <text
+     x="450"
+     y="550.4115"
+     class="note-text"
+     text-anchor="middle"
+     id="text46">• Master nodes distributed across all three AZs to maintain quorum if one AZ fails</text>
+  <text
+     x="450"
+     y="570.4115"
+     class="note-text"
+     text-anchor="middle"
+     id="text47">• Worker nodes in each AZ for data redundancy and processing capacity</text>
+  <text
+     x="450"
+     y="590.4115"
+     class="note-text"
+     text-anchor="middle"
+     id="text48">• System can tolerate the complete failure of any single Availability Zone</text>
+</svg>

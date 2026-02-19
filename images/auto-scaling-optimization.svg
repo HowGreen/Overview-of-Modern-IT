@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="600"
+   version="1.1"
+   id="svg65"
+   sodipodi:docname="auto-scaling-optimization.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs65" />
+  <sodipodi:namedview
+     id="namedview65"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.9566667"
+     inkscape:cx="399.94363"
+     inkscape:cy="300"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg65" />
+  <!-- Background -->
+  <rect
+     width="873.39343"
+     height="600"
+     fill="#f8f9fa"
+     id="rect1"
+     x="-39.233372"
+     y="-0.33821863"
+     style="stroke-width:1.04486" />
+  <!-- Title -->
+  <text
+     x="401.83243"
+     y="21.365208"
+     font-family="Arial"
+     font-size="19.9919px"
+     text-anchor="middle"
+     font-weight="bold"
+     fill="#232f3e"
+     id="text1"
+     transform="scale(0.98979279,1.0103125)"
+     style="stroke-width:0.908722">Auto Scaling Optimization: Cooldown Periods, Warm Pools, and Predictive Scaling</text>
+  <!-- Main sections separator lines -->
+  <line
+     x1="0"
+     y1="200"
+     x2="800"
+     y2="200"
+     stroke="#ddd"
+     stroke-width="2"
+     id="line1" />
+  <line
+     x1="0"
+     y1="400"
+     x2="800"
+     y2="400"
+     stroke="#ddd"
+     stroke-width="2"
+     id="line2" />
+  <!-- Section titles -->
+  <text
+     x="20.462233"
+     y="60"
+     font-family="Arial"
+     font-size="18px"
+     font-weight="bold"
+     fill="#232f3e"
+     id="text2">Cooldown Periods</text>
+  <text
+     x="25.197294"
+     y="238.69221"
+     font-family="Arial"
+     font-size="18px"
+     font-weight="bold"
+     fill="#232f3e"
+     id="text3">Warm Pools</text>
+  <text
+     x="7.2717023"
+     y="424.82526"
+     font-family="Arial"
+     font-size="18px"
+     font-weight="bold"
+     fill="#232f3e"
+     id="text4">Predictive Scaling</text>
+  <!-- SECTION 1: COOLDOWN PERIODS -->
+  <!-- Timeline base -->
+  <line
+     x1="100"
+     y1="150"
+     x2="700"
+     y2="150"
+     stroke="#555"
+     stroke-width="2"
+     id="line4" />
+  <!-- Time markers -->
+  <line
+     x1="150"
+     y1="145"
+     x2="150"
+     y2="155"
+     stroke="#555"
+     stroke-width="2"
+     id="line5" />
+  <line
+     x1="300"
+     y1="145"
+     x2="300"
+     y2="155"
+     stroke="#555"
+     stroke-width="2"
+     id="line6" />
+  <line
+     x1="450"
+     y1="145"
+     x2="450"
+     y2="155"
+     stroke="#555"
+     stroke-width="2"
+     id="line7" />
+  <line
+     x1="600"
+     y1="145"
+     x2="600"
+     y2="155"
+     stroke="#555"
+     stroke-width="2"
+     id="line8" />
+  <text
+     x="150"
+     y="170"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#555"
+     id="text8">t0</text>
+  <text
+     x="300"
+     y="170"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#555"
+     id="text9">t1</text>
+  <text
+     x="450"
+     y="170"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#555"
+     id="text10">t2</text>
+  <text
+     x="600"
+     y="170"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#555"
+     id="text11">t3</text>
+  <!-- CPU Metric line -->
+  <polyline
+     points="150,120 230,100 300,70 350,80 450,60 500,80 600,50"
+     fill="none"
+     stroke="#1E88E5"
+     stroke-width="3"
+     id="polyline11" />
+  <!-- Threshold line -->
+  <line
+     x1="100"
+     y1="80"
+     x2="700"
+     y2="80"
+     stroke="#FF9900"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     id="line11" />
+  <text
+     x="110"
+     y="75"
+     font-family="Arial"
+     font-size="12"
+     fill="#FF9900"
+     id="text12">Scaling Threshold</text>
+  <!-- Scale-out markers -->
+  <circle
+     cx="300"
+     cy="70"
+     r="6"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="circle12" />
+  <circle
+     cx="600"
+     cy="50"
+     r="6"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="circle13" />
+  <!-- Cooldown period -->
+  <rect
+     x="300"
+     y="100"
+     width="150"
+     height="30"
+     fill="#E0E0E0"
+     fill-opacity="0.6"
+     stroke="#232F3E"
+     stroke-width="1"
+     stroke-dasharray="5,5"
+     id="rect13" />
+  <text
+     x="375"
+     y="120"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text13">Cooldown Period</text>
+  <!-- Scale-out annotations -->
+  <line
+     x1="306.27371"
+     y1="66.607864"
+     x2="323.48953"
+     y2="42.039261"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line13"
+     inkscape:transform-center-x="3.7204059"
+     inkscape:transform-center-y="-0.33821871" />
+  <text
+     x="325.0282"
+     y="34.661781"
+     font-family="Arial"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text14">Scale-Out Event</text>
+  <!-- Crossed threshold but in cooldown -->
+  <circle
+     cx="450"
+     cy="60"
+     r="6"
+     fill="#E91E63"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="circle14" />
+  <line
+     x1="453.7204"
+     y1="55.603157"
+     x2="473.7204"
+     y2="35.603157"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line14" />
+  <text
+     x="438.92899"
+     y="33.985344"
+     font-family="Arial"
+     font-size="12px"
+     fill="#232f3e"
+     id="text15">No Action (In Cooldown)</text>
+  <!-- Instance count indicator -->
+  <rect
+     x="130"
+     y="130"
+     width="20"
+     height="10"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect15" />
+  <rect
+     x="300"
+     y="130"
+     width="40"
+     height="10"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect16" />
+  <rect
+     x="600"
+     y="130"
+     width="60"
+     height="10"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect17" />
+  <text
+     x="100"
+     y="135"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="end"
+     fill="#232F3E"
+     id="text17">Instances:</text>
+  <!-- SECTION 2: WARM POOLS -->
+  <!-- Active Fleet box -->
+  <rect
+     x="200"
+     y="270"
+     width="250"
+     height="100"
+     rx="5"
+     ry="5"
+     fill="#ECEFF1"
+     stroke="#232F3E"
+     stroke-width="2"
+     id="rect18" />
+  <text
+     x="325"
+     y="285"
+     font-family="Arial"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="bold"
+     fill="#232F3E"
+     id="text18">Active Fleet</text>
+  <!-- Active instances -->
+  <rect
+     x="220"
+     y="300"
+     width="40"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect19" />
+  <rect
+     x="270"
+     y="300"
+     width="40"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect20" />
+  <rect
+     x="320"
+     y="300"
+     width="40"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect21" />
+  <rect
+     x="370"
+     y="300"
+     width="40"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect22" />
+  <text
+     x="240"
+     y="320"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text22">EC2</text>
+  <text
+     x="290"
+     y="320"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text23">EC2</text>
+  <text
+     x="340"
+     y="320"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text24">EC2</text>
+  <text
+     x="390"
+     y="320"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text25">EC2</text>
+  <!-- Load Balancer -->
+  <rect
+     x="282.02933"
+     y="210.72153"
+     width="90"
+     height="25"
+     rx="3"
+     ry="3"
+     fill="#ff9900"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect25" />
+  <text
+     x="327.02933"
+     y="227.72153"
+     font-family="Arial"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text26">Load Balancer</text>
+  <!-- Traffic arrows to active instances -->
+  <line
+     x1="290.077"
+     y1="235.08066"
+     x2="250.03906"
+     y2="262.90179"
+     stroke="#232f3e"
+     stroke-width="0.967077"
+     id="line26" />
+  <polygon
+     points="235,286 240,295 245,286 "
+     fill="#232f3e"
+     id="polygon26"
+     transform="rotate(-90.159391,230.98933,273.49832)"
+     inkscape:transform-center-x="5.0732807"
+     inkscape:transform-center-y="-3.7204059" />
+  <line
+     x1="312.96564"
+     y1="237.12286"
+     x2="299.71252"
+     y2="261.49216"
+     stroke="#232f3e"
+     stroke-width="0.967077"
+     id="line27" />
+  <polygon
+     points="295,286 285,286 290,295 "
+     fill="#232f3e"
+     id="polygon27"
+     transform="rotate(-98.69982,282.46974,272.98586)" />
+  <line
+     x1="334.46597"
+     y1="237.02266"
+     x2="341.97913"
+     y2="260.32727"
+     stroke="#232f3e"
+     stroke-width="0.967077"
+     id="line28" />
+  <polygon
+     points="345,286 335,286 340,295 "
+     fill="#232f3e"
+     id="polygon28"
+     transform="rotate(-14.013597,235.64955,262.2597)" />
+  <line
+     x1="358.56366"
+     y1="235.31161"
+     x2="387.73734"
+     y2="263.93588"
+     stroke="#232f3e"
+     stroke-width="0.967077"
+     id="line29"
+     inkscape:transform-center-x="11.839637"
+     inkscape:transform-center-y="-2.2138338" />
+  <polygon
+     points="390,295 395,286 385,286 "
+     fill="#232f3e"
+     id="polygon29"
+     transform="rotate(-42.460533,359.6805,276.14348)" />
+  <!-- Warm Pool box -->
+  <rect
+     x="579.81964"
+     y="262.22098"
+     width="150"
+     height="100"
+     rx="5"
+     ry="5"
+     fill="#e3f2fd"
+     stroke="#232f3e"
+     stroke-width="2"
+     stroke-dasharray="5, 5"
+     id="rect29" />
+  <text
+     x="655.49609"
+     y="281.61783"
+     font-family="Arial"
+     font-size="14px"
+     text-anchor="middle"
+     font-weight="bold"
+     fill="#232f3e"
+     id="text29">Warm Pool</text>
+  <!-- Warm instances -->
+  <rect
+     x="599.81964"
+     y="292.22098"
+     width="40"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#00a4ef"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect30" />
+  <rect
+     x="649.81964"
+     y="292.22098"
+     width="40"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#00a4ef"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect31" />
+  <text
+     x="619.81964"
+     y="312.22098"
+     font-family="Arial"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text31">EC2</text>
+  <text
+     x="669.81964"
+     y="312.22098"
+     font-family="Arial"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text32">EC2</text>
+  <!-- Transition arrow -->
+  <line
+     x1="564.79144"
+     y1="316.01465"
+     x2="460"
+     y2="316.01465"
+     stroke="#1d8102"
+     stroke-width="2"
+     id="line32" />
+  <polygon
+     points="470,320 470,310 460,315 "
+     fill="#1d8102"
+     id="polygon32"
+     transform="translate(-9.1319053)" />
+  <text
+     x="485"
+     y="305"
+     font-family="Arial"
+     font-size="12"
+     fill="#1D8102"
+     id="text33">Fast Transition</text>
+  <!-- Scale-out time comparison -->
+  <line
+     x1="200"
+     y1="350"
+     x2="350"
+     y2="350"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="line33" />
+  <text
+     x="275"
+     y="365"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text34">Cold Launch (3-5 min)</text>
+  <line
+     x1="581.51074"
+     y1="341.88275"
+     x2="661.51074"
+     y2="341.88275"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line34" />
+  <text
+     x="642.48029"
+     y="354.85345"
+     font-family="Arial"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text35">Warm Launch (30-60 sec)</text>
+  <!-- SECTION 3: PREDICTIVE SCALING -->
+  <!-- Chart coordinates -->
+  <line
+     x1="100"
+     y1="550"
+     x2="713.19055"
+     y2="550"
+     stroke="#232f3e"
+     stroke-width="2"
+     id="line35" />
+  <!-- X-axis -->
+  <line
+     x1="99.661774"
+     y1="550"
+     x2="99.661774"
+     y2="433.86697"
+     stroke="#232f3e"
+     stroke-width="1.96043"
+     id="line36" />
+  <!-- Y-axis -->
+  <!-- X-axis labels (time) -->
+  <text
+     x="100"
+     y="565"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text36">00:00</text>
+  <text
+     x="200"
+     y="565"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text37">06:00</text>
+  <text
+     x="300"
+     y="565"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text38">12:00</text>
+  <text
+     x="400"
+     y="565"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text39">18:00</text>
+  <text
+     x="500"
+     y="565"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text40">00:00</text>
+  <text
+     x="600"
+     y="565"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text41">06:00</text>
+  <text
+     x="700"
+     y="565"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text42">12:00</text>
+  <!-- Y-axis label -->
+  <text
+     x="90"
+     y="485"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="end"
+     fill="#232F3E"
+     id="text43">Demand</text>
+  <!-- Historical usage pattern -->
+  <polyline
+     points="100,520 150,530 200,510 250,480 300,450 350,460 400,480 450,510 500,520 550,530"
+     fill="none"
+     stroke="#1E88E5"
+     stroke-width="3"
+     id="polyline43" />
+  <!-- Forecast line -->
+  <polyline
+     points="550,530 600,510 650,480 700,450"
+     fill="none"
+     stroke="#9c27b0"
+     stroke-width="3"
+     stroke-dasharray="5, 5"
+     id="polyline44"
+     transform="matrix(0.96007526,0.00795439,-0.0081836,0.93318553,25.923714,30.475926)" />
+  <!-- Instance count bars - Reactive -->
+  <rect
+     x="200"
+     y="540"
+     width="10"
+     height="10"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect44" />
+  <rect
+     x="250"
+     y="540"
+     width="10"
+     height="10"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect45" />
+  <rect
+     x="300"
+     y="530"
+     width="20"
+     height="20"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect46" />
+  <rect
+     x="350"
+     y="530"
+     width="20"
+     height="20"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect47" />
+  <rect
+     x="400"
+     y="540"
+     width="10"
+     height="10"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect48" />
+  <rect
+     x="450"
+     y="540"
+     width="10"
+     height="10"
+     fill="#7FBA00"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect49" />
+  <!-- Instance count bars - Predictive -->
+  <rect
+     x="550.0238"
+     y="530"
+     width="10.988931"
+     height="19.976171"
+     fill="#00a4ef"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect50" />
+  <rect
+     x="582.9906"
+     y="520.0119"
+     width="21.977861"
+     height="29.964258"
+     fill="#00a4ef"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect51" />
+  <rect
+     x="637.9353"
+     y="520.0119"
+     width="21.977861"
+     height="29.964258"
+     fill="#00a4ef"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect52" />
+  <rect
+     x="692.87994"
+     y="510.02383"
+     width="21.977861"
+     height="39.952343"
+     fill="#00a4ef"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect53" />
+  <!-- Dividing line between historical and forecast -->
+  <line
+     x1="550"
+     y1="420"
+     x2="550"
+     y2="550"
+     stroke="#232F3E"
+     stroke-width="1"
+     stroke-dasharray="5,5"
+     id="line53" />
+  <text
+     x="550"
+     y="415"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     fill="#232F3E"
+     id="text53">Now</text>
+  <!-- Annotations -->
+  <text
+     x="706.14435"
+     y="464.92673"
+     font-family="Arial"
+     font-size="12px"
+     fill="#9c27b0"
+     id="text54">Forecast</text>
+  <text
+     x="350"
+     y="440"
+     font-family="Arial"
+     font-size="12"
+     fill="#1E88E5"
+     id="text55">Historical Usage</text>
+  <text
+     x="296.89966"
+     y="516.92786"
+     font-family="Arial"
+     font-size="10px"
+     fill="#232f3e"
+     id="text56">Reactive Scaling</text>
+  <text
+     x="627.4408"
+     y="424.93237"
+     font-family="Arial"
+     font-size="10px"
+     fill="#232f3e"
+     id="text57">Predictive Scaling</text>
+  <!-- Predictive scaling annotation -->
+  <line
+     x1="600.08649"
+     y1="509.91354"
+     x2="625.66327"
+     y2="485.68964"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line57" />
+  <text
+     x="588.39185"
+     y="440.64093"
+     font-family="Arial"
+     font-size="9.87012px"
+     fill="#232f3e"
+     id="text58"
+     transform="scale(0.95267856,1.049672)"
+     style="stroke-width:0.987012"><tspan
+       sodipodi:role="line"
+       id="tspan65"
+       x="588.39185"
+       y="440.64093">Capacity Added</tspan><tspan
+       sodipodi:role="line"
+       id="tspan66"
+       x="588.39185"
+       y="452.97858">Before Demand</tspan></text>
+  <!-- LEGEND -->
+  <rect
+     x="691.56116"
+     y="98.393097"
+     width="104.0593"
+     height="47.216042"
+     rx="2.0811861"
+     ry="2.6231134"
+     fill="#ffffff"
+     stroke="#232f3e"
+     stroke-width="0.447329"
+     id="rect58" />
+  <!-- Legend items -->
+  <rect
+     x="539.47015"
+     y="205.49605"
+     width="15"
+     height="15"
+     fill="#7fba00"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect59" />
+  <text
+     x="559.47015"
+     y="217.49605"
+     font-family="Arial"
+     font-size="10px"
+     fill="#232f3e"
+     id="text60">Active Instance</text>
+  <rect
+     x="539.47015"
+     y="227.86359"
+     width="15"
+     height="15"
+     fill="#00a4ef"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect60" />
+  <text
+     x="559.47015"
+     y="239.86359"
+     font-family="Arial"
+     font-size="10px"
+     fill="#232f3e"
+     id="text61">Warm/Predictive Instance</text>
+  <line
+     x1="695.80145"
+     y1="114.80611"
+     x2="721.26294"
+     y2="114.80611"
+     stroke="#1e88e5"
+     stroke-width="2.66067"
+     id="line62" />
+  <text
+     x="766.5127"
+     y="109.22565"
+     font-family="Arial"
+     font-size="8.8689px"
+     fill="#232f3e"
+     id="text63"
+     transform="scale(0.95695749,1.0449785)"
+     style="stroke-width:0.88689">Usage Metrics</text>
+  <line
+     x1="696.94965"
+     y1="131.88141"
+     x2="722.41113"
+     y2="131.88141"
+     stroke="#ff9900"
+     stroke-width="1.77378"
+     stroke-dasharray="5, 5"
+     id="line64" />
+  <text
+     x="766.5127"
+     y="129.16553"
+     font-family="Arial"
+     font-size="8.8689px"
+     fill="#232f3e"
+     id="text65"
+     transform="scale(0.95695749,1.0449785)"
+     style="stroke-width:0.88689">Threshold</text>
+</svg>

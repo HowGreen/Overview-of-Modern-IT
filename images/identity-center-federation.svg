@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1133.7867"
+   height="700"
+   viewBox="0 0 1133.7868 700"
+   version="1.1"
+   id="svg53"
+   sodipodi:docname="identity-center-federation.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2921429"
+     inkscape:cx="518.51852"
+     inkscape:cy="378.05418"
+     inkscape:window-width="1916"
+     inkscape:window-height="2022"
+     inkscape:window-x="-10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg53" />
+  <rect
+     width="104.72498%"
+     height="100%"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.999997" />
+  <rect
+     x="34.538128"
+     y="495.84674"
+     width="300"
+     height="180"
+     rx="10"
+     ry="10"
+     fill="#ffffff"
+     stroke="#999999"
+     stroke-width="2"
+     id="external-idp-zone" />
+  <text
+     x="185.52655"
+     y="528.11932"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#666666"
+     id="text18-9">🔑</text>
+  <text
+     x="185.08537"
+     y="553.68085"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#555555"
+     id="external-title">External Identity Providers</text>
+  <g
+     id="idp-icons"
+     transform="translate(13.443658,164.15325)">
+    <!-- Azure AD -->
+    <rect
+       x="40"
+       y="410"
+       width="60"
+       height="35"
+       rx="3"
+       fill="#0078d4"
+       id="rect2" />
+    <text
+       x="70"
+       y="430"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text2">Azure AD</text>
+    <!-- Okta -->
+    <rect
+       x="110"
+       y="410"
+       width="50"
+       height="35"
+       rx="3"
+       fill="#007dc1"
+       id="rect5" />
+    <text
+       x="135"
+       y="430"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text5">Okta</text>
+    <!-- Google -->
+    <rect
+       x="170"
+       y="410"
+       width="60"
+       height="35"
+       rx="3"
+       fill="#4285f4"
+       id="rect6" />
+    <text
+       x="200"
+       y="430"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text8-4">Google</text>
+    <!-- Others -->
+    <rect
+       x="240"
+       y="410"
+       width="60"
+       height="35"
+       rx="3"
+       fill="#666666"
+       id="rect8-8" />
+    <text
+       x="270"
+       y="430"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text9-8">Others</text>
+  </g>
+  <circle
+     cx="180.05667"
+     cy="634.85028"
+     r="18"
+     fill="#f0f0f0"
+     stroke="#666666"
+     stroke-width="2"
+     id="circle9" />
+  <text
+     x="180.05667"
+     y="641.85022"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#666666"
+     id="text10-2">👥</text>
+  <text
+     x="180.05667"
+     y="662.85022"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     text-anchor="middle"
+     fill="#666666"
+     id="text11-4">External Users</text>
+  <defs
+     id="defs6">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#on-prem-pattern"
+       id="pattern2"
+       patternTransform="matrix(0.87784439,0.49268986,-0.87784439,0.49268986,-40.32062,30.323132)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#aws-cloud-pattern"
+       id="pattern1"
+       patternTransform="matrix(0.88730002,0.7070753,-0.88730002,0.7070753,-89.178857,0.016695)" />
+    <!-- Arrow markers -->
+    <marker
+       id="arrow-identity"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto"
+       viewBox="0 0 10 7"
+       preserveAspectRatio="xMidYMid">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#0072ab"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrow-access"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#d86613"
+         id="polygon2" />
+    </marker>
+    <!-- AWS IAM Identity Center Icon Gradient -->
+    <linearGradient
+       x1="-80"
+       y1="80"
+       x2="80"
+       y2="-80"
+       id="identity-center-gradient"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4766062,0,0,1,0.58043065,0)">
+      <stop
+         stop-color="#BD0816"
+         offset="0%"
+         id="stop2" />
+      <stop
+         stop-color="#FF5252"
+         offset="100%"
+         id="stop3" />
+    </linearGradient>
+    <!-- AWS Cloud Pattern -->
+    <pattern
+       id="aws-cloud-pattern"
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="rotate(45)">
+      <rect
+         width="30"
+         height="30"
+         fill="#f2f7fd"
+         id="rect3" />
+      <path
+         d="M0,15 L30,15"
+         stroke="#e7f0fb"
+         stroke-width="2"
+         id="path3" />
+      <path
+         d="M15,0 L15,30"
+         stroke="#e7f0fb"
+         stroke-width="2"
+         id="path4" />
+    </pattern>
+    <!-- On-Premises Pattern -->
+    <pattern
+       id="on-prem-pattern"
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="rotate(45)">
+      <rect
+         width="30"
+         height="30"
+         fill="#f5f5f5"
+         id="rect4" />
+      <path
+         d="M0,15 L30,15"
+         stroke="#ebebeb"
+         stroke-width="2"
+         id="path5" />
+      <path
+         d="M15,0 L15,30"
+         stroke="#ebebeb"
+         stroke-width="2"
+         id="path6" />
+    </pattern>
+    <marker
+       id="arrow-identity-0"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto"
+       viewBox="0 0 10 7"
+       preserveAspectRatio="xMidYMid">
+      <polygon
+         points="0,0 10,3.5 0,7 "
+         fill="#0072ab"
+         id="polygon1-9" />
+    </marker>
+    <marker
+       id="arrow-identity-09"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto"
+       viewBox="0 0 10 7"
+       preserveAspectRatio="xMidYMid">
+      <polygon
+         points="0,0 10,3.5 0,7 "
+         fill="#0072ab"
+         id="polygon1-4" />
+    </marker>
+  </defs>
+  <!-- Title and Intro -->
+  <text
+     x="500"
+     y="40"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text6">AWS IAM Identity Center Federation</text>
+  <text
+     x="500"
+     y="70"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     text-anchor="middle"
+     fill="#666666"
+     id="text7">Centralizing Identity Management for AWS Accounts and Applications</text>
+  <!-- Background Zones -->
+  <!-- On-Premises Zone -->
+  <rect
+     x="21.752352"
+     y="100"
+     width="310.36484"
+     height="383.22278"
+     rx="12.414595"
+     ry="6.9676867"
+     fill="url(#on-prem-pattern)"
+     stroke="#d0d0d0"
+     stroke-width="1"
+     id="rect7"
+     style="fill:url(#pattern2)" />
+  <text
+     x="175"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="18px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#555555"
+     id="text8">Corporate Network / On-Premises</text>
+  <!-- AWS Cloud Zone -->
+  <rect
+     x="350.01224"
+     y="100.01225"
+     width="752.89905"
+     height="549.97552"
+     rx="12.548317"
+     ry="9.9995546"
+     fill="url(#aws-cloud-pattern)"
+     stroke="#aacbee"
+     stroke-width="1.02449"
+     id="rect8"
+     style="fill:url(#pattern1)" />
+  <rect
+     x="825.19183"
+     y="524.80872"
+     width="146.19127"
+     height="87.739082"
+     rx="6.2653399"
+     ry="6.580431"
+     fill="#ffffff"
+     stroke="#0972a7"
+     stroke-width="2"
+     id="sagemaker" />
+  <text
+     x="920.59833"
+     y="544.19464"
+     font-family="Arial, sans-serif"
+     font-size="25.6838px"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="sagemaker-icon"
+     transform="scale(0.9757648,1.0248371)"
+     style="stroke-width:1">🧪</text>
+  <text
+     x="920.59833"
+     y="570.94861"
+     font-family="Arial, sans-serif"
+     font-size="12.8419px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="sagemaker-label1"
+     transform="scale(0.9757648,1.0248371)"
+     style="stroke-width:1">Amazon SageMaker</text>
+  <text
+     x="920.59833"
+     y="587.00098"
+     font-family="Arial, sans-serif"
+     font-size="10.7016px"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="sagemaker-label2"
+     transform="scale(0.9757648,1.0248371)"
+     style="stroke-width:1">Studio (ML)</text>
+  <rect
+     x="834.72211"
+     y="139.43204"
+     width="260"
+     height="340"
+     rx="8"
+     ry="8"
+     fill="#ffffff"
+     stroke="#ff9900"
+     stroke-width="2"
+     stroke-dasharray="5, 5"
+     id="accounts-container" />
+  <rect
+     x="854.72211"
+     y="159.43204"
+     width="220"
+     height="90"
+     rx="5"
+     ry="5"
+     fill="#ffca1d"
+     stroke="#ff9900"
+     stroke-width="2"
+     id="account-a" />
+  <text
+     x="964.72211"
+     y="179.43204"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="account-a-name">AWS Account A (Production)</text>
+  <text
+     x="874.72211"
+     y="199.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-a-perm1">• ReadOnlyAuditor</text>
+  <text
+     x="874.72211"
+     y="214.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-a-perm2">• DatabaseAdministrator</text>
+  <text
+     x="874.72211"
+     y="229.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-a-perm3">• IncidentResponse</text>
+  <rect
+     x="854.72211"
+     y="259.43204"
+     width="220"
+     height="105"
+     rx="5"
+     ry="5"
+     fill="#ffca1d"
+     stroke="#ff9900"
+     stroke-width="2"
+     id="account-b" />
+  <text
+     x="964.72211"
+     y="279.43204"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="account-b-name">AWS Account B (Development)</text>
+  <text
+     x="874.72211"
+     y="299.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-b-perm1">• ReadOnlyAuditor</text>
+  <text
+     x="874.72211"
+     y="314.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-b-perm2">• PowerUserAccess</text>
+  <text
+     x="874.72211"
+     y="329.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-b-perm3">• DatabaseAdministrator</text>
+  <text
+     x="874.72211"
+     y="344.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-b-perm4">• DevOpsEngineer</text>
+  <rect
+     x="854.72211"
+     y="374.43204"
+     width="220"
+     height="90"
+     rx="5"
+     ry="5"
+     fill="#ffca1d"
+     stroke="#ff9900"
+     stroke-width="2"
+     id="account-c" />
+  <text
+     x="964.72211"
+     y="394.43204"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="account-c-name">AWS Account C (Test)</text>
+  <text
+     x="874.72211"
+     y="414.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-c-perm1">• ReadOnlyAuditor</text>
+  <text
+     x="874.72211"
+     y="429.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-c-perm2">• TestAutomation</text>
+  <text
+     x="874.72211"
+     y="444.43204"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="start"
+     fill="#ffffff"
+     id="account-c-perm3">• PowerUserAccess</text>
+  <path
+     d="M 335.53649,513.64806 570.04917,390.76585"
+     stroke="#0072ab"
+     stroke-width="1.99833"
+     fill="none"
+     marker-end="url(#arrow-identity-09)"
+     id="path39-82"
+     style="marker-end:url(#arrow-identity-09)"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="650"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="18px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text9">AWS Cloud</text>
+  <!-- Identity Sources -->
+  <!-- On-Premises Active Directory -->
+  <rect
+     x="84.226089"
+     y="164.58264"
+     width="180"
+     height="100"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#666666"
+     stroke-width="2"
+     id="rect9" />
+  <text
+     x="174.22609"
+     y="194.58264"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#666666"
+     id="text10">🖥️</text>
+  <text
+     x="174.22609"
+     y="224.58264"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#666666"
+     id="text11">On-Premises</text>
+  <text
+     x="174.22609"
+     y="244.58264"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#666666"
+     id="text12">Corporate Active Directory</text>
+  <!-- AD Connector -->
+  <rect
+     x="355.53394"
+     y="165.59657"
+     width="124.63329"
+     height="70.11145"
+     rx="4.4511886"
+     ry="5.0079608"
+     fill="#ffffff"
+     stroke="#0972a7"
+     stroke-width="1.88855"
+     id="rect12" />
+  <text
+     x="419.01144"
+     y="190.26535"
+     font-family="Arial, sans-serif"
+     font-size="22px"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text13">🔌</text>
+  <text
+     x="419.01144"
+     y="220.26535"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text14">AD Connector</text>
+  <!-- AWS Managed Microsoft AD -->
+  <rect
+     x="357.10352"
+     y="300.4006"
+     width="131.53166"
+     height="100.28788"
+     rx="3.6536574"
+     ry="5.0143943"
+     fill="#ffffff"
+     stroke="#0972a7"
+     stroke-width="1.71212"
+     id="rect14" />
+  <text
+     x="424.41718"
+     y="330.54456"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text15">📂</text>
+  <text
+     x="424.41718"
+     y="360.54456"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text16">AWS Managed</text>
+  <text
+     x="424.41718"
+     y="380.54456"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text17">Microsoft AD</text>
+  <!-- External IdP -->
+  <!-- Center AWS IAM Identity Center Icon -->
+  <g
+     transform="translate(627.0161,296.71659)"
+     id="g23">
+    <!-- AWS IAM Identity Center Icon -->
+    <rect
+       x="-96.63903"
+       y="-80"
+       width="194.43892"
+       height="160"
+       rx="7.2914596"
+       ry="5"
+       fill="url(#identity-center-gradient)"
+       id="rect20"
+       style="fill:url(#identity-center-gradient);stroke-width:1" />
+    <path
+       d="m 6.1912659,-2.3217247 -11.9024,-11.9024003 c -0.2472,-0.2464 -0.3056,-0.6248 -0.1448,-0.9336 1.6624,-3.2024 1.024,-7.2384 -1.552,-9.8144 -1.8368,-1.8368 -4.3735999,-2.7096 -6.9527999,-2.3992 -2.584,0.3128 -4.8624,1.804 -6.2496,4.0928 -1.6304,2.6872 -1.5576,6.1344 0.184,8.7832 2.4168,3.676 7.128,4.9472003 10.9583999,2.9608 0.3096,-0.16 0.6864,-0.1024 0.9344,0.1448 l 1.9744,1.9744003 c 0.1496,0.1496 0.2336,0.3536 0.2336,0.5656 v 2.5944 h 2.5944 c 0.2112,0 0.4152,0.084 0.5656,0.2336 l 1.132,1.1312 c 0.1496,0.1504 0.2344,0.3536 0.2344,0.5664 v 1.9456 h 2.59360003 c 0.21279997,0 0.41519997,0.0848 0.56559997,0.2344 l 1.484,1.48479998 3.1536,0.2104 z m 1.6232,-0.244 -0.2824,3.6768 c -0.032,0.4192 -0.3824,0.7384 -0.7968,0.7384 -0.0184,0 -0.036,0 -0.0544,-0.0016 l -4.2424,-0.2832 c -0.1944,-0.0128 -0.376,-0.0952 -0.5128,-0.232 L 0.46326593,-0.13052472 H -2.5991341 c -0.4424,0 -0.8,-0.3576 -0.8,-0.8 V -3.9929247 l -0.6632,-0.6624 h -3.0632 c -0.4416,0 -0.8,-0.3584 -0.8,-0.8 v -3.0632 l -1.3376,-1.3384 c -4.4591999,1.9888 -9.7431999,0.4352 -12.5007999,-3.7592003 -2.0784,-3.1616 -2.1624,-7.28 -0.2152,-10.492 1.6448,-2.712 4.352,-4.48 7.4256,-4.8512 3.0736,-0.3696 6.0903999,0.6696 8.2767999,2.856 2.9224,2.9224 3.7464,7.4288 2.0976,11.1488 l 11.7616,11.7616003 c 0.1648,0.1656 0.2504,0.3944 0.232,0.6272 z M -11.416734,-17.752725 c 0,-0.5344 -0.208,-1.0368 -0.5864,-1.4144 -0.3784,-0.3784 -0.8808,-0.5864 -1.4144,-0.5864 -0.5336,0 -1.036,0.208 -1.4136,0.5856 -0.78,0.78 -0.78,2.0488 0,2.8288 0.7792,0.78 2.048,0.78 2.828,0 v 0 c 0.3784,-0.3784 0.5864,-0.88 0.5864,-1.4136 z m 0.5448,-2.5464 c 0.6808,0.68 1.0551999,1.584 1.0551999,2.5464 0,0.9608 -0.3743999,1.8648 -1.0551999,2.5448 v 8e-4 c -0.7016,0.7016 -1.6232,1.052 -2.5456,1.052 -0.9216,0 -1.8432,-0.3504 -2.5448,-1.0528 -1.4032,-1.404 -1.4032,-3.688 0,-5.0912 0.6792,-0.68 1.5832,-1.0544 2.5448,-1.0544 0.9624,0 1.8656,0.3744 2.5456,1.0544 z m -19.2824,5.4072 h 4.7992 v 1.6 h -4.8 c -4.6832,-0.0104 -8.5392,-3.332 -8.7808,-7.5632 -0.0104,-0.2 -0.0192,-0.3848 -0.0192,-0.5704 0,-5.2192 3.7016,-7.1592 5.8808,-7.848 -0.0144,-0.2304 -0.0216,-0.4632 -0.0216,-0.7 0,-4.28 3.0056,-8.7104 6.9912,-10.3048 4.6456,-1.8752 9.572,-0.9424 13.1704,2.4944 0.9496,0.896 2.164,2.2352 3.0151999,3.868 0.9088,-0.7984 1.9352,-1.1896 3.1104,-1.1896 2.3224,0 4.9256,1.8688 5.3984,5.9536 4.8152,1.1 7.2552,3.7424 7.2552,7.86 0,4.3416 -2.5776,7.2544 -7.0712,7.9896 l -0.2584,-1.5792 c 2.6136,-0.4272 5.7296,-1.8872 5.7296,-6.4104 0,-3.5048 -2.0824,-5.5432 -6.5536,-6.4144 -0.3576,-0.0704 -0.6232,-0.3736 -0.6456,-0.7376 -0.1792,-2.98 -1.7648,-5.0616 -3.8544,-5.0616 -1.068,0 -1.9056,0.464 -2.7152,1.5048 -0.1784,0.2288 -0.464,0.3424 -0.7527999,0.3 -0.2856,-0.044 -0.5264,-0.2392 -0.628,-0.5104 -0.6976,-1.864 -2.0872,-3.428 -3.1304,-4.412 -3.1352,-2.9936 -7.4224,-3.8032 -11.4736,-2.1704 -3.3584,1.3432 -5.9872,5.2176 -5.9872,8.82 0,0.404 0.024,0.7928 0.0744,1.188 0.003,0.0296 0.005,0.06 0.006,0.0904 v 0.0016 0.0016 0.0016 0.0016 0 0.0016 0 8e-4 8e-4 0.0016 c 0,0.404 -0.2992,0.7416 -0.688,0.7968 -1.9992,0.5072 -5.2512,2.016 -5.2512,6.4616 0,0.1576 0.008,0.3152 0.016,0.4664 0.1936,3.3992 3.3504,6.0592 7.1848,6.0672 z"
+       fill="#ffffff"
+       id="path20" />
+    <text
+       x="-3.4687446e-08"
+       y="28.026535"
+       font-family="Arial, sans-serif"
+       font-size="16px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#333333"
+       id="text21">AWS IAM Identity Center</text>
+  </g>
+  <!-- Target AWS Resources -->
+  <!-- AWS Account A -->
+  <!-- AWS Account B -->
+  <!-- AWS Account C -->
+  <!-- Cloud Applications -->
+  <!-- SaaS Apps -->
+  <!-- QuickSight -->
+  <rect
+     x="652.49609"
+     y="523.55792"
+     width="144.18941"
+     height="89.750481"
+     rx="6.5540633"
+     ry="4.9861379"
+     fill="#ffffff"
+     stroke="#0972a7"
+     stroke-width="2.24951"
+     id="rect34" />
+  <text
+     x="721.30164"
+     y="553.43317"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text35">📊</text>
+  <text
+     x="721.30164"
+     y="583.43317"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text36">Amazon QuickSight</text>
+  <text
+     x="721.30164"
+     y="603.43317"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#0972a7"
+     id="text37">(Analytics)</text>
+  <!-- Connection Arrows -->
+  <!-- On-Prem AD to AD Connector -->
+  <path
+     d="m 265.38695,208.00442 h 89.11979"
+     stroke="#0072ab"
+     stroke-width="1.92586"
+     fill="none"
+     marker-end="url(#arrow-identity)"
+     id="path37"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="296.81317"
+     y="183.33058"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#0072ab"
+     id="text38">Directory</text>
+  <text
+     x="296.81317"
+     y="198.33058"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#0072ab"
+     id="text39">Connection</text>
+  <!-- AD Connector to Identity Center -->
+  <path
+     d="m 481.04013,195.13243 47.3784,48.22783"
+     stroke="#0072ab"
+     stroke-width="1.96755"
+     fill="none"
+     marker-end="url(#arrow-identity)"
+     id="path39"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 488.19134,342.55876 41.8543,-0.35498"
+     stroke="#0072ab"
+     stroke-width="1.75662"
+     fill="none"
+     marker-end="url(#arrow-identity-0)"
+     id="path39-8"
+     style="marker-end:url(#arrow-identity-0)"
+     sodipodi:nodetypes="cc" />
+  <!-- AWS Managed AD to Identity Center -->
+  <!-- External IdP to Identity Center -->
+  <!-- Identity Center to AWS Accounts -->
+  <path
+     d="m 723.87734,306.92083 93.03415,0.5181"
+     stroke="#d86613"
+     stroke-width="2.32498"
+     fill="none"
+     marker-end="url(#arrow-access)"
+     id="path46"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="771.22839"
+     y="279.97272"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#d86613"
+     id="text47">SSO Access via</text>
+  <text
+     x="771.22839"
+     y="294.97272"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#d86613"
+     id="text48">Permission Sets</text>
+  <!-- Identity Center to Cloud Applications -->
+  <path
+     d="m 701.50199,379.03301 70.53973,89.06157 26.63804,33.63249"
+     stroke="#d86613"
+     stroke-width="2.07342"
+     fill="none"
+     marker-end="url(#arrow-access)"
+     id="path48"
+     sodipodi:nodetypes="ccc" />
+  <text
+     x="718.85266"
+     y="497.15897"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#d86613"
+     id="new-text1">SSO to Cloud Apps</text>
+  <!-- Users Icon -->
+  <g
+     transform="translate(174.22609,394.58264)"
+     id="g52">
+    <circle
+       cx="0"
+       cy="0"
+       r="40"
+       fill="#f5f5f5"
+       stroke="#666666"
+       stroke-width="2"
+       id="circle49" />
+    <text
+       x="0"
+       y="10"
+       font-family="Arial, sans-serif"
+       font-size="30px"
+       text-anchor="middle"
+       fill="#666666"
+       id="text50">👥</text>
+    <text
+       x="0"
+       y="60"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#666666"
+       id="text51">Corporate</text>
+    <text
+       x="0"
+       y="80"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#666666"
+       id="text52">Users</text>
+  </g>
+  <!-- User Authentication Arrow -->
+  <text
+     x="216.79105"
+     y="324.58264"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#666666"
+     id="text53">Authenticate</text>
+  <path
+     d="m 174.22609,354.58264 v -80"
+     stroke="#0072ab"
+     stroke-width="1"
+     fill="none"
+     stroke-dasharray="4, 2"
+     marker-end="url(#arrow-identity)"
+     id="path54" />
+</svg>

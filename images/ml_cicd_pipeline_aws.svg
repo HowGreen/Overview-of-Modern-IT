@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1033"
+   height="778"
+   viewBox="0 0 1033 778"
+   style="font-family:Arial, sans-serif"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="ml_cicd_pipeline_aws.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.7055416"
+     inkscape:cx="510.68822"
+     inkscape:cy="476.38826"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="pipeline-stages" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead-cicd"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         style="fill:#333333"
+         id="polygon1" />
+    </marker>
+  </defs>
+  <style
+     id="style1">
+    .box { fill: #ffffff; stroke: #cccccc; stroke-width: 1.5; rx: 8; ry: 8; }
+    .trigger-box { fill: #fff3e0; stroke: #ffb74d; } /* Light Orange */
+    .eventbridge-box { fill: #ffebee; stroke: #ef9a9a; } /* Light Red */
+    .orchestrator-box { fill: #e3f2fd; stroke: #90caf9; } /* Light Blue */
+    .sagemaker-stage-box { fill: #e8f5e9; stroke: #a5d6a7; } /* Light Green */
+    .testing-box { fill: #fce4ec; stroke: #f8bbd0; } /* Light Pink */
+    .deployment-box { fill: #ede7f6; stroke: #d1c4e9; } /* Light Purple */
+    .approval-diamond { fill: #fffde7; stroke: #fff59d; stroke-width: 1.5; } /* Light Yellow */
+
+    .main-label { font-size: 13px; font-weight: bold; text-anchor: middle; fill: #333333; }
+    .sub-label { font-size: 10px; text-anchor: middle; fill: #555555; }
+    .arrow-label { font-size: 10px; text-anchor: middle; fill: #444444; }
+    .connector { stroke: #555555; stroke-width: 1.5; marker-end: url(#arrowhead-cicd); }
+  </style>
+  <g
+     id="trigger-sources"
+     transform="translate(9.9675085,-99.675084)">
+    <rect
+       x="20"
+       y="150"
+       width="160"
+       height="70"
+       class="box trigger-box"
+       id="rect1" />
+    <text
+       x="100"
+       y="175"
+       class="main-label"
+       id="text1">Code Commit</text>
+    <text
+       x="100"
+       y="195"
+       class="sub-label"
+       id="text2"
+       style="font-size:12px">(e.g., GitHub)</text>
+    <rect
+       x="20"
+       y="250"
+       width="160"
+       height="70"
+       class="box trigger-box"
+       id="rect2" />
+    <text
+       x="100"
+       y="275"
+       class="main-label"
+       id="text3">New Data Arrival</text>
+    <text
+       x="100"
+       y="295"
+       class="sub-label"
+       id="text4"
+       style="font-size:12px">(e.g., Amazon S3)</text>
+  </g>
+  <g
+     id="event-router"
+     transform="matrix(1.373624,0,0,1.2182698,-72.217181,-158.59071)"
+     style="stroke-width:0.773026">
+    <rect
+       x="220"
+       y="200"
+       width="160"
+       height="70"
+       class="box eventbridge-box"
+       id="rect4" />
+    <text
+       x="300"
+       y="235"
+       class="main-label"
+       id="text5"
+       style="stroke-width:0.773026">Amazon EventBridge</text>
+  </g>
+  <line
+     x1="189.96751"
+     y1="85.324913"
+     x2="229.96751"
+     y2="120.32491"
+     class="connector"
+     id="line5" />
+  <line
+     x1="189.96751"
+     y1="185.32491"
+     x2="229.96751"
+     y2="150.32491"
+     class="connector"
+     id="line6" />
+  <g
+     id="pipeline-orchestrator"
+     transform="translate(-188.21001,175.31088)">
+    <rect
+       x="420"
+       y="20"
+       width="200"
+       height="80"
+       class="box orchestrator-box"
+       id="rect6" />
+    <text
+       x="520"
+       y="50"
+       class="main-label"
+       id="text6">Pipeline Orchestrator</text>
+    <text
+       x="520"
+       y="70"
+       class="sub-label"
+       id="text7"
+       style="font-size:12px">(CodePipeline /</text>
+    <text
+       x="520"
+       y="85"
+       class="sub-label"
+       id="text8"
+       style="font-size:12px">SageMaker Pipelines)</text>
+  </g>
+  <path
+     id="line8"
+     class="connector"
+     style="stroke:#555555;stroke-width:1.5;marker-end:url(#arrowhead-cicd)"
+     d="m 329.90251,172.44275 0.12852,20.78277"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="396.51456"
+     y="187.80164"
+     class="arrow-label"
+     id="text9"
+     style="font-size:13.3333px">Triggers Pipeline</text>
+  <g
+     id="pipeline-stages"
+     transform="translate(126.05967,229.05627)">
+    <rect
+       x="102.76917"
+       y="96.058189"
+       width="200"
+       height="70"
+       class="box sagemaker-stage-box"
+       id="rect9" />
+    <text
+       x="202.76917"
+       y="121.05819"
+       class="main-label"
+       id="text10">Data Validation / Processing</text>
+    <text
+       x="202.76917"
+       y="141.05818"
+       class="sub-label"
+       id="text11"
+       style="font-size:12px">(SageMaker Processing / Glue)</text>
+    <path
+       id="line11"
+       class="connector"
+       style="stroke:#555555;stroke-width:1.5;marker-end:url(#arrowhead-cicd)"
+       d="m 205.73032,46.092164 0.55678,47.03441"
+       sodipodi:nodetypes="cc" />
+    <rect
+       x="101.23615"
+       y="213.90933"
+       width="200"
+       height="70"
+       class="box sagemaker-stage-box"
+       id="rect11" />
+    <text
+       x="201.23615"
+       y="238.90933"
+       class="main-label"
+       id="text12">Model Training</text>
+    <text
+       x="201.23615"
+       y="258.90933"
+       class="sub-label"
+       id="text13"
+       style="font-size:12px">(SageMaker Training Job)</text>
+    <line
+       x1="205.97743"
+       y1="166.87221"
+       x2="205.97743"
+       y2="211.73755"
+       class="connector"
+       id="line13" />
+    <rect
+       x="103.22108"
+       y="322.96558"
+       width="200"
+       height="70"
+       class="box testing-box"
+       id="rect13" />
+    <text
+       x="203.22108"
+       y="347.96558"
+       class="main-label"
+       id="text14">Model Evaluation</text>
+    <text
+       x="203.22108"
+       y="367.96558"
+       class="sub-label"
+       id="text15"
+       style="font-size:12px">(Metrics: Accuracy, F1, etc.)</text>
+    <line
+       x1="203.85811"
+       y1="284.13702"
+       x2="203.85811"
+       y2="320.4751"
+       class="connector"
+       id="line15" />
+    <rect
+       x="101.10175"
+       y="440.81671"
+       width="200"
+       height="70"
+       class="box sagemaker-stage-box"
+       id="rect15" />
+    <text
+       x="201.10176"
+       y="465.81671"
+       class="main-label"
+       id="text16">Model Registration</text>
+    <text
+       x="201.10176"
+       y="485.81671"
+       class="sub-label"
+       id="text17"
+       style="font-size:12px">(SageMaker Model Registry)</text>
+    <line
+       x1="201.15245"
+       y1="394.95224"
+       x2="201.15245"
+       y2="438.51251"
+       class="connector"
+       id="line17" />
+    <rect
+       x="356.73904"
+       y="207.84964"
+       width="516.61499"
+       height="302.18433"
+       class="box deployment-box"
+       id="rect17"
+       style="fill:#d2d1ed;fill-opacity:1" />
+    <text
+       x="465.53391"
+       y="352.45978"
+       class="main-label"
+       id="text18">Deploy to Staging</text>
+    <text
+       x="465.53391"
+       y="372.45981"
+       class="sub-label"
+       id="text19"
+       style="font-size:12px">(SageMaker Endpoint)</text>
+    <line
+       x1="301.99774"
+       y1="470.89844"
+       x2="351.99774"
+       y2="470.89844"
+       class="connector"
+       id="line19" />
+    <rect
+       x="585.40533"
+       y="253.97281"
+       width="200"
+       height="70"
+       class="box testing-box"
+       id="rect19" />
+    <text
+       x="685.40533"
+       y="278.97281"
+       class="main-label"
+       id="text20">Automated Testing</text>
+    <text
+       x="685.40533"
+       y="298.97281"
+       class="sub-label"
+       id="text21">(On Staging Endpoint)</text>
+    <path
+       d="m 635.4054,358.97283 50,-35 50,35 -50,35 z"
+       class="approval-diamond"
+       id="path21" />
+    <text
+       x="683.64636"
+       y="353.17795"
+       class="main-label"
+       style="font-size:12px"
+       id="text22">Manual</text>
+    <text
+       x="683.64636"
+       y="368.17795"
+       class="main-label"
+       style="font-size:12px"
+       id="text23">Approval?</text>
+    <rect
+       x="587.16431"
+       y="416.31808"
+       width="200"
+       height="70"
+       class="box deployment-box"
+       id="rect23" />
+    <text
+       x="685.40533"
+       y="438.97284"
+       class="main-label"
+       id="text24">Deploy to Production</text>
+    <text
+       x="685.40533"
+       y="458.97284"
+       class="sub-label"
+       id="text25">(SageMaker Endpoint)</text>
+    <line
+       x1="687.16431"
+       y1="395.14548"
+       x2="687.16431"
+       y2="415.14548"
+       class="connector"
+       id="line25" />
+    <text
+       x="725.40533"
+       y="408.97281"
+       class="arrow-label"
+       id="text26">If Approved</text>
+  </g>
+</svg>

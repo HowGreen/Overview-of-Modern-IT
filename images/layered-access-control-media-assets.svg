@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1020 750"
+   version="1.1"
+   id="svg49"
+   sodipodi:docname="layered-access-control-media-assets.svg"
+   xml:space="preserve"
+   width="1020"
+   height="750"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs49" /><sodipodi:namedview
+     id="namedview49"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="553.13428"
+     inkscape:cy="355.85149"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg49" /><!-- Styles --><style
+     id="style1">
+    text {
+      font-family: Arial, Helvetica, sans-serif;
+      fill: #333333;
+    }
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      text-anchor: middle;
+    }
+    .bucket-label {
+      font-size: 20px;
+      font-weight: bold;
+      text-anchor: middle;
+    }
+    .prefix-label {
+      font-size: 14px;
+      dominant-baseline: middle;
+    }
+    .role-title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .permissions-title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .permission-text {
+      font-size: 12px;
+    }
+    .folder-label {
+      font-size: 12px;
+      text-anchor: middle;
+    }
+    
+    /* Color definitions for prefixes and permissions */
+    .bright-blue { fill: #1E88E5; }
+    .forest-green { fill: #2E7D32; }
+    .warm-orange { fill: #E65100; }
+    .deep-purple { fill: #6A1B9A; }
+    .crimson-red { fill: #C62828; }
+    .teal { fill: #00796B; }
+    .golden-yellow { fill: #F9A825; }
+    
+    /* Role boxes */
+    .role-box {
+      fill: #FFFFFF;
+      stroke: #CCCCCC;
+      stroke-width: 2;
+      rx: 5;
+      ry: 5;
+    }
+    
+    /* S3 bucket and folder styling */
+    .bucket {
+      fill: #FFFFFF;
+      stroke: #333333;
+      stroke-width: 2;
+    }
+    .folder {
+      stroke: #666666;
+      stroke-width: 1;
+    }
+    .folder-body {
+      fill: #FFFFFF;
+    }
+    .folder-tab {
+      fill: #FFFFFF;
+    }
+    .bucket-icon {
+      fill: #FF9900; /* AWS S3 Orange */
+    }
+    
+    /* File icon styling */
+    .file-icon {
+      fill: #FFFFFF;
+      stroke: #666666;
+      stroke-width: 1;
+    }
+  </style><!-- Title --><!-- S3 Bucket (Root) --><rect
+     x="448.57761"
+     y="21.3314"
+     width="170.69072"
+     height="100.16832"
+     class="bucket"
+     id="rect1" /><text
+     x="536.05115"
+     y="139.14357"
+     class="bucket-label"
+     id="text2"
+     style="font-size:14.6667px">S3 Bucket</text><!-- Level 1 Prefixes --><!-- project-assets/ - Bright Blue --><g
+     transform="translate(145.07488,199.45276)"
+     id="g3"><path
+       d="m 0,0 h 40 l 10,10 h 50 V 50 H 0 Z"
+       class="folder folder-tab bright-blue"
+       opacity="0.2"
+       id="path2" /><path
+       d="M 0,10 H 100 V 50 H 0 Z"
+       class="folder folder-body bright-blue"
+       opacity="0.2"
+       id="path3" /><text
+       x="105.74351"
+       y="26.547817"
+       class="prefix-label"
+       fill="#1E88E5"
+       id="text3"><tspan
+         style="fill:#1e88e5;fill-opacity:1"
+         id="tspan49">project-assets/</tspan></text></g><!-- Level 2 Prefixes under project-assets/ --><g
+     transform="translate(165.07488,269.45276)"
+     id="g5"><path
+       d="M 0,0 H 30 L 40,10 H 80 V 40 H 0 Z"
+       class="folder folder-tab bright-blue"
+       opacity="0.2"
+       id="path4" /><path
+       d="M 0,10 H 80 V 40 H 0 Z"
+       class="folder folder-body bright-blue"
+       opacity="0.2"
+       id="path5" /><text
+       x="88.839134"
+       y="20.773909"
+       class="prefix-label"
+       fill="#1E88E5"
+       id="text5"><tspan
+         style="fill:#1e88e5;fill-opacity:1"
+         id="tspan59">textures/</tspan></text></g><g
+     transform="translate(165.07488,329.45276)"
+     id="g7"><path
+       d="M 0,0 H 30 L 40,10 H 80 V 40 H 0 Z"
+       class="folder folder-tab bright-blue"
+       opacity="0.2"
+       id="path6" /><path
+       d="M 0,10 H 80 V 40 H 0 Z"
+       class="folder folder-body bright-blue"
+       opacity="0.2"
+       id="path7" /><text
+       x="87.678276"
+       y="20"
+       class="prefix-label"
+       fill="#1E88E5"
+       id="text7"><tspan
+         style="fill:#1e88e5;fill-opacity:1"
+         id="tspan60">models/</tspan></text></g><!-- raw-footage/ - Forest Green --><g
+     transform="translate(201.44016,397.11406)"
+     id="g9"><path
+       d="m 0,0 h 40 l 10,10 h 50 V 50 H 0 Z"
+       class="folder folder-tab forest-green"
+       opacity="0.2"
+       id="path8" /><path
+       d="M 0,10 H 100 V 50 H 0 Z"
+       class="folder folder-body forest-green"
+       opacity="0.2"
+       id="path9" /><text
+       x="108.06523"
+       y="25"
+       class="prefix-label"
+       fill="#2E7D32"
+       id="text9"><tspan
+         style="fill:#2e7d32;fill-opacity:1"
+         id="tspan50">raw-footage/</tspan></text></g><!-- source-videos/ - Warm Orange --><g
+     transform="translate(381.19244,197.81105)"
+     id="g11"><path
+       d="m 0,0 h 40 l 10,10 h 50 V 50 H 0 Z"
+       class="folder folder-tab warm-orange"
+       opacity="0.2"
+       id="path10" /><path
+       d="M 0,10 H 100 V 50 H 0 Z"
+       class="folder folder-body warm-orange"
+       opacity="0.2"
+       id="path11" /><text
+       x="110"
+       y="25"
+       class="prefix-label"
+       fill="#E65100"
+       id="text11"><tspan
+         style="fill:#e65100;fill-opacity:1"
+         id="tspan52">source-videos/</tspan></text></g><!-- rendered-frames/ - Deep Purple --><g
+     transform="translate(404.72357,261.79146)"
+     id="g13"><path
+       d="m 0,0 h 40 l 10,10 h 50 V 50 H 0 Z"
+       class="folder folder-tab deep-purple"
+       opacity="0.2"
+       id="path12" /><path
+       d="M 0,10 H 100 V 50 H 0 Z"
+       class="folder folder-body deep-purple"
+       opacity="0.2"
+       id="path13" /><text
+       x="110"
+       y="25"
+       class="prefix-label"
+       fill="#6A1B9A"
+       id="text13"><tspan
+         style="fill:#6a1b9a;fill-opacity:1"
+         id="tspan51">rendered-frames/</tspan></text></g><!-- transcoded-outputs/ - Crimson Red --><g
+     transform="translate(439.74666,327.41357)"
+     id="g15"><path
+       d="m 0,0 h 40 l 10,10 h 50 V 50 H 0 Z"
+       class="folder folder-tab crimson-red"
+       opacity="0.2"
+       id="path14" /><path
+       d="M 0,10 H 100 V 50 H 0 Z"
+       class="folder folder-body crimson-red"
+       opacity="0.2"
+       id="path15" /><text
+       x="110"
+       y="25"
+       class="prefix-label"
+       fill="#C62828"
+       id="text15"><tspan
+         style="fill:#c62828;fill-opacity:1"
+         id="tspan53">transcoded-outputs/</tspan></text></g><!-- review-copies/ - Teal --><g
+     transform="translate(668.09293,189.92308)"
+     id="g17"><path
+       d="m 0,0 h 40 l 10,10 h 50 V 50 H 0 Z"
+       class="folder folder-tab teal"
+       opacity="0.2"
+       id="path16" /><path
+       d="M 0,10 H 100 V 50 H 0 Z"
+       class="folder folder-body teal"
+       opacity="0.2"
+       id="path17" /><text
+       x="110"
+       y="25"
+       class="prefix-label"
+       fill="#00796B"
+       id="text17"><tspan
+         style="fill:#00796b;fill-opacity:1"
+         id="tspan57">review-copies/</tspan></text></g><!-- Level 2 Prefix under review-copies/ --><g
+     transform="translate(688.09293,259.92308)"
+     id="g19"><path
+       d="M 0,0 H 30 L 40,10 H 80 V 40 H 0 Z"
+       class="folder folder-tab teal"
+       opacity="0.2"
+       id="path18" /><path
+       d="M 0,10 H 80 V 40 H 0 Z"
+       class="folder folder-body teal"
+       opacity="0.2"
+       id="path19" /><text
+       x="90"
+       y="20"
+       class="prefix-label"
+       fill="#00796B"
+       id="text19"><tspan
+         style="fill:#00796b;fill-opacity:1"
+         id="tspan58">movie-abc/</tspan></text></g><!-- Level 3 Object (file) --><g
+     transform="translate(708.09293,319.92308)"
+     id="g21"><rect
+       x="0"
+       y="0"
+       width="30"
+       height="40"
+       class="file-icon"
+       id="rect19" /><path
+       d="M 0,0 H 20 L 30,10 V 40 H 0 Z"
+       class="file-icon teal"
+       opacity="0.2"
+       id="path20" /><path
+       d="M 20,0 V 10 H 30"
+       stroke="#00796b"
+       fill="none"
+       id="path21" /><text
+       x="35"
+       y="20"
+       class="prefix-label"
+       fill="#00796B"
+       id="text21"><tspan
+         style="fill:#00796b;fill-opacity:1"
+         id="tspan56">specific-file.mp4</tspan></text></g><!-- proxies/ - Golden Yellow --><g
+     transform="translate(655.41262,373.8807)"
+     id="g23"><path
+       d="m 0,0 h 40 l 10,10 h 50 V 50 H 0 Z"
+       class="folder folder-tab golden-yellow"
+       opacity="0.2"
+       id="path22" /><path
+       d="M 0,10 H 100 V 50 H 0 Z"
+       class="folder folder-body golden-yellow"
+       opacity="0.2"
+       id="path23" /><text
+       x="110"
+       y="25"
+       class="prefix-label"
+       fill="#F9A825"
+       id="text23"><tspan
+         style="fill:#f9a825;fill-opacity:1"
+         id="tspan54">proxies/</tspan></text></g><!-- thumbnails/ - Golden Yellow --><g
+     transform="translate(616.55888,436.21941)"
+     id="g25"><path
+       d="m 0,0 h 40 l 10,10 h 50 V 50 H 0 Z"
+       class="folder folder-tab golden-yellow"
+       opacity="0.2"
+       id="path24" /><path
+       d="M 0,10 H 100 V 50 H 0 Z"
+       class="folder folder-body golden-yellow"
+       opacity="0.2"
+       id="path25" /><text
+       x="110"
+       y="25"
+       class="prefix-label"
+       fill="#F9A825"
+       id="text25"><tspan
+         style="fill:#f9a825;fill-opacity:1"
+         id="tspan55">thumbnails/</tspan></text></g><!-- Draw connections from bucket to Level 1 folders --><!-- Draw connections from Level 1 to Level 2 folders --><path
+     id="line31"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 195.07488,249.45276 23.93035,29.67385"
+     sodipodi:nodetypes="cc" /><path
+     id="line32"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 195.07488,249.45276 14.2565,89.2869"
+     sodipodi:nodetypes="cc" /><path
+     id="line33"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 699.54675,240.51755 16.44776,19.89995"
+     sodipodi:nodetypes="cc" /><path
+     id="line33-8"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 694.95678,300.21004 17.56908,19.66772"
+     sodipodi:nodetypes="cc" /><!-- Draw connection from Level 2 to Level 3 --><!-- IAM Role: RenderNodeRole --><g
+     id="g60"
+     transform="translate(-14.445366,7.9657548)"><rect
+       x="50"
+       y="500"
+       width="345.66833"
+       height="127.11407"
+       class="role-box"
+       id="rect34" /><text
+       x="70"
+       y="525"
+       class="role-title"
+       id="text34">IAM Role: RenderNodeRole</text><text
+       x="70"
+       y="550"
+       class="permissions-title"
+       id="text35">Key S3 Permissions:</text><text
+       x="70"
+       y="575"
+       class="permission-text"
+       id="text36">s3:GetObject on your-media-bucket/<tspan
+   fill="#1e88e5"
+   id="tspan35">project-assets/*</tspan></text><text
+       x="70"
+       y="595"
+       class="permission-text"
+       id="text37">s3:GetObject on your-media-bucket/<tspan
+   fill="#2e7d32"
+   id="tspan36">raw-footage/*</tspan></text><text
+       x="70"
+       y="615"
+       class="permission-text"
+       id="text38">s3:PutObject on your-media-bucket/<tspan
+   fill="#6a1b9a"
+   id="tspan37">rendered-frames/*</tspan></text></g><!-- IAM Role: MediaConvertServiceRole --><g
+     id="g61"
+     transform="translate(202.84612,-0.79001735)"><rect
+       x="367.11404"
+       y="502.73621"
+       width="329.25119"
+       height="104.37789"
+       class="role-box"
+       id="rect38" /><text
+       x="380"
+       y="525"
+       class="role-title"
+       id="text39">IAM Role: MediaConvertServiceRole</text><text
+       x="380"
+       y="550"
+       class="permissions-title"
+       id="text40">Key S3 Permissions:</text><text
+       x="380"
+       y="575"
+       class="permission-text"
+       id="text41">s3:GetObject on your-media-bucket/<tspan
+   fill="#e65100"
+   id="tspan40">source-videos/*</tspan></text><text
+       x="380"
+       y="595"
+       class="permission-text"
+       id="text42">s3:PutObject on your-media-bucket/<tspan
+   fill="#c62828"
+   id="tspan41">transcoded-outputs/*</tspan></text></g><!-- IAM Role: DAMAppRole --><g
+     id="g63"
+     transform="translate(-107.91545,115.25146)"><rect
+       x="670"
+       y="500"
+       width="423.923"
+       height="120"
+       class="role-box"
+       id="rect42" /><text
+       x="690"
+       y="525"
+       class="role-title"
+       id="text43">IAM Role: DAMAppRole</text><text
+       x="690"
+       y="550"
+       class="permissions-title"
+       id="text44">Key S3 Permissions:</text><text
+       x="690"
+       y="575"
+       class="permission-text"
+       id="text45">s3:ListBucket on your-media-bucket (for prefixes like <tspan
+   fill="#f9a825"
+   id="tspan44">proxies/</tspan>, <tspan
+   fill="#f9a825"
+   id="tspan45">thumbnails/</tspan>)</text><text
+       x="690"
+       y="595"
+       class="permission-text"
+       id="text46">s3:GetObject on your-media-bucket/<tspan
+   fill="#f9a825"
+   id="tspan46">proxies/*</tspan></text><text
+       x="690"
+       y="615"
+       class="permission-text"
+       id="text47">s3:GetObjectMetadata on your-media-bucket/* (general read for metadata)</text></g><!-- External Collaborator (Pre-Signed URL) --><g
+     id="g62"
+     transform="translate(-336.72834,20.004942)"><rect
+       x="360"
+       y="620"
+       width="507.10284"
+       height="82.983902"
+       class="role-box"
+       id="rect47" /><text
+       x="365.77188"
+       y="640"
+       class="role-title"
+       id="text48"><tspan
+         sodipodi:role="line"
+         id="tspan63"
+         x="365.77188"
+         y="640">External Collaborator (Access</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64"
+         x="365.77188"
+         y="660">via S3 Pre-Signed URL)</tspan></text><text
+       x="365.77185"
+       y="682.51154"
+       class="permission-text"
+       id="text49">Temporary s3:GetObject on your-media-bucket/<tspan
+   fill="#00796b"
+   id="tspan48">review-copies/movie-abc/specific-file.mp4</tspan></text></g><path
+     d="m 559.73733,75.636184 0.34789,-2.586348 c 2.75808,1.683403 3.62155,2.661724 3.87541,3.077864 -0.73653,0.219847 -2.22213,0.02041 -4.2233,-0.491516 z m -27.62311,-9.455009 c 0,-0.07695 0.0627,-0.14133 0.14104,-0.14133 0.0236,0 0.0376,0.01413 0.0579,0.02356 l -0.10807,0.219847 c -0.0501,-0.01413 -0.0909,-0.0424 -0.0909,-0.102072 z m 21.38452,32.347399 c -0.009,0.0707 -0.014,0.13976 -0.014,0.21043 0,0.23869 -0.5908,1.15577 -3.21881,2.196896 -1.17218,0.46325 -2.55592,0.88096 -4.11518,1.239 -4.02115,0.93278 -8.95749,1.44628 -13.89695,1.44628 -13.20744,0 -21.22625,-3.39036 -21.22625,-4.882176 0,-0.0707 -0.005,-0.13976 -0.014,-0.21043 L 505.02413,53.95609 c 0.38394,0.224559 0.79922,0.439695 1.23174,0.64855 0.10819,0.05339 0.22879,0.103642 0.34162,0.155464 0.38864,0.179018 0.79295,0.353326 1.21293,0.521352 0.16925,0.06752 0.34006,0.133479 0.51244,0.199433 0.44035,0.166456 0.89481,0.32506 1.36493,0.478953 0.12537,0.04083 0.24604,0.0848 0.37454,0.125627 0.59863,0.188441 1.21763,0.367459 1.857,0.538626 0.16141,0.0424 0.32909,0.08166 0.4952,0.124057 0.50147,0.128768 1.01548,0.251254 1.54045,0.367459 0.20843,0.04711 0.41528,0.09265 0.62684,0.13819 0.58296,0.122486 1.17532,0.238692 1.77708,0.350186 0.1206,0.02041 0.23506,0.04554 0.35573,0.06595 0.72086,0.127197 1.45739,0.243402 2.20333,0.351756 0.20059,0.02984 0.40431,0.05496 0.60646,0.08323 0.57356,0.07852 1.15025,0.152322 1.73477,0.219847 0.23036,0.0267 0.45916,0.05339 0.68952,0.07852 0.69736,0.07538 1.39941,0.142901 2.10774,0.202574 0.083,0.0078 0.16454,0.0157 0.2476,0.02356 0.78668,0.06438 1.57963,0.116205 2.37571,0.160174 0.22252,0.01256 0.44348,0.02356 0.66758,0.03455 0.60176,0.02984 1.20352,0.05496 1.80529,0.07381 0.23663,0.0079 0.47012,0.0157 0.70675,0.02041 0.79922,0.01884 1.59844,0.03298 2.39452,0.03298 0.79608,0 1.59373,-0.01413 2.39451,-0.03298 0.23663,-0.0046 0.47013,-0.01256 0.70519,-0.02041 0.60333,-0.01884 1.20666,-0.04397 1.80843,-0.07381 0.22252,-0.01093 0.44348,-0.02199 0.66601,-0.03455 0.79608,-0.04397 1.5906,-0.09579 2.37884,-0.160174 0.0799,-0.0079 0.15671,-0.0157 0.23507,-0.02199 0.71302,-0.05967 1.41978,-0.128768 2.12027,-0.205714 0.23036,-0.02356 0.45602,-0.05025 0.68325,-0.07538 0.58923,-0.06909 1.17218,-0.142901 1.74887,-0.222988 0.19746,-0.02827 0.39648,-0.05182 0.59393,-0.08166 0.74907,-0.108354 1.48874,-0.224559 2.21273,-0.351756 0.11133,-0.02041 0.2194,-0.04397 0.33223,-0.06281 0.61116,-0.113064 1.21136,-0.23084 1.80215,-0.354896 0.20686,-0.04397 0.41058,-0.08951 0.6143,-0.135049 0.53124,-0.117776 1.05152,-0.241832 1.55925,-0.372171 0.15828,-0.04083 0.32126,-0.07852 0.47953,-0.120916 0.64094,-0.171167 1.26465,-0.350185 1.86484,-0.540196 0.12224,-0.03926 0.23663,-0.08009 0.3573,-0.119346 0.47639,-0.157034 0.93869,-0.317208 1.38374,-0.486805 0.16925,-0.06281 0.33536,-0.128768 0.4999,-0.193151 0.42625,-0.169597 0.83683,-0.347045 1.2286,-0.529204 0.10819,-0.05025 0.22409,-0.09736 0.33066,-0.149183 0.43408,-0.208855 0.84936,-0.425561 1.23486,-0.65012 l -2.79255,20.786571 c -5.67444,-1.824733 -13.64152,-5.133437 -21.1808,-8.726371 -0.0894,-1.732083 -1.5091,-3.117122 -3.25954,-3.117122 -1.80529,0 -3.27522,1.471407 -3.27522,3.282007 0,1.812171 1.46993,3.283578 3.27522,3.283578 0.70832,0 1.3618,-0.230839 1.89774,-0.615572 6.75886,3.24746 15.38413,7.080656 22.11948,9.029446 z M 532.25369,40.996087 c 16.25387,0 27.70616,5.043927 27.91929,7.84384 l -0.0408,0.32506 c -0.0297,0.09579 -0.0909,0.196293 -0.1426,0.295224 -0.0423,0.08009 -0.0721,0.160175 -0.1285,0.240262 -0.0706,0.100502 -0.17238,0.201003 -0.26641,0.303075 -0.0784,0.08166 -0.14104,0.164886 -0.23193,0.248114 -0.11283,0.102072 -0.25387,0.204144 -0.38707,0.306216 -0.11283,0.08637 -0.20999,0.171167 -0.33536,0.255965 -0.15044,0.102072 -0.32909,0.204144 -0.50147,0.306216 -0.14417,0.08637 -0.27737,0.174307 -0.43878,0.260676 -0.18335,0.09893 -0.39648,0.199433 -0.6002,0.296794 -0.18178,0.08951 -0.34946,0.177448 -0.54691,0.265387 -0.21783,0.09736 -0.46386,0.191582 -0.70049,0.288943 -0.21313,0.08637 -0.41685,0.175877 -0.64721,0.262246 -0.2523,0.09422 -0.53124,0.18687 -0.80078,0.27795 -0.2476,0.0848 -0.4811,0.172737 -0.74124,0.255965 -0.28207,0.08794 -0.59079,0.174308 -0.88854,0.262247 -0.28051,0.08009 -0.54691,0.164885 -0.83996,0.243402 -0.31028,0.0848 -0.64564,0.161745 -0.97003,0.241832 -0.31185,0.07852 -0.61273,0.160175 -0.94025,0.233981 -0.33693,0.07538 -0.70206,0.147612 -1.05309,0.219847 -0.34162,0.07224 -0.67071,0.146042 -1.02487,0.213566 -0.37924,0.07224 -0.78198,0.13662 -1.17532,0.204144 -0.3573,0.06124 -0.70206,0.127198 -1.06876,0.18373 -0.41684,0.06438 -0.8572,0.119346 -1.28814,0.179018 -0.37297,0.05025 -0.7334,0.108354 -1.11577,0.153894 -0.44819,0.05496 -0.92145,0.09893 -1.38531,0.149182 -0.39021,0.04083 -0.76788,0.08637 -1.16905,0.124056 -0.50774,0.04554 -1.04055,0.07852 -1.56396,0.117776 -0.37767,0.0267 -0.74437,0.06124 -1.13144,0.0848 -0.59549,0.03612 -1.21449,0.0581 -1.83036,0.08166 -0.33692,0.01413 -0.66131,0.03612 -1.00294,0.04554 -0.96689,0.02827 -1.95573,0.04397 -2.9618,0.04397 -1.0092,0 -1.99647,-0.0157 -2.9618,-0.04397 -0.33065,-0.0094 -0.64564,-0.03141 -0.97159,-0.04397 -0.62527,-0.02356 -1.25681,-0.04711 -1.86171,-0.08323 -0.36983,-0.02199 -0.71616,-0.05496 -1.07659,-0.08009 -0.54378,-0.04083 -1.09383,-0.07538 -1.62037,-0.122487 -0.37767,-0.03612 -0.73497,-0.07852 -1.10323,-0.117775 -0.4858,-0.05182 -0.981,-0.09736 -1.45113,-0.155463 -0.35886,-0.0424 -0.69579,-0.09736 -1.04681,-0.144472 -0.45603,-0.06281 -0.91989,-0.120916 -1.3571,-0.18844 -0.34476,-0.05339 -0.66602,-0.114635 -0.99981,-0.171167 -0.41528,-0.07224 -0.84309,-0.13976 -1.24427,-0.216707 -0.33536,-0.06438 -0.64564,-0.135049 -0.96846,-0.201003 -0.3714,-0.07852 -0.75377,-0.152323 -1.1095,-0.23241 -0.30872,-0.07066 -0.59393,-0.147612 -0.89011,-0.221418 -0.34319,-0.0848 -0.69579,-0.168026 -1.02017,-0.254395 -0.27738,-0.07538 -0.53125,-0.157034 -0.79765,-0.23398 -0.31342,-0.09108 -0.63624,-0.180589 -0.92929,-0.273239 -0.25073,-0.08009 -0.47639,-0.163315 -0.71302,-0.244973 -0.27895,-0.09579 -0.56886,-0.191581 -0.82899,-0.287372 -0.22096,-0.0848 -0.41528,-0.169596 -0.62371,-0.252824 -0.2429,-0.100502 -0.49833,-0.197863 -0.72243,-0.299935 -0.19118,-0.0848 -0.35572,-0.171167 -0.53281,-0.257536 -0.20842,-0.100501 -0.42624,-0.202573 -0.61273,-0.303075 -0.15984,-0.08637 -0.28991,-0.172737 -0.43408,-0.257535 -0.17238,-0.103643 -0.35417,-0.205715 -0.50617,-0.309357 -0.12374,-0.0848 -0.22253,-0.169597 -0.33223,-0.254395 -0.1332,-0.102072 -0.27737,-0.205714 -0.38863,-0.307786 -0.0925,-0.08323 -0.15671,-0.166456 -0.23193,-0.248114 -0.094,-0.102072 -0.19589,-0.202573 -0.26641,-0.303075 -0.0579,-0.08009 -0.0878,-0.160175 -0.1285,-0.240262 -0.0533,-0.09893 -0.11597,-0.199433 -0.14261,-0.295224 l -0.0422,-0.32506 c 0.21469,-2.799913 11.66542,-7.84384 27.91615,-7.84384 z m 34.89597,34.79556 c -0.33222,-1.798037 -2.39921,-3.702858 -6.61155,-6.116468 l 2.67972,-19.937018 v -0.0046 -0.0016 l 0.0784,-0.609292 c 0.009,-0.06752 0.0142,-0.136619 0.0142,-0.204144 0,-6.518475 -16.36669,-11.063034 -31.05659,-11.063034 -14.68678,0 -31.05347,4.544559 -31.05347,11.063034 0,0.06752 0.005,0.13662 0.0142,0.204144 l 0.08,0.609292 v 0.0016 0.0046 l 6.60059,49.121763 c 0.20685,5.753716 15.00645,7.901936 24.35885,7.901936 5.16983,0 10.35533,-0.5402 14.60215,-1.5248 1.7097,-0.39415 3.24388,-0.85897 4.5618,-1.38033 3.38335,-1.34107 5.13065,-3.02133 5.19961,-4.996806 l 2.7142,-20.208691 c 1.48247,0.314068 2.83173,0.505649 3.95377,0.505649 1.51224,0 2.64525,-0.320349 3.25798,-1.053697 0.54535,-0.65169 0.7616,-1.472977 0.60646,-2.311538 z m -50.82074,0.427132 4.06817,-6.794855 4.06816,6.794855 z m 12.26875,2.342945 c 0.27894,-0.491516 0.27111,-1.096096 -0.0204,-1.581331 l -6.83722,-11.416361 c -0.56572,-0.945343 -2.12184,-0.945343 -2.68756,0 l -6.83565,11.416361 c -0.29148,0.486805 -0.29931,1.089815 -0.0204,1.582902 0.27894,0.493086 0.79921,0.796161 1.36336,0.796161 h 13.67444 c 0.56415,0 1.08442,-0.303075 1.36337,-0.797732 z m 14.35925,2.167067 c 2.52772,0 4.58531,2.077558 4.58531,4.632499 0,2.55337 -2.05759,4.632498 -4.58531,4.632498 -2.52772,0 -4.58531,-2.079128 -4.58531,-4.632498 0,-2.554941 2.05759,-4.632499 4.58531,-4.632499 z m 0,12.405673 c 4.25622,0 7.71949,-3.48615 7.71949,-7.773174 0,-4.285454 -3.46327,-7.773176 -7.71949,-7.773176 -4.25622,0 -7.71949,3.487722 -7.71949,7.773176 0,4.287024 3.46327,7.773174 7.71949,7.773174 z m -23.58001,2.266 h 7.67404 v -7.818715 h -7.67404 z m 9.24113,-10.960963 h -10.80979 c -0.8666,0 -1.56709,0.703512 -1.56709,1.570339 v 10.960964 c 0,0.8684 0.70049,1.57034 1.56709,1.57034 h 10.80979 c 0.86504,0 1.56709,-0.70194 1.56709,-1.57034 V 86.00984 c 0,-0.866827 -0.70205,-1.570339 -1.56709,-1.570339 z"
+     id="AWS-Amazon-Simple-Storage_Bucket-with-objects_Resource-Icon_light-bg"
+     fill="#7aa116"
+     style="fill-rule:evenodd;stroke:none;stroke-width:1" /><g
+     transform="matrix(1.0589818,0,0,1,501.09381,133.20025)"
+     id="g3-0"
+     style="stroke-width:0.971753"><path
+       d="m -209.71052,0 h 137.28121 l 34.320302,10 H 133.4925 v 40 h -343.20302 z"
+       class="folder folder-tab bright-blue"
+       opacity="0.2"
+       id="path2-9"
+       style="fill:#ffffff;stroke:#666666;stroke-width:0.971753" /><path
+       d="M -209.71052,10 H 133.4925 v 40 h -343.20302 z"
+       class="folder folder-body bright-blue"
+       opacity="0.2"
+       id="path3-4"
+       style="fill:#ffffff;stroke:#666666;stroke-width:0.971753" /><text
+       x="141.63416"
+       y="28.5"
+       class="prefix-label"
+       fill="#1E88E5"
+       id="text3-8"
+       style="font-size:14px;font-family:Arial, Helvetica, sans-serif;dominant-baseline:middle;fill:#333333;stroke-width:0.971753">your-media-bucket/</text></g><path
+     id="line33-1"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 642.63652,176.93417 24.20711,22.35356"
+     sodipodi:nodetypes="cc" /><path
+     id="line33-7"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 391.19718,182.61716 18.74264,14.4749"
+     sodipodi:nodetypes="cc" /><path
+     id="line33-7-1"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 280.85269,185.18151 -50.68439,23.5196"
+     sodipodi:nodetypes="cc" /><path
+     id="line33-7-1-0"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="M 357.18828,182.80746 296.45316,407.14298"
+     sodipodi:nodetypes="cc" /><path
+     id="line33-7-9"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 438.13444,183.89998 32.5,86.50002"
+     sodipodi:nodetypes="cc" /><path
+     id="line33-7-4"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 371.13444,182.89998 70.5,144.50002"
+     sodipodi:nodetypes="cc" /><path
+     id="line33-8-8"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 627.54011,182.86254 77.59421,199.83929"
+     sodipodi:nodetypes="cc" /><path
+     id="line33-8-8-2"
+     style="stroke:#cccccc;stroke-width:1.5"
+     d="m 627.69921,183.29642 22.44776,252.87482"
+     sodipodi:nodetypes="cc" /></svg>

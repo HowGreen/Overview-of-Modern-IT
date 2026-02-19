@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="750"
+   height="350"
+   viewBox="0 0 750 350"
+   font-family="Arial, sans-serif"
+   font-size="13"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="row_vs_columnar_storage.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview31"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.7361829"
+     inkscape:cx="294.32383"
+     inkscape:cy="264.94904"
+     inkscape:window-width="1916"
+     inkscape:window-height="2022"
+     inkscape:window-x="1900"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="columnar" />
+  <rect width="100%" height="100%" fill="white"/> 
+  <style
+     id="style1">
+    .title { font-weight: bold; font-size: 16px; text-anchor: middle; }
+    .subtitle { font-size: 12px; text-anchor: middle; fill: #444; }
+    .query-area { fill: #f9f9f9; stroke: #ddd; stroke-width: 1; rx: 5; ry: 5; }
+    .storage-area { fill: #f9f9f9; stroke: #ddd; stroke-width: 1; rx: 5; ry: 5; }
+    .row-block { fill: #e6e6fa; stroke: #6666aa; stroke-width: 1; rx: 3; ry: 3; }
+    .col-id-block { fill: #ffebee; stroke: #c62828; stroke-width: 1; rx: 3; ry: 3;}
+    .col-prod-block { fill: #e8f5e9; stroke: #2e7d32; stroke-width: 1; rx: 3; ry: 3;}
+    .col-sales-block { fill: #e3f2fd; stroke: #1565c0; stroke-width: 1; rx: 3; ry: 3;}
+    .query-arrow { stroke: #d32f2f; stroke-width: 2; marker-end: url(#arrowhead-red); stroke-dasharray: 5, 3; fill: none;}
+    .query-arrow-col { stroke: #2e7d32; stroke-width: 2; marker-end: url(#arrowhead-green); stroke-dasharray: 5, 3; fill: none;}
+    .query-text { font-family: monospace; font-size: 14px; text-anchor: middle; font-weight: bold;}
+    .row-query { fill: #d32f2f; }
+    .col-query { fill: #2e7d32; }
+    .centered-text { text-anchor: middle; dominant-baseline: middle; }
+    .small-text { font-size: 11px; text-anchor: middle; dominant-baseline: middle; fill: #555;}
+    .data-text { font-family: monospace; font-size: 12px; text-anchor: middle; dominant-baseline: middle;}
+    .storage-label { font-size: 12px; font-style: italic; text-anchor: middle; fill: #333;}
+    .footer-text { font-size: 11px; text-anchor: middle; fill: #333; font-style: italic; }
+  </style>
+  <defs
+     id="defs2">
+    <marker
+       id="arrowhead-red"
+       markerWidth="8"
+       markerHeight="8"
+       refX="0"
+       refY="4"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L8,4 L0,8 z"
+         fill="#d32f2f"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrowhead-green"
+       markerWidth="8"
+       markerHeight="8"
+       refX="0"
+       refY="4"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L8,4 L0,8 z"
+         fill="#2e7d32"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrowhead-red-0"
+       markerWidth="8"
+       markerHeight="8"
+       refX="0"
+       refY="4"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#d32f2f"
+         id="path1_red" />
+    </marker>
+    <marker
+       id="marker1"
+       markerWidth="8"
+       markerHeight="8"
+       refX="0"
+       refY="4"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#d32f2f"
+         id="path1-9" />
+    </marker>
+    <marker
+       id="marker2"
+       markerWidth="8"
+       markerHeight="8"
+       refX="0"
+       refY="4"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#d32f2f"
+         id="path2-4" />
+    </marker>
+  </defs>
+  <!-- Page title -->
+  <text
+     x="375"
+     y="25"
+     class="title"
+     id="text2">Row-Based vs Columnar Storage</text>
+  <!-- Row-based section -->
+  <g
+     id="row-based">
+    <text
+       x="175"
+       y="55"
+       class="title"
+       id="text3">Row-Based Storage</text>
+    <text
+       x="175"
+       y="75"
+       class="subtitle"
+       id="text4">(Optimized for OLTP: Read/Write Full Records)</text>
+    <rect
+       x="10"
+       y="90"
+       width="135"
+       height="180"
+       class="query-area"
+       id="rect4" />
+    <text
+       x="72.392189"
+       y="165.68591"
+       class="query-text row-query"
+       id="text5">Query:</text>
+    <text
+       x="72.392189"
+       y="185.68591"
+       class="query-text row-query"
+       id="text6">AVG(Sales)</text>
+    <text
+       x="75.848045"
+       y="262.41385"
+       class="small-text"
+       fill="#d32f2f"
+       id="text9">(High I/O)</text>
+    <text
+       x="77"
+       y="235"
+       class="small-text"
+       fill="#d32f2f"
+       id="text10">Must read entire rows with</text>
+    <text
+       x="77"
+       y="250"
+       class="small-text"
+       fill="#d32f2f"
+       id="text11">unneeded data columns</text>
+    <rect
+       x="155"
+       y="90"
+       width="220"
+       height="180"
+       class="storage-area"
+       id="rect11" />
+    <line
+       x1="123.85526"
+       y1="129.2793"
+       x2="151.85527"
+       y2="129.2793"
+       class="query-arrow"
+       id="line11"
+       style="fill:none;stroke:#d32f2f;stroke-width:2;stroke-dasharray:5, 3;marker-end:url(#arrowhead-red-0)" />
+    <line
+       x1="123.85526"
+       y1="169.2793"
+       x2="151.85527"
+       y2="169.2793"
+       class="query-arrow"
+       id="line12"
+       style="fill:none;stroke:#d32f2f;stroke-width:2;stroke-dasharray:5, 3;marker-end:url(#arrowhead-red-0)" />
+    <line
+       x1="123.85526"
+       y1="209.2793"
+       x2="151.85527"
+       y2="209.2793"
+       class="query-arrow"
+       id="line13"
+       style="fill:none;stroke:#d32f2f;stroke-width:2;stroke-dasharray:5, 3;marker-end:url(#arrowhead-red-0)" />
+    <text
+       x="262.12012"
+       y="256.29794"
+       class="storage-label"
+       id="text12">Storage Blocks on Disk</text>
+    <rect
+       x="173.84805"
+       y="107.72071"
+       width="180"
+       height="35"
+       class="row-block"
+       id="rect12" />
+    <text
+       x="296.8555"
+       y="113.39658"
+       class="centered-text data-text"
+       id="text13"
+       transform="scale(0.88784808,1.1263188)"
+       style="stroke-width:0.887848">[ID:1, Prod:&quot;A&quot;, Sales:100]</text>
+    <rect
+       x="173.84805"
+       y="147.72072"
+       width="180"
+       height="35"
+       class="row-block"
+       id="rect13" />
+    <text
+       x="296.8555"
+       y="148.91051"
+       class="centered-text data-text"
+       id="text14"
+       transform="scale(0.88784808,1.1263188)"
+       style="stroke-width:0.887848">[ID:2, Prod:&quot;B&quot;, Sales:200]</text>
+    <rect
+       x="173.84805"
+       y="187.72072"
+       width="180"
+       height="35"
+       class="row-block"
+       id="rect14" />
+    <text
+       x="296.8555"
+       y="184.42444"
+       class="centered-text data-text"
+       id="text15"
+       transform="scale(0.88784808,1.1263188)"
+       style="stroke-width:0.887848">[ID:3, Prod:&quot;A&quot;, Sales:150]</text>
+  </g>
+  <!-- Dividing line -->
+  <line
+     x1="387.09549"
+     y1="37.120117"
+     x2="387.09549"
+     y2="270.46606"
+     stroke="#cccccc"
+     stroke-width="0.975048"
+     stroke-dasharray="4, 4"
+     id="line17" />
+  <!-- Columnar section -->
+  <g
+     id="columnar">
+    <text
+       x="575"
+       y="55"
+       class="title"
+       id="text17">Columnar Storage</text>
+    <text
+       x="575"
+       y="75"
+       class="subtitle"
+       id="text18">(Optimized for OLAP: Aggregate Queries)</text>
+    <rect
+       x="400"
+       y="90"
+       width="135"
+       height="180"
+       class="query-area"
+       id="rect18" />
+    <text
+       x="463.54416"
+       y="162.23004"
+       class="query-text col-query"
+       id="text19">Query:</text>
+    <text
+       x="463.54416"
+       y="182.23004"
+       class="query-text col-query"
+       id="text20">AVG(Sales)</text>
+    <text
+       x="465.27206"
+       y="261.83786"
+       class="small-text"
+       fill="#2e7d32"
+       id="text23">(Low I/O)</text>
+    <text
+       x="467"
+       y="235"
+       class="small-text"
+       fill="#2e7d32"
+       id="text24">Only reads relevant data,</text>
+    <text
+       x="467"
+       y="250"
+       class="small-text"
+       fill="#2e7d32"
+       id="text25">ignoring other columns</text>
+    <rect
+       x="545"
+       y="90"
+       width="195"
+       height="180"
+       class="storage-area"
+       id="rect25" />
+    <text
+       x="643.57599"
+       y="258.02588"
+       class="storage-label"
+       id="text26">Storage Blocks on Disk</text>
+    <rect
+       x="553.27209"
+       y="101.38498"
+       width="175"
+       height="35"
+       class="col-id-block"
+       id="rect26" />
+    <text
+       x="641.27209"
+       y="121.38498"
+       class="centered-text data-text"
+       id="text27">ID: [1, 2, 3]</text>
+    <rect
+       x="553.27209"
+       y="141.38498"
+       width="175"
+       height="35"
+       class="col-prod-block"
+       id="rect27" />
+    <text
+       x="641.27209"
+       y="161.38498"
+       class="centered-text data-text"
+       id="text28">Product: [&quot;A&quot;, &quot;B&quot;, &quot;A&quot;]</text>
+    <rect
+       x="553.27209"
+       y="181.38498"
+       width="175"
+       height="35"
+       class="col-sales-block"
+       id="rect28" />
+    <text
+       x="641.27209"
+       y="201.38498"
+       class="centered-text data-text"
+       id="text29">Sales: [100, 200, 150]</text>
+    <path
+       d="m 516.99279,201.38498 c 9,0 9,0 18,0"
+       class="query-arrow-col"
+       id="path29" />
+  </g>
+  <!-- Footer -->
+  <text
+     x="375"
+     y="300"
+     class="footer-text"
+     id="text30">Columnar storage groups values from the same column together on disk,</text>
+  <text
+     x="375"
+     y="320"
+     class="footer-text"
+     id="text31">enabling dramatic performance improvements for analytical queries</text>
+</svg>

@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="950"
+   height="700"
+   viewBox="0 0 950 700"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="glue_data_catalog_ecosystem.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.5342857"
+     inkscape:cx="475.08455"
+     inkscape:cy="350"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg42" />
+  <defs
+     id="defs3">
+    <!-- Colored markers for each path type -->
+    <marker
+       id="arrow-green"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#4caf50"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrow-cyan"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#00acc1"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="arrow-blue"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#2196f3"
+         id="polygon3" />
+    </marker>
+  </defs>
+  <!-- Title and Subtitle -->
+  <text
+     x="475"
+     y="35"
+     font-family="Arial, sans-serif"
+     font-size="22"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#222222"
+     id="text3">AWS Glue Data Catalog Ecosystem</text>
+  <text
+     x="475"
+     y="60"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     text-anchor="middle"
+     fill="#555555"
+     id="text4">Central Metadata Hub for AWS Analytics Services</text>
+  <!-- Background Groupings -->
+  <rect
+     x="30"
+     y="100"
+     width="280"
+     height="250"
+     rx="15"
+     ry="15"
+     fill="#f0f8ff"
+     stroke="#d1e9ff"
+     stroke-width="1"
+     id="rect4" />
+  <text
+     x="170"
+     y="125"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0056b3"
+     id="text5">Data Sources</text>
+  <rect
+     x="44"
+     y="444"
+     width="280"
+     height="130"
+     rx="15"
+     ry="15"
+     fill="#e6fff2"
+     stroke="#c3e6cb"
+     stroke-width="1"
+     id="rect5" />
+  <text
+     x="184"
+     y="469"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#155724"
+     id="text6">Ingest Mechanism</text>
+  <rect
+     x="630"
+     y="100"
+     width="289"
+     height="521"
+     rx="15"
+     ry="15"
+     fill="#fff9e6"
+     stroke="#ffeeba"
+     stroke-width="1"
+     id="rect6" />
+  <text
+     x="775"
+     y="125"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#856404"
+     id="text7">Consuming Services</text>
+  <!-- Central Glue Data Catalog -->
+  <rect
+     x="350"
+     y="280"
+     width="250"
+     height="100"
+     fill="#fff3e0"
+     stroke="#ffa000"
+     stroke-width="2.5"
+     rx="10"
+     ry="10"
+     id="rect7" />
+  <!-- Glue Catalog Icon -->
+  <text
+     x="385"
+     y="330"
+     font-family="Arial, sans-serif"
+     font-size="32"
+     text-anchor="middle"
+     fill="#ffa000"
+     id="text8">🗃️</text>
+  <text
+     x="475"
+     y="315"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text9">AWS Glue</text>
+  <text
+     x="475"
+     y="340"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text10">Data Catalog</text>
+  <text
+     x="475"
+     y="365"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-style="italic"
+     text-anchor="middle"
+     fill="#666666"
+     id="text11">Unified Metadata Repository</text>
+  <!-- Data Sources -->
+  <rect
+     x="80"
+     y="150"
+     width="180"
+     height="70"
+     fill="#e8f5e9"
+     stroke="#4caf50"
+     stroke-width="1.5"
+     rx="8"
+     ry="8"
+     id="rect11" />
+  <!-- S3 Icon -->
+  <text
+     x="90"
+     y="189"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     fill="#4caf50"
+     id="text12">📦</text>
+  <text
+     x="170"
+     y="178"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text13">Amazon S3</text>
+  <text
+     x="170"
+     y="198"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text14">(Data Lake / Sources)</text>
+  <rect
+     x="80"
+     y="250"
+     width="180"
+     height="70"
+     fill="#e8f5e9"
+     stroke="#4caf50"
+     stroke-width="1.5"
+     rx="8"
+     ry="8"
+     id="rect14" />
+  <!-- RDS Icon -->
+  <text
+     x="89"
+     y="287"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     fill="#4caf50"
+     id="text15">💾</text>
+  <text
+     x="170"
+     y="278"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text16">Amazon RDS</text>
+  <text
+     x="170"
+     y="298"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text17">(Operational Databases)</text>
+  <!-- Glue Crawlers -->
+  <rect
+     x="94"
+     y="494"
+     width="180"
+     height="70"
+     fill="#e0f7fa"
+     stroke="#00acc1"
+     stroke-width="1.5"
+     rx="8"
+     ry="8"
+     id="rect17" />
+  <!-- Crawler Icon -->
+  <text
+     x="98"
+     y="530"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     fill="#00acc1"
+     id="text18">🔍</text>
+  <text
+     x="184"
+     y="522"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text19">AWS Glue Crawlers</text>
+  <text
+     x="184"
+     y="542"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text20">(Schema Discovery)</text>
+  <!-- Source to Crawler Flow -->
+  <path
+     d="M 171,352 V 420 Q 171,433 171,443"
+     stroke="#4caf50"
+     stroke-width="1"
+     fill="none"
+     marker-end="url(#arrow-green)"
+     stroke-dasharray="3,2"
+     id="path20" />
+  <text
+     x="216"
+     y="401"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#4caf50"
+     id="text21">Scans Sources</text>
+  <text
+     x="372"
+     y="515"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#00acc1"
+     id="text22">Populates Catalog</text>
+  <!-- Athena -->
+  <rect
+     x="680.00842"
+     y="150.00839"
+     width="194.32368"
+     height="69.983208"
+     fill="#e3f2fd"
+     stroke="#2196f3"
+     stroke-width="1.51679"
+     rx="8.1820498"
+     ry="7.9980812"
+     id="rect22" />
+  <!-- Athena Icon -->
+  <text
+     x="715"
+     y="185"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text23">📊</text>
+  <text
+     x="797"
+     y="176"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text24">Amazon Athena</text>
+  <text
+     x="797"
+     y="196"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text25">(Interactive SQL Query)</text>
+  <path
+     d="M 550,280 Q 610,220 680,185"
+     stroke="#2196f3"
+     stroke-width="1.5"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path25" />
+  <text
+     x="568"
+     y="214"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text26"
+     style="fill:#f32121;fill-opacity:1">Queries via Catalog</text>
+  <!-- EMR -->
+  <rect
+     x="680.01141"
+     y="250.01143"
+     width="195.89598"
+     height="69.97715"
+     fill="#e3f2fd"
+     stroke="#2196f3"
+     stroke-width="1.52285"
+     rx="8.2482519"
+     ry="7.9973888"
+     id="rect26" />
+  <!-- EMR Icon -->
+  <text
+     x="715"
+     y="285"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text27">⚙️</text>
+  <text
+     x="797"
+     y="276"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text28">Amazon EMR</text>
+  <text
+     x="797"
+     y="296"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text29">(Big Data Processing)</text>
+  <path
+     d="M 600,310 H 680"
+     stroke="#2196f3"
+     stroke-width="1.5"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path29" />
+  <text
+     x="640"
+     y="295"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text30"
+     style="fill:#f32121;fill-opacity:1">Uses Metastore</text>
+  <!-- Redshift -->
+  <rect
+     x="680.01294"
+     y="350.01294"
+     width="196.68214"
+     height="69.974136"
+     fill="#e3f2fd"
+     stroke="#2196f3"
+     stroke-width="1.52587"
+     rx="8.281353"
+     ry="7.9970436"
+     id="rect30" />
+  <!-- Redshift Icon -->
+  <text
+     x="715"
+     y="385"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text31">🔮</text>
+  <text
+     x="797"
+     y="376"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text32">Amazon Redshift</text>
+  <text
+     x="797"
+     y="396"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text33">Spectrum (Data Warehouse)</text>
+  <path
+     d="M 600,350 H 680"
+     stroke="#2196f3"
+     stroke-width="1.5"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path33" />
+  <text
+     x="653.36755"
+     y="364.42163"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text34"
+     style="fill:#f32121;fill-opacity:1">Accesses Ext. Tables</text>
+  <!-- Lake Formation -->
+  <rect
+     x="680.00916"
+     y="450.00916"
+     width="194.71675"
+     height="69.981697"
+     fill="#e3f2fd"
+     stroke="#2196f3"
+     stroke-width="1.51831"
+     rx="8.1985998"
+     ry="7.9979081"
+     id="rect34" />
+  <!-- Lake Formation Icon -->
+  <text
+     x="715"
+     y="485"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text35">🔒</text>
+  <text
+     x="797"
+     y="476"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text36">AWS Lake Formation</text>
+  <text
+     x="797"
+     y="496"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text37">(Data Lake Governance)</text>
+  <path
+     d="M 550,380 Q 610,420 680,485"
+     stroke="#2196f3"
+     stroke-width="1.5"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path37" />
+  <text
+     x="649"
+     y="410"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text38"
+     style="fill:#f32121;fill-opacity:1">Manages Permissions</text>
+  <!-- SageMaker -->
+  <rect
+     x="680.01141"
+     y="550.01141"
+     width="195.89598"
+     height="69.97715"
+     fill="#e3f2fd"
+     stroke="#2196f3"
+     stroke-width="1.52285"
+     rx="8.2482519"
+     ry="7.9973888"
+     id="rect38" />
+  <!-- SageMaker Icon -->
+  <text
+     x="715"
+     y="585"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text39">🧠</text>
+  <text
+     x="797"
+     y="576"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text40">Amazon SageMaker</text>
+  <text
+     x="797"
+     y="596"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text41">(Machine Learning)</text>
+  <path
+     d="M 475,380 Q 475,480 680,585"
+     stroke="#2196f3"
+     stroke-width="1.5"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path41" />
+  <text
+     x="591"
+     y="498"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2196f3"
+     id="text42"
+     style="fill:#f32121;fill-opacity:1">Discovers Datasets</text>
+  <!-- Path from Crawler to Catalog with cyan marker -->
+  <path
+     d="M 324,499 H 414 Q 434,499 444,386"
+     stroke="#00acc1"
+     stroke-width="1.6"
+     fill="none"
+     marker-end="url(#arrow-cyan)"
+     id="path42" />
+</svg>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="750"
+   viewBox="0 0 800 750"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="improved-workflow-orchestration.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3653333"
+     inkscape:cx="399.94363"
+     inkscape:cy="341.17813"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg42" />
+  <defs
+     id="defs3">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#333"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="error-arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#D32F2F"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="data-arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#0277bd"
+         id="polygon3" />
+    </marker>
+    <filter
+       id="shadow"
+       x="-0.005"
+       y="-0.016666667"
+       width="1.01"
+       height="1.0333333">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="2"
+         flood-opacity="0.3" />
+    </filter>
+    <style
+       id="style3">
+      .orchestrator { fill: #ffecb3; stroke: #ffa000; stroke-width: 2; filter: url(#shadow); }
+      .lambda-task { fill: #bbdefb; stroke: #1976d2; stroke-width: 2; }
+      .batch-task { fill: #c8e6c9; stroke: #388e3c; stroke-width: 2; }
+      .emr-task { fill: #e1bee7; stroke: #7b1fa2; stroke-width: 2; }
+      .error-handler { fill: #ffcdd2; stroke: #d32f2f; stroke-width: 2; }
+      .decision-node { fill: #f5f5f5; stroke: #616161; stroke-width: 2; } /* Diamond Shape */
+      .success-node { fill: #dcedc8; stroke: #689f38; stroke-width: 2; }
+      .data-store { fill: #f5f5f5; stroke: #616161; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .control-flow { stroke: #333; stroke-width: 1.5; fill: none; marker-end: url(#arrowhead); }
+      .error-flow { stroke: #D32F2F; stroke-width: 1.5; fill: none; marker-end: url(#error-arrowhead); stroke-dasharray: 4,2;}
+      .data-flow { stroke: #0277bd; stroke-width: 1.5; stroke-dasharray: 2,2; fill: none; marker-end: url(#data-arrowhead); opacity: 0.7; }
+      .main-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; }
+      .state-label { font-family: Arial, sans-serif; font-size: 11px; text-anchor: middle; fill: #333;}
+      .note-label { font-family: Arial, sans-serif; font-size: 11px; font-style: italic; text-anchor: middle; fill: #555; }
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; text-anchor: middle; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; fill: #555; }
+      .retry-icon { font-family: Arial, sans-serif; font-size: 18px; fill: #e65100; text-anchor: middle; dominant-baseline: central; }
+      .phase-bg { fill: #f9f9f9; stroke: #e0e0e0; stroke-width: 1; rx: 10; ry: 10; opacity: 0.4; }
+      .phase-label { font-family: Arial, sans-serif; font-size: 12px; fill: #757575; font-style: italic; text-anchor: start; }
+      .legend-box { fill: white; stroke: #bdbdbd; stroke-width: 1; rx: 5; ry: 5; }
+      .legend-label { font-family: Arial, sans-serif; font-size: 12px; text-anchor: start; fill: #333; }
+      .legend-title { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; text-anchor: start; fill: #333; }
+    </style>
+  </defs>
+  <!-- Phase Backgrounds -->
+  <rect
+     x="60"
+     y="180"
+     width="680"
+     height="100"
+     class="phase-bg"
+     id="rect3" />
+  <text
+     x="75"
+     y="200"
+     class="phase-label"
+     id="text3">Data Validation Phase</text>
+  <rect
+     x="60"
+     y="290"
+     width="680"
+     height="190"
+     class="phase-bg"
+     id="rect4" />
+  <text
+     x="75"
+     y="310"
+     class="phase-label"
+     id="text4">Data Transformation Phase</text>
+  <rect
+     x="60"
+     y="490"
+     width="680"
+     height="140"
+     class="phase-bg"
+     id="rect5" />
+  <text
+     x="75"
+     y="510"
+     class="phase-label"
+     id="text5">Data Analysis Phase</text>
+  <text
+     x="400"
+     y="40"
+     class="title"
+     id="text6">AWS Workflow Orchestration</text>
+  <text
+     x="400"
+     y="65"
+     class="subtitle"
+     id="text7">Coordinating Data Processing Pipelines</text>
+  <rect
+     x="300"
+     y="90"
+     width="200"
+     height="60"
+     rx="10"
+     ry="10"
+     class="orchestrator"
+     id="rect7" />
+  <text
+     x="400"
+     y="118"
+     class="main-label"
+     id="text8">Orchestrator</text>
+  <text
+     x="400"
+     y="135"
+     class="state-label"
+     id="text9">(Step Functions / MWAA)</text>
+  <rect
+     x="80"
+     y="205"
+     width="120"
+     height="60"
+     class="data-store"
+     id="rect9" />
+  <text
+     x="140"
+     y="230"
+     class="state-label"
+     id="text10">Raw Data</text>
+  <text
+     x="140"
+     y="248"
+     class="state-label"
+     id="text11">S3 Bucket</text>
+  <rect
+     x="325"
+     y="200"
+     width="150"
+     height="60"
+     rx="8"
+     ry="8"
+     class="lambda-task"
+     id="rect11" />
+  <text
+     x="400"
+     y="228"
+     class="main-label"
+     id="text12">Validate Data</text>
+  <text
+     x="400"
+     y="246"
+     class="state-label"
+     id="text13">Lambda Function</text>
+  <polygon
+     points="400,290 450,325 400,360 350,325"
+     class="decision-node"
+     id="polygon13" />
+  <text
+     x="400"
+     y="320"
+     class="main-label"
+     id="text14">Quality</text>
+  <text
+     x="400"
+     y="338"
+     class="state-label"
+     id="text15">OK?</text>
+  <rect
+     x="150"
+     y="390"
+     width="150"
+     height="60"
+     rx="8"
+     ry="8"
+     class="batch-task"
+     id="rect15" />
+  <text
+     x="225"
+     y="418"
+     class="main-label"
+     id="text16">Transform Data</text>
+  <text
+     x="225"
+     y="436"
+     class="state-label"
+     id="text17">AWS Batch Job</text>
+  <text
+     x="310"
+     y="443"
+     class="retry-icon"
+     id="text18">🔁</text>
+  <text
+     x="310"
+     y="458"
+     class="note-label"
+     id="text19">(Retry Logic)</text>
+  <rect
+     x="325"
+     y="490"
+     width="150"
+     height="60"
+     rx="8"
+     ry="8"
+     class="emr-task"
+     id="rect19" />
+  <text
+     x="400"
+     y="518"
+     class="main-label"
+     id="text20">Analyze Data</text>
+  <text
+     x="400"
+     y="536"
+     class="state-label"
+     id="text21">EMR Step</text>
+  <text
+     x="485.84555"
+     y="544.6347"
+     class="retry-icon"
+     id="text22">🔁</text>
+  <text
+     x="485.84555"
+     y="559.6347"
+     class="note-label"
+     id="text23">(Retry Logic)</text>
+  <rect
+     x="570"
+     y="495"
+     width="120"
+     height="60"
+     class="data-store"
+     id="rect23" />
+  <text
+     x="630"
+     y="520"
+     class="state-label"
+     id="text24">Processed Data</text>
+  <text
+     x="630"
+     y="538"
+     class="state-label"
+     id="text25">S3 Bucket</text>
+  <rect
+     x="325"
+     y="590"
+     width="150"
+     height="50"
+     rx="8"
+     ry="8"
+     class="error-handler"
+     id="rect25" />
+  <text
+     x="400"
+     y="615"
+     class="main-label"
+     id="text26">Handle Error</text>
+  <text
+     x="400"
+     y="633"
+     class="state-label"
+     id="text27">Notify/Log</text>
+  <ellipse
+     cx="630"
+     cy="595"
+     rx="100"
+     ry="35"
+     class="success-node"
+     id="ellipse27" />
+  <text
+     x="630"
+     y="600"
+     class="main-label"
+     id="text28">Workflow Complete</text>
+  <path
+     d="M 400,150 V 200"
+     class="control-flow"
+     id="path28" />
+  <path
+     d="M 400,260 V 290"
+     class="control-flow"
+     id="path29" />
+  <path
+     d="M 350,325 H 262.5 Q 225,325 225,360 V 390"
+     class="control-flow"
+     id="path30" />
+  <text
+     x="310"
+     y="315"
+     class="note-label"
+     id="text30">Needs Transform</text>
+  <path
+     d="M 225,450 V 480 Q 225,520 325,520"
+     class="control-flow"
+     id="path31" />
+  <path
+     d="M 450,325 H 537.5 Q 575,325 575,370 Q 575,450 475,520"
+     class="control-flow"
+     id="path32" />
+  <text
+     x="510"
+     y="315"
+     class="note-label"
+     id="text32">Quality OK</text>
+  <path
+     d="M 400,550 V 590"
+     class="error-flow"
+     id="path33" />
+  <text
+     x="440"
+     y="575"
+     class="note-label"
+     fill="#D32F2F"
+     id="text33">On Failure</text>
+  <path
+     d="M 475,520 H 570"
+     class="control-flow"
+     id="path34" />
+  <path
+     d="M 690,520 Q 710,540 710,580 H 630"
+     class="control-flow"
+     id="path35" />
+  <path
+     d="M 200,230 H 325"
+     class="data-flow"
+     id="path36" />
+  <path
+     d="M 475,520 H 570"
+     class="data-flow"
+     id="path37" />
+  <!-- Legend -->
+  <rect
+     x="589.87036"
+     y="34.148811"
+     width="190"
+     height="140"
+     class="legend-box"
+     id="rect37" />
+  <text
+     x="599.87036"
+     y="54.148811"
+     class="legend-title"
+     id="text37">Legend</text>
+  <rect
+     x="599.87036"
+     y="64.148811"
+     width="20"
+     height="15"
+     class="lambda-task"
+     rx="2"
+     ry="2"
+     id="rect38" />
+  <text
+     x="629.87036"
+     y="76.148811"
+     class="legend-label"
+     id="text38">AWS Lambda</text>
+  <rect
+     x="599.87036"
+     y="89.148811"
+     width="20"
+     height="15"
+     class="batch-task"
+     rx="2"
+     ry="2"
+     id="rect39" />
+  <text
+     x="629.87036"
+     y="101.14881"
+     class="legend-label"
+     id="text39">AWS Batch</text>
+  <rect
+     x="599.87036"
+     y="114.14881"
+     width="20"
+     height="15"
+     class="emr-task"
+     rx="2"
+     ry="2"
+     id="rect40" />
+  <text
+     x="629.87036"
+     y="126.14881"
+     class="legend-label"
+     id="text40">AWS EMR</text>
+  <line
+     x1="599.87036"
+     y1="139.1488"
+     x2="619.87036"
+     y2="139.1488"
+     class="control-flow"
+     id="line40" />
+  <text
+     x="629.87036"
+     y="144.1488"
+     class="legend-label"
+     id="text41">Control Flow</text>
+  <line
+     x1="580"
+     y1="795"
+     x2="600"
+     y2="795"
+     class="error-flow"
+     id="line41" />
+  <text
+     x="610"
+     y="800"
+     class="legend-label"
+     id="text42">Error Flow</text>
+</svg>

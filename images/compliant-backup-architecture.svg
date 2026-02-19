@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 584.53326"
+   version="1.1"
+   id="svg54"
+   sodipodi:docname="compliant-backup-architecture.svg"
+   width="900"
+   height="584.53326"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview54"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.827366"
+     inkscape:cx="386.34845"
+     inkscape:cy="166.08605"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg54" />
+  <!-- Background -->
+  <rect
+     width="900"
+     height="584.53326"
+     fill="#f8f9fa"
+     stroke="none"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.999999" />
+  <path
+     style="fill:none;stroke:#666666;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     d="m 210.21282,191.02439 c 0,-13.46749 0,-26.935 0,-40.4025"
+     id="path61-6"
+     inkscape:path-effect="#path-effect61-1"
+     sodipodi:nodetypes="cc"
+     transform="translate(338.50438,-39.294218)" />
+  <!-- Title -->
+  <!-- Source Resources (Top Row) -->
+  <text
+     x="449.72638"
+     y="30.735832"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:14px;font-family:Arial, sans-serif;fill:#2c3e50"
+     id="text2">Source AWS Resources</text>
+  <!-- RDS Database -->
+  <rect
+     x="149.72638"
+     y="50.735832"
+     width="120"
+     height="60"
+     rx="8"
+     fill="#3498db"
+     stroke="#2980b9"
+     stroke-width="2"
+     id="rect2" />
+  <text
+     x="209.72638"
+     y="75.735832"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text3">RDS</text>
+  <text
+     x="209.72638"
+     y="95.735832"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text4">Database</text>
+  <!-- EC2 + EBS -->
+  <rect
+     x="319.72638"
+     y="50.735832"
+     width="120"
+     height="60"
+     rx="8"
+     fill="#e67e22"
+     stroke="#d35400"
+     stroke-width="2"
+     id="rect4" />
+  <text
+     x="379.72638"
+     y="75.735832"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text5">EC2 +</text>
+  <text
+     x="379.72638"
+     y="95.735832"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text6">EBS Volumes</text>
+  <!-- Other Resources -->
+  <rect
+     x="489.72638"
+     y="50.735832"
+     width="120"
+     height="60"
+     rx="8"
+     fill="#9b59b6"
+     stroke="#8e44ad"
+     stroke-width="2"
+     id="rect6" />
+  <text
+     x="549.72638"
+     y="75.735832"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text7">Other AWS</text>
+  <text
+     x="549.72638"
+     y="95.735832"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text8">Resources</text>
+  <!-- Arrows from sources to AWS Backup -->
+  <!-- Converging lines to AWS Backup Service -->
+  <line
+     x1="209.72638"
+     y1="150.73584"
+     x2="379.72638"
+     y2="150.73584"
+     stroke="#666666"
+     stroke-width="2"
+     id="line11" />
+  <line
+     x1="549.72638"
+     y1="150.73584"
+     x2="379.72638"
+     y2="150.73584"
+     stroke="#666666"
+     stroke-width="2"
+     id="line12" />
+  <g
+     id="line13"
+     transform="translate(-1.6417073,-78.254716)">
+    <path
+       d="m 380,190 v 20"
+       id="path59" />
+    <path
+       style="fill:#666666;stroke-width:0.999997"
+       d="m 378.8153,190 v 48.31945 h 2.64299 V 190 Z"
+       id="path60" />
+    <g
+       id="g58">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#666666"
+         id="polygon58"
+         transform="rotate(90,72.917602,310.85602)"
+         style="fill:#666666" />
+    </g>
+  </g>
+  <!-- AWS Backup Service -->
+  <rect
+     x="309.72638"
+     y="170.73584"
+     width="140"
+     height="50"
+     rx="8"
+     fill="#ff9900"
+     stroke="#cc7a00"
+     stroke-width="2"
+     id="rect13" />
+  <text
+     x="379.72638"
+     y="195.73584"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:13px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text13">AWS Backup</text>
+  <text
+     x="379.72638"
+     y="210.73584"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:13px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text14">Service</text>
+  <!-- Arrow from AWS Backup to Primary Vault -->
+  <line
+     x1="379.72638"
+     y1="220.73584"
+     x2="379.72638"
+     y2="260.73584"
+     stroke="#666666"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line14" />
+  <!-- Primary Backup Vault -->
+  <rect
+     x="245.66336"
+     y="260.73584"
+     width="272.18906"
+     height="100"
+     rx="8.3750477"
+     fill="#ecf0f1"
+     stroke="#95a5a6"
+     stroke-width="3"
+     id="rect14" />
+  <text
+     x="379.72638"
+     y="285.73584"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:14px;font-family:Arial, sans-serif;fill:#2c3e50"
+     id="text15">AWS Backup Vault - Primary Region</text>
+  <!-- KMS Encryption Badge -->
+  <rect
+     x="259.72638"
+     y="300.73584"
+     width="110"
+     height="25"
+     rx="12"
+     fill="#3498db"
+     stroke="#2980b9"
+     stroke-width="1"
+     id="rect15" />
+  <g
+     transform="translate(269.94169,319.23583)"
+     id="g5">
+    <!-- Key head (circular part) -->
+    <circle
+       cx="8"
+       cy="10"
+       r="7"
+       fill="#2c3e50"
+       stroke="#ffffff"
+       stroke-width="1"
+       id="circle2" />
+    <circle
+       cx="8"
+       cy="10"
+       r="3"
+       fill="#ffffff"
+       id="circle3" />
+    <!-- Key shaft -->
+    <rect
+       x="15"
+       y="8"
+       width="25"
+       height="4"
+       fill="#2c3e50"
+       id="rect3" />
+    <!-- Key teeth -->
+    <rect
+       x="35"
+       y="8"
+       width="3"
+       height="6"
+       fill="#2c3e50"
+       id="rect4-0" />
+    <rect
+       x="40"
+       y="10"
+       width="3"
+       height="4"
+       fill="#2c3e50"
+       id="rect5" />
+  </g>
+  <!-- Key icon -->
+  <text
+     x="304.72638"
+     y="317.73584"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text19">KMS Encryption</text>
+  <!-- Vault Lock Badge -->
+  <rect
+     x="379.72638"
+     y="300.73584"
+     width="120"
+     height="25"
+     rx="12"
+     fill="#e74c3c"
+     stroke="#c0392b"
+     stroke-width="1"
+     id="rect20" />
+  <g
+     transform="translate(380.31151,320.91411)"
+     id="g6">
+    <!-- Vault door -->
+    <rect
+       x="0"
+       y="0"
+       width="20"
+       height="20"
+       rx="2"
+       fill="#2c3e50"
+       stroke="#ffffff"
+       stroke-width="1"
+       id="rect3-1" />
+    <!-- Vault handle/wheel -->
+    <circle
+       cx="15"
+       cy="10"
+       r="4"
+       fill="#ffffff"
+       stroke="#2c3e50"
+       stroke-width="1"
+       id="circle3-7" />
+    <circle
+       cx="15"
+       cy="10"
+       r="2"
+       fill="#2c3e50"
+       id="circle4" />
+    <!-- Lock mechanism lines -->
+    <line
+       x1="11"
+       y1="6"
+       x2="19"
+       y2="6"
+       stroke="#ffffff"
+       stroke-width="0.5"
+       id="line4" />
+    <line
+       x1="11"
+       y1="14"
+       x2="19"
+       y2="14"
+       stroke="#ffffff"
+       stroke-width="0.5"
+       id="line5" />
+    <!-- Heavy lock overlay -->
+    <rect
+       x="22"
+       y="5"
+       width="8"
+       height="10"
+       rx="1"
+       fill="#2c3e50"
+       stroke="#ffffff"
+       stroke-width="1"
+       id="rect5-1" />
+    <rect
+       x="24"
+       y="3"
+       width="4"
+       height="4"
+       rx="2"
+       fill="none"
+       stroke="#2c3e50"
+       stroke-width="1.5"
+       id="rect6-1" />
+  </g>
+  <!-- Vault door icon -->
+  <text
+     x="439.72638"
+     y="317.73584"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text22">Vault Lock (WORM)</text>
+  <!-- Compliance Mode indicator -->
+  <text
+     x="380.30682"
+     y="349.79886"
+     text-anchor="middle"
+     style="font-style:italic;font-size:11px;font-family:Arial, sans-serif;fill:#e74c3c"
+     id="text23">Compliance Mode - Immutable Until Retention Expires</text>
+  <!-- Arrow to DR Region -->
+  <line
+     x1="379.72638"
+     y1="360.73584"
+     x2="379.72638"
+     y2="407.00082"
+     stroke="#666666"
+     stroke-width="2.31325"
+     marker-end="url(#arrowhead)"
+     id="line23" />
+  <text
+     x="273.29187"
+     y="386.8967"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#666666"
+     id="text24">Cross-Region Copy</text>
+  <!-- DR Region Backup Vault -->
+  <rect
+     x="245.08293"
+     y="410.73584"
+     width="271.80209"
+     height="100"
+     rx="8.363142"
+     fill="#ecf0f1"
+     stroke="#95a5a6"
+     stroke-width="3"
+     id="rect24" />
+  <text
+     x="379.72638"
+     y="435.73584"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:14px;font-family:Arial, sans-serif;fill:#2c3e50"
+     id="text25">AWS Backup Vault - DR Region</text>
+  <!-- KMS Encryption Badge (DR) -->
+  <rect
+     x="259.72638"
+     y="450.73584"
+     width="110"
+     height="25"
+     rx="12"
+     fill="#3498db"
+     stroke="#2980b9"
+     stroke-width="1"
+     id="rect25" />
+  <g
+     transform="translate(269.73937,469.23361)"
+     id="g5-9">
+    <!-- Key head (circular part) -->
+    <circle
+       cx="8"
+       cy="10"
+       r="7"
+       fill="#2c3e50"
+       stroke="#ffffff"
+       stroke-width="1"
+       id="circle2-4" />
+    <circle
+       cx="8"
+       cy="10"
+       r="3"
+       fill="#ffffff"
+       id="circle3-8" />
+    <!-- Key shaft -->
+    <rect
+       x="15"
+       y="8"
+       width="25"
+       height="4"
+       fill="#2c3e50"
+       id="rect3-8" />
+    <!-- Key teeth -->
+    <rect
+       x="35"
+       y="8"
+       width="3"
+       height="6"
+       fill="#2c3e50"
+       id="rect4-2" />
+    <rect
+       x="40"
+       y="10"
+       width="3"
+       height="4"
+       fill="#2c3e50"
+       id="rect5-4" />
+  </g>
+  <!-- Key icon -->
+  <text
+     x="304.72638"
+     y="467.73584"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text29">KMS Encryption</text>
+  <!-- Vault Lock Badge (DR) -->
+  <rect
+     x="379.72638"
+     y="450.73584"
+     width="120"
+     height="25"
+     rx="12"
+     fill="#e74c3c"
+     stroke="#c0392b"
+     stroke-width="1"
+     id="rect30" />
+  <g
+     transform="translate(387.36568,470.90968)"
+     id="g6-5">
+    <!-- Vault door -->
+    <rect
+       x="0"
+       y="0"
+       width="20"
+       height="20"
+       rx="2"
+       fill="#2c3e50"
+       stroke="#ffffff"
+       stroke-width="1"
+       id="rect3-2" />
+    <!-- Vault handle/wheel -->
+    <circle
+       cx="15"
+       cy="10"
+       r="4"
+       fill="#ffffff"
+       stroke="#2c3e50"
+       stroke-width="1"
+       id="circle3-76" />
+    <circle
+       cx="15"
+       cy="10"
+       r="2"
+       fill="#2c3e50"
+       id="circle4-1" />
+    <!-- Lock mechanism lines -->
+    <line
+       x1="11"
+       y1="6"
+       x2="19"
+       y2="6"
+       stroke="#ffffff"
+       stroke-width="0.5"
+       id="line4-4" />
+    <line
+       x1="11"
+       y1="14"
+       x2="19"
+       y2="14"
+       stroke="#ffffff"
+       stroke-width="0.5"
+       id="line5-2" />
+    <!-- Heavy lock overlay -->
+    <rect
+       x="22"
+       y="5"
+       width="8"
+       height="10"
+       rx="1"
+       fill="#2c3e50"
+       stroke="#ffffff"
+       stroke-width="1"
+       id="rect5-3" />
+    <rect
+       x="24"
+       y="3"
+       width="4"
+       height="4"
+       rx="2"
+       fill="none"
+       stroke="#2c3e50"
+       stroke-width="1.5"
+       id="rect6-2" />
+  </g>
+  <!-- Vault door icon -->
+  <text
+     x="439.72638"
+     y="467.73584"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text32">Vault Lock (WORM)</text>
+  <!-- Compliance Mode indicator (DR) -->
+  <text
+     x="379.91986"
+     y="500.57275"
+     text-anchor="middle"
+     style="font-style:italic;font-size:11px;font-family:Arial, sans-serif;fill:#e74c3c"
+     id="text33">Compliance Mode - Immutable Until Retention Expires</text>
+  <!-- Compliance Features Box -->
+  <rect
+     x="579.72638"
+     y="260.73584"
+     width="280"
+     height="180"
+     rx="8"
+     fill="#ffffff"
+     stroke="#dee2e6"
+     stroke-width="2"
+     id="rect33" />
+  <text
+     x="589.72638"
+     y="285.73584"
+     style="font-weight:bold;font-size:14px;font-family:Arial, sans-serif;fill:#2c3e50"
+     id="text34">Key Compliance Features:</text>
+  <text
+     x="589.72638"
+     y="310.73584"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#3498db"
+     id="text35">🔐 KMS Customer Managed Keys (CMK)</text>
+  <text
+     x="589.72638"
+     y="325.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text36">• Granular key access policies</text>
+  <text
+     x="589.72638"
+     y="340.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text37">• CloudTrail audit trails for compliance</text>
+  <text
+     x="589.72638"
+     y="355.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text38">• 256-bit AES encryption at rest</text>
+  <text
+     x="589.72638"
+     y="380.73584"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#e74c3c"
+     id="text39">🏦 WORM Compliance (Vault Lock)</text>
+  <text
+     x="589.72638"
+     y="395.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text40">• Write-Once-Read-Many protection</text>
+  <text
+     x="589.72638"
+     y="410.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text41">• Immutable even for root account</text>
+  <text
+     x="589.72638"
+     y="425.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text42">• SEC Rule 17a-4 compliant</text>
+  <!-- Benefits Box -->
+  <rect
+     x="49.726383"
+     y="260.73584"
+     width="180"
+     height="120"
+     rx="8"
+     fill="#f8f9fa"
+     stroke="#dee2e6"
+     stroke-width="2"
+     id="rect42" />
+  <text
+     x="59.726383"
+     y="285.73584"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#2c3e50"
+     id="text43">Regulatory Benefits:</text>
+  <text
+     x="59.726383"
+     y="305.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#27ae60"
+     id="text44">✓ Financial data compliance</text>
+  <text
+     x="59.726383"
+     y="320.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#27ae60"
+     id="text45">✓ Healthcare HIPAA ready</text>
+  <text
+     x="59.726383"
+     y="335.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#27ae60"
+     id="text46">✓ Tamper-evident backups</text>
+  <text
+     x="59.726383"
+     y="350.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#27ae60"
+     id="text47">✓ Cross-region DR protection</text>
+  <text
+     x="59.726383"
+     y="365.73584"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#27ae60"
+     id="text48">✓ Automated retention mgmt</text>
+  <!-- Arrow marker definition -->
+  <defs
+     id="defs48">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect61"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#666666"
+         id="polygon48" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect61-1"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <!-- Bottom note -->
+  <text
+     x="441.51785"
+     y="563.37402"
+     text-anchor="middle"
+     style="font-style:italic;font-size:16px;font-family:Arial, sans-serif;fill:#7f8c8d"
+     id="text49">Backup retention periods and compliance modes are configured per vault to meet specific regulatory requirements</text>
+  <!-- Legend -->
+  <path
+     style="fill:none;stroke:#666666;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     d="m 210.21282,191.02439 c 0,-13.46749 0,-26.935 0,-40.4025"
+     id="path61"
+     inkscape:path-effect="#path-effect61"
+     inkscape:original-d="m 210.21282,191.02439 c 0,-13.46749 0,-26.935 0,-40.4025"
+     sodipodi:nodetypes="cc"
+     transform="translate(-0.27361789,-39.264168)" />
+</svg>

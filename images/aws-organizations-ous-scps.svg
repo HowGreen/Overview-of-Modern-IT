@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 847 482.26611"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="aws-organizations-ous-scps.svg"
+   width="847"
+   height="482.26611"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <rect
+     width="100%"
+     height="80.377686%"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.999996" />
+  <defs
+     id="defs40">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect54"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect53"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect52"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.1319269"
+     inkscape:cx="371.02585"
+     inkscape:cy="226.79014"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg40" />
+  <!-- Background -->
+  <!-- Title -->
+  <!-- Root Organization -->
+  <rect
+     x="355.5141"
+     y="27.82753"
+     width="150"
+     height="40"
+     rx="8"
+     fill="#ff9900"
+     stroke="#cc7a00"
+     stroke-width="2"
+     id="rect2" />
+  <text
+     x="430.5141"
+     y="52.82753"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:14px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text2">Root Organization</text>
+  <!-- Main connecting lines from root -->
+  <g
+     id="g50"
+     transform="matrix(1.3034556,0,0,1,-129.20023,0)"
+     style="stroke-width:0.875896">
+    <path
+       id="line2"
+       style="stroke:#666666;stroke-width:1.75179"
+       d="m 430.5141,67.82753 v 40" />
+    <path
+       id="line3"
+       style="stroke:#666666;stroke-width:1.75179"
+       d="M 205.97015,107.82753 H 655.38972"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="line4"
+       style="stroke:#666666;stroke-width:1.75179"
+       d="m 206.96518,107.66169 v 20" />
+    <line
+       x1="430.5141"
+       y1="107.82753"
+       x2="430.5141"
+       y2="127.82753"
+       stroke="#666666"
+       stroke-width="1.75179"
+       id="line5" />
+    <g
+       id="g49"
+       style="stroke-width:0.875896">
+      <path
+         id="line6"
+         style="stroke:#666666;stroke-width:1.75179"
+         d="M 654.5767,106.99835 V 127.9507"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+  <!-- OU: Finance Systems -->
+  <g
+     id="g40"
+     transform="translate(-94.1317,0.89787953)">
+    <rect
+       x="155.5141"
+       y="127.82753"
+       width="150"
+       height="40"
+       rx="6"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="rect6" />
+    <text
+       x="230.5141"
+       y="152.82753"
+       text-anchor="middle"
+       style="font-weight:bold;font-size:13px;font-family:Arial, sans-serif;fill:#ffffff"
+       id="text6">Finance Systems OU</text>
+  </g>
+  <!-- OU: HR Systems -->
+  <g
+     id="g41">
+    <rect
+       x="355.5141"
+       y="127.82753"
+       width="150"
+       height="40"
+       rx="6"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="rect7" />
+    <text
+       x="430.5141"
+       y="152.82753"
+       text-anchor="middle"
+       style="font-weight:bold;font-size:13px;font-family:Arial, sans-serif;fill:#ffffff"
+       id="text7">HR Systems OU</text>
+  </g>
+  <!-- OU: Internal Tools -->
+  <g
+     id="g42"
+     transform="translate(91.970234,1.1324091)">
+    <rect
+       x="555.5141"
+       y="127.82753"
+       width="150"
+       height="40"
+       rx="6"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="rect8" />
+    <text
+       x="630.5141"
+       y="152.82753"
+       text-anchor="middle"
+       style="font-weight:bold;font-size:13px;font-family:Arial, sans-serif;fill:#ffffff"
+       id="text8">Internal Tools OU</text>
+  </g>
+  <!-- Connecting lines to accounts -->
+  <path
+     id="line8"
+     style="stroke:#666666;stroke-width:2"
+     d="m 135.29999,169.5546 v 40" />
+  <path
+     id="line9"
+     style="stroke:#666666;stroke-width:2"
+     d="M 58.741242,209.32007 H 210.17558"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line10"
+     style="stroke:#666666;stroke-width:2"
+     d="M 59.736262,209.32007 V 228.829"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line11"
+     style="stroke:#666666;stroke-width:2"
+     d="M 209.22201,208.85101 V 228.829"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line12"
+     style="stroke:#666666;stroke-width:2"
+     d="m 430.5769,168.70529 v 40" />
+  <path
+     id="line13"
+     style="stroke:#666666;stroke-width:2.00001"
+     d="M 348.73374,208.70529 H 508.36766"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line14"
+     style="stroke:#666666;stroke-width:2.00001"
+     d="M 349.63922,209.01311 V 228.829"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line15"
+     style="stroke:#666666;stroke-width:2.00001"
+     d="m 507.46436,209.05708 0.0187,19.77192"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line16"
+     style="stroke:#666666;stroke-width:2"
+     d="m 724.14359,169.94135 v 40" />
+  <path
+     id="line17"
+     style="stroke:#666666;stroke-width:2"
+     d="M 658.84859,209.47229 H 789.796"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line18"
+     style="stroke:#666666;stroke-width:2"
+     d="M 659.70197,208.61465 V 228.829"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line19"
+     style="stroke:#666666;stroke-width:2"
+     d="M 788.73097,209.94135 V 228.829"
+     sodipodi:nodetypes="cc" />
+  <!-- AWS Accounts under Finance Systems -->
+  <g
+     id="g43"
+     transform="translate(-73.039779,-30.694001)">
+    <rect
+       x="89.071777"
+       y="260"
+       width="123.49815"
+       height="35"
+       rx="3.2932842"
+       fill="#ecf0f1"
+       stroke="#bdc3c7"
+       stroke-width="0.999997"
+       id="rect19" />
+    <text
+       x="150"
+       y="282"
+       text-anchor="middle"
+       style="font-size:12px;font-family:Arial, sans-serif;fill:#34495e"
+       id="text19">Finance Prod Account</text>
+  </g>
+  <g
+     id="g44"
+     transform="translate(-36.767595,-30.694161)">
+    <rect
+       x="187.89912"
+       y="260"
+       width="123.0291"
+       height="35"
+       rx="3.280776"
+       fill="#ecf0f1"
+       stroke="#bdc3c7"
+       stroke-width="0.999999"
+       id="rect20" />
+    <text
+       x="250"
+       y="282"
+       text-anchor="middle"
+       style="font-size:12px;font-family:Arial, sans-serif;fill:#34495e"
+       id="text20">Finance Dev Account</text>
+  </g>
+  <!-- AWS Accounts under HR Systems -->
+  <g
+     id="g45"
+     transform="matrix(0.93762936,0,0,1,19.775695,-30.694)"
+     style="stroke-width:1.03272">
+    <rect
+       x="297.51483"
+       y="260"
+       width="106.61202"
+       height="35"
+       rx="2.8429871"
+       fill="#ecf0f1"
+       stroke="#bdc3c7"
+       stroke-width="1.03272"
+       id="rect21" />
+    <text
+       x="350"
+       y="282"
+       text-anchor="middle"
+       style="font-size:12px;font-family:Arial, sans-serif;fill:#34495e;stroke-width:1.03272"
+       id="text21">HR Portal Account</text>
+  </g>
+  <g
+     id="g46"
+     transform="matrix(0.93762936,0,0,1,78.884333,-30.694001)"
+     style="stroke-width:1.03272">
+    <rect
+       x="389.77536"
+       y="260"
+       width="120.91833"
+       height="35"
+       rx="3.2244887"
+       fill="#ecf0f1"
+       stroke="#bdc3c7"
+       stroke-width="1.03272"
+       id="rect22" />
+    <text
+       x="450"
+       y="282"
+       text-anchor="middle"
+       style="font-size:12px;font-family:Arial, sans-serif;fill:#34495e;stroke-width:1.03272"
+       id="text22">HR Analytics Account</text>
+  </g>
+  <!-- AWS Accounts under Internal Tools -->
+  <g
+     id="g47"
+     transform="translate(108.03164,-30.694003)">
+    <rect
+       x="497.74936"
+       y="260"
+       width="104.73579"
+       height="35"
+       rx="2.7929544"
+       fill="#ecf0f1"
+       stroke="#bdc3c7"
+       stroke-width="0.999995"
+       id="rect23" />
+    <text
+       x="550"
+       y="282"
+       text-anchor="middle"
+       style="font-size:12px;font-family:Arial, sans-serif;fill:#34495e"
+       id="text23">Dev Tools Account</text>
+  </g>
+  <g
+     id="g48"
+     transform="translate(131.13995,-30.694)">
+    <rect
+       x="599.39105"
+       y="260"
+       width="103.09407"
+       height="35"
+       rx="2.7491753"
+       fill="#ecf0f1"
+       stroke="#bdc3c7"
+       stroke-width="1"
+       id="rect24" />
+    <text
+       x="650"
+       y="282"
+       text-anchor="middle"
+       style="font-size:12px;font-family:Arial, sans-serif;fill:#34495e"
+       id="text24">Sandbox Account</text>
+  </g>
+  <!-- SCP Policy Indicators -->
+  <!-- Finance SCP -->
+  <rect
+     x="107.64511"
+     y="327.65341"
+     width="60"
+     height="25"
+     rx="12"
+     fill="#e74c3c"
+     id="rect25" />
+  <text
+     x="137.64511"
+     y="343.65341"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text25">SCP</text>
+  <!-- HR SCP -->
+  <rect
+     x="401.84079"
+     y="327.65302"
+     width="60"
+     height="25"
+     rx="12"
+     fill="#e74c3c"
+     id="rect26" />
+  <text
+     x="431.84079"
+     y="343.65302"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text26">SCP</text>
+  <!-- Internal Tools SCP -->
+  <rect
+     x="701.76904"
+     y="327.65302"
+     width="60"
+     height="25"
+     rx="12"
+     fill="#e74c3c"
+     id="rect27" />
+  <text
+     x="731.76904"
+     y="343.65302"
+     text-anchor="middle"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#ffffff"
+     id="text27">SCP</text>
+  <!-- Policy descriptions -->
+  <!-- Benefits box -->
+  <rect
+     x="296.61765"
+     y="372.34531"
+     width="246.82675"
+     height="80"
+     rx="4.6280017"
+     fill="#f8f9fa"
+     stroke="#dee2e6"
+     stroke-width="1"
+     id="rect31" />
+  <text
+     x="310.79694"
+     y="390.78836"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#2c3e50"
+     id="text28">Service Control Policies (SCPs):</text>
+  <text
+     x="310.79694"
+     y="410.78836"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text29">• Enforce mandatory cost allocation tagging</text>
+  <text
+     x="310.79694"
+     y="425.78836"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text30">• Restrict service usage to approved regions</text>
+  <text
+     x="310.79694"
+     y="440.78836"
+     style="font-size:11px;font-family:Arial, sans-serif;fill:#34495e"
+     id="text31">• Prevent deletion of critical audit resources</text>
+  <!-- Legend -->
+  <path
+     style="fill:none;stroke:#f44336;stroke-width:2;stroke-dasharray:4, 2;paint-order:markers stroke fill"
+     d="m 15.887063,270.53296 c 21.356717,15.37086 42.713448,30.74172 74.007007,38.16809 31.29356,7.42638 72.52396,6.90827 104.77809,-0.89343 32.25414,-7.80169 55.53108,-22.88637 78.80848,-37.97135"
+     id="path52"
+     inkscape:path-effect="#path-effect52"
+     inkscape:original-d="m 15.887063,270.53296 c 21.356721,15.37085 42.713447,30.74172 64.070173,46.11258 41.230394,-0.51811 82.460794,-1.03622 123.691184,-1.55433 23.27788,-15.08528 46.55482,-30.16996 69.83222,-45.25494"
+     sodipodi:nodetypes="cccc" />
+  <path
+     style="fill:none;stroke:#f44336;stroke-width:1.95273;stroke-dasharray:3.90546, 1.95273;paint-order:markers stroke fill"
+     d="m 299.8813,270.48955 c 20.74052,13.91054 41.48061,27.82079 73.52611,34.99977 32.04549,7.17899 75.39293,7.62611 108.19013,0.30299 32.79719,-7.32312 55.04065,-22.41592 77.28453,-37.50901"
+     id="path53"
+     inkscape:path-effect="#path-effect53"
+     inkscape:original-d="m 299.8813,270.48955 c 20.74052,13.91054 41.48061,27.82079 62.22154,41.7316 43.35006,0.44716 86.6975,0.89429 130.04756,1.34144 22.24433,-15.0934 44.48779,-30.1862 66.73167,-45.27929"
+     sodipodi:nodetypes="cccc"
+     transform="matrix(1,0,0,1.0490005,0,-12.844056)" />
+  <path
+     style="fill:none;stroke:#f44336;stroke-width:2;stroke-dasharray:4, 2;paint-order:markers stroke fill"
+     d="m 603.85653,270.0777 c 19.08866,14.45957 38.17692,28.91884 68.70829,36.22139 30.53138,7.30256 72.50256,7.44779 101.22081,0.65455 28.71824,-6.79324 44.18037,-20.52441 59.64283,-34.25587"
+     id="path54"
+     inkscape:path-effect="#path-effect54"
+     inkscape:original-d="m 603.85653,270.0777 c 19.08866,14.45957 38.17692,28.91884 57.26596,43.3787 41.97371,0.14525 83.94489,0.29048 125.91862,0.43573 15.46276,-13.73173 30.92489,-27.4629 46.38735,-41.19436"
+     sodipodi:nodetypes="cccc" />
+</svg>

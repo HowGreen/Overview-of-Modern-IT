@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Styles -->
+  <style>
+    .auth-text {
+      font-family: Arial, Helvetica, sans-serif;
+      fill: #333333;
+    }
+    .auth-label {
+      font-size: 14px;
+      font-weight: bold;
+      text-anchor: middle;
+    }
+    .auth-user-circle {
+      fill: #E1F5FE;
+      stroke: #81D4FA;
+      stroke-width: 2;
+    }
+    .auth-user-head {
+      fill: #455A64;
+      stroke: #263238;
+      stroke-width: 1;
+    }
+    .auth-user-body {
+      fill: #455A64;
+      stroke: #263238;
+      stroke-width: 1;
+    }
+    .auth-device {
+      fill: #FFFFFF;
+      stroke: #BDBDBD;
+      stroke-width: 2;
+    }
+    .auth-device-screen {
+      fill: #E0F7FA;
+      stroke: #80DEEA;
+      stroke-width: 1;
+    }
+    .auth-play-button {
+      fill: #4DD0E1;
+    }
+    .auth-controls {
+      fill: #B0BEC5;
+    }
+  </style>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="80" class="auth-user-circle" />
+
+  <!-- User figure -->
+  <circle cx="100" cy="65" r="18" class="auth-user-head" />
+  <!-- User body (simplified) -->
+  <path d="M100,85 L100,115 M85,95 L115,95" stroke="#455A64" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Media device -->
+  <rect x="55" y="120" width="90" height="55" rx="3" ry="3" class="auth-device" />
+  
+  <!-- Screen -->
+  <rect x="60" y="125" width="80" height="40" class="auth-device-screen" />
+  
+  <!-- Play button (triangle) -->
+  <polygon points="90,145 110,135 90,125" class="auth-play-button" />
+  
+  <!-- Media controls -->
+  <rect x="65" y="170" width="70" height="3" class="auth-controls" rx="1" ry="1" />
+  <circle cx="75" cy="170" r="3" class="auth-controls" />
+  
+  <!-- Label -->
+  <text x="100" y="195" class="auth-label auth-text">End User with Media Player</text>
+</svg>

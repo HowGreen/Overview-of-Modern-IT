@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="600"
+   viewBox="0 0 900 600"
+   style="font-family: Arial, sans-serif; background-color: #f9f9f9;"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="managed_ai_vs_custom_ml.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.1319269"
+     inkscape:cx="430.59637"
+     inkscape:cy="212.71836"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto"
+       viewBox="0 0 10 7"
+       preserveAspectRatio="xMidYMid">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         style="fill:#333;"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrowhead-cycle"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto"
+       viewBox="0 0 10 7"
+       preserveAspectRatio="xMidYMid">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         style="fill:#2c5282;"
+         id="polygon2" />
+    </marker>
+  </defs>
+  <rect
+     x="20"
+     y="20"
+     width="380"
+     height="560"
+     style="fill:#e0f2fe; stroke:#a5d8ff; stroke-width:1; rx:10; ry:10;"
+     id="rect2" />
+  <text
+     x="210"
+     y="50"
+     style="font-size:18px; font-weight:bold; text-anchor:middle; fill:#0c4a6e;"
+     id="text2">AWS Managed AI Services</text>
+  <rect
+     x="100"
+     y="80"
+     width="220"
+     height="50"
+     style="fill:#ffffff; stroke:#90cdf4; stroke-width:1; rx:5; ry:5;"
+     id="rect3" />
+  <text
+     x="210"
+     y="110"
+     style="font-size:14px; text-anchor:middle; fill:#2c5282;"
+     id="text3">Your Application</text>
+  <line
+     x1="210"
+     y1="130"
+     x2="210"
+     y2="154.10921"
+     style="stroke:#333333;stroke-width:1.5"
+     marker-end="url(#arrowhead)"
+     id="line3" />
+  <text
+     x="266.05307"
+     y="152.32173"
+     style="font-size:12px;text-anchor:middle;fill:#555555"
+     id="text4">Simple API Call</text>
+  <rect
+     x="60"
+     y="170"
+     width="300"
+     height="200"
+     style="fill:#ffffff; stroke:#90cdf4; stroke-width:1; rx:5; ry:5;"
+     id="rect4" />
+  <text
+     x="210"
+     y="190"
+     style="font-size:14px; font-weight:bold; text-anchor:middle; fill:#2c5282;"
+     id="text5">AWS AI Services</text>
+  <text
+     x="210"
+     y="215"
+     style="font-size:12px; text-anchor:middle; fill:#1e40af;"
+     id="text6">Rekognition, Polly, Transcribe,</text>
+  <text
+     x="210"
+     y="235"
+     style="font-size:12px; text-anchor:middle; fill:#1e40af;"
+     id="text7">Comprehend, Translate, Lex,</text>
+  <text
+     x="210"
+     y="255"
+     style="font-size:12px;text-anchor:middle;fill:#1e40af"
+     id="text8"><tspan
+       sodipodi:role="line"
+       id="tspan22"
+       x="210"
+       y="255">Textract, Forecast, Personalize</tspan><tspan
+       sodipodi:role="line"
+       id="tspan23"
+       x="210"
+       y="270">Bedrock</tspan></text>
+  <line
+     x1="209.53093"
+     y1="371.08224"
+     x2="209.53093"
+     y2="386.48709"
+     style="stroke:#333333;stroke-width:1.5"
+     marker-end="url(#arrowhead)"
+     id="line8" />
+  <text
+     x="-301.14664"
+     y="205.58"
+     style="font-size:12px;writing-mode:tb-rl;text-anchor:middle;fill:#555555"
+     id="text9"
+     transform="rotate(-90)">Pre-Trained Model</text>
+  <text
+     x="-332.10455"
+     y="206.34859"
+     style="font-size:12px;writing-mode:tb-rl;text-anchor:middle;fill:#555555"
+     id="text10"
+     transform="rotate(-90)">(Managed by AWS)</text>
+  <rect
+     x="97.654701"
+     y="401.81125"
+     width="220"
+     height="50"
+     style="fill:#ffffff;stroke:#90cdf4;stroke-width:1"
+     id="rect10" />
+  <text
+     x="207.65471"
+     y="431.81125"
+     style="font-size:14px;text-anchor:middle;fill:#2c5282"
+     id="text11">AI-Powered Result</text>
+  <rect
+     x="444.26205"
+     y="20"
+     width="435.73798"
+     height="560"
+     style="fill:#e6fffa;stroke:#a3e6cb;stroke-width:1"
+     id="rect11" />
+  <text
+     x="693.80597"
+     y="50.995026"
+     style="font-weight:bold;font-size:18px;text-anchor:middle;fill:#047857"
+     id="text12">Custom ML with Amazon SageMaker</text>
+  <rect
+     x="635.38971"
+     y="82.321724"
+     width="150"
+     height="40"
+     style="fill:#ffffff;stroke:#6ee7b7;stroke-width:1"
+     id="rect12" />
+  <text
+     x="710.38971"
+     y="107.32172"
+     style="font-size:13px;text-anchor:middle;fill:#065f46"
+     id="text13">Your Data</text>
+  <line
+     x1="710.38971"
+     y1="122.32172"
+     x2="710.38971"
+     y2="138.07704"
+     style="stroke:#2c5282;stroke-width:1.5"
+     marker-end="url(#arrowhead-cycle)"
+     id="line13" />
+  <rect
+     x="555.38971"
+     y="152.32173"
+     width="310"
+     height="40"
+     style="fill:#ffffff;stroke:#6ee7b7;stroke-width:1"
+     id="rect13" />
+  <text
+     x="710.38971"
+     y="177.32173"
+     style="font-size:13px;text-anchor:middle;fill:#065f46"
+     id="text14">Data Preparation (SageMaker tools)</text>
+  <line
+     x1="710.38971"
+     y1="192.32173"
+     x2="710.38971"
+     y2="208.72069"
+     style="stroke:#2c5282;stroke-width:1.5"
+     marker-end="url(#arrowhead-cycle)"
+     id="line14" />
+  <rect
+     x="555.38971"
+     y="222.32173"
+     width="310"
+     height="50"
+     style="fill:#ffffff;stroke:#6ee7b7;stroke-width:1"
+     id="rect14" />
+  <text
+     x="710.38971"
+     y="242.32173"
+     style="font-size:13px;text-anchor:middle;fill:#065f46"
+     id="text15">Model Building &amp; Training</text>
+  <text
+     x="710.38971"
+     y="260.32172"
+     style="font-size:11px;text-anchor:middle;fill:#065f46"
+     id="text16">(SageMaker algorithms/frameworks)</text>
+  <line
+     x1="710.38971"
+     y1="272.32172"
+     x2="710.38971"
+     y2="287.77304"
+     style="stroke:#2c5282;stroke-width:1.5"
+     marker-end="url(#arrowhead-cycle)"
+     id="line16" />
+  <rect
+     x="555.38971"
+     y="302.32172"
+     width="310"
+     height="40"
+     style="fill:#ffffff;stroke:#6ee7b7;stroke-width:1"
+     id="rect16" />
+  <text
+     x="710.38971"
+     y="327.32172"
+     style="font-size:13px;text-anchor:middle;fill:#065f46"
+     id="text17">Model Deployment (SageMaker endpoints)</text>
+  <line
+     x1="710.38971"
+     y1="342.32172"
+     x2="710.38971"
+     y2="357.96255"
+     style="stroke:#2c5282;stroke-width:1.5"
+     marker-end="url(#arrowhead-cycle)"
+     id="line17" />
+  <rect
+     x="555.38971"
+     y="372.32172"
+     width="310"
+     height="40"
+     style="fill:#ffffff;stroke:#6ee7b7;stroke-width:1"
+     id="rect17" />
+  <text
+     x="710.38971"
+     y="397.32172"
+     style="font-size:13px;text-anchor:middle;fill:#065f46"
+     id="text18">Inference (Application uses endpoint)</text>
+  <line
+     x1="710.38971"
+     y1="412.32172"
+     x2="710.38971"
+     y2="427.39398"
+     style="stroke:#2c5282;stroke-width:1.5"
+     marker-end="url(#arrowhead-cycle)"
+     id="line18" />
+  <rect
+     x="555.38971"
+     y="442.32172"
+     width="310"
+     height="50"
+     style="fill:#ffffff;stroke:#6ee7b7;stroke-width:1"
+     id="rect18" />
+  <text
+     x="710.38971"
+     y="462.32172"
+     style="font-size:13px;text-anchor:middle;fill:#065f46"
+     id="text19">MLOps</text>
+  <text
+     x="710.38971"
+     y="480.32172"
+     style="font-size:11px;text-anchor:middle;fill:#065f46"
+     id="text20">(SageMaker Pipelines, Model Monitor, etc.)</text>
+  <path
+     d="m 553.34992,466.3267 c -20,0 -23.75298,-10.00007 -23.69818,-30 l 0.66335,-242.08956 c 0.0351,-12.79252 -1.94029,-24.36153 18.05971,-24.36153"
+     style="fill:none;stroke:#2c5282;stroke-width:1.5;marker-end:url(#RoundedArrow)"
+     marker-end="url(#arrowhead-cycle)"
+     id="path20"
+     sodipodi:nodetypes="cssc" />
+  <text
+     x="524.65173"
+     y="318.24213"
+     style="font-size:12px;text-anchor:end;fill:#2c5282"
+     id="text21">Retrain/Iterate</text>
+  <text
+     x="660.30676"
+     y="539.66833"
+     style="font-weight:bold;font-size:14px;text-anchor:middle;fill:#047857"
+     id="text22">Powered by Amazon SageMaker</text>
+</svg>

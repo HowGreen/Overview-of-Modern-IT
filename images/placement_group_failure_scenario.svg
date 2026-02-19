@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="650"
+   viewBox="0 0 900 650"
+   version="1.1"
+   id="svg52"
+   sodipodi:docname="placement_group_failure_scenario.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview52"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.7292308"
+     inkscape:cx="449.94363"
+     inkscape:cy="325"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg52" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .az-border { fill: #f5f5f5; stroke: #333; stroke-width: 2; }
+      .rack { fill: #e0e0e0; stroke: #666; stroke-width: 1.5; }
+      .rack-failed { fill: #ffcdd2; stroke: #d32f2f; stroke-width: 1.5; }
+      .partition1 { fill: #e8f5e9; stroke: #4caf50; stroke-width: 1.5; stroke-dasharray: 5,3; rx: 8; ry: 8; }
+      .partition2 { fill: #e3f2fd; stroke: #2196f3; stroke-width: 1.5; stroke-dasharray: 5,3; rx: 8; ry: 8; }
+      .divider { stroke: #ccc; stroke-width: 1.5; stroke-dasharray: 6,4; }
+      .spread-instance { fill: #bbdefb; stroke: #1976d2; stroke-width: 2; }
+      .spread-instance-failed { fill: #ffcdd2; stroke: #d32f2f; stroke-width: 2; }
+      .partition1-instance { fill: #c8e6c9; stroke: #388e3c; stroke-width: 1.5; }
+      .partition1-instance-failed { fill: #ffcdd2; stroke: #d32f2f; stroke-width: 1.5; }
+      .partition2-instance { fill: #bbdefb; stroke: #1976d2; stroke-width: 1.5; }
+      .instance-label { font-family: Arial, sans-serif; font-size: 10px; text-anchor: middle; }
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; text-anchor: middle; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .section-title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; text-anchor: middle; }
+      .rack-label { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .partition-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; }
+      .callout { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .callout-box { fill: #fff; stroke: #666; stroke-width: 1; rx: 5; ry: 5; fill-opacity: 0.85; }
+      .note-text { font-family: Arial, sans-serif; font-size: 12px; fill: #666; }
+      .failure-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #d32f2f; text-anchor: middle; }
+      .failure-text { font-family: Arial, sans-serif; font-size: 12px; fill: #d32f2f; text-anchor: middle; }
+      .outcome-box { fill: #f9f9f9; stroke: #666; stroke-width: 1; rx: 5; ry: 5; }
+      .outcome-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; text-anchor: middle; }
+      .outcome-text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; text-anchor: middle; }
+      .fail-indicator { stroke: #d32f2f; stroke-width: 2; }
+      .success-indicator { fill: #4caf50; }
+    </style>
+  </defs>
+  <!-- Title and Subtitle -->
+  <text
+     x="450"
+     y="40"
+     class="title"
+     id="text1">EC2 Placement Group: Single Rack Failure Impact</text>
+  <text
+     x="450"
+     y="65"
+     class="subtitle"
+     id="text2">How rack failures affect different placement group strategies</text>
+  <!-- Availability Zone Container -->
+  <rect
+     x="50"
+     y="100"
+     width="800"
+     height="450"
+     rx="10"
+     ry="10"
+     class="az-border"
+     id="rect2" />
+  <text
+     x="451.46561"
+     y="94.588501"
+     class="section-title"
+     id="text3">Single Availability Zone With Hardware Failure</text>
+  <!-- Dividing line between Spread and Partition examples -->
+  <line
+     x1="450"
+     y1="100"
+     x2="450"
+     y2="550"
+     class="divider"
+     id="line3" />
+  <!-- Left Side: Spread Placement Group -->
+  <text
+     x="227.19843"
+     y="120.19166"
+     class="section-title"
+     id="text4">Spread Placement Group</text>
+  <!-- Racks on the Spread side -->
+  <rect
+     x="75"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack-failed"
+     id="rect4" />
+  <text
+     x="105"
+     y="535"
+     class="rack-label"
+     id="text5">Rack 1</text>
+  <text
+     x="105"
+     y="470"
+     class="failure-label"
+     id="text6">✖</text>
+  <rect
+     x="165"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect6" />
+  <text
+     x="195"
+     y="535"
+     class="rack-label"
+     id="text7">Rack 2</text>
+  <rect
+     x="255"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect7" />
+  <text
+     x="285"
+     y="535"
+     class="rack-label"
+     id="text8">Rack 3</text>
+  <rect
+     x="345"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect8" />
+  <text
+     x="375"
+     y="535"
+     class="rack-label"
+     id="text9">Rack 4</text>
+  <!-- Spread Instances -->
+  <rect
+     x="85"
+     y="250"
+     width="40"
+     height="40"
+     rx="5"
+     ry="5"
+     class="spread-instance-failed"
+     id="rect9" />
+  <text
+     x="105"
+     y="270"
+     class="instance-label"
+     id="text10">App 1</text>
+  <line
+     x1="105"
+     y1="290"
+     x2="105"
+     y2="400"
+     stroke="#d32f2f"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line10" />
+  <line
+     x1="90"
+     y1="255"
+     x2="120"
+     y2="285"
+     class="fail-indicator"
+     id="line11" />
+  <line
+     x1="90"
+     y1="285"
+     x2="120"
+     y2="255"
+     class="fail-indicator"
+     id="line12" />
+  <rect
+     x="175"
+     y="250"
+     width="40"
+     height="40"
+     rx="5"
+     ry="5"
+     class="spread-instance"
+     id="rect12" />
+  <text
+     x="195"
+     y="270"
+     class="instance-label"
+     id="text12">DB 1</text>
+  <line
+     x1="195"
+     y1="290"
+     x2="195"
+     y2="400"
+     stroke="#666"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line13" />
+  <circle
+     cx="195"
+     cy="240"
+     r="8"
+     class="success-indicator"
+     id="circle13" />
+  <text
+     x="195"
+     y="243"
+     class="instance-label"
+     fill="white"
+     id="text13">✓</text>
+  <rect
+     x="265"
+     y="250"
+     width="40"
+     height="40"
+     rx="5"
+     ry="5"
+     class="spread-instance"
+     id="rect13" />
+  <text
+     x="285"
+     y="270"
+     class="instance-label"
+     id="text14">Cache</text>
+  <line
+     x1="285"
+     y1="290"
+     x2="285"
+     y2="400"
+     stroke="#666"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line14" />
+  <circle
+     cx="285"
+     cy="240"
+     r="8"
+     class="success-indicator"
+     id="circle14" />
+  <text
+     x="285"
+     y="243"
+     class="instance-label"
+     fill="white"
+     id="text15">✓</text>
+  <rect
+     x="355"
+     y="250"
+     width="40"
+     height="40"
+     rx="5"
+     ry="5"
+     class="spread-instance"
+     id="rect15" />
+  <text
+     x="375"
+     y="270"
+     class="instance-label"
+     id="text16">App 2</text>
+  <line
+     x1="375"
+     y1="290"
+     x2="375"
+     y2="400"
+     stroke="#666"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line16" />
+  <circle
+     cx="375"
+     cy="240"
+     r="8"
+     class="success-indicator"
+     id="circle16" />
+  <text
+     x="375"
+     y="243"
+     class="instance-label"
+     fill="white"
+     id="text17">✓</text>
+  <!-- Right Side: Partition Placement Group -->
+  <text
+     x="673.53436"
+     y="121.29087"
+     class="section-title"
+     id="text18">Partition Placement Group</text>
+  <!-- Partition 1 and instances -->
+  <rect
+     x="495"
+     y="200"
+     width="150"
+     height="180"
+     class="partition1"
+     id="rect18" />
+  <text
+     x="570"
+     y="220"
+     class="partition-label"
+     id="text19">Partition 1</text>
+  <!-- Racks in Partition 1 -->
+  <rect
+     x="515"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack-failed"
+     id="rect19" />
+  <text
+     x="545"
+     y="535"
+     class="rack-label"
+     id="text20">Rack 5</text>
+  <text
+     x="545"
+     y="470"
+     class="failure-label"
+     id="text21">✖</text>
+  <rect
+     x="605"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect21" />
+  <text
+     x="635"
+     y="535"
+     class="rack-label"
+     id="text22">Rack 6</text>
+  <!-- Instances in Partition 1 -->
+  <rect
+     x="525"
+     y="250"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition1-instance-failed"
+     id="rect22" />
+  <text
+     x="542"
+     y="270"
+     class="instance-label"
+     id="text23">DB 1</text>
+  <line
+     x1="542"
+     y1="285"
+     x2="545"
+     y2="400"
+     stroke="#d32f2f"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line23" />
+  <line
+     x1="530"
+     y1="255"
+     x2="555"
+     y2="280"
+     class="fail-indicator"
+     id="line24" />
+  <line
+     x1="530"
+     y1="280"
+     x2="555"
+     y2="255"
+     class="fail-indicator"
+     id="line25" />
+  <rect
+     x="570"
+     y="250"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition1-instance-failed"
+     id="rect25" />
+  <text
+     x="587"
+     y="270"
+     class="instance-label"
+     id="text25">DB 2</text>
+  <line
+     x1="587"
+     y1="285"
+     x2="545"
+     y2="400"
+     stroke="#d32f2f"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line26" />
+  <line
+     x1="575"
+     y1="255"
+     x2="600"
+     y2="280"
+     class="fail-indicator"
+     id="line27" />
+  <line
+     x1="575"
+     y1="280"
+     x2="600"
+     y2="255"
+     class="fail-indicator"
+     id="line28" />
+  <rect
+     x="525"
+     y="310"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition1-instance"
+     id="rect28" />
+  <text
+     x="542"
+     y="330"
+     class="instance-label"
+     id="text28">App 1</text>
+  <line
+     x1="542"
+     y1="345"
+     x2="635"
+     y2="400"
+     stroke="#388e3c"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line29" />
+  <circle
+     cx="542"
+     cy="300"
+     r="8"
+     class="success-indicator"
+     id="circle29" />
+  <text
+     x="542"
+     y="303"
+     class="instance-label"
+     fill="white"
+     id="text29">✓</text>
+  <rect
+     x="570"
+     y="310"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition1-instance"
+     id="rect29" />
+  <text
+     x="587"
+     y="330"
+     class="instance-label"
+     id="text30">App 2</text>
+  <line
+     x1="587"
+     y1="345"
+     x2="635"
+     y2="400"
+     stroke="#388e3c"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line30" />
+  <circle
+     cx="587"
+     cy="300"
+     r="8"
+     class="success-indicator"
+     id="circle30" />
+  <text
+     x="587"
+     y="303"
+     class="instance-label"
+     fill="white"
+     id="text31">✓</text>
+  <!-- Partition 2 and instances -->
+  <rect
+     x="675"
+     y="200"
+     width="150"
+     height="180"
+     class="partition2"
+     id="rect31" />
+  <text
+     x="750"
+     y="220"
+     class="partition-label"
+     id="text32">Partition 2</text>
+  <!-- Racks in Partition 2 -->
+  <rect
+     x="695"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect32" />
+  <text
+     x="725"
+     y="535"
+     class="rack-label"
+     id="text33">Rack 7</text>
+  <rect
+     x="785"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect33" />
+  <text
+     x="815"
+     y="535"
+     class="rack-label"
+     id="text34">Rack 8</text>
+  <!-- Instances in Partition 2 -->
+  <rect
+     x="705"
+     y="250"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition2-instance"
+     id="rect34" />
+  <text
+     x="722"
+     y="270"
+     class="instance-label"
+     id="text35">DB 3</text>
+  <line
+     x1="722"
+     y1="285"
+     x2="725"
+     y2="400"
+     stroke="#1976d2"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line35" />
+  <circle
+     cx="722"
+     cy="240"
+     r="8"
+     class="success-indicator"
+     id="circle35" />
+  <text
+     x="722"
+     y="243"
+     class="instance-label"
+     fill="white"
+     id="text36">✓</text>
+  <rect
+     x="750"
+     y="250"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition2-instance"
+     id="rect36" />
+  <text
+     x="767"
+     y="270"
+     class="instance-label"
+     id="text37">DB 4</text>
+  <line
+     x1="767"
+     y1="285"
+     x2="725"
+     y2="400"
+     stroke="#1976d2"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line37" />
+  <circle
+     cx="767"
+     cy="240"
+     r="8"
+     class="success-indicator"
+     id="circle37" />
+  <text
+     x="767"
+     y="243"
+     class="instance-label"
+     fill="white"
+     id="text38">✓</text>
+  <rect
+     x="705"
+     y="310"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition2-instance"
+     id="rect38" />
+  <text
+     x="722"
+     y="330"
+     class="instance-label"
+     id="text39">App 3</text>
+  <line
+     x1="722"
+     y1="345"
+     x2="815"
+     y2="400"
+     stroke="#1976d2"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line39" />
+  <circle
+     cx="722"
+     cy="300"
+     r="8"
+     class="success-indicator"
+     id="circle39" />
+  <text
+     x="722"
+     y="303"
+     class="instance-label"
+     fill="white"
+     id="text40">✓</text>
+  <rect
+     x="750"
+     y="310"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition2-instance"
+     id="rect40" />
+  <text
+     x="767"
+     y="330"
+     class="instance-label"
+     id="text41">App 4</text>
+  <line
+     x1="767"
+     y1="345"
+     x2="815"
+     y2="400"
+     stroke="#1976d2"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line41" />
+  <circle
+     cx="767"
+     cy="300"
+     r="8"
+     class="success-indicator"
+     id="circle41" />
+  <text
+     x="767"
+     y="303"
+     class="instance-label"
+     fill="white"
+     id="text42">✓</text>
+  <!-- Failure Impact Boxes -->
+  <rect
+     x="102.19843"
+     y="145.19165"
+     width="250"
+     height="50"
+     rx="5"
+     ry="5"
+     class="outcome-box"
+     id="rect42" />
+  <text
+     x="227.19843"
+     y="165.19165"
+     class="outcome-title"
+     id="text43">Spread Failure Impact</text>
+  <text
+     x="227.19843"
+     y="185.19165"
+     class="outcome-text"
+     id="text44">1 of 4 instances affected (25%)</text>
+  <rect
+     x="548.53436"
+     y="146.29086"
+     width="250"
+     height="50"
+     rx="5"
+     ry="5"
+     class="outcome-box"
+     id="rect44" />
+  <text
+     x="673.53436"
+     y="166.29086"
+     class="outcome-title"
+     id="text45">Partition Failure Impact</text>
+  <text
+     x="673.53436"
+     y="186.29086"
+     class="outcome-text"
+     id="text46">2 of 8 instances affected (25%)</text>
+  <!-- Failure Explanation -->
+  <rect
+     x="100"
+     y="570"
+     width="250"
+     height="60"
+     rx="5"
+     ry="5"
+     class="outcome-box"
+     id="rect46" />
+  <text
+     x="225"
+     y="590"
+     class="outcome-title"
+     id="text47">Spread Failure Pattern</text>
+  <text
+     x="225"
+     y="610"
+     class="outcome-text"
+     id="text48">Only instances on the failed rack</text>
+  <text
+     x="225"
+     y="625"
+     class="outcome-text"
+     id="text49">are affected (1 per rack)</text>
+  <rect
+     x="550"
+     y="570"
+     width="250"
+     height="60"
+     rx="5"
+     ry="5"
+     class="outcome-box"
+     id="rect49" />
+  <text
+     x="675"
+     y="590"
+     class="outcome-title"
+     id="text50">Partition Failure Pattern</text>
+  <text
+     x="675"
+     y="610"
+     class="outcome-text"
+     id="text51">All instances on the failed rack</text>
+  <text
+     x="675"
+     y="625"
+     class="outcome-text"
+     id="text52">are affected (potentially multiple)</text>
+</svg>

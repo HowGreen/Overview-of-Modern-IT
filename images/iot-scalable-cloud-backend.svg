@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 900"
+   style="fill:#FFFFFF;"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   sodipodi:docname="iot-scalable-cloud-backend.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs48"><marker
+     style="overflow:visible"
+     id="marker78"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Triangle arrow"
+     markerWidth="1"
+     markerHeight="1"
+     viewBox="0 0 1 1"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"><path
+       transform="scale(0.5)"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+       d="M 5.77,0 -2.88,5 V -5 Z"
+       id="path78" /></marker><marker
+     style="overflow:visible"
+     id="marker74"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Triangle arrow"
+     markerWidth="1"
+     markerHeight="1"
+     viewBox="0 0 1 1"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"><path
+       transform="scale(0.5)"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+       d="M 5.77,0 -2.88,5 V -5 Z"
+       id="path74" /></marker><marker
+     style="overflow:visible"
+     id="marker69"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Triangle arrow"
+     markerWidth="1"
+     markerHeight="1"
+     viewBox="0 0 1 1"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"><path
+       transform="scale(0.5)"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+       d="M 5.77,0 -2.88,5 V -5 Z"
+       id="path69" /></marker><marker
+     style="overflow:visible"
+     id="marker68"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Triangle arrow"
+     markerWidth="1"
+     markerHeight="1"
+     viewBox="0 0 1 1"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"><path
+       transform="scale(0.5)"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+       d="M 5.77,0 -2.88,5 V -5 Z"
+       id="path68" /></marker><marker
+     style="overflow:visible"
+     id="Triangle"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Triangle arrow"
+     markerWidth="1"
+     markerHeight="1"
+     viewBox="0 0 1 1"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"><path
+       transform="scale(0.5)"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+       d="M 5.77,0 -2.88,5 V -5 Z"
+       id="path135" /></marker><marker
+     style="overflow:visible"
+     id="marker78-2"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Triangle arrow"
+     markerWidth="1"
+     markerHeight="1"
+     viewBox="0 0 1 1"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"><path
+       transform="scale(0.5)"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+       d="M 5.77,0 -2.88,5 V -5 Z"
+       id="path78-7" /></marker><marker
+     style="overflow:visible"
+     id="marker78-9"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Triangle arrow"
+     markerWidth="1"
+     markerHeight="1"
+     viewBox="0 0 1 1"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"><path
+       transform="scale(0.5)"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+       d="M 5.77,0 -2.88,5 V -5 Z"
+       id="path78-8" /></marker></defs><sodipodi:namedview
+   id="namedview48"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="1.4142136"
+   inkscape:cx="650.89179"
+   inkscape:cy="499.57094"
+   inkscape:window-width="2478"
+   inkscape:window-height="2022"
+   inkscape:window-x="-10"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg1" />
+
+  <!-- Title -->
+  <text
+   x="600"
+   y="40"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; text-anchor:middle; fill:#232F3E;"
+   id="text1">Scalable IoT Cloud Backend Processing &amp; Analytics Patterns</text>
+  
+  <!-- AWS Cloud Border -->
+  <rect
+   x="50"
+   y="70"
+   width="1100"
+   height="780"
+   rx="20"
+   ry="20"
+   style="fill:#F8F9FB; stroke:#D5DBDB; stroke-width:2; stroke-dasharray:none;"
+   id="rect1" /><g
+   id="g69"
+   transform="translate(-0.70710678,-28.284271)"><rect
+     x="787.54163"
+     y="290.62994"
+     width="218.18376"
+     height="30"
+     rx="18.18198"
+     ry="15"
+     style="fill:#ffffff;fill-opacity:0.8;stroke:#4355b9;stroke-width:1"
+     id="rect43" /><text
+     x="895.14166"
+     y="302.57333"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif';text-align:center;text-anchor:middle;fill:#232f3e"
+     id="text27"><tspan
+       sodipodi:role="line"
+       id="tspan74"
+       x="895.14166"
+       y="302.57333">(Processed Data to curateed </tspan><tspan
+       sodipodi:role="line"
+       id="tspan75"
+       x="895.14166"
+       y="316.32333">zone of S3 Data Lake)</tspan></text></g><path
+   d="m 326.5,544.2168 h 52.98507"
+   style="fill:none;stroke:#4355b9;stroke-width:2;stroke-dasharray:none;marker-end:url(#arrowhead)"
+   id="path9-7-1"
+   sodipodi:nodetypes="cc" />
+  
+  <text
+   x="120"
+   y="95"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:14px; fill:#647C9C;"
+   id="text2">AWS Cloud</text>
+  
+  <!-- Input Data Sources Section -->
+  <text
+   x="187.47665"
+   y="119.34315"
+   style="font-weight:bold;font-size:16px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text3">INPUTS (Data already ingested via AWS IoT Core Rules Engine):</text>
+  
+  <!-- Source A: From Amazon Kinesis Data Streams -->
+  <g
+   transform="translate(266.87206,220.30509)"
+   id="g5">
+    <rect
+   x="-150"
+   y="-40"
+   width="315.92041"
+   height="80"
+   rx="10.53068"
+   ry="10"
+   style="fill:#ffffff;stroke:#4355b9;stroke-width:1.99999"
+   id="rect2" />
+    
+    <!-- Kinesis Icon (simplified) -->
+    
+    
+    <text
+   x="-84.975128"
+   y="-12.014925"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text4">Amazon Kinesis Data Streams</text>
+    
+    <text
+   x="-84.975128"
+   y="12.985075"
+   style="font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text5">(Holds real-time IoT event stream)</text>
+  </g><g
+   id="Icon-Architecture/48/Arch_Amazon-Kinesis-Data-Streams_48"
+   stroke="none"
+   stroke-width="1.52416"
+   fill="none"
+   fill-rule="evenodd"
+   transform="matrix(0.6561,0,0,0.6561,130.89615,198.48957)"
+   style="fill:#ffffff">
+       <g
+   id="Icon-Architecture-BG/48/Analytics"
+   fill="#8c4fff"
+   style="stroke-width:1.52416">
+         <rect
+   id="Rectangle-6"
+   x="0"
+   y="0"
+   width="64"
+   height="64"
+   style="stroke-width:1.52416" />
+       </g>
+       <g
+   id="Icon-Service/48/Amazon-Kinesis-Data-Streams"
+   transform="translate(11,10)"
+   fill="#ffffff"
+   style="stroke-width:1.52416">
+         <path
+   d="m 33,39.001 h 1 v -1 h -1 z m 3,-2 v 3 c 0,0.552 -0.447,1 -1,1 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.553,0 1,0.448 1,1 z m -5,-3 h 3 v -2 h -3 z m 6,-3 h 1 v -1 h -1 z m 4,3.5 c 0,-1.356 -0.367,-2.627 -1,-3.726 v 1.226 c 0,0.552 -0.447,1 -1,1 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 1.226 c -1.099,-0.632 -2.369,-1 -3.726,-1 -1.356,0 -2.627,0.368 -3.725,1 H 34 v 2 h -6.486 c -0.454,0.603 -0.818,1.275 -1.076,2 H 30 v 2 H 26.026 C 26.015,34.167 26,34.332 26,34.501 c 0,0.514 0.053,1.015 0.152,1.5 H 29 v 2 h -2.128 c 0.187,0.352 0.404,0.684 0.642,1 H 29 v 1.486 c 1.255,0.946 2.811,1.514 4.5,1.514 1.357,0 2.627,-0.368 3.726,-1 H 37 v -2 h 2.487 c 0.238,-0.316 0.455,-0.648 0.641,-1 H 37 v -2 h 3.849 C 40.948,35.516 41,35.015 41,34.501 Z m 2,0 c 0,5.238 -4.261,9.5 -9.5,9.5 -5.238,0 -9.5,-4.262 -9.5,-9.5 0,-5.238 4.262,-9.5 9.5,-9.5 5.239,0 9.5,4.262 9.5,9.5 z m -16.354,-8.9 C 8.695,27.162 5,31.688 5,38 h 2 c 0,-4.2 1.412,-8.421 17.467,-10.175 0.621,-0.839 1.354,-1.587 2.179,-2.224 z M 10,43.876 V 44 h 2 V 43.876 C 11.999,39.591 12.006,35.169 22.402,32.742 22.521,31.99 22.713,31.264 22.973,30.569 10.006,33.284 9.999,39.146 10,43.876 Z M 2,13 H 0 c 0,3.614 2.747,7.285 19.012,9 C 2.747,23.715 0,27.386 0,31 H 2 C 2,25.617 15.412,23 43,23 V 21 C 15.412,21 2,18.383 2,13 Z M 7,6 H 5 c 0,8.233 6.218,13 38,13 V 17 C 9.78,17 7,11.566 7,6 Z m 36,7 v 2 C 28.551,15 19.209,13.443 14.441,10.241 9.998,7.257 9.999,3.302 9.99997,0.124 V 0 H 12 V 0.124 C 11.999,3.244 11.999,6.191 15.556,8.58 19.985,11.554 28.961,13 43,13 Z"
+   id="Amazon-Kinesis-Data-Streams_Icon_48_Squid"
+   style="stroke-width:1.52416" />
+       </g>
+     </g>
+  
+  <!-- Source B: From Amazon S3 Data Lake -->
+  <g
+   transform="translate(858.37939,219.34922)"
+   id="g7">
+    <rect
+   x="-200"
+   y="-40"
+   width="323.88058"
+   height="80"
+   rx="8.0970144"
+   ry="10"
+   style="fill:#ffffff;stroke:#e05243;stroke-width:2"
+   id="rect5" />
+    
+    <!-- S3 Icon (simplified) -->
+    
+    
+    <text
+   x="-133.18408"
+   y="-15.995025"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text6">S3 Data Lake - Raw &amp; Processed </text>
+    
+    <text
+   x="-26.262207"
+   y="9.0049753"
+   style="font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text7"><tspan
+     sodipodi:role="line"
+     x="-26.262207"
+     y="9.0049753"
+     id="tspan50"
+     style="text-align:center;text-anchor:middle">(Raw/staged IoT data landed via Kinesis </tspan><tspan
+     sodipodi:role="line"
+     x="-26.262207"
+     y="24.004974"
+     id="tspan51"
+     style="text-align:center;text-anchor:middle">Data Firehose or direct IoT Core Rule)</tspan></text>
+  </g>
+  
+  <!-- Connection from Kinesis to S3 -->
+  
+  
+  <!-- Path 1 Header: Real-Time Stream Analytics -->
+  <g
+   transform="translate(266.58415,161.21264)"
+   id="g8"
+   style="opacity:0.58">
+    <rect
+   x="-150"
+   y="-20"
+   width="317.41293"
+   height="40"
+   rx="5.2902155"
+   ry="5"
+   style="fill:#eaecef;stroke:#8c8c8c;stroke-width:1"
+   id="rect4" />
+    
+    <text
+   x="0"
+   y="5"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text8">Path 1: Real-Time Stream Analytics</text>
+  </g>
+  
+  <!-- Path 2 Header: Batch Analytics -->
+  <g
+   transform="translate(853.92716,160.83261)"
+   id="g9"
+   style="opacity:0.58">
+    <rect
+   x="-200"
+   y="-20"
+   width="321.89053"
+   height="40"
+   rx="4.023632"
+   ry="5"
+   style="fill:#eaecef;stroke:#8c8c8c;stroke-width:1"
+   id="rect8" />
+    
+    <text
+   x="-42.786068"
+   y="4.5024877"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text9">Path 2: Batch Analytics / Data Lake Query</text>
+  </g>
+  
+  <!-- Path 1a: Lambda -->
+  <g
+   transform="translate(177.8607,398.50746)"
+   id="g13">
+    <rect
+   x="-100"
+   y="-50"
+   width="200"
+   height="100"
+   rx="10"
+   ry="10"
+   style="fill:#ffffff;stroke:#ff9900;stroke-width:2"
+   id="rect9" />
+    
+    <!-- Lambda Icon (simplified) -->
+    
+    
+    <text
+   x="-80.995026"
+   y="-27.462687"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text11">AWS Lambda</text>
+    
+    <text
+   x="-35.721394"
+   y="-6.4427862"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text12">(Real-time transformation,</text>
+       
+    <text
+   x="-35.721394"
+   y="8.5572138"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text13">enrichment, alerting)</text>
+  </g><g
+   id="Icon-Architecture/48/Arch_AWS-Lambda_48"
+   stroke="none"
+   stroke-width="1.82899"
+   fill="none"
+   fill-rule="evenodd"
+   transform="matrix(0.54675,0,0,0.54675,94.683679,383.28796)"
+   style="fill:#ffffff"><g
+     id="Icon-Architecture-BG/48/Compute"
+     fill="#ed7100"
+     style="stroke-width:1.82899"><rect
+       id="Rectangle-4"
+       x="0"
+       y="0"
+       width="64"
+       height="64"
+       style="stroke-width:1.82899" /></g><path
+     d="M 22.679409,52 H 13.57407 l 10.263549,-21.59 4.56213,9.451 z M 24.726941,27.667 C 24.560628,27.321 24.21207,27.103 23.830648,27.103 h -0.003 c -0.382418,10e-4 -0.730977,0.222 -0.895297,0.569 L 11.097314,52.569 c -0.14739,0.31 -0.126477,0.674 0.05677,0.965 0.18125,0.29 0.499932,0.466 0.841519,0.466 h 11.314203 c 0.385406,0 0.73496,-0.223 0.900276,-0.572 l 6.19438,-13.144 c 0.128468,-0.274 0.127473,-0.592 -0.005,-0.864 z M 51.008238,52 H 41.985557 L 26.954726,19.578 C 26.791402,19.226 26.43886,19 26.052458,19 h -5.924496 l 0.007,-7 h 11.679691 l 14.960123,32.42 c 0.163325,0.354 0.515867,0.58 0.90426,0.58 h 3.32923 z m 0.995881,-9 H 48.31438 L 33.354257,10.58 C 33.190933,10.226 32.838391,10 32.450993,10 H 19.140049 c -0.548731,0 -0.994885,0.447 -0.995881,0.999 l -0.008,9 c 0,0.266 0.104567,0.52 0.290797,0.708 0.187226,0.188 0.440179,0.293 0.704088,0.293 h 6.286 L 40.447917,53.422 C 40.611241,53.774 40.962787,54 41.350185,54 H 52.004119 C 52.554841,54 53,53.552 53,53 v -9 c 0,-0.552 -0.445159,-1 -0.995881,-1 z"
+     id="AWS-Lambda_Icon_48_Squid"
+     fill="#ffffff"
+     style="stroke-width:1.82899" /></g>
+  
+  <!-- Path 1b: Kinesis Data Analytics -->
+  <g
+   transform="translate(417.6617,399.50248)"
+   id="g15">
+    <rect
+   x="-100.00001"
+   y="-50"
+   width="234.38557"
+   height="100"
+   rx="11.719278"
+   ry="10"
+   style="fill:#ffffff;stroke:#4355b9;stroke-width:2"
+   id="rect7" />
+    
+    <!-- Kinesis Data Analytics Icon (simplified) -->
+    
+    
+    <text
+   x="-80.192436"
+   y="-30.692116"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text14"><tspan
+     sodipodi:role="line"
+     id="tspan52"
+     x="-80.192436"
+     y="-30.692116"
+     style="text-align:start;text-anchor:start">Amazon Managed Service</tspan><tspan
+     sodipodi:role="line"
+     id="tspan53"
+     x="-80.192436"
+     y="-13.192115"
+     style="text-align:start;text-anchor:start">for Apache Flink</tspan></text>
+    
+    <text
+   x="-41.703983"
+   y="3.0820894"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text15"><tspan
+     sodipodi:role="line"
+     id="tspan55"
+     x="-41.703983"
+     y="3.0820894">(Complex stream processing</tspan><tspan
+     sodipodi:role="line"
+     x="-41.703983"
+     y="16.832088"
+     id="tspan58">with Flink StQL, Java, Python,</tspan><tspan
+     sodipodi:role="line"
+     x="-41.703983"
+     y="30.582088"
+     id="tspan59">Scala)</tspan></text>
+  </g>
+  
+  <!-- Output from Lambda -->
+  <g
+   transform="translate(178.14355,530.70359)"
+   id="g17">
+    <rect
+   x="-100"
+   y="-30"
+   width="200"
+   height="60"
+   rx="5"
+   ry="5"
+   style="fill:#f0f2f5;stroke:#8c8c8c;stroke-width:1"
+   id="rect15" />
+    
+    <text
+   x="0"
+   y="-8"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text16">Real-time Dashboards /</text>
+       
+    <text
+   x="0"
+   y="10"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text17">Actions / Alerts (SNS)</text>
+  </g>
+  
+  <!-- Output from Kinesis Analytics -->
+  <g
+   transform="translate(481.08097,486.28397)"
+   id="g19">
+    <rect
+   x="-100"
+   y="-30"
+   width="200"
+   height="49"
+   rx="5"
+   ry="4.0833335"
+   style="fill:#f0f2f5;stroke:#8c8c8c;stroke-width:1"
+   id="rect17" />
+    
+    <text
+   x="0.5"
+   y="-12.5"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text18"><tspan
+     sodipodi:role="line"
+     x="0.5"
+     y="-12.5"
+     id="tspan62">SQL/Flink-baesd Real-time </tspan><tspan
+     sodipodi:role="line"
+     x="0.5"
+     y="2.5"
+     id="tspan64">Analytics &amp; Live Dashboards</tspan></text>
+       
+    
+  </g><g
+   transform="translate(479,548)"
+   id="g19-2"
+   style="fill:#ffffff">
+    <rect
+   x="-100"
+   y="-30"
+   width="200"
+   height="50"
+   rx="5"
+   ry="4.1666665"
+   style="fill:#f0f2f5;stroke:#8c8c8c;stroke-width:1"
+   id="rect17-3" />
+    
+    <text
+   x="0.5"
+   y="-12.5"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text18-2"><tspan
+     sodipodi:role="line"
+     x="0.5"
+     y="-12.5"
+     id="tspan62-6">Anomaly Detection &amp;</tspan><tspan
+     sodipodi:role="line"
+     x="0.5"
+     y="2.5"
+     id="tspan66">Automated Alerts (SNS/Lambda)</tspan></text>
+       
+    
+  </g>
+  
+  <!-- Path 2a: AWS Glue ETL -->
+  <g
+   transform="translate(707.71145,400.74626)"
+   id="g22">
+    <rect
+   x="-100"
+   y="-50"
+   width="232.33832"
+   height="100"
+   rx="11.616916"
+   ry="10"
+   style="fill:#ffffff;stroke:#4d27aa;stroke-width:2"
+   id="rect19" />
+    
+    <!-- Glue Icon (simplified) -->
+    
+    
+    <text
+   x="-83.272987"
+   y="-26.755581"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text20">AWS Glue ETL</text>
+    
+    <text
+   x="-46.169151"
+   y="-9.4278603"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text21">(Data Transformation, Cleansing,</text>
+       
+    <text
+   x="-46.169151"
+   y="5.5721397"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text22">Cataloging)</text>
+  </g>
+  
+  <!-- Path 2b: Amazon Athena -->
+  <g
+   transform="translate(986.31841,400.74626)"
+   id="g25">
+    <rect
+   x="-100"
+   y="-50"
+   width="229.35324"
+   height="100"
+   rx="11.467662"
+   ry="10"
+   style="fill:#ffffff;stroke:#e05243;stroke-width:2;stroke-dasharray:4,4;stroke-dashoffset:0"
+   id="rect11" />
+    
+    <!-- Athena Icon (simplified) -->
+    
+    
+    <text
+   x="-80"
+   y="-27.462687"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text23">Amazon Athena</text>
+    
+    <text
+   x="-37.868092"
+   y="2.4087372"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text24"><tspan
+     sodipodi:role="line"
+     id="tspan67"
+     x="-37.868092"
+     y="2.4087372">(Ad-hoc Serverless SQL </tspan><tspan
+     sodipodi:role="line"
+     id="tspan68"
+     x="-37.868092"
+     y="16.158737">Queries on S3</tspan></text>
+       
+    
+  </g>
+  
+  <!-- Processed S3 Data Lake -->
+  <g
+   transform="translate(726.00727,531.15842)"
+   id="g27">
+    <rect
+   x="-100"
+   y="-30"
+   width="200"
+   height="60"
+   rx="10"
+   ry="10"
+   style="fill:#ffffff;stroke:#e05243;stroke-width:2"
+   id="rect12" />
+    
+    <!-- S3 Icon (simplified) -->
+    <g
+   transform="translate(-70)"
+   id="g26">
+      
+      <path
+   d="M -3,-5 H 3 L 5,0 3,5 H -3 L -5,0 Z"
+   style="fill:#ffffff"
+   id="path25" />
+    </g>
+    
+    <text
+   x="-42.189056"
+   y="5.2662382"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif';fill:#232f3e"
+   id="text26"><tspan
+     sodipodi:role="line"
+     id="tspan69"
+     x="-42.189056"
+     y="5.2662382">(Transformed Data to </tspan><tspan
+     sodipodi:role="line"
+     id="tspan70"
+     x="-42.189056"
+     y="19.016239">Data Warehouse)</tspan></text>
+       
+    
+  </g><text
+   x="686.04211"
+   y="518.59955"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text20-9">Amazon Redshift</text>
+  
+  <!-- Amazon Redshift -->
+  
+  
+  <!-- BI Tools Output -->
+  <g
+   transform="translate(750, 730)"
+   id="g31">
+    <rect
+   x="-150"
+   y="-30"
+   width="300"
+   height="60"
+   rx="5"
+   ry="5"
+   style="fill:#F0F2F5; stroke:#8C8C8C; stroke-width:1;"
+   id="rect14" />
+    
+    <text
+   x="0"
+   y="-8"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-anchor:middle; fill:#232F3E;"
+   id="text30">Business Intelligence Tools / Reporting /</text>
+       
+    <text
+   x="0"
+   y="10"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-anchor:middle; fill:#232F3E;"
+   id="text31">ML Training Datasets</text>
+  </g>
+  
+  <!-- Path 3 Header: Integrated IoT Analytics Solution -->
+  <g
+   transform="translate(600, 600)"
+   id="g32">
+    <rect
+   x="-500"
+   y="-20"
+   width="1000"
+   height="40"
+   rx="5"
+   ry="5"
+   style="fill:#EAECEF; stroke:#8C8C8C; stroke-width:1;"
+   id="rect31" />
+    
+    <text
+   x="0"
+   y="5"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text32">Path 3: Integrated IoT Analytics Solution (Alternative Managed Pipeline for IoT Data)</text>
+  </g>
+  
+  <!-- AWS IoT Analytics -->
+  <g
+   transform="translate(600, 700)"
+   id="g38">
+    <rect
+   x="-300"
+   y="-70"
+   width="691.5"
+   height="140"
+   rx="11.525"
+   ry="10"
+   style="fill:#ffffff;stroke:#7baa00;stroke-width:2"
+   id="rect16" />
+    
+    <!-- IoT Analytics Icon (simplified) -->
+    
+    
+    <text
+   x="-220"
+   y="-40"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; fill:#232F3E;"
+   id="text34">AWS IoT Analytics</text>
+    
+    <text
+   x="-220"
+   y="-20"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:11px; fill:#666666;"
+   id="text33">(Managed End-to-End IoT Analytics)</text>
+       
+    <!-- IoT Analytics Pipeline illustration -->
+    <rect
+   x="-280"
+   y="-5"
+   width="130"
+   height="40"
+   rx="5"
+   ry="5"
+   style="fill:#F8F9FB; stroke:#7BAA00; stroke-width:1;"
+   id="rect34" />
+    
+    <text
+   x="-215"
+   y="15"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:11px; text-anchor:middle; fill:#232F3E;"
+   id="text35">Channel (Ingest)</text>
+    
+    <rect
+   x="-130"
+   y="-5"
+   width="150"
+   height="40"
+   rx="5"
+   ry="5"
+   style="fill:#F8F9FB; stroke:#7BAA00; stroke-width:1;"
+   id="rect18" />
+    
+    <text
+   x="-56"
+   y="12.5"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text36"><tspan
+     sodipodi:role="line"
+     id="tspan76"
+     x="-56"
+     y="12.5">Pipeline (Process, </tspan><tspan
+     sodipodi:role="line"
+     id="tspan77"
+     x="-56"
+     y="26.25">Enrich, Filter)</tspan></text>
+       
+    <rect
+   x="44.5"
+   y="-5"
+   width="155.5"
+   height="40"
+   rx="4.859375"
+   ry="5"
+   style="fill:#f8f9fb;stroke:#7baa00;stroke-width:1"
+   id="rect36" />
+    
+    <text
+   x="120"
+   y="15"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text37"><tspan
+     sodipodi:role="line"
+     id="tspan78"
+     x="120"
+     y="15">Data Store (Time-series</tspan><tspan
+     sodipodi:role="line"
+     id="tspan79"
+     x="120"
+     y="28.75">optimized)</tspan></text>
+       
+    <rect
+   x="220"
+   y="-5"
+   width="160"
+   height="40"
+   rx="5"
+   ry="5"
+   style="fill:#F8F9FB; stroke:#7BAA00; stroke-width:1;"
+   id="rect37" />
+    
+    <text
+   x="297.87869"
+   y="12.878679"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#232f3e"
+   id="text38"><tspan
+     sodipodi:role="line"
+     id="tspan80"
+     x="297.87869"
+     y="12.878679">Dataset (SQL Query</tspan><tspan
+     sodipodi:role="line"
+     id="tspan81"
+     x="297.87869"
+     y="26.628679">Results)</tspan></text>
+  <path
+   style="opacity:1;fill:#000000;stroke:#e05243;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker78);paint-order:markers stroke fill"
+   d="m 20.5,15.5 h 15"
+   id="path77"
+   sodipodi:nodetypes="cc" /><path
+   style="fill:#000000;stroke:#e05243;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker78-9);paint-order:markers stroke fill"
+   d="m -150.65537,14.548788 h 15"
+   id="path77-6"
+   sodipodi:nodetypes="cc" /><path
+   style="fill:#000000;stroke:#e05243;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker78-2);paint-order:markers stroke fill"
+   d="m 198.5,13.65539 h 15"
+   id="path77-7"
+   sodipodi:nodetypes="cc" /><g
+   id="Icon-Architecture/32/Arch_AWS-IoT-Analytics_32"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(-274.98867,-58.515585)"><g
+     id="Icon-Architecture-BG/32/Internet-of-Things"
+     fill="#7aa116"><rect
+       id="Rectangle-3"
+       x="0"
+       y="0"
+       width="40"
+       height="40" /></g><path
+     d="m 30.945454,22.721668 c -1.123054,0 -2.036363,-0.881396 -2.036363,-1.965208 0,-1.083813 0.913309,-1.965209 2.036363,-1.965209 1.123055,0 2.036364,0.881396 2.036364,1.965209 0,1.083812 -0.913309,1.965208 -2.036364,1.965208 z m -4.958545,7.153359 c -2.100509,2.02613 -4.889309,3.142369 -7.853236,3.142369 -2.018037,0 -3.968873,-0.526676 -5.682473,-1.517141 0.09978,-0.290851 0.166982,-0.595458 0.166982,-0.917753 0,-0.08156 -0.01833,-0.159182 -0.02444,-0.238773 L 28.49265,22.496652 c 0.183273,0.239755 0.402182,0.450033 0.650619,0.627884 -0.340073,2.582284 -1.5568,5.205837 -3.156364,6.750491 z M 9.5636364,32.547711 c -1.1230546,0 -2.0363637,-0.881396 -2.0363637,-1.965209 0,-1.083812 0.9133091,-1.965208 2.0363637,-1.965208 1.1230546,0 2.0363636,0.881396 2.0363636,1.965208 0,1.083813 -0.913309,1.965209 -2.0363636,1.965209 z M 7.0181818,22.291288 c 0,-2.861344 1.1566546,-5.552697 3.2561452,-7.57981 1.594473,-1.538758 4.317091,-2.710022 7.004073,-3.040177 0.186327,0.246633 0.409309,0.462806 0.663854,0.642623 l -8.1607267,15.3414 c -0.071273,-0.01572 -0.1435637,-0.02063 -0.2178909,-0.02063 -0.3329455,0 -0.6485818,0.06485 -0.9489455,0.160164 C 7.5781818,26.138183 7.0181818,24.243722 7.0181818,22.291288 Z M 19.745454,7.9826043 c 1.123055,0 2.036364,0.881396 2.036364,1.9652085 0,1.0838122 -0.913309,1.9652082 -2.036364,1.9652082 -1.123054,0 -2.036363,-0.881396 -2.036363,-1.9652082 0,-1.0838125 0.913309,-1.9652085 2.036363,-1.9652085 z M 11.315927,28.175122 c -0.160872,-0.110052 -0.333963,-0.205364 -0.516218,-0.28299 l 8.0528,-15.139967 c 0.284073,0.0845 0.580364,0.143461 0.892945,0.143461 0.763637,0 1.453964,-0.281025 1.990546,-0.730075 1.436654,0.474598 2.7664,1.242011 3.898618,2.24525 z M 29.440582,8.9092001 c 1.123054,0 2.036363,0.881396 2.036363,1.9652089 0,1.083812 -0.913309,1.965208 -2.036363,1.965208 -1.122037,0 -2.036364,-0.881396 -2.036364,-1.965208 0,-1.0838129 0.914327,-1.9652089 2.036364,-1.9652089 z M 12.037818,28.867858 26.324945,15.080937 c 1.033455,1.092656 1.822546,2.37692 2.311273,3.767305 -0.458182,0.515868 -0.745309,1.17716 -0.745309,1.908218 0,0.301659 0.06109,0.586614 0.148655,0.859778 l -15.701382,7.748818 c -0.08349,-0.175887 -0.184291,-0.341947 -0.300364,-0.497198 z M 30.945454,17.808647 c -0.5376,0 -1.036508,0.146408 -1.475345,0.383216 -0.543709,-1.399229 -1.364364,-2.690371 -2.418182,-3.798749 l 0.987637,-0.914804 c 0.422545,0.212242 0.892945,0.343911 1.401018,0.343911 1.685091,0 3.054545,-1.322585 3.054545,-2.947812 0,-1.6252278 -1.369454,-2.9478132 -3.054545,-2.9478132 -1.684073,0 -3.054546,1.3225854 -3.054546,2.9478132 0,0.779205 0.321746,1.484715 0.834909,2.01139 l -0.865454,0.832266 C 25.203927,12.689279 23.861964,11.890421 22.409018,11.360798 22.651346,10.939261 22.8,10.462697 22.8,9.9478128 22.8,8.3225853 21.429527,7 19.745454,7 c -1.684072,0 -3.054545,1.3225853 -3.054545,2.9478128 0,0.2780772 0.05294,0.5414152 0.127273,0.7968922 -2.789818,0.410728 -5.585746,1.65274 -7.2637093,3.272072 C 7.2625454,16.229602 6,19.167589 6,22.291288 c 0,2.113581 0.5925818,4.168207 1.7064727,5.967355 -0.7229091,0.53945 -1.1973818,1.375646 -1.1973818,2.323859 0,1.625228 1.3704727,2.947813 3.0545455,2.947813 0.9845816,0 1.8530906,-0.459859 2.4120726,-1.160456 C 13.834909,33.43402 15.948655,34 18.133673,34 c 3.2368,0 6.281163,-1.218429 8.573091,-3.430272 1.709527,-1.647827 2.972072,-4.284154 3.396654,-6.993194 0.269818,0.07468 0.547782,0.127738 0.842036,0.127738 C 32.629527,23.704272 34,22.381687 34,20.75646 34,19.131232 32.629527,17.808647 30.945454,17.808647 Z"
+     id="AWS-IoT-Analytics-_Icon_32_Squid"
+     fill="#ffffff" /></g></g>
+  
+  <!-- QuickSight -->
+  <g
+   transform="translate(477.36776,812.55558)"
+   id="g40">
+    <rect
+   x="-100"
+   y="-30"
+   width="200"
+   height="60"
+   rx="10"
+   ry="10"
+   style="fill:#ffffff;stroke:#00b7f4;stroke-width:2"
+   id="rect21" />
+    
+    <!-- QuickSight Icon (simplified) -->
+    
+    
+    <text
+   x="-26.524063"
+   y="-10.000001"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text39">Amazon QuickSight</text>
+       
+    <text
+   x="-26.524063"
+   y="10"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text40">(Visualization)</text>
+  <g
+   id="Icon-Architecture/32/Arch_Amazon-QuickSight_32"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(-88.67224,-18.24064)"
+   style="fill:#ffffff"><g
+     id="Icon-Architecture-BG/32/Analytics-8"
+     fill="#8c4fff"><rect
+       id="Rectangle-9"
+       x="0"
+       y="0"
+       width="40"
+       height="40" /></g><path
+     d="m 32.999333,13 c 0,-0.551 -0.448299,-1 -1.000667,-1 -0.552369,0 -1.000667,0.449 -1.000667,1 0,0.551 0.448298,1 1.000667,1 0.552368,0 1.000667,-0.449 1.000667,-1 z m -11.48966,11 c 0,-0.552 -0.449299,-1 -1.000667,-1 -0.552368,0 -1.000667,0.448 -1.000667,1 0,0.551 0.448299,1 1.000667,1 0.551368,0 1.000667,-0.449 1.000667,-1 z m -1.000667,-7 c 0.551368,0 1.000667,-0.449 1.000667,-1 0,-0.552 -0.449299,-1 -1.000667,-1 -0.552368,0 -1.000667,0.448 -1.000667,1 0,0.551 0.448299,1 1.000667,1 z M 10.002001,27 c 0,-0.552 -0.4492992,-1 -1.0006668,-1 -0.5523682,0 -1.0006671,0.448 -1.0006671,1 0,0.551 0.4482989,1 1.0006671,1 0.5513676,0 1.0006668,-0.449 1.0006668,-1 z M 34,13 c 0,1.103 -0.897598,2 -2.001334,2 -0.37525,0 -0.723483,-0.11 -1.023683,-0.291 l -8.92595,8.029 c 0.283188,0.345 0.461307,0.781 0.461307,1.262 0,1.103 -0.898599,2 -2.001334,2 -1.103736,0 -2.001334,-0.897 -2.001334,-2 0,-0.93 0.639426,-1.706 1.501,-1.929 v -4.143 c -0.3012,-0.078 -0.572381,-0.224 -0.800533,-0.421 l -8.48966,8.483 c 0.176117,0.298 0.284189,0.64 0.284189,1.01 0,1.103 -0.898599,2 -2.0013338,2 C 7.8975984,29 7,28.103 7,27 c 0,-1.104 0.8975984,-2 2.0013342,-2 0.3702469,0 0.7114743,0.107 1.0096728,0.283 l 8.620747,-8.614 C 18.555704,16.458 18.507672,16.235 18.507672,16 c 0,-1.104 0.897598,-2 2.001334,-2 1.102735,0 2.001334,0.896 2.001334,2 0,0.929 -0.640427,1.705 -1.501,1.928 v 4.143 c 0.07205,0.018 0.142094,0.039 0.21114,0.065 l 9.052035,-8.141 C 30.102402,13.701 29.997332,13.364 29.997332,13 c 0,-1.103 0.897598,-2 2.001334,-2 C 33.102402,11 34,11.897 34,13 Z M 9.0013342,9 H 32.016678 v 1 h 1.000667 V 8.5 c 0,-0.277 -0.224149,-0.5 -0.500334,-0.5 H 8.5010007 C 8.2238159,8 8.0006671,8.223 8.0006671,8.5 V 24 h 1.0006671 z m 23.0153438,7 h 1.000667 v 16.5 c 0,0.276 -0.224149,0.5 -0.500334,0.5 H 8.5010007 C 8.2238159,33 8.0006671,32.776 8.0006671,32.5 V 30 h 1.0006671 v 2 H 32.016678 Z"
+     id="Amazon-QuickSight-Icon_32_Squid"
+     fill="#ffffff" /></g></g>
+  
+  <!-- SageMaker -->
+  <g
+   transform="translate(709.98808,812.02082)"
+   id="g44">
+    <rect
+   x="-100"
+   y="-30"
+   width="200"
+   height="60"
+   rx="10"
+   ry="10"
+   style="fill:#ffffff;stroke:#ff9900;stroke-width:2"
+   id="rect40" />
+    
+    <!-- SageMaker Icon (simplified) -->
+    
+    
+    <text
+   x="-31.871658"
+   y="-8.3957224"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#232f3e"
+   id="text43">Amazon SageMaker</text>
+       
+    <text
+   x="-31.871658"
+   y="11.604278"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text41">(Machine Learning)</text><g
+   style="fill:none"
+   id="g66"
+   transform="translate(-86.29046,-18.70589)"><rect
+     width="40"
+     height="40"
+     fill="#8c4fff"
+     id="rect1-7"
+     x="0"
+     y="0" /><path
+     d="M 31.7168,15.7151 28,13.9314 V 10.4055 C 28,10.2312 27.9092,10.0696 27.7607,9.97875 L 23.835,7.57885 C 23.6797,7.48412 23.4854,7.48168 23.3262,7.57153 L 19.5019,9.75952 15.6777,7.57153 c -0.1523,-0.08789 -0.3418,-0.08789 -0.4961,0 L 11.2519,9.81469 C 11.0967,9.90356 11,10.0691 11,10.2488 v 3.5356 l -3.73047,1.938 C 7.10351,15.8088 7,15.9797 7,16.1663 v 7.6792 c 0,0.1923 0.11035,0.3676 0.2832,0.4506 L 11,26.0798 v 3.5259 c 0,0.1743 0.0908,0.3359 0.2393,0.4268 l 3.9267,2.3999 c 0.1563,0.0952 0.3506,0.0981 0.5088,0.0073 l 3.8252,-2.188 3.8252,2.188 c 0.0772,0.0439 0.1621,0.0659 0.2481,0.0659 0.0908,0 0.1806,-0.0244 0.2607,-0.0732 l 3.9268,-2.3999 C 27.9092,29.9416 28,29.78 28,29.6057 v -3.5259 l 3.7168,-1.7837 C 31.8897,24.2131 32,24.0378 32,23.8455 v -7.6797 c 0,-0.1924 -0.1103,-0.3677 -0.2832,-0.4507 z M 19.5,21.6511 18.0801,20.8274 v -1.6328 l 1.4199,-0.833 1.4199,0.833 v 1.6328 z M 15.4356,31.4246 12,29.3254 v -3.56 C 12,25.573 11.8897,25.3977 11.7168,25.3147 L 8,23.531 V 16.47 l 3.7305,-1.938 C 11.8965,14.446 12,14.2747 12,14.0881 V 10.5393 L 15.4297,8.58128 19.001,10.625 v 6.8702 l -1.6739,0.9821 c -0.1533,0.0898 -0.247,0.2539 -0.247,0.4311 v 2.2071 c 0,0.1782 0.0947,0.3432 0.249,0.4326 l 1.6719,0.9698 V 29.385 Z M 31,23.531 27.2832,25.3147 C 27.1103,25.3977 27,25.573 27,25.7654 v 3.56 l -3.4356,2.0991 -3.5634,-2.0384 v -6.8693 l 1.6699,-0.9687 c 0.1543,-0.0894 0.249,-0.2544 0.249,-0.4326 v -2.2071 c 0,-0.1772 -0.0937,-0.3413 -0.2471,-0.4311 L 20.001,17.4963 V 10.6261 L 23.5654,8.58665 27,10.6858 v 3.56 c 0,0.1924 0.1103,0.3677 0.2832,0.4507 L 31,16.4802 Z"
+     fill="#ffffff"
+     id="path1-6" /></g>
+  </g>
+  
+  <!-- Connections - Top to Path 1 -->
+  <path
+   d="m 270.14926,259.30348 0.1759,49.63571"
+   style="fill:none;stroke:#4355b9;stroke-width:2;stroke-dasharray:none;marker-end:url(#arrowhead)"
+   id="path2"
+   sodipodi:nodetypes="cc" />
+     
+  <path
+   d="m 270.00353,308.84865 -115.42288,37.9602"
+   style="fill:none;stroke:#4355b9;stroke-width:2;stroke-dasharray:none;marker-end:url(#arrowhead)"
+   id="path44"
+   sodipodi:nodetypes="cc" />
+  
+  <path
+   d="M 269.97336,308.84864 397.01493,350"
+   style="fill:none;stroke:#4355b9;stroke-width:2;stroke-dasharray:none;marker-end:url(#arrowhead)"
+   id="path45"
+   sodipodi:nodetypes="cc" />
+  
+  <!-- Connections - Top to Path 2 -->
+  
+  
+  <path
+   d="m 757.97023,260.35427 -1.00505,80.20458"
+   style="fill:none;stroke:#e05243;stroke-width:2;stroke-dasharray:none;marker-end:url(#marker68)"
+   id="path46"
+   sodipodi:nodetypes="cc" /><path
+   d="m 800.57744,270.74977 -1.00505,75.96194"
+   style="fill:none;stroke:#e05243;stroke-width:2;stroke-dasharray:none;marker-start:url(#marker69);opacity:0.50000001"
+   id="path46-4"
+   sodipodi:nodetypes="cc" />
+  
+  
+  
+  <!-- Path 1 Output Connections -->
+  <path
+   d="m 178.14355,449.64821 v 51.05538"
+   style="fill:none;stroke:#ff9900;stroke-width:2;stroke-dasharray:none;marker-end:url(#arrowhead)"
+   id="path8"
+   sodipodi:nodetypes="cc" />
+  
+  <path
+   d="m 326.58097,449.2989 v 95.98507"
+   style="fill:none;stroke:#4355b9;stroke-width:2;stroke-dasharray:none;marker-end:url(#arrowhead)"
+   id="path9"
+   sodipodi:nodetypes="cc" /><path
+   d="m 327.50747,478.74253 h 52.98507"
+   style="fill:none;stroke:#4355b9;stroke-width:2;stroke-dasharray:none;marker-end:url(#arrowhead)"
+   id="path9-7"
+   sodipodi:nodetypes="cc" />
+  
+  <!-- Path 2 Output Connections -->
+  <path
+   d="m 726.00727,451.15842 v 48.50746"
+   style="fill:none;stroke:#4d27aa;stroke-width:2;stroke-dasharray:none;marker-end:url(#arrowhead)"
+   id="path10"
+   sodipodi:nodetypes="cc" />
+  
+  
+  
+  
+  
+  <!-- Athena Query Connections (dashed) -->
+  <path
+   d="m 1056.9652,350.96087 0,-144.33957 -64.4401,0"
+   style="fill:none;stroke:#e05243;stroke-width:2;stroke-dasharray:4, 4;marker-end:url(#Triangle)"
+   id="path47"
+   sodipodi:nodetypes="ccc" />
+  
+  <path
+   d="m 956.96518,399.75124 h 50.00002 v 130 H 856.96518"
+   style="fill:none"
+   id="path48" /><style
+   type="text/css"
+   id="style1">
+	.st0{fill:none;stroke:#e05243;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style><path
+   class="st0"
+   d="m 705.17838,233.17178 c 1,-0.5 1.9,-1.2 2.6,-2.1 0.7,0.8 1.4,1.5 2.3,2 0.7,0.4 1.5,0.7 2.3,0.8 m -30.7,-0.7 c -0.9,-0.5 -1.8,-1.2 -2.5,-2.1 -1.2,1.5 -2.9,2.5 -4.7,2.8 m 32,5.6 c -1.7,0 -3.2,-0.8 -4.3,-2.2 -1.1,1.3 -2.6,2.2 -4.3,2.2 -1.1,0 -2.1,-0.3 -2.9,-0.9 m -2.9,0 c -0.9,0.6 -1.9,0.9 -2.9,0.9 -1.7,0 -3.2,-0.8 -4.3,-2.2 -1.1,1.3 -2.6,2.2 -4.3,2.2 m 12.8,-28.6 c -6.5,0 -11.7,-1.5 -11.7,-3.3 v 9.2 c 0,1.8 5.2,3.3 11.7,3.3 6.5,0 11.7,-1.5 11.7,-3.3 v -9.2 c 0,1.8 -5.2,3.3 -11.7,3.3 z m 0,9.2 c -6.5,0 -11.7,-1.5 -11.7,-3.3 v 9.2 c 0,1.8 5.2,3.3 11.7,3.3 6.5,0 11.7,-1.5 11.7,-3.3 v -9.2 c 0,1.9 -5.2,3.3 -11.7,3.3 z m -11.7,13.1 c 1.3,0.5 2.8,0.8 4.3,0.8 2.9,0 5.6,-1.1 7.5,-2.9 1.9,1.8 4.6,2.9 7.5,2.9 1.4,0 2.8,-0.3 4.1,-0.7 m -9.8,5.4 c -0.7,-0.3 -1.3,-0.8 -1.8,-1.3 -0.5,0.5 -1.2,0.9 -1.8,1.3 m 1.7,-9.3 c -6.5,0 -11.7,-1.5 -11.7,-3.3 v 7.1 c 1.3,0.5 2.8,0.8 4.3,0.8 2.9,0 5.6,-1.1 7.5,-2.9 1.9,1.8 4.6,2.9 7.5,2.9 1.4,0 2.8,-0.3 4.1,-0.7 v -7.2 c 0,1.8 -5.2,3.3 -11.7,3.3 z m 0,-25.1 c -6.5,0 -11.7,1.5 -11.7,3.3 0,1.8 5.2,3.3 11.7,3.3 6.5,0 11.7,-1.5 11.7,-3.3 0,-1.8 -5.2,-3.3 -11.7,-3.3 z m 0.1,-11 c -13.8,0 -25,11.2 -25,25 0,13.8 11.2,25 25,25 13.8,0 25,-11.2 25,-25 0,-13.8 -11.2,-25 -25,-25 z"
+   id="path1" /><g
+   id="Icon-Architecture/32/Arch_Amazon-Managed-Service-for-Apache-Flink_32"
+   stroke="none"
+   stroke-width="1.13367"
+   fill="none"
+   fill-rule="evenodd"
+   transform="matrix(0.88209,0,0,0.88209,327.65109,390.79323)"><g
+     id="Icon-Architecture-BG/32/Analytics"
+     fill="#8c4fff"
+     style="stroke-width:1.13367"><rect
+       id="Rectangle"
+       x="0"
+       y="0"
+       width="40"
+       height="40"
+       style="stroke-width:1.13367" /></g><g
+     id="Icon-Service/32/Amazon-Managed-Service-for-Apache-Flink_32"
+     transform="translate(7.1,7)"
+     fill="#ffffff"
+     style="stroke-width:1.13367"><path
+       d="m 15.258,7.498 c 0,1.296 -1.055,2.351 -2.351,2.351 -1.296,0 -2.351,-1.055 -2.351,-2.351 0,-1.296 1.055,-2.351 2.351,-2.351 1.296,0 2.351,1.055 2.351,2.351 z m 1,0 c 0,-1.848 -1.503,-3.351 -3.351,-3.351 -1.847,0 -3.351,1.503 -3.351,3.351 0,1.848 1.504,3.351 3.351,3.351 1.848,0 3.351,-1.503 3.351,-3.351 z m -4.177,5.868 C 12.095,13.122 11.931,12.904 11.693,12.85 11.086,12.713 10.511,12.474 9.982,12.14 9.777,12.01 9.505,12.048 9.342,12.23 l -0.42,0.472 -1.219,-1.219 0.472,-0.42 C 8.358,10.9 8.396,10.63 8.265,10.423 7.932,9.895 7.694,9.32 7.558,8.713 7.504,8.475 7.314,8.314 7.041,8.324 L 6.409,8.359 V 6.637 L 7.043,6.673 C 7.289,6.686 7.505,6.523 7.559,6.285 7.696,5.678 7.936,5.103 8.269,4.577 8.4,4.371 8.362,4.1 8.179,3.937 L 7.703,3.513 8.922,2.295 9.345,2.769 c 0.162,0.183 0.434,0.22 0.64,0.09 C 10.512,2.527 11.086,2.29 11.693,2.152 11.931,2.098 12.095,1.88 12.081,1.636 L 12.045,1 h 1.724 l -0.036,0.637 c -0.014,0.244 0.15,0.463 0.388,0.516 0.606,0.137 1.18,0.375 1.707,0.707 0.206,0.13 0.479,0.093 0.64,-0.09 l 0.424,-0.475 1.219,1.218 -0.474,0.422 c -0.183,0.163 -0.221,0.434 -0.09,0.641 0.333,0.526 0.571,1.101 0.709,1.708 0.054,0.238 0.247,0.409 0.516,0.389 L 19.404,6.637 V 8.359 L 18.772,8.324 c -0.279,-0.02 -0.463,0.151 -0.516,0.389 -0.137,0.605 -0.375,1.181 -0.708,1.709 -0.13,0.207 -0.092,0.477 0.09,0.64 l 0.473,0.421 -1.219,1.219 -0.419,-0.471 c -0.162,-0.182 -0.435,-0.221 -0.64,-0.09 -0.528,0.334 -1.104,0.572 -1.712,0.709 -0.238,0.054 -0.403,0.273 -0.388,0.517 l 0.036,0.629 h -1.724 z m 2.58,1.473 c 0.095,-0.1 0.144,-0.235 0.136,-0.372 l -0.043,-0.749 c 0.432,-0.128 0.849,-0.3 1.245,-0.515 l 0.499,0.559 c 0.091,0.103 0.221,0.163 0.359,0.168 0.147,10e-4 0.271,-0.049 0.368,-0.147 l 1.967,-1.967 c 0.097,-0.097 0.15,-0.23 0.146,-0.367 -0.004,-0.138 -0.064,-0.267 -0.167,-0.359 l -0.562,-0.502 c 0.215,-0.396 0.387,-0.812 0.514,-1.243 l 0.753,0.043 c 0.144,0.007 0.272,-0.041 0.372,-0.136 0.1,-0.094 0.156,-0.226 0.156,-0.363 V 6.107 C 20.404,5.97 20.348,5.838 20.248,5.744 20.148,5.65 20.02,5.602 19.876,5.608 L 19.123,5.651 C 18.995,5.22 18.823,4.805 18.609,4.409 L 19.171,3.907 C 19.274,3.815 19.334,3.685 19.338,3.548 19.342,3.41 19.289,3.277 19.192,3.18 L 17.225,1.213 C 17.127,1.116 17,1.067 16.857,1.067 16.72,1.071 16.59,1.131 16.498,1.234 L 15.994,1.799 C 15.599,1.585 15.184,1.413 14.754,1.285 L 14.797,0.529 C 14.805,0.392 14.756,0.257 14.661,0.157 14.567,0.057 14.436,0 14.298,0 h -2.782 c -0.138,0 -0.269,0.057 -0.363,0.157 -0.095,0.1 -0.144,0.235 -0.136,0.372 l 0.043,0.755 c -0.431,0.128 -0.846,0.3 -1.241,0.514 L 9.316,1.234 C 9.224,1.131 9.094,1.071 8.957,1.067 8.825,1.071 8.687,1.117 8.589,1.213 L 6.622,3.18 C 6.525,3.277 6.472,3.411 6.476,3.548 6.48,3.685 6.54,3.815 6.643,3.907 L 7.207,4.41 C 6.992,4.806 6.82,5.221 6.692,5.651 L 5.938,5.608 C 5.808,5.602 5.666,5.65 5.566,5.744 5.466,5.838 5.409,5.97 5.409,6.107 v 2.782 c 0,0.137 0.057,0.269 0.157,0.363 0.1,0.095 0.242,0.143 0.372,0.136 L 6.689,9.345 c 0.128,0.432 0.299,0.848 0.514,1.244 l -0.56,0.501 c -0.103,0.092 -0.163,0.221 -0.167,0.359 -0.004,0.137 0.049,0.27 0.146,0.367 l 1.967,1.967 c 0.098,0.098 0.232,0.145 0.368,0.147 0.138,-0.005 0.267,-0.065 0.359,-0.168 l 0.5,-0.56 c 0.396,0.215 0.812,0.387 1.244,0.515 l -0.043,0.75 c -0.008,0.137 0.041,0.272 0.136,0.372 0.093,0.1 0.225,0.157 0.363,0.157 h 2.782 c 0.138,0 0.27,-0.057 0.363,-0.157 z m 0.617,3.432 0.669,-0.579 c 0.976,-0.853 2.686,-0.853 3.662,0.002 l 0.667,0.575 c 1.346,1.182 3.627,1.181 4.973,0.002 l 0.334,-0.289 -0.654,-0.755 -0.336,0.29 c -0.976,0.853 -2.686,0.853 -3.661,-0.002 l -0.667,-0.576 c -1.347,-1.181 -3.627,-1.18 -4.974,-0.002 l -0.67,0.581 C 13.647,18.37 11.937,18.371 10.96,17.516 L 10.294,16.939 C 8.945,15.76 6.665,15.759 5.32,16.937 L 4.65,17.518 C 3.675,18.37 1.965,18.371 0.988,17.516 L 0.654,17.227 0,17.982 0.332,18.269 c 1.35,1.182 3.628,1.181 4.974,0.002 l 0.67,-0.579 c 0.975,-0.853 2.686,-0.853 3.662,0.001 l 0.666,0.576 c 0.675,0.591 1.582,0.887 2.488,0.886 0.906,0 1.813,-0.294 2.486,-0.884 z m 0,6.323 0.669,-0.58 c 0.976,-0.854 2.686,-0.852 3.662,0.001 l 0.667,0.577 c 1.346,1.179 3.627,1.18 4.973,0.002 l 0.334,-0.29 -0.654,-0.756 -0.336,0.291 c -0.976,0.854 -2.686,0.852 -3.661,-10e-4 l -0.667,-0.577 c -1.347,-1.181 -3.627,-1.18 -4.974,-0.002 l -0.67,0.58 c -0.974,0.853 -2.684,0.853 -3.661,-10e-4 L 10.294,23.261 C 8.945,22.081 6.665,22.081 5.32,23.259 l -0.67,0.58 C 3.675,24.692 1.965,24.692 0.988,23.838 L 0.654,23.548 0,24.304 0.332,24.592 c 1.35,1.18 3.628,1.179 4.974,0.002 l 0.67,-0.58 c 0.975,-0.854 2.686,-0.852 3.662,0.001 l 0.666,0.577 c 0.675,0.59 1.582,0.885 2.488,0.885 0.906,0 1.813,-0.294 2.486,-0.883 z m -2.486,-2.278 c -0.906,0.001 -1.813,-0.295 -2.488,-0.885 L 9.638,20.854 C 8.662,20 6.951,20 5.976,20.853 l -0.67,0.58 C 3.96,22.611 1.682,22.612 0.332,21.431 L 0,21.144 0.654,20.388 0.988,20.677 c 0.977,0.855 2.687,0.854 3.662,0.002 l 0.67,-0.58 C 6.665,18.92 8.945,18.921 10.294,20.1 l 0.666,0.577 c 0.977,0.855 2.687,0.854 3.661,0.002 l 0.67,-0.58 c 1.347,-1.179 3.627,-1.18 4.974,0.002 l 0.667,0.575 c 0.975,0.855 2.685,0.855 3.661,0.002 l 0.336,-0.29 0.654,0.756 -0.334,0.289 c -1.346,1.178 -3.627,1.178 -4.973,-0.002 L 19.609,20.855 C 18.633,20 16.923,20 15.947,20.853 l -0.669,0.58 c -0.673,0.589 -1.58,0.883 -2.486,0.883 z"
+       id="Fill-6"
+       style="stroke-width:1.13367" /></g></g><g
+   id="Icon-Architecture/32/Arch_AWS-Glue_32"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(617.69762,384.43564)"><g
+     id="Icon-Architecture-BG/32/Analytics-7"
+     fill="#8c4fff"><rect
+       id="Rectangle-95"
+       x="0"
+       y="0"
+       width="40"
+       height="40" /></g><path
+     d="m 27.163,15.543019 c -1.839,0.411691 -4.673,0.49483 -6.663,0.49483 -1.977,0 -4.785,-0.08214 -6.625,-0.485815 l 5.539,8.196759 c 0.056,0.08314 0.086,0.181304 0.086,0.281472 v 1.067792 c 0.701,0.20234 1.349,0.205345 2,0.007 v -1.074804 c 0,-0.10117 0.03,-0.199335 0.087,-0.282474 z m 1.69,-0.771295 0.03,0.02003 -6.383,9.391764 v 1.276142 c 0,0.204343 -0.124,0.388653 -0.314,0.464781 -0.545,0.219368 -1.093,0.328551 -1.653,0.328551 -0.556,0 -1.121,-0.108182 -1.706,-0.323543 C 18.631,25.857332 18.5,25.669016 18.5,25.459664 V 24.183522 L 12.105,14.718635 C 12.043,14.622473 12,14.520302 12,14.410117 c 0,-1.425393 4.692,-1.688835 7.488,-1.719887 l 0.012,1.001681 c -3.343,0.03606 -5.421,0.409688 -6.212,0.699174 0.943,0.30952 3.533,0.645083 7.212,0.645083 3.45,0 5.943,-0.295496 7.017,-0.586985 -0.5,-0.133224 -1.416,-0.31553 -3.078,-0.518871 l 0.121,-0.99467 c 4.122,0.503846 4.44,0.928559 4.44,1.474475 0,0.13122 -0.06,0.25042 -0.147,0.361607 z M 16.5,11.008407 h 1 v -1.001681 h -1 z m -1,0.500841 V 9.5058849 c 0,-0.2774658 0.224,-0.5008407 0.5,-0.5008407 h 2 c 0.276,0 0.5,0.2233749 0.5,0.5008407 v 2.0033631 c 0,0.276464 -0.224,0.50084 -0.5,0.50084 h -2 c -0.276,0 -0.5,-0.224376 -0.5,-0.50084 z m 5,-3.5058852 h 1 V 7.0016814 h -1 z m -1,0.5008407 V 6.5008407 C 19.5,6.2233749 19.724,6 20,6 h 2 c 0.276,0 0.5,0.2233749 0.5,0.5008407 v 2.0033628 c 0,0.2764641 -0.224,0.5008407 -0.5,0.5008407 h -2 c -0.276,0 -0.5,-0.2243766 -0.5,-0.5008407 z m 2,4.5075665 h 1 v -1.001682 h -1 z M 21,11.008407 h 2 c 0.276,0 0.5,0.223375 0.5,0.500841 v 2.003362 c 0,0.276465 -0.224,0.500841 -0.5,0.500841 h -2 c -0.276,0 -0.5,-0.224376 -0.5,-0.500841 v -2.003362 c 0,-0.277466 0.224,-0.500841 0.5,-0.500841 z m 3.424,18.324759 c 0.081,0.1783 0.05,0.388653 -0.079,0.5359 l -3.469,3.959647 C 20.781,33.937896 20.643,34 20.5,34 20.356,34 20.219,33.9379 20.124,33.828713 l -3.469,-3.959647 c -0.129,-0.147247 -0.16,-0.3576 -0.079,-0.5359 0.081,-0.180302 0.259,-0.294494 0.455,-0.294494 h 1.453 v -1.001681 h 1 v 1.502522 c 0,0.276464 -0.223,0.50084 -0.5,0.50084 h -0.849 l 2.365,2.69853 2.365,-2.69853 H 22 c -0.276,0 -0.5,-0.224376 -0.5,-0.50084 v -1.502522 h 1 v 1.001681 h 1.469 c 0.196,0 0.374,0.114192 0.455,0.294494 z"
+     id="AWS-Glue_Icon_32_Squid"
+     fill="#ffffff" /></g><g
+   id="Icon-Architecture/32/Arch_Amazon-Athena_32"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(897.51952,385.48589)"><g
+     id="Icon-Architecture-BG/32/Analytics-3"
+     fill="#8c4fff"><rect
+       id="Rectangle-1"
+       x="0"
+       y="0"
+       width="40"
+       height="40" /></g><path
+     d="m 18.72602,14.285399 c 1.800651,0 2.982106,0.284259 3.419305,0.4987 -0.437199,0.214441 -1.618654,0.498699 -3.419305,0.498699 -1.80065,0 -2.982104,-0.284258 -3.419304,-0.498699 0.4372,-0.214441 1.618654,-0.4987 3.419304,-0.4987 z m 0.01424,3.197663 c -0.08846,-0.02693 -0.164712,-0.07879 -0.164712,-0.181527 0,-0.139636 0.114892,-0.252342 0.256219,-0.252342 0.0427,0 0.07219,0.02593 0.106758,0.04289 z m 2.938385,4.156164 c -0.03762,0.02893 -0.124043,0.08677 -0.302989,0.155595 -0.161662,0.06284 -0.35281,0.11869 -0.565309,0.166565 -0.571409,0.129662 -1.273978,0.201475 -1.97858,0.201475 -1.541381,0 -2.616078,-0.32216 -2.845862,-0.52164 l -0.688334,-5.793894 c 1.187555,0.400954 2.937368,0.432871 3.428454,0.432871 0.496171,0 2.27547,-0.03291 3.464041,-0.44484 l -0.202331,2.298009 c -0.735105,-0.27628 -1.608487,-0.656289 -2.440182,-1.048267 -0.09659,-0.304207 -0.375178,-0.52962 -0.715786,-0.52962 -0.418898,0 -0.759507,0.335127 -0.759507,0.746055 0,0.410929 0.340609,0.745058 0.759507,0.745058 0.100657,0 0.195214,-0.02095 0.282654,-0.05586 1.177388,0.560539 2.090422,0.944538 2.78079,1.185909 z m -7.524909,-6.797278 0.822544,6.891034 c 0,1.41132 3.697892,1.427279 3.855487,1.427279 0.779841,0 1.563749,-0.08079 2.20633,-0.22641 0.26842,-0.06084 0.507355,-0.132654 0.710703,-0.211449 0.623263,-0.24137 0.938453,-0.574502 0.937437,-0.946532 l 0.203348,-2.304991 c 0.298922,0.06782 0.534806,0.09775 0.715787,0.09775 0.477868,0 0.603945,-0.188509 0.690368,-0.318171 l 0.07625,-0.476757 C 24.249981,18.281983 23.372533,17.586796 23.074627,17.37036 l 0.2247,-2.543369 -0.0051,-9.98e-4 c 0.001,-0.01396 0.0071,-0.02693 0.0071,-0.04189 0,-1.424287 -3.811767,-1.4961 -4.575341,-1.4961 -0.763573,0 -4.57534,0.07181 -4.57534,1.4961 0,0.01995 0.0081,0.0369 0.01017,0.05685 z m 4.591608,-5.447797 c 4.764454,0 8.642309,3.803085 8.642309,8.477897 0,4.674812 -3.877855,8.477897 -8.642309,8.477897 -4.765471,0 -8.64231,-3.803085 -8.64231,-8.477897 0,-4.674812 3.876839,-8.477897 8.64231,-8.477897 z M 6.0167423,21.267196 v 0.9974 H 10.19352 c 1.617636,3.017134 4.840709,5.082748 8.551819,5.082748 5.325696,0 9.659051,-4.250917 9.659051,-9.475296 0,-5.224379 -4.333355,-9.4752967 -9.659051,-9.4752967 -4.409611,0 -8.131905,2.9173937 -9.2828572,6.8860467 H 6.0167423 v 0.9974 h 3.2169725 c -0.09049,0.518648 -0.1474276,1.048267 -0.1474276,1.59185 0,0.135646 0.014234,0.2683 0.020335,0.402949 H 5 v 0.9974 h 4.2032125 c 0.1047245,0.692195 0.2846878,1.359456 0.5348064,1.994799 z M 33.503353,32.531828 c -0.614113,0.603427 -1.680675,0.608414 -2.295804,0.005 l -5.252491,-5.151569 c 0.880499,-0.643323 1.666441,-1.397357 2.339524,-2.246144 l 5.214871,5.141595 c 0.306039,0.300217 0.473802,0.700174 0.473802,1.126064 -10e-4,0.424892 -0.170813,0.824849 -0.479902,1.125067 z m 0.725954,-2.955295 -5.33383,-5.259289 c 1.229241,-1.858155 1.952145,-4.068393 1.952145,-6.445196 C 30.847622,11.326114 25.418218,6 18.745339,6 13.949365,6 9.599742,8.7817476 7.6658982,13.086524 l 0.9293024,0.40295 C 10.368399,9.5457557 14.351995,6.9973996 18.745339,6.9973996 c 6.111637,0 11.085541,4.8782814 11.085541,10.8746484 0,5.996366 -4.973904,10.875645 -11.085541,10.875645 -3.732461,0 -7.192435,-1.826238 -9.2543884,-4.884266 l -0.8479631,0.550565 c 2.2510675,3.338297 6.0272485,5.331101 10.1023515,5.331101 2.332406,0 4.505185,-0.662273 6.355655,-1.788337 l 5.387718,5.286218 C 30.986915,33.730702 31.647798,34 32.34935,34 33.055986,34 33.720935,33.728707 34.221173,33.238984 34.72141,32.751256 34.997964,32.100951 35,31.407758 35.001,30.715563 34.726493,30.064261 34.229307,29.576533 Z"
+     id="Amazon-Athena_Icon_32_Squid"
+     fill="#ffffff" /></g><g
+   id="Icon-Architecture/32/Arch_Amazon-Redshift_32"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(637.69762,508.68185)"><g
+     id="Icon-Architecture-BG/32/Analytics-38"
+     fill="#8c4fff"><rect
+       id="Rectangle-7"
+       x="0"
+       y="0"
+       width="40"
+       height="40" /></g><path
+     d="m 25.912,17.586826 c -0.528,0 -0.959,-0.429141 -0.959,-0.957086 0,-0.528942 0.431,-0.958083 0.959,-0.958083 0.529,0 0.96,0.429141 0.96,0.958083 0,0.527945 -0.431,0.957086 -0.96,0.957086 m -2.433,5.826348 c -0.528,0 -0.959,-0.429142 -0.959,-0.958084 0,-0.527944 0.431,-0.957086 0.959,-0.957086 0.53,0 0.96,0.429142 0.96,0.957086 0,0.528942 -0.43,0.958084 -0.96,0.958084 m -5.838,-0.971058 c -0.528,0 -0.958,-0.429142 -0.958,-0.958084 0,-0.527944 0.43,-0.957086 0.958,-0.957086 0.53,0 0.96,0.429142 0.96,0.957086 0,0.528942 -0.43,0.958084 -0.96,0.958084 m -2.431,5.340319 c -0.529,0 -0.96,-0.429142 -0.96,-0.957086 0,-0.527944 0.431,-0.958084 0.96,-0.958084 0.528,0 0.959,0.43014 0.959,0.958084 0,0.527944 -0.431,0.957086 -0.959,0.957086 M 25.912,14.673653 c -1.08,0 -1.959,0.877245 -1.959,1.956087 0,0.660679 0.332,1.243513 0.837,1.597805 L 23.877,20.53992 C 23.748,20.513972 23.615,20.5 23.479,20.5 c -0.859,0 -1.582,0.558882 -1.845,1.328343 l -2.045,-0.464072 c -0.064,-1.021956 -0.907,-1.835329 -1.948,-1.835329 -1.08,0 -1.958,0.877246 -1.958,1.95509 0,0.503992 0.197,0.96008 0.511,1.306387 l -0.892,2.088822 c -0.032,-0.002 -0.061,-0.01 -0.092,-0.01 -1.081,0 -1.96,0.877246 -1.96,1.956088 0,1.077845 0.879,1.95509 1.96,1.95509 1.08,0 1.959,-0.877245 1.959,-1.95509 0,-0.692614 -0.364,-1.297405 -0.908,-1.645708 l 0.787,-1.841318 c 0.188,0.05988 0.385,0.101797 0.593,0.101797 0.771,0 1.432,-0.4501 1.752,-1.096807 l 2.165,0.491018 c 0.178,0.897206 0.971,1.576847 1.921,1.576847 1.081,0 1.96,-0.877246 1.96,-1.956088 0,-0.582834 -0.261,-1.100799 -0.669,-1.459082 l 0.959,-2.43014 c 0.062,0.006 0.121,0.01896 0.183,0.01896 1.081,0 1.96,-0.877245 1.96,-1.95509 0,-1.078842 -0.879,-1.956087 -1.96,-1.956087 M 20.5,33.001996 c -4.865,0 -8.5,-1.46008 -8.5,-2.765469 V 11.58982 c 1.663,1.338324 5.153,2.048903 8.5,2.048903 3.347,0 6.837,-0.710579 8.5,-2.048903 v 18.646707 c 0,1.305389 -3.635,2.765469 -8.5,2.765469 m 0,-26.003992 c 5.009,0 8.5,1.4860279 8.5,2.8213573 0,1.3343317 -3.491,2.8213577 -8.5,2.8213577 -5.009,0 -8.5,-1.487026 -8.5,-2.8213577 C 12,8.4840319 15.491,6.998004 20.5,6.998004 M 30,9.8193613 C 30,7.3383233 25.105,6 20.5,6 15.894,6 11,7.3383233 11,9.8193613 c 0,0.00399 0.002,0.00798 0.002,0.011976 H 11 V 30.236527 C 11,32.680639 15.894,34 20.5,34 25.105,34 30,32.680639 30,30.236527 V 9.8313373 h -0.002 c 0,-0.00399 0.002,-0.00798 0.002,-0.011976"
+     id="Amazon-Redshift_Icon_32_Squid"
+     fill="#ffffff" /></g><path
+   style="opacity:1;fill:#000000;stroke:#e05243;stroke-width:2;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker74);paint-order:markers stroke fill"
+   d="m 1055.0033,280.01429 h -43.8405"
+   id="path72"
+   sodipodi:nodetypes="cc" /><path
+   style="opacity:1;fill:#000000;stroke:#e05243;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+   d="m 487,771 v 10"
+   id="path79" /><path
+   style="opacity:1;fill:#000000;stroke:#e05243;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+   d="M 714,771.5 V 781"
+   id="path80" /></svg>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Styles -->
+  <style>
+    .unauth-text {
+      font-family: Arial, Helvetica, sans-serif;
+      fill: #333333;
+    }
+    .unauth-label {
+      font-size: 14px;
+      font-weight: bold;
+      text-anchor: middle;
+      fill: #B71C1C;
+    }
+    .unauth-user-circle {
+      fill: #FFEBEE;
+      stroke: #FFCDD2;
+      stroke-width: 2;
+    }
+    .unauth-user-head {
+      fill: #616161;
+      stroke: #424242;
+      stroke-width: 1;
+    }
+    .unauth-user-body {
+      fill: #616161;
+      stroke: #424242;
+      stroke-width: 1;
+    }
+    .unauth-device {
+      fill: #FFFFFF;
+      stroke: #BDBDBD;
+      stroke-width: 2;
+    }
+    .unauth-device-screen {
+      fill: #E0E0E0;
+      stroke: #BDBDBD;
+      stroke-width: 1;
+    }
+    .unauth-error-symbol {
+      fill: none;
+      stroke: #B71C1C;
+      stroke-width: 3;
+      stroke-linecap: round;
+    }
+    .unauth-lock {
+      fill: none;
+      stroke: #B71C1C;
+      stroke-width: 2;
+    }
+    .unauth-incognito-hat {
+      fill: #424242;
+      stroke: #212121;
+      stroke-width: 1;
+    }
+  </style>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="80" class="unauth-user-circle" />
+
+  <!-- User figure with incognito/suspicious look -->
+  <circle cx="100" cy="65" r="18" class="unauth-user-head" />
+  
+  <!-- Incognito hat -->
+  <path d="M75,55 Q100,35 125,55 L120,60 Q100,45 80,60 Z" class="unauth-incognito-hat" />
+  
+  <!-- Shady glasses -->
+  <path d="M85,65 L115,65" stroke="#212121" stroke-width="2" />
+  <rect x="85" y="60" width="10" height="10" fill="#212121" rx="1" ry="1" />
+  <rect x="105" y="60" width="10" height="10" fill="#212121" rx="1" ry="1" />
+  
+  <!-- User body (simplified) -->
+  <path d="M100,85 L100,115 M85,95 L115,95" stroke="#616161" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Media device with error -->
+  <rect x="55" y="120" width="90" height="55" rx="3" ry="3" class="unauth-device" />
+  
+  <!-- Screen with error -->
+  <rect x="60" y="125" width="80" height="40" class="unauth-device-screen" />
+  
+  <!-- X mark on screen -->
+  <line x1="75" y1="135" x2="125" y2="155" class="unauth-error-symbol" />
+  <line x1="125" y1="135" x2="75" y2="155" class="unauth-error-symbol" />
+  
+  <!-- Lock symbol -->
+  <circle cx="100" cy="145" r="8" class="unauth-lock" />
+  <rect x="95" y="145" width="10" height="12" class="unauth-lock" />
+  
+  <!-- Label -->
+  <text x="100" y="195" class="unauth-label unauth-text">Unauthorized User</text>
+</svg>

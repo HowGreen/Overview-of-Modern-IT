@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="650"
+   viewBox="0 0 1000 650"
+   font-family="Arial, sans-serif"
+   id="svg-ssm-fleet-management"
+   version="1.1"
+   sodipodi:docname="ssm-fleet-management.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.7830769"
+     inkscape:cx="499.98618"
+     inkscape:cy="325"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="group-systems-manager" />
+  <defs
+     id="defs2">
+    <marker
+       id="arrow-black"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#000000"
+         id="polygon1" />
+    </marker>
+    <!-- Blue marker for Patch Manager -->
+    <marker
+       id="arrow-blue"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#007bff"
+         id="polygon2" />
+    </marker>
+    <!-- Green marker for State Manager -->
+    <marker
+       id="arrow-green"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#2e7d32"
+         id="polygon3" />
+    </marker>
+    <!-- Amber marker for Session Manager -->
+    <marker
+       id="arrow-amber"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#ff8f00"
+         id="polygon4" />
+    </marker>
+    <!-- Gray marker for Run Command -->
+    <marker
+       id="arrow-gray"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#545b64"
+         id="polygon5" />
+    </marker>
+    <filter
+       id="drop-shadow"
+       x="-0.00375"
+       y="-0.009375"
+       width="1.0075"
+       height="1.01875">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="3"
+         flood-opacity="0.3" />
+    </filter>
+    <linearGradient
+       id="ssm-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#ffcc80;stop-opacity:0.6"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#ff9800;stop-opacity:0.4"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <!-- Title -->
+  <text
+     x="500"
+     y="45"
+     font-size="24px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text2">AWS Systems Manager for Internal Server Fleet Management</text>
+  <!-- Subtle Background for Systems Manager -->
+  <rect
+     x="350"
+     y="70"
+     width="300"
+     height="100"
+     rx="15"
+     ry="15"
+     fill="url(#ssm-gradient)"
+     opacity="0.7"
+     id="rect2" />
+  <!-- A. AWS Systems Manager Icon/Box -->
+  <g
+     id="group-systems-manager">
+    <rect
+       id="rect-ssm"
+       x="400.00595"
+       y="80.005959"
+       width="203.22191"
+       height="79.988075"
+       rx="10.161096"
+       ry="9.9985094"
+       fill="#fff3e0"
+       stroke="#ffcc80"
+       stroke-width="1.51192" />
+    <text
+       id="icon-ssm"
+       x="438.23383"
+       y="117.81371"
+       font-size="30px"
+       text-anchor="middle"
+       fill="#d84315">⚙️</text>
+    <text
+       id="label-ssm"
+       x="511.76617"
+       y="144.40298"
+       font-size="16px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#d84315">AWS Systems Manager</text>
+  </g>
+  <!-- Optional Decorative Element: Server Fleet Background -->
+  <rect
+     x="100"
+     y="330"
+     width="800"
+     height="200"
+     rx="10"
+     ry="10"
+     fill="#f9f9f9"
+     stroke="#e0e0e0"
+     stroke-width="1.5"
+     stroke-dasharray="5,5"
+     id="rect3" />
+  <!-- B. Internal Server Fleet -->
+  <g
+     id="group-server-fleet">
+    <text
+       id="label-fleet-description"
+       x="506.10834"
+       y="507.02045"
+       font-size="16px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#333333">Internal Server Fleet (EC2 Instances)</text>
+    <!-- Server 1 (Linux) -->
+    <rect
+       x="160"
+       y="380"
+       width="130"
+       height="100"
+       rx="5"
+       ry="5"
+       fill="#f0f0f0"
+       stroke="#cccccc"
+       stroke-width="1.5"
+       id="rect4" />
+    <text
+       x="222.84412"
+       y="435.77945"
+       font-size="30px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text4">🐧</text>
+    <text
+       x="225"
+       y="465"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text5">Linux Server</text>
+    <rect
+       x="199.28137"
+       y="382.7529"
+       width="50"
+       height="15"
+       rx="3"
+       ry="3"
+       fill="#fff3e0"
+       stroke="#ffcc80"
+       stroke-width="0.5"
+       id="rect5" />
+    <text
+       x="223.20343"
+       y="394.03427"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#d84315"
+       id="text6">SSM Agent</text>
+    <!-- Server 2 (Windows) -->
+    <rect
+       x="330"
+       y="380"
+       width="130"
+       height="100"
+       rx="5"
+       ry="5"
+       fill="#f0f0f0"
+       stroke="#cccccc"
+       stroke-width="1.5"
+       id="rect6" />
+    <text
+       x="392.84412"
+       y="435.77945"
+       font-size="30px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text7">🪟</text>
+    <text
+       x="395"
+       y="465"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text8">Windows Server</text>
+    <rect
+       x="369.28137"
+       y="382.7529"
+       width="50"
+       height="15"
+       rx="3"
+       ry="3"
+       fill="#fff3e0"
+       stroke="#ffcc80"
+       stroke-width="0.5"
+       id="rect8" />
+    <text
+       x="393.20343"
+       y="394.03427"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#d84315"
+       id="text9">SSM Agent</text>
+    <!-- Server 3 (Linux) -->
+    <rect
+       x="500"
+       y="380"
+       width="130"
+       height="100"
+       rx="5"
+       ry="5"
+       fill="#f0f0f0"
+       stroke="#cccccc"
+       stroke-width="1.5"
+       id="rect9" />
+    <text
+       x="562.84412"
+       y="435.77945"
+       font-size="30px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text10">🐧</text>
+    <text
+       x="565"
+       y="465"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text11">Linux Server</text>
+    <rect
+       x="539.28137"
+       y="382.7529"
+       width="50"
+       height="15"
+       rx="3"
+       ry="3"
+       fill="#fff3e0"
+       stroke="#ffcc80"
+       stroke-width="0.5"
+       id="rect11" />
+    <text
+       x="563.20343"
+       y="394.03427"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#d84315"
+       id="text12">SSM Agent</text>
+    <!-- Server 4 (Windows) -->
+    <rect
+       x="670"
+       y="380"
+       width="130"
+       height="100"
+       rx="5"
+       ry="5"
+       fill="#f0f0f0"
+       stroke="#cccccc"
+       stroke-width="1.5"
+       id="rect12" />
+    <text
+       x="732.84412"
+       y="435.77945"
+       font-size="30px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text13">🪟</text>
+    <text
+       x="735"
+       y="465"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text14">Windows Server</text>
+    <rect
+       x="709.28137"
+       y="382.7529"
+       width="50"
+       height="15"
+       rx="3"
+       ry="3"
+       fill="#fff3e0"
+       stroke="#ffcc80"
+       stroke-width="0.5"
+       id="rect14" />
+    <text
+       x="733.20343"
+       y="394.03427"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#d84315"
+       id="text15">SSM Agent</text>
+  </g>
+  <!-- C. Connecting Arrows with Capability Labels -->
+  <!-- Arrow & Label Group 1: Patch Manager -->
+  <path
+     d="M 420,160 Q 350,240 225,380"
+     stroke="#007bff"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path15" />
+  <!-- Label background -->
+  <rect
+     x="286.46765"
+     y="180.60089"
+     width="140"
+     height="40"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     fill-opacity="0.8"
+     stroke="#007bff"
+     stroke-width="0.5"
+     id="rect15" />
+  <text
+     x="356.46765"
+     y="200.60089"
+     font-size="13px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#007bff"
+     id="text16">Patch Manager</text>
+  <text
+     x="356.46765"
+     y="215.60089"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#007bff"
+     id="text17">(Automated OS Patching)</text>
+  <!-- Arrow & Label Group 2: State Manager -->
+  <path
+     d="M 460,160 L 395,380"
+     stroke="#2e7d32"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrow-green)"
+     id="path17" />
+  <!-- Label background -->
+  <rect
+     x="379.64069"
+     y="222.33278"
+     width="140"
+     height="40"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     fill-opacity="0.8"
+     stroke="#2e7d32"
+     stroke-width="0.5"
+     id="rect17" />
+  <text
+     x="449.64069"
+     y="242.33278"
+     font-size="13px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2e7d32"
+     id="text18">State Manager</text>
+  <text
+     x="449.64069"
+     y="260.33279"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#2e7d32"
+     id="text19">(Config. Enforcement)</text>
+  <!-- Arrow & Label Group 3: Session Manager -->
+  <path
+     d="M 540,160 Q 550,260 565,380"
+     stroke="#ff8f00"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrow-amber)"
+     id="path19" />
+  <!-- Label background -->
+  <rect
+     x="486.40686"
+     y="268.68436"
+     width="160"
+     height="40"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     fill-opacity="0.8"
+     stroke="#ff8f00"
+     stroke-width="0.5"
+     id="rect19" />
+  <text
+     x="566.40686"
+     y="288.68436"
+     font-size="13px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ff8f00"
+     id="text20">Session Manager</text>
+  <text
+     x="566.40686"
+     y="306.68436"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#ff8f00"
+     id="text21">(Secure Shell/CLI Access)</text>
+  <!-- Arrow & Label Group 4: Run Command, Inventory, Parameter Store -->
+  <path
+     d="M 580,160 Q 650,240 735,380"
+     stroke="#545b64"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrow-gray)"
+     id="path21" />
+  <!-- Label background -->
+  <rect
+     x="599.15973"
+     y="220.12546"
+     width="165"
+     height="40"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     fill-opacity="0.8"
+     stroke="#545b64"
+     stroke-width="0.5"
+     id="rect21" />
+  <text
+     x="679.15973"
+     y="240.12546"
+     font-size="13px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#545b64"
+     id="text22">Run Command &amp; More</text>
+  <text
+     x="679.15973"
+     y="255.12546"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#545b64"
+     id="text23">(Tasks, Inventory, Config Data)</text>
+</svg>

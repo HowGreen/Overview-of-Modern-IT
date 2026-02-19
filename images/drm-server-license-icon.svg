@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Server rack section (left side) - preserved from original -->
+  <path d="M5 5h1v1H5zm2 1h1V5H7zm2-.001L9.999 6 10 5.001 9.001 5zM5 10h1V9H5zm2 0h1V9H7zm2-.001l.999.001.001-.999L9.001 9zM6 13H5v1h1zm2 0H7v1h1zm2 .001L9.001 13 9 13.999l.999.001zM6 17H5v1h1zm2 0H7v1h1zm2 .001L9.001 17 9 17.999l.999.001zM12 19v1H2V3h20v7h-1V8H3v3h11.706a4.521 4.521 0 0 0-.944 1H3v3h10v.227a1.894 1.894 0 0 0-.766.773H3v3zM3 7h18V4H3z"/>
+  
+  <!-- License document replacing the lock -->
+  <g transform="translate(14.5, 15) scale(0.9)">
+    <!-- Document base -->
+    <rect x="0" y="0" width="7" height="9" rx="0.5" fill="white" stroke="black" stroke-width="0.5"/>
+    
+    <!-- License certificate decorative elements -->
+    <rect x="1" y="1.5" width="5" height="0.8" fill="#E0E0E0" stroke="#999999" stroke-width="0.2"/>
+    <rect x="1" y="3" width="5" height="0.8" fill="#E0E0E0" stroke="#999999" stroke-width="0.2"/>
+    <rect x="1" y="4.5" width="5" height="0.8" fill="#E0E0E0" stroke="#999999" stroke-width="0.2"/>
+    
+    <!-- Certificate seal/medallion -->
+    <circle cx="3.5" cy="7" r="1.2" fill="#FFD700" stroke="#CC9900" stroke-width="0.3"/>
+    <circle cx="3.5" cy="7" r="0.8" fill="#CC9900" stroke="#996600" stroke-width="0.2"/>
+    <path d="M3.5,8.2 L3,9.5 L3.5,9 L4,9.5 L3.5,8.2" fill="#FFD700" stroke="#CC9900" stroke-width="0.3"/>
+  </g>
+  
+  <!-- Network connection line (dotted to suggest data license transfer) -->
+  <path d="M12,17 L15,17" stroke="black" stroke-width="0.5" stroke-dasharray="0.5,0.5" fill="none"/>
+  
+  <!-- Background remove since we're in an SVG -->
+  <path fill="none" d="M0 0h24v24H0z"/>
+</svg>

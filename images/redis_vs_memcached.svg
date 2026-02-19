@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 450"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="redis_vs_memcached.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs28" />
+  <sodipodi:namedview
+     id="namedview28"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="7.8844444"
+     inkscape:cx="250.04932"
+     inkscape:cy="182.89177"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <style
+     id="style1">
+    .title { font-family: Arial; font-size: 20px; text-anchor: middle; font-weight: bold; }
+    .engine-title { font-family: Arial; font-size: 18px; text-anchor: middle; font-weight: bold; }
+    .section-title { font-family: Arial; font-size: 14px; font-weight: bold; }
+    .point { font-family: Arial; font-size: 12px; }
+    .redis-box { fill: #FDECEC; /* Light Pink/Redis-like */ stroke: #D13212; stroke-width: 1; rx: 5; ry: 5; }
+    .memcached-box { fill: #E7F4E5; /* Light Green */ stroke: #1D8102; stroke-width: 1; rx: 5; ry: 5; }
+    .icon { fill: #ffffff; /* This class might not be used anymore, but keep for Memcached if needed */ stroke: #333333; stroke-width: 0.5; }
+    /* Style for Redis gear icon elements */
+    .gear-body { fill: #D13212; /* Redis Red */ }
+    .gear-teeth { fill: #FDECEC; /* Fill with Redis Box background color */ }
+    .gear-center { fill: #FDECEC; /* Fill with Redis Box background color */ }
+  </style>
+  <rect
+     width="800"
+     height="450"
+     fill="#f8f9fa"
+     id="rect1" />
+  <text
+     x="400"
+     y="40"
+     class="title"
+     id="text1">ElastiCache Engine Comparison: Redis vs. Memcached</text>
+  <rect
+     x="50"
+     y="80"
+     width="330"
+     height="320"
+     class="redis-box"
+     id="rect2"
+     style="stroke:#d13212;stroke-opacity:1" /> {/* Corrected stroke to match class */}
+  <text
+     x="215"
+     y="110"
+     class="engine-title"
+     fill="#D13212"
+     id="text2">ElastiCache for Redis</text>
+  
+  {/* Redis Gear Icon - Using CSS classes for fill now */}
+  <circle
+     cx="79.562637"
+     cy="105.90868"
+     r="15"
+     class="gear-body"
+     id="circle1" />
+  <rect
+     x="77.562637"
+     y="87.908684"
+     width="4"
+     height="6"
+     class="gear-teeth"
+     rx="1"
+     id="rect1-8" /> {/* Removed inline fill style */}
+  <rect
+     x="129.50093"
+     y="-33.94894"
+     width="4"
+     height="6"
+     class="gear-teeth"
+     rx="1"
+     transform="rotate(60)"
+     id="rect2-2"
+     style="stroke:#fdecec;stroke-opacity:1;fill-opacity:1" /> {/* Removed inline fill style - Note: stroke might be unwanted */}
+  <rect
+     x="49.938278"
+     y="-139.85762"
+     width="4"
+     height="6"
+     class="gear-teeth"
+     rx="1"
+     transform="rotate(120)"
+     id="rect3" /> {/* Removed inline fill style */}
+  <rect
+     x="-81.562637"
+     y="-123.90867"
+     width="4"
+     height="6"
+     class="gear-teeth"
+     rx="1"
+     transform="scale(-1)"
+     id="rect4" /> {/* Removed inline fill style */}
+  <rect
+     x="-133.50093"
+     y="-2.0510752"
+     width="4"
+     height="6"
+     class="gear-teeth"
+     rx="1"
+     transform="rotate(-120)"
+     id="rect5" /> {/* Removed inline fill style */}
+  <rect
+     x="-53.938282"
+     y="103.8576"
+     width="4"
+     height="6"
+     class="gear-teeth"
+     rx="1"
+     transform="rotate(-60)"
+     id="rect6" /> {/* Removed inline fill style */}
+  <circle
+     cx="79.562637"
+     cy="105.90868"
+     r="5"
+     class="gear-center"
+     id="circle6" /> {/* Removed inline fill style */}
+
+  {/* Redis Characteristics text elements (unchanged) */}
+  <text x="70" y="150" class="section-title" id="text3">Key Characteristics:</text>
+  <text x="80" y="170" class="point" id="text4">- Rich Data Structures (Lists, Sets, Hashes)</text>
+  <text x="80" y="190" class="point" id="text5">- Data Persistence Options (Snapshots, AOF)</text>
+  <text x="80" y="210" class="point" id="text6">- Replication / High Availability Features</text>
+  <text x="80" y="230" class="point" id="text7">- Pub/Sub Capabilities</text>
+  <text x="80" y="250" class="point" id="text8">- Geospatial Indexing</text>
+  <text x="80" y="270" class="point" id="text9">- Lua Scripting</text>
+  <text x="70" y="300" class="section-title" id="text10">Ideal Use Cases:</text>
+  <text x="80" y="320" class="point" id="text11">- Complex Caching (beyond simple K/V)</text>
+  <text x="80" y="340" class="point" id="text12">- Session Management</text>
+  <text x="80" y="360" class="point" id="text13">- Real-time Leaderboards / Counters</text>
+  <text x="80" y="380" class="point" id="text14">- Geospatial Lookups</text>
+  
+  {/* Memcached Column (unchanged) */}
+  <rect x="420" y="80" width="330" height="320" class="memcached-box" id="rect14" />
+  <text x="585" y="110" class="engine-title" fill="#1D8102" id="text15">ElastiCache for Memcached</text>
+  <circle cx="450" cy="105" r="12" fill="#1D8102" class="icon" id="circle15" />
+  <circle cx="450" cy="105" r="8" fill="#ffffff" id="circle16" />
+  <path d="M 450 105 L 450 99 A 6 6 0 0 1 455 102 Z" fill="#1D8102" id="path16" />
+  <circle cx="450" cy="105" r="1" fill="#1D8102" id="circle17" />
+  <text x="440" y="150" class="section-title" id="text17">Key Characteristics:</text>
+  <text x="450" y="170" class="point" id="text18">- Simple Key-Value Store</text>
+  <text x="450" y="190" class="point" id="text19">- Multi-threaded Architecture (High Throughput)</text>
+  <text x="450" y="210" class="point" id="text20">- Designed for Simplicity and Speed</text>
+  <text x="450" y="230" class="point" id="text21">- No Built-in Data Persistence</text>
+  <text x="450" y="250" class="point" id="text22">- Horizontal Scaling by Adding Nodes</text>
+  <text x="450" y="270" class="point" id="text23">- Lower Memory Overhead (potentially)</text>
+  <text x="440" y="300" class="section-title" id="text24">Ideal Use Cases:</text>
+  <text x="450" y="320" class="point" id="text25">- Basic Object Caching (DB results, rendered pages)</text>
+  <text x="450" y="340" class="point" id="text26">- Reducing Database Read Load</text>
+  <text x="450" y="360" class="point" id="text27">- Scenarios needing maximum simplicity/raw speed</text>
+  <text x="450" y="380" class="point" id="text28">- Caching where data loss is acceptable</text>
+</svg>

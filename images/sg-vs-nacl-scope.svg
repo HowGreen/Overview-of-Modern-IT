@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="new sg vs nacl.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs21" />
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.9566667"
+     inkscape:cx="400.11274"
+     inkscape:cy="300"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21" />
+  <rect
+     width="800"
+     height="600"
+     fill="#f9f9f9"
+     id="rect1" />
+  <rect
+     x="150"
+     y="15"
+     width="500"
+     height="40"
+     rx="5"
+     ry="5"
+     fill="#232F3E"
+     id="rect2" />
+  <text
+     x="400"
+     y="42"
+     font-family="Arial"
+     font-size="20"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#FFFFFF"
+     id="text2">Security Group vs. Network ACL Scope</text>
+  <rect
+     x="50"
+     y="80"
+     width="700"
+     height="440"
+     rx="15"
+     ry="15"
+     fill="#F5F5F5"
+     stroke="#232F3E"
+     stroke-width="2"
+     id="rect3" />
+  <text
+     x="70"
+     y="105"
+     font-family="Arial"
+     font-size="16"
+     fill="#232F3E"
+     id="text3">VPC</text>
+  <rect
+     x="100"
+     y="130"
+     width="600"
+     height="360"
+     rx="10"
+     ry="10"
+     fill="#E8E8E8"
+     stroke="#AAAAAA"
+     stroke-width="1"
+     id="rect4" />
+  <text
+     x="120"
+     y="155"
+     font-family="Arial"
+     font-size="14"
+     fill="#555555"
+     id="text4">Subnet</text>
+  <rect
+     x="100"
+     y="130"
+     width="600"
+     height="360"
+     rx="10"
+     ry="10"
+     fill="none"
+     stroke="#E57373"
+     stroke-width="4"
+     stroke-dasharray="10,5"
+     id="rect5" />
+  <rect
+     x="110"
+     y="440"
+     width="200"
+     height="40"
+     rx="5"
+     ry="5"
+     fill="#FFEBEE"
+     stroke="#E57373"
+     stroke-width="1.5"
+     id="rect6" />
+  <text
+     x="210"
+     y="460"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     fill="#C62828"
+     font-weight="bold"
+     id="text6">Network ACL</text>
+  <text
+     x="210"
+     y="475"
+     font-family="Arial"
+     font-size="9"
+     text-anchor="middle"
+     fill="#C62828"
+     id="text7">(Subnet Level, Stateless)</text>
+  <rect
+     x="310"
+     y="230"
+     width="180"
+     height="140"
+     rx="10"
+     ry="10"
+     fill="#FFFFFF"
+     stroke="#FF9900"
+     stroke-width="1"
+     id="rect7" />
+  <rect
+     x="340"
+     y="250"
+     width="120"
+     height="80"
+     rx="3"
+     ry="3"
+     fill="#FFECC0"
+     id="rect8" />
+  <line
+     x1="350"
+     y1="265"
+     x2="450"
+     y2="265"
+     stroke="#FF9900"
+     stroke-width="1"
+     id="line8" />
+  <line
+     x1="350"
+     y1="280"
+     x2="450"
+     y2="280"
+     stroke="#FF9900"
+     stroke-width="1"
+     id="line9" />
+  <line
+     x1="350"
+     y1="295"
+     x2="450"
+     y2="295"
+     stroke="#FF9900"
+     stroke-width="1"
+     id="line10" />
+  <line
+     x1="350"
+     y1="310"
+     x2="410"
+     y2="310"
+     stroke="#FF9900"
+     stroke-width="1"
+     id="line11" />
+  <text
+     x="400"
+     y="355"
+     font-family="Arial"
+     font-size="14"
+     text-anchor="middle"
+     fill="#CC7700"
+     id="text11">EC2 Instance</text>
+  <rect
+     x="310"
+     y="230"
+     width="180"
+     height="140"
+     rx="10"
+     ry="10"
+     fill="none"
+     stroke="#00A1C9"
+     stroke-width="4"
+     id="rect11" />
+  <rect
+     x="320"
+     y="180"
+     width="160"
+     height="40"
+     rx="5"
+     ry="5"
+     fill="#E0F7FA"
+     stroke="#00A1C9"
+     stroke-width="1.5"
+     id="rect12" />
+  <text
+     x="400"
+     y="200"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     fill="#006064"
+     font-weight="bold"
+     id="text12">Security Group</text>
+  <text
+     x="400"
+     y="215"
+     font-family="Arial"
+     font-size="9"
+     text-anchor="middle"
+     fill="#006064"
+     id="text13">(Instance Level, Stateful)</text>
+  <circle
+     cx="75"
+     cy="280"
+     r="15"
+     fill="#B3E5FC"
+     stroke="#00A1C9"
+     stroke-width="1"
+     id="circle13" />
+  <text
+     x="75"
+     y="305"
+     font-family="Arial"
+     font-size="9"
+     text-anchor="middle"
+     id="text14">Internet</text>
+  <line
+     x1="90"
+     y1="280"
+     x2="120"
+     y2="280"
+     stroke="#232F3E"
+     stroke-width="2"
+     id="line14" />
+  <text
+     x="135.10147"
+     y="295.70462"
+     font-family="Arial"
+     font-size="9px"
+     text-anchor="middle"
+     fill="#c62828"
+     id="text15">NACL In Check</text>
+  <polygon
+     points="110,275 110,285 120,280 "
+     fill="#232f3e"
+     id="polygon15"
+     transform="translate(9.8083427,0.33821871)" />
+  <line
+     x1="270.52988"
+     y1="279.66177"
+     x2="300.52988"
+     y2="279.66177"
+     stroke="#232f3e"
+     stroke-width="2"
+     id="line15" />
+  <text
+     x="279.78015"
+     y="269.66177"
+     font-family="Arial"
+     font-size="9px"
+     text-anchor="middle"
+     fill="#006064"
+     id="text16">SG In Check</text>
+  <polygon
+     points="310,280 300,275 300,285"
+     fill="#232F3E"
+     id="polygon16" />
+  <rect
+     x="715"
+     y="300"
+     width="30"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#E9F8E9"
+     stroke="#007F00"
+     stroke-width="1"
+     id="rect16" />
+  <text
+     x="730"
+     y="345"
+     font-family="Arial"
+     font-size="9"
+     text-anchor="middle"
+     id="text17">Service</text>
+  <line
+     x1="490"
+     y1="320"
+     x2="520"
+     y2="320"
+     stroke="#232F3E"
+     stroke-width="2"
+     id="line17" />
+  <text
+     x="522.9256"
+     y="306.6178"
+     font-family="Arial"
+     font-size="9px"
+     text-anchor="middle"
+     fill="#006064"
+     id="text18">SG Out Check</text>
+  <polygon
+     points="510,315 510,325 520,320 "
+     fill="#232f3e"
+     id="polygon18"
+     transform="translate(10.146561,-0.33821871)" />
+  <line
+     x1="680"
+     y1="320"
+     x2="715"
+     y2="320"
+     stroke="#232F3E"
+     stroke-width="2"
+     id="line18" />
+  <text
+     x="658.44305"
+     y="336.04285"
+     font-family="Arial"
+     font-size="9px"
+     text-anchor="middle"
+     fill="#c62828"
+     id="text19">NACL Out Check</text>
+  <polygon
+     points="715,320 705,315 705,325"
+     fill="#232F3E"
+     id="polygon19" />
+  <text
+     x="400"
+     y="550"
+     font-family="Arial"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text20">NACLs (Red Dashed) filter traffic entering/leaving the Subnet.</text>
+  <text
+     x="400"
+     y="565"
+     font-family="Arial"
+     font-size="11"
+     text-anchor="middle"
+     fill="#555555"
+     id="text21">Security Groups (Blue Solid) filter traffic entering/leaving the Instance.</text>
+</svg>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="850"
+   height="630"
+   viewBox="0 0 850 630"
+   version="1.1"
+   id="svg25"
+   sodipodi:docname="New Text Document.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview25"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.815873"
+     inkscape:cx="425.09019"
+     inkscape:cy="315"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg25" />
+  <defs
+     id="defs2">
+    <marker
+       id="arrowhead-private"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#0073bb"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrowhead-aws"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#232f3e"
+         id="polygon2" />
+    </marker>
+    <style
+       id="style2">
+      .aws-network-border { fill: #F5F9FF; fill-opacity: 0.2; stroke: #232f3e; stroke-width: 1.5; stroke-dasharray: 5,5; rx:20; ry:20; }
+      .vpc-border { fill: #f5f5f5; stroke: #333; stroke-width: 2; rx:10; ry:10; }
+      .subnet-border { fill: #e8f0fe; stroke: #1a73e8; stroke-width: 1.5; stroke-dasharray: 5,3; rx:8; ry:8; }
+      .analytics-component { fill: #ffffff; stroke: #7b1fa2; stroke-width: 2; rx:5; ry:5; }
+      .s3-service { fill: #FFEBEE; stroke: #C62828; stroke-width: 1.5; rx:10; ry:10; }
+      .other-service { fill: #E0F2F7; stroke: #006064; stroke-width: 1.5; rx:10; ry:10; }
+      .gateway-endpoint-route { fill: #f0f0f0; stroke: #888; stroke-width: 1; }
+      .interface-endpoint-eni { fill: #d1e9ff; stroke: #0073bb; stroke-width: 1.5; rx:4; ry:4;}
+      .sg-outline { fill: none; stroke: #4caf50; stroke-width: 1; stroke-dasharray: 3,2; rx:8; ry:8; }
+      .private-traffic-path { stroke: #0073bb; stroke-width: 2; stroke-dasharray: 6,3; fill: none; marker-end: url(#arrowhead-private); }
+      .aws-network-path { stroke: #232f3e; stroke-width: 2; stroke-dasharray: 6,3; fill: none; marker-end: url(#arrowhead-aws); }
+
+      .title-label { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; text-anchor: middle; }
+      .subtitle-label { font-family: Arial, sans-serif; font-size: 13px; text-anchor: middle; fill: #555; }
+      .network-label { font-family: Arial, sans-serif; font-size: 14px; fill: #232f3e; text-anchor: start; }
+      .vpc-label { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+      .subnet-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1a73e8; }
+      .component-label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; }
+      .service-label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; }
+      .endpoint-label { font-family: Arial, sans-serif; font-size: 10px; text-anchor: middle; fill: #0073bb; }
+      .eni-label { font-family: Arial, sans-serif; font-size: 9px; text-anchor: middle; fill: #004c8c; }
+      .route-label { font-family: Arial, sans-serif; font-size: 9px; text-anchor: middle; fill: #555; }
+      .sg-label { font-family: Arial, sans-serif; font-size: 9px; text-anchor: middle; fill: #388e3c; }
+      .path-label { font-family: Arial, sans-serif; font-size: 10px; fill: #0073bb; font-style: italic; text-anchor: middle;}
+      .note-label { font-family: Arial, sans-serif; font-size: 11px; fill: #666; text-anchor: middle; }
+
+      /* Simple Icons (using text for simplicity) */
+      .icon-text { font-family: Arial, sans-serif; font-size: 24px; text-anchor: middle; dominant-baseline: central; }
+      .s3-icon-color { fill: #c62828; }
+      .kms-icon-color { fill: #006064; }
+      .compute-icon-color { fill: #7b1fa2; }
+
+    </style>
+  </defs>
+  <rect
+     x="10"
+     y="70"
+     width="830"
+     height="450"
+     class="aws-network-border"
+     id="aws-network-boundary" />
+  <text
+     x="30"
+     y="95"
+     class="network-label"
+     id="aws-network-label">AWS Network</text>
+  <text
+     x="425"
+     y="35"
+     class="title-label"
+     id="title">VPC Endpoints for Private Analytics</text>
+  <text
+     x="425"
+     y="55"
+     class="subtitle-label"
+     id="subtitle">Securely Accessing AWS Services without Internet Exposure</text>
+  <rect
+     x="25"
+     y="110"
+     width="790"
+     height="390"
+     class="vpc-border"
+     id="vpc-boundary" />
+  <text
+     x="758.87982"
+     y="481.12656"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#757575"
+     text-anchor="middle"
+     id="text10-5"><tspan
+       sodipodi:role="line"
+       id="tspan26"
+       x="758.87982"
+       y="481.12656">No internet or</tspan><tspan
+       sodipodi:role="line"
+       x="758.87982"
+       y="494.87656"
+       id="tspan27">NAT Gateway</tspan></text>
+  <text
+     x="760.27667"
+     y="448.0264"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     dominant-baseline="central"
+     fill="#bdbdbd"
+     id="text7-7">🌐</text>
+  <line
+     x1="735.27667"
+     y1="423.0264"
+     x2="785.27667"
+     y2="473.0264"
+     stroke="#d32f2f"
+     stroke-width="1.5"
+     id="line9" />
+  <line
+     x1="785.27667"
+     y1="423.0264"
+     x2="735.27667"
+     y2="473.0264"
+     stroke="#d32f2f"
+     stroke-width="1.5"
+     id="line10" />
+  <text
+     x="45"
+     y="135"
+     class="vpc-label"
+     id="vpc-label">VPC</text>
+  <rect
+     x="50"
+     y="150"
+     width="500"
+     height="320"
+     class="subnet-border"
+     id="private-subnet" />
+  <text
+     x="70"
+     y="175"
+     class="subnet-label"
+     id="subnet-label">Private Subnet</text>
+  <g
+     id="route-table-group"
+     transform="translate(320, 390)">
+    <rect
+       x="0"
+       y="0"
+       width="130"
+       height="50"
+       class="gateway-endpoint-route"
+       rx="3"
+       ry="3"
+       id="rect4" />
+    <text
+       x="65"
+       y="17"
+       class="route-label"
+       id="text5">VPC Route Table</text>
+    <text
+       x="65"
+       y="30"
+       class="route-label"
+       id="text6">S3 Prefix Route</text>
+    <text
+       x="65"
+       y="42"
+       class="route-label"
+       id="text7">→ GW Endpoint</text>
+  </g>
+  <g
+     id="interface-endpoint-group"
+     transform="translate(440, 170)">
+    <rect
+       x="-10"
+       y="-10"
+       width="110"
+       height="75"
+       class="sg-outline"
+       id="eni-sg-outline" />
+    <text
+       x="45"
+       y="72"
+       class="sg-label"
+       id="eni-sg-label">Security Group</text>
+    <rect
+       x="0"
+       y="0"
+       width="90"
+       height="55"
+       class="interface-endpoint-eni"
+       id="rect7" />
+    <text
+       x="45"
+       y="18"
+       class="endpoint-label"
+       id="text8">Interface</text>
+    <text
+       x="45"
+       y="30"
+       class="endpoint-label"
+       id="text9">Endpoint</text>
+    <text
+       x="45"
+       y="42"
+       class="eni-label"
+       id="text10">(ENI w/ Private IP)</text>
+    <text
+       x="75"
+       y="18"
+       class="icon-text"
+       font-size="14px"
+       fill="#388e3c"
+       id="text11">🔒</text>
+  </g>
+  <line
+     x1="290"
+     y1="310"
+     x2="620"
+     y2="380"
+     class="aws-network-path"
+     id="s3-gw-path" />
+  <text
+     x="490.86807"
+     y="373.1398"
+     class="path-label"
+     id="text17">Via Gateway Endpoint</text>
+  <text
+     x="490.86807"
+     y="388.1398"
+     class="path-label"
+     id="text18">(Route Table)</text>
+  <line
+     x1="289.94592"
+     y1="260.09808"
+     x2="426.68832"
+     y2="205.5699"
+     class="private-traffic-path"
+     id="component-to-eni-path" />
+  <line
+     x1="540.24091"
+     y1="187.49846"
+     x2="636.61835"
+     y2="175.08913"
+     class="aws-network-path"
+     id="eni-to-service-path" />
+  <text
+     x="615.12958"
+     y="221.46564"
+     class="path-label"
+     id="text19">Via Interface Endpoint (ENI)</text>
+  <rect
+     x="649.59894"
+     y="137.9597"
+     width="140"
+     height="70"
+     fill="#e0f2f7"
+     stroke="#006064"
+     stroke-width="1.5"
+     rx="10"
+     ry="10"
+     id="rect24" />
+  <text
+     x="720.3092"
+     y="164.73535"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     dominant-baseline="central"
+     fill="#006064"
+     id="text25-2">🔑</text>
+  <text
+     x="719.59894"
+     y="191.18405"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text26">AWS KMS / Glue API</text>
+  <text
+     x="719.59894"
+     y="203.18405"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text27">/ Secrets Manager</text>
+  <text
+     x="449.01352"
+     y="552.44647"
+     class="note-label"
+     id="text24">Analytics component in private subnet accesses services via private VPC Endpoints.</text>
+  <text
+     x="449.01352"
+     y="567.44647"
+     class="note-label"
+     id="text25">Traffic stays on the AWS network, avoiding internet exposure.</text>
+  <rect
+     x="625.00366"
+     y="346.582"
+     width="140"
+     height="70"
+     fill="#ffebee"
+     stroke="#c62828"
+     stroke-width="1.5"
+     rx="10"
+     ry="10"
+     id="rect22" />
+  <text
+     x="695.00366"
+     y="371.582"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     dominant-baseline="central"
+     fill="#c62828"
+     id="text23-0">📦</text>
+  <text
+     x="695.00366"
+     y="401.582"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text24-9">Amazon S3</text>
+  <rect
+     x="148.31905"
+     y="241.97182"
+     width="140"
+     height="80"
+     fill="#ffffff"
+     stroke="#7b1fa2"
+     stroke-width="2"
+     rx="5"
+     ry="5"
+     id="rect11" />
+  <text
+     x="218.31905"
+     y="271.97177"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     dominant-baseline="central"
+     fill="#7b1fa2"
+     id="text12">⚙️</text>
+  <text
+     x="218.31905"
+     y="301.97177"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text13">Glue Job /</text>
+  <text
+     x="218.31905"
+     y="314.97177"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text14">EMR Node</text>
+</svg>

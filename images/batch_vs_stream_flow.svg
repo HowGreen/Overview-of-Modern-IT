@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="700"
+   height="480"
+   viewBox="0 0 700 480"
+   font-family="Arial, sans-serif"
+   font-size="13"
+   version="1.1"
+   id="svg25"
+   sodipodi:docname="batch_vs_stream_flow.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview51"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.8479167"
+     inkscape:cx="337.13641"
+     inkscape:cy="426.9673"
+     inkscape:window-width="1916"
+     inkscape:window-height="2022"
+     inkscape:window-x="1900"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg25" />
+  <rect width="100%" height="100%" fill="white"/> 
+  <style
+     id="style1">
+    .label { font-weight: bold; text-anchor: middle; }
+    .title { font-weight: bold; font-size: 16px; text-anchor: middle; }
+    .box { fill: #f0f0f0; stroke: #333; stroke-width: 1; rx: 5; ry: 5; }
+    .data { fill: #e0f7fa; stroke: #0077c2; stroke-width: 1; rx: 5; ry: 5; }
+    .ingredient { fill: #e0f7fa; stroke: #0077c2; stroke-width: 1; rx: 5; ry: 5; }
+    .order { fill: #fff9c4; stroke: #fbc02d; stroke-width: 1; rx: 5; ry: 5; }
+    .process { fill: #e8f5e9; stroke: #2e7d32; stroke-width: 1; rx: 5; ry: 5; }
+    .output { fill: #fce4ec; stroke: #c2185b; stroke-width: 1; rx: 5; ry: 5; }
+    .arrow { stroke: #333; stroke-width: 1.5; marker-end: url(#arrowhead); }
+    .time-arrow { stroke: #777; stroke-width: 1; marker-end: url(#arrowhead); }
+    .stream-arrow { stroke: #333; stroke-width: 1.5; marker-end: url(#arrowhead); stroke-dasharray: 5, 3; }
+    .subtext { font-size: 11px; fill: #555; text-anchor: middle; }
+    .annotation { font-size: 11px; fill: #555; font-style: italic; }
+    .key-concept { font-weight: bold; font-size: 12px; fill: #444; text-anchor: middle; }
+    .centered-text { text-anchor: middle; dominant-baseline: middle; }
+    .timeline { stroke: #aaa; stroke-width: 2; }
+    .timeline-marker { fill: #aaa; stroke: none; }
+    .time-label { font-size: 10px; fill: #777; text-anchor: middle; }
+    .arrow-label { font-size: 10px; fill: #555; text-anchor: middle; }
+  </style>
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L10,3.5 L0,7 z"
+         fill="#333"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrowhead-9"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 10,3.5 0,7 Z"
+         fill="#333333"
+         id="path1-4" />
+    </marker>
+  </defs>
+  <!-- Page Title -->
+  <text
+     x="350"
+     y="30"
+     class="title"
+     id="text1">Data Processing Paradigms: Batch vs Stream</text>
+  <!-- BATCH PROCESSING SECTION -->
+  <text
+     x="350"
+     y="60"
+     class="label"
+     id="text2">Batch Processing: Catering</text>
+  <!-- Timeline for Batch -->
+  <line
+     x1="7.5197296"
+     y1="201.36415"
+     x2="653.24689"
+     y2="201.36415"
+     class="timeline"
+     id="line2" />
+  <!-- Ingredients/Data Collection -->
+  <rect
+     x="9.4718189"
+     y="80.024246"
+     width="76.986465"
+     height="29.986776"
+     class="ingredient"
+     id="rect6" />
+  <text
+     x="47.423901"
+     y="97.564827"
+     class="centered-text"
+     id="text7">Data1</text>
+  <rect
+     x="9.4718189"
+     y="120.00661"
+     width="76.986465"
+     height="29.986776"
+     class="ingredient"
+     id="rect7" />
+  <text
+     x="47.423901"
+     y="137.56482"
+     class="centered-text"
+     id="text8">Data 2</text>
+  <rect
+     x="9.4718189"
+     y="157.28322"
+     width="76.986465"
+     height="29.986776"
+     class="ingredient"
+     id="rect8" />
+  <text
+     x="47.423901"
+     y="174.85907"
+     class="centered-text"
+     id="text9">Data N</text>
+  <line
+     x1="88.494553"
+     y1="95.201195"
+     x2="114.48216"
+     y2="107.15173"
+     class="arrow"
+     id="line9" />
+  <line
+     x1="90.503571"
+     y1="132.91249"
+     x2="115.34891"
+     y2="133.08943"
+     class="arrow"
+     id="line10" />
+  <line
+     x1="88.722221"
+     y1="172.58812"
+     x2="116.21772"
+     y2="158.24202"
+     class="arrow"
+     id="line11" />
+  <!-- Collection Process -->
+  <rect
+     x="130"
+     y="100"
+     width="110"
+     height="60"
+     class="box"
+     id="rect11" />
+  <text
+     x="185"
+     y="125"
+     class="centered-text"
+     id="text11">DataLake /</text>
+  <text
+     x="185"
+     y="145"
+     class="centered-text"
+     id="text12">Buffer</text>
+  <!-- Batch Process Trigger -->
+  <line
+     x1="244.05862"
+     y1="132.70575"
+     x2="312.49884"
+     y2="132.70575"
+     class="arrow"
+     id="line13" />
+  <!-- Batch Processing -->
+  <rect
+     x="330.75272"
+     y="96.694092"
+     width="120.14057"
+     height="67.141693"
+     class="process"
+     id="rect15" />
+  <text
+     x="358.49045"
+     y="157.57497"
+     class="centered-text"
+     id="text17-9"
+     transform="scale(1.0904412,0.91706)"
+     style="font-size:11.93px;dominant-baseline:middle;text-anchor:middle;stroke-width:0.917689">(e.g.,EMR Job)</text>
+  <text
+     x="358.90442"
+     y="137.19322"
+     class="centered-text"
+     id="text17"
+     transform="scale(1.0904412,0.91706)"
+     style="font-size:11.93px;stroke-width:0.917689">Batch Process</text>
+  <!-- Output -->
+  <line
+     x1="454.61105"
+     y1="131.35287"
+     x2="514.61108"
+     y2="131.35287"
+     class="arrow"
+     id="line19" />
+  <rect
+     x="532.72827"
+     y="104.05862"
+     width="120"
+     height="60"
+     class="output"
+     id="rect19" />
+  <text
+     x="592.72827"
+     y="126.35287"
+     class="centered-text"
+     id="text20">Aggregated</text>
+  <text
+     x="592.72827"
+     y="146.35287"
+     class="centered-text"
+     id="text21">Results</text>
+  <!-- Batch Annotations -->
+  <text
+     x="120.30441"
+     y="179.85344"
+     class="annotation"
+     id="text22">Data collected over time</text>
+  <text
+     x="308.56818"
+     y="179.98309"
+     class="annotation"
+     id="text23">Processing of entire dataset at once</text>
+  <text
+     x="526.43744"
+     y="179.84216"
+     class="annotation"
+     id="text24">Results delivered together</text>
+  <!-- STREAM PROCESSING SECTION -->
+  <text
+     x="363.52875"
+     y="224.84781"
+     class="label"
+     id="text25"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="363.52875"
+       y="224.84781">Stream Processing: Restaurant Kitchen</tspan><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="363.52875"
+       y="241.09781" /></text>
+  <!-- Timeline for Stream -->
+  <line
+     x1="49.458851"
+     y1="430.71027"
+     x2="643.77679"
+     y2="430.71027"
+     class="timeline"
+     id="line25" />
+  <!-- Stream Events Section -->
+  <rect
+     x="50"
+     y="260"
+     width="80"
+     height="40"
+     class="order"
+     id="rect28" />
+  <text
+     x="90"
+     y="280"
+     class="centered-text"
+     id="text29">Event 1</text>
+  <line
+     x1="136.90933"
+     y1="279.37579"
+     x2="192.92653"
+     y2="279.37579"
+     class="stream-arrow"
+     id="line30" />
+  <rect
+     x="51.352875"
+     y="317.83539"
+     width="80"
+     height="40"
+     class="order"
+     opacity="0.9"
+     id="rect30" />
+  <text
+     x="91.352875"
+     y="337.83539"
+     class="centered-text"
+     id="text31">Event 2</text>
+  <line
+     x1="136.90933"
+     y1="336.29501"
+     x2="192.92653"
+     y2="336.29501"
+     class="stream-arrow"
+     id="line32" />
+  <rect
+     x="50.270576"
+     y="370.80045"
+     width="80"
+     height="40"
+     class="order"
+     opacity="0.8"
+     id="rect32" />
+  <text
+     x="90.270576"
+     y="390.80045"
+     class="centered-text"
+     id="text33">Event 3</text>
+  <!-- Stream Processing -->
+  <rect
+     x="209.98853"
+     y="259.98853"
+     width="180.02296"
+     height="152.71744"
+     class="process"
+     id="rect34" />
+  <text
+     x="299.05475"
+     y="343.05679"
+     class="centered-text"
+     id="text36-2"
+     style="dominant-baseline:middle;text-anchor:middle">(e.g.,Lambda)</text>
+  <text
+     x="301.62344"
+     y="316.4938"
+     class="centered-text"
+     id="text36">Stream Processor</text>
+  <text
+     x="300"
+     y="390"
+     class="subtext"
+     id="text40">(Near Real-Time)</text>
+  <!-- Stream Outputs -->
+  <line
+     x1="396.61835"
+     y1="279.61234"
+     x2="444.35556"
+     y2="279.61234"
+     class="stream-arrow"
+     id="line40" />
+  <rect
+     x="466.76437"
+     y="260.54114"
+     width="180"
+     height="40"
+     class="output"
+     id="rect40" />
+  <text
+     x="552.97632"
+     y="283.0947"
+     class="subtext"
+     id="text42">Immediate</text>
+  <line
+     x1="396.61835"
+     y1="335.94138"
+     x2="444.35556"
+     y2="335.94138"
+     class="stream-arrow"
+     id="line42" />
+  <rect
+     x="466.76437"
+     y="318.37653"
+     width="180"
+     height="40"
+     class="output"
+     opacity="0.9"
+     id="rect42" />
+  <text
+     x="557.23755"
+     y="342.19281"
+     class="subtext"
+     id="text42-5"
+     style="font-size:11px;text-anchor:middle;fill:#555555">Immediate</text>
+  <line
+     x1="397.97122"
+     y1="387.94119"
+     x2="445.70844"
+     y2="387.94119"
+     class="stream-arrow"
+     id="line44" />
+  <rect
+     x="466.76437"
+     y="371.88275"
+     width="180"
+     height="40"
+     class="output"
+     opacity="0.8"
+     id="rect44" />
+  <text
+     x="555.23755"
+     y="397.73398"
+     class="subtext"
+     id="text42-1"
+     style="font-size:11px;text-anchor:middle;fill:#555555">Immediate</text>
+  <!-- Stream Annotations -->
+  <text
+     x="42.108231"
+     y="249.45885"
+     class="annotation"
+     id="text47">Event source (e.g., Kinesis)</text>
+  <text
+     x="192.85231"
+     y="248.78804"
+     class="annotation"
+     id="text48">Each event processed individually as it arrives</text>
+  <text
+     x="464.22772"
+     y="251.89403"
+     class="annotation"
+     id="text49">Real-time action / Output for Each Event</text>
+  <!-- Key Concepts Footer -->
+  <line
+     x1="136"
+     y1="389.42603"
+     x2="192.0172"
+     y2="389.42603"
+     class="stream-arrow"
+     id="line32-8"
+     style="stroke:#333333;stroke-width:1.35574;stroke-dasharray:4.51912, 2.71147;marker-end:url(#arrowhead-9)" />
+  <text
+     x="284.5506"
+     y="110.14456"
+     class="arrow-label centered-text"
+     id="text10"
+     style="font-size:10px;dominant-baseline:middle;text-anchor:middle;fill:#555555">Scheduled</text>
+  <text
+     x="284.5506"
+     y="122.14456"
+     class="arrow-label centered-text"
+     id="text11-8"
+     style="font-size:10px;dominant-baseline:middle;text-anchor:middle;fill:#555555">Trigger</text>
+  <text
+     xml:space="preserve"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#808080;stroke:#fdecec;stroke-width:1.897;stroke-dasharray:3.794, 3.794"
+     x="298.17361"
+     y="336.59528"
+     id="text4"><tspan
+       sodipodi:role="line"
+       id="tspan4" /></text>
+</svg>

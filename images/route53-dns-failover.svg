@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="600"
+   viewBox="0 0 900 600"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="route53-dns-failover.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5075"
+     inkscape:cx="438.4743"
+     inkscape:cy="412.27197"
+     inkscape:window-width="2308"
+     inkscape:window-height="2022"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg36" />
+  <!-- Background -->
+  <rect
+     width="900"
+     height="600"
+     fill="#f9f9f9"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="450"
+     y="30"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#232f3e"
+     id="text1">Automated DNS Failover with Amazon Route 53 Health Checks and Failover Routing</text>
+  <!-- User/Client placeholder -->
+  <g
+     id="user-client"
+     transform="translate(0.66334992,-14.593698)">
+    <rect
+       x="400"
+       y="60"
+       width="100"
+       height="40"
+       fill="#e8f5e9"
+       stroke="#4caf50"
+       stroke-width="2"
+       rx="5"
+       id="rect2" />
+    <text
+       x="450"
+       y="85"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="12px"
+       fill="#333333"
+       id="text2">User/Client</text>
+  </g>
+  <!-- DNS Query Arrow -->
+  <path
+     d="M 450,88.059701 V 120.7131"
+     stroke="#333333"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     id="path2"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="363.81427"
+     y="133.93034"
+     font-family="sans-serif"
+     font-size="11px"
+     fill="#333333"
+     id="text3">DNS Query for www.example.com</text>
+  <!-- Route 53 Service -->
+  <g
+     id="route53-service">
+    <rect
+       x="300"
+       y="140"
+       width="300"
+       height="100"
+       fill="#fff4e6"
+       stroke="#ff9900"
+       stroke-width="3"
+       rx="10"
+       id="rect3" />
+    <text
+       x="450"
+       y="165"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#232f3e"
+       id="text4">Route 53 DNS Service</text>
+    <text
+       x="450"
+       y="185"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="12"
+       fill="#666"
+       id="text5">Failover Routing Policy</text>
+    <!-- Health Check Status Indicators -->
+    <rect
+       x="320"
+       y="200"
+       width="120"
+       height="25"
+       fill="#ffebee"
+       stroke="#f44336"
+       stroke-width="1"
+       rx="3"
+       id="rect5" />
+    <text
+       x="380"
+       y="217"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="10"
+       fill="#333"
+       id="text6">Health Check Status</text>
+    <rect
+       x="460"
+       y="200"
+       width="120"
+       height="25"
+       fill="#e8f5e9"
+       stroke="#4caf50"
+       stroke-width="1"
+       rx="3"
+       id="rect6" />
+    <text
+       x="520"
+       y="217"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="10"
+       fill="#333"
+       id="text7">Failover Decision</text>
+  </g>
+  <text
+     x="353.05328"
+     y="236.17339"
+     font-family="sans-serif"
+     font-size="10px"
+     fill="#4caf50"
+     id="text18-8">Health Check Polling</text>
+  <!-- Scenario Labels -->
+  <text
+     x="226.1194"
+     y="262.03979"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#4caf50"
+     id="text8">Scenario 1: Normal Operation</text>
+  <text
+     x="707.0481"
+     y="268.00995"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#f44336"
+     id="text9">Scenario 2: Failover Active</text>
+  <!-- Left Side - Normal Operation -->
+  <g
+     id="normal-operation">
+    <!-- Primary Endpoint -->
+    <g
+       id="primary-normal">
+      <rect
+         x="100"
+         y="300"
+         width="200"
+         height="120"
+         fill="#e8f5e9"
+         stroke="#4caf50"
+         stroke-width="2"
+         rx="8"
+         id="rect9" />
+      <text
+         x="200"
+         y="320"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="bold"
+         fill="#333"
+         id="text10">Primary Endpoint</text>
+      <text
+         x="200"
+         y="335"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#666"
+         id="text11">(Region A)</text>
+      <!-- Health Check -->
+      <rect
+         x="120"
+         y="345"
+         width="160"
+         height="25"
+         fill="#c8e6c9"
+         stroke="#4caf50"
+         stroke-width="1"
+         rx="3"
+         id="rect11" />
+      <text
+         x="200"
+         y="362"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#333"
+         id="text12">Health Check: ✓ HEALTHY</text>
+      <!-- Load Balancer -->
+      <rect
+         x="140"
+         y="380"
+         width="120"
+         height="25"
+         fill="#ff9900"
+         stroke="#333"
+         stroke-width="1"
+         rx="3"
+         id="rect12" />
+      <text
+         x="200"
+         y="397"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#fff"
+         id="text13">Load Balancer</text>
+    </g>
+    <!-- Secondary Endpoint (dimmed) -->
+    <g
+       id="secondary-normal"
+       opacity="0.4">
+      <rect
+         x="100"
+         y="440"
+         width="200"
+         height="120"
+         fill="#f5f5f5"
+         stroke="#ccc"
+         stroke-width="2"
+         rx="8"
+         id="rect13" />
+      <text
+         x="200"
+         y="460"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="bold"
+         fill="#999"
+         id="text14">Secondary Endpoint</text>
+      <text
+         x="200"
+         y="475"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#999"
+         id="text15">(Region B - DR)</text>
+      <!-- Health Check -->
+      <rect
+         x="120"
+         y="485"
+         width="160"
+         height="25"
+         fill="#e0e0e0"
+         stroke="#999"
+         stroke-width="1"
+         rx="3"
+         id="rect15" />
+      <text
+         x="200"
+         y="502"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#666"
+         id="text16">Health Check: Standby</text>
+      <!-- Load Balancer -->
+      <rect
+         x="140"
+         y="520"
+         width="120"
+         height="25"
+         fill="#ccc"
+         stroke="#999"
+         stroke-width="1"
+         rx="3"
+         id="rect16" />
+      <text
+         x="200"
+         y="537"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#fff"
+         id="text17">Load Balancer (DR)</text>
+    </g>
+    <!-- Arrows for Normal Operation -->
+    <path
+       d="M 300.16583,353.06799 C 375.78772,332.30514 425.62189,245.3068 425.62189,245.3068"
+       stroke="#4caf50"
+       stroke-width="2"
+       fill="none"
+       marker-end="url(#arrowhead-green)"
+       id="path18"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="355.47266"
+       y="340.87891"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#4caf50"
+       id="text18">Returns Primary IP</text>
+    <!-- Response arrow -->
+    <path
+       d="M 331.4262,140 398.00995,88.723051"
+       stroke="#4caf50"
+       stroke-width="2"
+       fill="none"
+       marker-end="url(#arrowhead-green)"
+       id="path19"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="302.7529"
+       y="111.68325"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#4caf50"
+       id="text19">Primary IP</text>
+  </g>
+  <!-- Right Side - Failover Scenario -->
+  <g
+     id="failover-operation">
+    <!-- Primary Endpoint (failed) -->
+    <g
+       id="primary-failed">
+      <rect
+         x="600"
+         y="300"
+         width="200"
+         height="120"
+         fill="#ffebee"
+         stroke="#f44336"
+         stroke-width="2"
+         rx="8"
+         id="rect19" />
+      <text
+         x="700"
+         y="320"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="bold"
+         fill="#333"
+         id="text20">Primary Endpoint</text>
+      <text
+         x="700"
+         y="335"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#666"
+         id="text21">(Region A)</text>
+      <!-- Health Check -->
+      <rect
+         x="620"
+         y="345"
+         width="160"
+         height="25"
+         fill="#ffcdd2"
+         stroke="#f44336"
+         stroke-width="1"
+         rx="3"
+         id="rect21" />
+      <text
+         x="700"
+         y="362"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#333"
+         id="text22">Health Check: ✗ FAILED</text>
+      <!-- Load Balancer -->
+      <rect
+         x="640"
+         y="380"
+         width="120"
+         height="25"
+         fill="#999"
+         stroke="#333"
+         stroke-width="1"
+         rx="3"
+         id="rect22" />
+      <text
+         x="700"
+         y="397"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#fff"
+         id="text23">Load Balancer</text>
+    </g>
+    <!-- Secondary Endpoint (active) -->
+    <g
+       id="secondary-active">
+      <rect
+         x="600"
+         y="440"
+         width="200"
+         height="120"
+         fill="#e3f2fd"
+         stroke="#2196f3"
+         stroke-width="2"
+         rx="8"
+         id="rect23" />
+      <text
+         x="700"
+         y="460"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="12"
+         font-weight="bold"
+         fill="#333"
+         id="text24">Secondary Endpoint</text>
+      <text
+         x="700"
+         y="475"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#666"
+         id="text25">(Region B - DR)</text>
+      <!-- Health Check -->
+      <rect
+         x="620"
+         y="485"
+         width="160"
+         height="25"
+         fill="#bbdefb"
+         stroke="#2196f3"
+         stroke-width="1"
+         rx="3"
+         id="rect25" />
+      <text
+         x="700"
+         y="502"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#333"
+         id="text26">Health Check: ✓ HEALTHY</text>
+      <!-- Load Balancer -->
+      <rect
+         x="640"
+         y="520"
+         width="120"
+         height="25"
+         fill="#ff9900"
+         stroke="#333"
+         stroke-width="1"
+         rx="3"
+         id="rect26" />
+      <text
+         x="700"
+         y="537"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10"
+         fill="#fff"
+         id="text27">Load Balancer (DR)</text>
+    </g>
+    <!-- Arrows for Failover Operation -->
+    <path
+       d="M 600.49751,458.5738 C 545.43947,388.02654 550,240 550,240"
+       stroke="#2196f3"
+       stroke-width="2"
+       fill="none"
+       marker-end="url(#arrowhead-blue)"
+       id="path28"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="466.76617"
+       y="436.40134"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#2196f3"
+       id="text28">Returns Secondary IP</text>
+    <!-- Failed path (dashed) -->
+    <!-- Response arrow -->
+    <path
+       d="m 570.56385,140.66335 c 0,-1.5257 -68.5738,-53.930349 -68.5738,-53.930349"
+       stroke="#2196f3"
+       stroke-width="2"
+       fill="none"
+       marker-end="url(#arrowhead-blue)"
+       id="path30"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="535.25702"
+       y="99.74295"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#2196f3"
+       id="text30">Secondary IP</text>
+  </g>
+  <!-- Additional Health Check Types -->
+  <g
+     id="health-check-types">
+    <rect
+       x="350"
+       y="480"
+       width="200"
+       height="80"
+       fill="#f5f5f5"
+       stroke="#999"
+       stroke-width="1"
+       rx="5"
+       id="rect30" />
+    <text
+       x="450"
+       y="500"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="11"
+       font-weight="bold"
+       fill="#666"
+       id="text31">Health Check Types:</text>
+    <text
+       x="360"
+       y="520"
+       font-family="sans-serif"
+       font-size="9"
+       fill="#666"
+       id="text32">• Endpoint monitoring (HTTP/S, TCP)</text>
+    <text
+       x="360"
+       y="535"
+       font-family="sans-serif"
+       font-size="9"
+       fill="#666"
+       id="text33">• CloudWatch Alarm integration</text>
+    <text
+       x="360"
+       y="550"
+       font-family="sans-serif"
+       font-size="9"
+       fill="#666"
+       id="text34">• Calculated health checks</text>
+  </g>
+  <!-- Arrow definitions -->
+  <defs
+     id="defs36">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#333"
+         id="polygon34" />
+    </marker>
+    <marker
+       id="arrowhead-green"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#4caf50"
+         id="polygon35" />
+    </marker>
+    <marker
+       id="arrowhead-blue"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#2196f3"
+         id="polygon36" />
+    </marker>
+    <marker
+       id="arrowhead-green-0"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="10,3 0,6 0,0 "
+         fill="#4caf50"
+         id="polygon35-9" />
+    </marker>
+    <marker
+       id="arrowhead-blue-8"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="10,3 0,6 0,0 "
+         fill="#2196f3"
+         id="polygon36-2" />
+    </marker>
+    <marker
+       id="arrowhead-blue-8-5"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0,6 0,0 10,3 "
+         fill="#2196f3"
+         id="polygon36-2-5" />
+    </marker>
+  </defs>
+</svg>

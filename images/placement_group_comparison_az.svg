@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="650"
+   viewBox="0 0 900 650"
+   version="1.1"
+   id="svg48"
+   sodipodi:docname="placement_group_comparison_az.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview48"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.7292308"
+     inkscape:cx="449.94363"
+     inkscape:cy="325"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg48" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .az-border { fill: #f5f5f5; stroke: #333; stroke-width: 2; }
+      .rack { fill: #e0e0e0; stroke: #666; stroke-width: 1.5; }
+      .partition1 { fill: #e8f5e9; stroke: #4caf50; stroke-width: 1.5; stroke-dasharray: 5,3; rx: 8; ry: 8; }
+      .partition2 { fill: #e3f2fd; stroke: #2196f3; stroke-width: 1.5; stroke-dasharray: 5,3; rx: 8; ry: 8; }
+      .divider { stroke: #ccc; stroke-width: 1.5; stroke-dasharray: 6,4; }
+      .spread-instance { fill: #bbdefb; stroke: #1976d2; stroke-width: 2; }
+      .partition1-instance { fill: #c8e6c9; stroke: #388e3c; stroke-width: 1.5; }
+      .partition2-instance { fill: #bbdefb; stroke: #1976d2; stroke-width: 1.5; }
+      .instance-label { font-family: Arial, sans-serif; font-size: 10px; text-anchor: middle; }
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; text-anchor: middle; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .section-title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; text-anchor: middle; }
+      .rack-label { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .partition-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; }
+      .callout { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .callout-box { fill: #fff; stroke: #666; stroke-width: 1; rx: 5; ry: 5; fill-opacity: 0.85; }
+      .benefit-label { font-family: Arial, sans-serif; font-size: 13px; fill: #333; text-anchor: start; }
+      .rack-failure { fill: #ffcdd2; stroke: #d32f2f; stroke-width: 1.5; }
+      .rack-normal { fill: #e0e0e0; stroke: #666; stroke-width: 1.5; }
+      .note-text { font-family: Arial, sans-serif; font-size: 12px; fill: #666; }
+      .usecase-box { fill: #f5f5f5; stroke: #bdbdbd; stroke-width: 1; rx: 5; ry: 5; }
+      .usecase-title { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #333; }
+      .usecase-text { font-family: Arial, sans-serif; font-size: 11px; fill: #555; }
+    </style>
+  </defs>
+  <!-- Title and Subtitle -->
+  <text
+     x="450"
+     y="40"
+     class="title"
+     id="text1">EC2 Placement Group Comparison</text>
+  <text
+     x="450"
+     y="65"
+     class="subtitle"
+     id="text2">Hardware fault isolation strategies within a single Availability Zone</text>
+  <!-- Availability Zone Container -->
+  <rect
+     x="50"
+     y="100"
+     width="800"
+     height="450"
+     rx="10"
+     ry="10"
+     class="az-border"
+     id="rect2" />
+  <text
+     x="447.43518"
+     y="91.290871"
+     class="section-title"
+     id="text3">Single Availability Zone</text>
+  <!-- Dividing line between Spread and Partition examples -->
+  <line
+     x1="450"
+     y1="100"
+     x2="450"
+     y2="618.51746"
+     class="divider"
+     id="line3" />
+  <!-- Left Side: Spread Placement Group -->
+  <text
+     x="225"
+     y="122.75648"
+     class="section-title"
+     id="text4">Spread Placement Group</text>
+  <!-- Racks on the Spread side -->
+  <rect
+     x="75"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect4" />
+  <text
+     x="105"
+     y="535"
+     class="rack-label"
+     id="text5">Rack 1</text>
+  <rect
+     x="165"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect5" />
+  <text
+     x="195"
+     y="535"
+     class="rack-label"
+     id="text6">Rack 2</text>
+  <rect
+     x="255"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect6" />
+  <text
+     x="285"
+     y="535"
+     class="rack-label"
+     id="text7">Rack 3</text>
+  <rect
+     x="345"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect7" />
+  <text
+     x="375"
+     y="535"
+     class="rack-label"
+     id="text8">Rack 4</text>
+  <!-- Spread Instances -->
+  <rect
+     x="85"
+     y="250"
+     width="40"
+     height="40"
+     rx="5"
+     ry="5"
+     class="spread-instance"
+     id="rect8" />
+  <text
+     x="105"
+     y="270"
+     class="instance-label"
+     id="text9">App 1</text>
+  <line
+     x1="105"
+     y1="290"
+     x2="105"
+     y2="400"
+     stroke="#666"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line9" />
+  <rect
+     x="175"
+     y="250"
+     width="40"
+     height="40"
+     rx="5"
+     ry="5"
+     class="spread-instance"
+     id="rect9" />
+  <text
+     x="195"
+     y="270"
+     class="instance-label"
+     id="text10">DB 1</text>
+  <line
+     x1="195"
+     y1="290"
+     x2="195"
+     y2="400"
+     stroke="#666"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line10" />
+  <rect
+     x="265"
+     y="250"
+     width="40"
+     height="40"
+     rx="5"
+     ry="5"
+     class="spread-instance"
+     id="rect10" />
+  <text
+     x="285"
+     y="270"
+     class="instance-label"
+     id="text11">Cache</text>
+  <line
+     x1="285"
+     y1="290"
+     x2="285"
+     y2="400"
+     stroke="#666"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line11" />
+  <rect
+     x="355"
+     y="250"
+     width="40"
+     height="40"
+     rx="5"
+     ry="5"
+     class="spread-instance"
+     id="rect11" />
+  <text
+     x="375"
+     y="270"
+     class="instance-label"
+     id="text12">App 2</text>
+  <line
+     x1="375"
+     y1="290"
+     x2="375"
+     y2="400"
+     stroke="#666"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line12" />
+  <!-- Right Side: Partition Placement Group -->
+  <text
+     x="684.89288"
+     y="120.55806"
+     class="section-title"
+     id="text13">Partition Placement Group</text>
+  <!-- Partition 1 and instances -->
+  <rect
+     x="495"
+     y="200"
+     width="150"
+     height="180"
+     class="partition1"
+     id="rect13" />
+  <text
+     x="570"
+     y="220"
+     class="partition-label"
+     id="text14">Partition 1</text>
+  <!-- Racks in Partition 1 -->
+  <rect
+     x="515"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect14" />
+  <text
+     x="545"
+     y="535"
+     class="rack-label"
+     id="text15">Rack 5</text>
+  <rect
+     x="605"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect15" />
+  <text
+     x="635"
+     y="535"
+     class="rack-label"
+     id="text16">Rack 6</text>
+  <!-- Instances in Partition 1 -->
+  <rect
+     x="525"
+     y="250"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition1-instance"
+     id="rect16" />
+  <text
+     x="542"
+     y="270"
+     class="instance-label"
+     id="text17">DB 1</text>
+  <line
+     x1="542"
+     y1="285"
+     x2="545"
+     y2="400"
+     stroke="#388e3c"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line17" />
+  <rect
+     x="570"
+     y="250"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition1-instance"
+     id="rect17" />
+  <text
+     x="587"
+     y="270"
+     class="instance-label"
+     id="text18">DB 2</text>
+  <line
+     x1="587"
+     y1="285"
+     x2="545"
+     y2="400"
+     stroke="#388e3c"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line18" />
+  <rect
+     x="525"
+     y="310"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition1-instance"
+     id="rect18" />
+  <text
+     x="542"
+     y="330"
+     class="instance-label"
+     id="text19">App 1</text>
+  <line
+     x1="542"
+     y1="345"
+     x2="635"
+     y2="400"
+     stroke="#388e3c"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line19" />
+  <rect
+     x="570"
+     y="310"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition1-instance"
+     id="rect19" />
+  <text
+     x="587"
+     y="330"
+     class="instance-label"
+     id="text20">App 2</text>
+  <line
+     x1="587"
+     y1="345"
+     x2="635"
+     y2="400"
+     stroke="#388e3c"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line20" />
+  <!-- Partition 2 and instances -->
+  <rect
+     x="675"
+     y="200"
+     width="150"
+     height="180"
+     class="partition2"
+     id="rect20" />
+  <text
+     x="750"
+     y="220"
+     class="partition-label"
+     id="text21">Partition 2</text>
+  <!-- Racks in Partition 2 -->
+  <rect
+     x="695"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect21" />
+  <text
+     x="725"
+     y="535"
+     class="rack-label"
+     id="text22">Rack 7</text>
+  <rect
+     x="785"
+     y="400"
+     width="60"
+     height="120"
+     rx="3"
+     ry="3"
+     class="rack"
+     id="rect22" />
+  <text
+     x="815"
+     y="535"
+     class="rack-label"
+     id="text23">Rack 8</text>
+  <!-- Instances in Partition 2 -->
+  <rect
+     x="705"
+     y="250"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition2-instance"
+     id="rect23" />
+  <text
+     x="722"
+     y="270"
+     class="instance-label"
+     id="text24">DB 3</text>
+  <line
+     x1="722"
+     y1="285"
+     x2="725"
+     y2="400"
+     stroke="#1976d2"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line24" />
+  <rect
+     x="750"
+     y="250"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition2-instance"
+     id="rect24" />
+  <text
+     x="767"
+     y="270"
+     class="instance-label"
+     id="text25">DB 4</text>
+  <line
+     x1="767"
+     y1="285"
+     x2="725"
+     y2="400"
+     stroke="#1976d2"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line25" />
+  <rect
+     x="705"
+     y="310"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition2-instance"
+     id="rect25" />
+  <text
+     x="722"
+     y="330"
+     class="instance-label"
+     id="text26">App 3</text>
+  <line
+     x1="722"
+     y1="345"
+     x2="815"
+     y2="400"
+     stroke="#1976d2"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line26" />
+  <rect
+     x="750"
+     y="310"
+     width="35"
+     height="35"
+     rx="5"
+     ry="5"
+     class="partition2-instance"
+     id="rect26" />
+  <text
+     x="767"
+     y="330"
+     class="instance-label"
+     id="text27">App 4</text>
+  <line
+     x1="767"
+     y1="345"
+     x2="815"
+     y2="400"
+     stroke="#1976d2"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line27" />
+  <!-- Benefit Callouts -->
+  <!-- Spread Benefits -->
+  <rect
+     x="80"
+     y="147.75648"
+     width="290"
+     height="50"
+     rx="5"
+     ry="5"
+     class="callout-box"
+     id="rect27" />
+  <text
+     x="90"
+     y="167.75648"
+     class="benefit-label"
+     id="text28">• Maximum protection for critical components</text>
+  <text
+     x="90"
+     y="187.75648"
+     class="benefit-label"
+     id="text29">• Each instance on distinct hardware</text>
+  <!-- Partition Benefits -->
+  <rect
+     x="539.89288"
+     y="145.55806"
+     width="290"
+     height="50"
+     rx="5"
+     ry="5"
+     class="callout-box"
+     id="rect29" />
+  <text
+     x="549.89288"
+     y="165.55806"
+     class="benefit-label"
+     id="text30">• Group isolation with higher density</text>
+  <text
+     x="549.89288"
+     y="185.55806"
+     class="benefit-label"
+     id="text31">• Scales to hundreds of instances</text>
+  <!-- Limitations -->
+  <text
+     x="58.286362"
+     y="585.59753"
+     class="note-text"
+     id="text32">Maximum 7 instances per AZ</text>
+  <text
+     x="462.11951"
+     y="582.25482"
+     class="note-text"
+     id="text33">Up to 100s of instances</text>
+  <text
+     x="462.11951"
+     y="597.25482"
+     class="note-text"
+     id="text34">across multiple partitions</text>
+  <!-- Use Cases -->
+  <rect
+     x="235.65388"
+     y="556.44305"
+     width="200"
+     height="60"
+     rx="5"
+     ry="5"
+     class="usecase-box"
+     id="rect34" />
+  <text
+     x="335.6539"
+     y="571.44305"
+     class="usecase-title"
+     text-anchor="middle"
+     id="text35">Spread Use Cases</text>
+  <text
+     x="335.6539"
+     y="591.44305"
+     class="usecase-text"
+     text-anchor="middle"
+     id="text36">Critical applications where individual</text>
+  <text
+     x="335.6539"
+     y="606.44305"
+     class="usecase-text"
+     text-anchor="middle"
+     id="text37">component failure cannot be tolerated</text>
+  <rect
+     x="609.07556"
+     y="564.87036"
+     width="200"
+     height="60"
+     rx="5"
+     ry="5"
+     class="usecase-box"
+     id="rect37" />
+  <text
+     x="709.07556"
+     y="579.87036"
+     class="usecase-title"
+     text-anchor="middle"
+     id="text38">Partition Use Cases</text>
+  <text
+     x="709.07556"
+     y="599.87036"
+     class="usecase-text"
+     text-anchor="middle"
+     id="text39">HDFS, HBase, Cassandra, Kafka</text>
+  <text
+     x="709.07556"
+     y="614.87036"
+     class="usecase-text"
+     text-anchor="middle"
+     id="text40">and other distributed applications</text>
+  <!-- Failure Scenario Mini Visual -->
+  <!-- Visual indicators of rack failure impact -->
+  <circle
+     cx="105"
+     y="370"
+     r="5"
+     fill="#4caf50"
+     stroke="none"
+     id="circle40" />
+  <circle
+     cx="195"
+     y="370"
+     r="5"
+     fill="#4caf50"
+     stroke="none"
+     id="circle41" />
+  <circle
+     cx="285"
+     y="370"
+     r="5"
+     fill="#4caf50"
+     stroke="none"
+     id="circle42" />
+  <circle
+     cx="375"
+     y="370"
+     r="5"
+     fill="#4caf50"
+     stroke="none"
+     id="circle43" />
+  <circle
+     cx="545"
+     y="370"
+     r="5"
+     fill="#4caf50"
+     stroke="none"
+     id="circle44" />
+  <circle
+     cx="635"
+     y="370"
+     r="5"
+     fill="#d32f2f"
+     stroke="none"
+     id="circle45" />
+  <circle
+     cx="725"
+     y="370"
+     r="5"
+     fill="#4caf50"
+     stroke="none"
+     id="circle46" />
+  <circle
+     cx="815"
+     y="370"
+     r="5"
+     fill="#4caf50"
+     stroke="none"
+     id="circle47" />
+</svg>

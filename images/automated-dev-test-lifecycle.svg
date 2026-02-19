@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="700"
+   viewBox="0 0 1200 700"
+   font-family="Arial, sans-serif"
+   id="svg-automated-dev-test-lifecycle"
+   version="1.1"
+   sodipodi:docname="automated-dev-test-lifecycle.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview49"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.5842857"
+     inkscape:cx="599.97236"
+     inkscape:cy="350"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="group-ephemeral" />
+  <defs
+     id="defs8">
+    <!-- Arrow Markers -->
+    <marker
+       id="arrow-black"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#000000"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrow-blue"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#007bff"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="arrow-green"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#198754"
+         id="polygon3" />
+    </marker>
+    <marker
+       id="arrow-red"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#dc3545"
+         id="polygon4" />
+    </marker>
+    <!-- Gradients -->
+    <linearGradient
+       id="scheduler-gradient"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#f3e5f5;stop-opacity:1"
+         id="stop4" />
+      <stop
+         offset="100%"
+         style="stop-color:#e1bee7;stop-opacity:1"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="iac-gradient"
+       x1="368.87406"
+       y1="438.70139"
+       x2="368.87406"
+       y2="564.54753"
+       gradientTransform="scale(1.7600858,0.56815411)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#e0f7fa;stop-opacity:1"
+         id="stop6" />
+      <stop
+         offset="100%"
+         style="stop-color:#b2ebf2;stop-opacity:1"
+         id="stop7" />
+    </linearGradient>
+    <!-- EC2 Instance Template -->
+    <g
+       id="ec2-instance-template">
+      <path
+         d="M9,39 L39,39 L39,9 L9,9 L9,39 Z M46,13 L46,11 L41,11 L41,8 C41,7.448 40.552,7 40,7 L37,7 L37,2 L35,2 L35,7 L31,7 L31,2 L29,2 L29,7 L25,7 L25,2 L23,2 L23,7 L19,7 L19,2 L17,2 L17,7 L13,7 L13,2 L11,2 L11,7 L8,7 C7.447,7 7,7.448 7,8 L7,11 L2,11 L2,13 L7,13 L7,17 L2,17 L2,19 L7,19 L7,23 L2,23 L2,25 L7,25 L7,29 L2,29 L2,31 L7,31 L7,35 L2,35 L2,37 L7,37 L7,40 C7,40.553 7.447,41 8,41 L11,41 L11,46 L13,46 L13,41 L17,41 L17,46 L19,46 L19,41 L23,41 L23,46 L25,46 L25,41 L29,41 L29,46 L31,46 L31,41 L35,41 L35,46 L37,46 L37,41 L40,41 C40.552,41 41,40.553 41,40 L41,37 L46,37 L46,35 L41,35 L41,31 L46,31 L46,29 L41,29 L41,25 L46,25 L46,23 L41,23 L41,19 L46,19 L46,17 L41,17 L41,13 L46,13 Z"
+         fill="#ED7100"
+         id="path7" />
+    </g>
+    <!-- RDS Instance Template -->
+    <g
+       id="rds-instance-template">
+      <g
+         fill="#C925D1"
+         id="g7">
+        <rect
+           x="0"
+           y="0"
+           width="40"
+           height="40"
+           id="rect7" />
+      </g>
+      <path
+         d="M11.854,28.854 L7.708,33 L10.5,33 L10.5,34 L6.5,34 C6.224,34 6,33.777 6,33.5 L6,29.5 L7,29.5 L7,32.293 L11.147,28.147 L11.854,28.854 Z M33,29.5 L34,29.5 L34,33.5 C34,33.777 33.777,34 33.5,34 L29.5,34 L29.5,33 L32.293,33 L28.147,28.854 L28.854,28.147 L33,32.293 L33,29.5 Z M34,6.5 L34,10.5 L33,10.5 L33,7.708 L28.854,11.854 L28.147,11.147 L32.293,7 L29.5,7 L29.5,6 L33.5,6 C33.777,6 34,6.224 34,6.5 L34,6.5 Z M7,10.5 L6,10.5 L6,6.5 C6,6.224 6.224,6 6.5,6 L10.5,6 L10.5,7 L7.527,7 L11.846,11.14 L11.155,11.861 L7,7.88 L7,10.5 Z M32.726,19.4 C32.726,17.842 30.92,16.3 27.896,15.277 L28.216,14.33 C31.718,15.515 33.726,17.363 33.726,19.4 C33.726,21.437 31.718,23.286 28.216,24.471 L27.896,23.523 C30.92,22.5 32.726,20.958 32.726,19.4 L32.726,19.4 Z M7.737,19.4 C7.737,20.892 9.427,22.393 12.258,23.414 L11.918,24.354 C8.625,23.167 6.737,21.361 6.737,19.4 C6.737,17.439 8.625,15.633 11.918,14.445 L12.258,15.386 C9.427,16.407 7.737,17.908 7.737,19.4 L7.737,19.4 Z M20.023,15.719 C16.887,15.719 15.132,14.92 15.106,14.594 C15.132,14.268 16.887,13.469 20.023,13.469 C23.156,13.469 24.913,14.267 24.94,14.594 C24.913,14.92 23.156,15.719 20.023,15.719 L20.023,15.719 Z M20.023,19.274 C16.841,19.274 15.106,18.348 15.106,17.872 L15.106,15.842 C16.241,16.437 18.175,16.719 20.023,16.719 C21.871,16.719 23.805,16.437 24.94,15.842 L24.94,17.872 C24.94,18.348 23.205,19.274 20.023,19.274 L20.023,19.274 Z M20.023,23.011 C16.841,23.011 15.106,22.084 15.106,21.608 L15.106,19.265 C16.225,19.93 18.129,20.274 20.023,20.274 C21.917,20.274 23.821,19.93 24.94,19.265 L24.94,21.608 C24.94,22.084 23.205,23.011 20.023,23.011 L20.023,23.011 Z M20.023,26.29 C16.841,26.29 15.106,25.375 15.106,24.905 L15.106,23.001 C16.225,23.667 18.129,24.011 20.023,24.011 C21.917,24.011 23.821,23.667 24.94,23.001 L24.94,24.905 C24.94,25.375 23.205,26.29 20.023,26.29 L20.023,26.29 Z M20.023,12.469 C17.173,12.469 14.106,13.134 14.106,14.594 L14.106,24.905 C14.106,26.471 17.083,27.29 20.023,27.29 C22.963,27.29 25.94,26.471 25.94,24.905 L25.94,14.594 C25.94,13.134 22.873,12.469 20.023,12.469 L20.023,12.469 Z"
+         fill="#FFFFFF"
+         id="path8" />
+    </g>
+  </defs>
+  <!-- Main Title -->
+  <text
+     x="600"
+     y="45"
+     font-size="24px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text8">Automated Dev/Test Environment Lifecycle Management for Cost Optimization</text>
+  <!-- Dividing Line -->
+  <line
+     x1="600"
+     y1="70"
+     x2="600"
+     y2="680"
+     stroke="#adb5bd"
+     stroke-width="1"
+     stroke-dasharray="5,3"
+     id="line8" />
+  <!-- A. Mini-Diagram 1: Scheduled Resource Lifecycle (Left Panel) -->
+  <text
+     x="300"
+     y="100"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text9">Scenario 1: Scheduled Start/Stop of Resources</text>
+  <!-- Element 1.1: Scheduling Services Box -->
+  <g
+     id="group-scheduler">
+    <rect
+       x="50"
+       y="130"
+       width="220"
+       height="100"
+       rx="8"
+       ry="8"
+       fill="url(#scheduler-gradient)"
+       stroke="#ce93d8"
+       stroke-width="1.5"
+       id="rect9" />
+    <text
+       x="160"
+       y="170"
+       font-size="30px"
+       text-anchor="middle"
+       id="text10">⏱️</text>
+    <text
+       x="160"
+       y="195"
+       font-size="13px"
+       font-weight="bold"
+       text-anchor="middle"
+       id="text11">Scheduling Services</text>
+    <text
+       x="160"
+       y="213"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#555555"
+       id="text12">(e.g., Instance Scheduler, EventBridge + Lambda)</text>
+  </g>
+  <!-- Element 1.2: Persistent Dev/Test Resources -->
+  <g
+     id="group-persistent">
+    <rect
+       x="320.05029"
+       y="200.05029"
+       width="262.0166"
+       height="199.8994"
+       rx="9.1136208"
+       ry="7.995976"
+       fill="#f8f9fa"
+       stroke="#dee2e6"
+       stroke-width="1.6006"
+       id="rect12" />
+    <text
+       x="435"
+       y="230"
+       font-size="13px"
+       font-weight="bold"
+       text-anchor="middle"
+       id="text13">Persistent Dev/Test Resources</text>
+    <!-- EC2 Instance -->
+    <g
+       transform="translate(355, 255) scale(0.6)"
+       id="g13">
+      <use
+         href="#ec2-instance-template"
+         id="use13" />
+    </g>
+    <text
+       x="380"
+       y="300"
+       font-size="11px"
+       text-anchor="middle"
+       id="text14">EC2 Instance(s)</text>
+    <rect
+       x="322.67322"
+       y="320.41232"
+       width="121.61874"
+       height="19.949295"
+       rx="4.864749"
+       ry="3.9898591"
+       fill="#f8f9fa"
+       stroke="#dee2e6"
+       stroke-width="0.550705"
+       id="rect14" />
+    <text
+       id="ec2-status-sched"
+       x="382.70868"
+       y="335.38696"
+       font-size="10px"
+       font-style="italic"
+       fill="#198754"
+       text-anchor="middle">Running (Business Hours)</text>
+    <!-- Illustrate stopped state -->
+    <text
+       x="370.7131"
+       y="354.61304"
+       font-size="10px"
+       fill="#6c757d"
+       text-anchor="middle"
+       id="text15">Stopped (Off-Hours)</text>
+    <!-- RDS Instance -->
+    <g
+       transform="matrix(0.6,0,0,0.6,487.44334,255.38695)"
+       id="g15">
+      <use
+         href="#rds-instance-template"
+         id="use15" />
+    </g>
+    <text
+       x="512.44336"
+       y="300.38696"
+       font-size="11px"
+       text-anchor="middle"
+       id="text16">RDS Instance(s)</text>
+    <rect
+       x="456.66483"
+       y="320.41275"
+       width="122.00481"
+       height="19.948433"
+       rx="4.8801928"
+       ry="3.9896867"
+       fill="#f8f9fa"
+       stroke="#dee2e6"
+       stroke-width="0.551566"
+       id="rect16" />
+    <text
+       id="rds-status-sched"
+       x="517.47375"
+       y="335.38696"
+       font-size="10px"
+       font-style="italic"
+       fill="#198754"
+       text-anchor="middle">Available (Business Hours)</text>
+    <!-- Illustrate stopped state -->
+    <text
+       x="498.513"
+       y="355"
+       font-size="10px"
+       fill="#6c757d"
+       text-anchor="middle"
+       id="text17">Stopped (Off-Hours)</text>
+  </g>
+  <!-- Arrow 1.1 (Stop Action) -->
+  <path
+     d="M 160,230 Q 240,250 320,270"
+     stroke="#dc3545"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrow-red)"
+     stroke-dasharray="4,2"
+     id="path17" />
+  <text
+     x="226.4566"
+     y="288.45218"
+     font-size="11px"
+     fill="#dc3545"
+     text-anchor="middle"
+     id="text18">Triggers &quot;Stop&quot; (Nightly/Weekend)</text>
+  <!-- Arrow 1.2 (Start Action) -->
+  <path
+     d="m 271.65952,143.18299 q 39.10957,35.91394 78.21914,57.4623"
+     stroke="#198754"
+     stroke-width="1.18515"
+     fill="none"
+     marker-end="url(#arrow-green)"
+     stroke-dasharray="4, 2"
+     id="path18" />
+  <text
+     x="377.36871"
+     y="158.36098"
+     font-size="11px"
+     fill="#198754"
+     text-anchor="middle"
+     id="text19">Triggers &quot;Start&quot; (Weekday Morning)</text>
+  <!-- Cost Benefits Box -->
+  <rect
+     x="100"
+     y="440"
+     width="400"
+     height="60"
+     rx="8"
+     ry="8"
+     fill="#f8f9fa"
+     stroke="#dee2e6"
+     stroke-width="1"
+     id="rect19" />
+  <text
+     x="300"
+     y="465"
+     font-size="13px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#555555"
+     id="text20">Cost Benefit Analysis</text>
+  <text
+     x="300"
+     y="485"
+     font-size="12px"
+     font-style="italic"
+     text-anchor="middle"
+     fill="#555555"
+     id="text21">Reduces costs by ~65% by stopping resources during idle periods</text>
+  <!-- B. Mini-Diagram 2: IaC for Ephemeral Environments (Right Panel) -->
+  <text
+     x="900"
+     y="100"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text22">Scenario 2: On-Demand Ephemeral Environments via IaC</text>
+  <!-- Element 2.1: Trigger -->
+  <g
+     id="group-trigger">
+    <rect
+       x="650"
+       y="130"
+       width="220"
+       height="70"
+       rx="8"
+       ry="8"
+       fill="#f8f9fa"
+       stroke="#dee2e6"
+       stroke-width="1.5"
+       id="rect22" />
+    <text
+       x="760"
+       y="160"
+       font-size="24px"
+       text-anchor="middle"
+       id="text23">🧑‍💻/🚀</text>
+    <text
+       x="760"
+       y="185"
+       font-size="12px"
+       text-anchor="middle"
+       id="text24">Developer or CI/CD Trigger</text>
+  </g>
+  <!-- Arrow 2.1 (Trigger to IaC) -->
+  <line
+     x1="760"
+     y1="200"
+     x2="760"
+     y2="254.7744"
+     stroke="#000000"
+     stroke-width="2.34039"
+     marker-end="url(#arrow-black)"
+     id="line24" />
+  <text
+     x="785.9259"
+     y="223.42178"
+     font-size="10px"
+     text-anchor="middle"
+     id="text25">Initiates</text>
+  <!-- Element 2.2: IaC Tooling -->
+  <g
+     id="group-iac"
+     transform="matrix(0.99847884,0,0,1.4982596,-0.00478415,-114.33676)">
+    <rect
+       x="650"
+       y="250"
+       width="220"
+       height="70"
+       rx="8"
+       ry="8"
+       fill="url(#iac-gradient)"
+       stroke="#80deea"
+       stroke-width="1.5"
+       id="rect25"
+       style="fill:url(#iac-gradient)" />
+    <text
+       x="619.18347"
+       y="345.41956"
+       font-size="19.5532px"
+       text-anchor="middle"
+       id="text26"
+       transform="scale(1.227423,0.81471507)"
+       style="stroke-width:0.814715">📜</text>
+    <text
+       x="760"
+       y="305"
+       font-size="12px"
+       text-anchor="middle"
+       id="text27">IaC (CloudFormation/Terraform)</text>
+  </g>
+  <!-- Arrow 2.2 (IaC Provisions Environment) -->
+  <line
+     x1="869.82977"
+     y1="270.40103"
+     x2="936.8559"
+     y2="270.40103"
+     stroke="#198754"
+     stroke-width="2.10552"
+     marker-end="url(#arrow-green)"
+     id="line27" />
+  <text
+     x="900"
+     y="260.29575"
+     font-size="10px"
+     text-anchor="middle"
+     id="text28">Provisions</text>
+  <!-- Element 2.3: Ephemeral Test Environment -->
+  <g
+     id="group-ephemeral">
+    <rect
+       x="940"
+       y="130"
+       width="220"
+       height="300"
+       rx="8"
+       ry="8"
+       fill="#fffde7"
+       stroke="#fff59d"
+       stroke-width="1.5"
+       stroke-dasharray="5,3"
+       id="rect28" />
+    <text
+       x="1050"
+       y="155"
+       font-size="13px"
+       font-weight="bold"
+       text-anchor="middle"
+       id="text29">Ephemeral Test Environment</text>
+    <!-- Inner components -->
+    <!-- VPC -->
+    <rect
+       x="980"
+       y="175"
+       width="140"
+       height="25"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#fff59d"
+       stroke-width="1"
+       id="rect29" />
+    <text
+       x="1027.9436"
+       y="192.32173"
+       font-size="11px"
+       text-anchor="middle"
+       id="text30">☁️ VPC</text>
+    <!-- EC2 -->
+    <rect
+       x="980"
+       y="210"
+       width="140"
+       height="30"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#fff59d"
+       stroke-width="1"
+       id="rect30" />
+    <g
+       transform="matrix(0.4,0,0,0.4,1009.5218,218.09563)"
+       id="g30">
+      <use
+         href="#ec2-instance-template"
+         id="use30"
+         transform="translate(-14.510779,3.8695412)" />
+    </g>
+    <text
+       x="1067.6782"
+       y="230.7435"
+       font-size="11px"
+       text-anchor="middle"
+       id="text31">EC2 Instance(s)</text>
+    <!-- DB -->
+    <rect
+       x="980"
+       y="250"
+       width="140"
+       height="30"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#fff59d"
+       stroke-width="1"
+       id="rect31" />
+    <g
+       transform="matrix(0.4,0,0,0.4,1004.1045,256.16087)"
+       id="g31">
+      <use
+         href="#rds-instance-template"
+         id="use31" />
+    </g>
+    <text
+       x="1052.587"
+       y="268.80875"
+       font-size="11px"
+       text-anchor="middle"
+       id="text32">Database</text>
+    <!-- Load Balancer -->
+    <rect
+       x="980"
+       y="290"
+       width="140"
+       height="25"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#fff59d"
+       stroke-width="1"
+       id="rect32" />
+    <text
+       x="1048.4521"
+       y="304.2261"
+       font-size="11px"
+       text-anchor="middle"
+       id="text33">↔️ Load Balancer</text>
+    <text
+       x="1050"
+       y="340"
+       font-size="10px"
+       font-style="italic"
+       text-anchor="middle"
+       id="text34">Active during Test</text>
+    <text
+       x="1050"
+       y="360"
+       font-size="10px"
+       font-style="italic"
+       text-anchor="middle"
+       id="text35">Tests Run...</text>
+    <!-- Post-Test Destruction State -->
+    <g
+       id="destruction-state"
+       opacity="0.5"
+       transform="matrix(0.95282845,0,0,0.92431959,44.882071,184.89776)">
+      <text
+         x="1050"
+         y="265"
+         font-size="100px"
+         text-anchor="middle"
+         fill="#dc3545"
+         id="text36">X</text>
+    </g>
+  </g>
+  <!-- Arrow 2.3 (IaC Destroys Environment) -->
+  <line
+     x1="866.77942"
+     y1="365.01633"
+     x2="933.80554"
+     y2="365.01633"
+     stroke="#dc3545"
+     stroke-width="2.10552"
+     marker-end="url(#arrow-red)"
+     id="line36" />
+  <text
+     x="891.10004"
+     y="390.12161"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#dc3545"
+     id="text37">Destroys (Post-Test)</text>
+  <!-- Cost Benefits Box -->
+  <rect
+     x="700"
+     y="440"
+     width="400"
+     height="60"
+     rx="8"
+     ry="8"
+     fill="#f8f9fa"
+     stroke="#dee2e6"
+     stroke-width="1"
+     id="rect37" />
+  <text
+     x="900"
+     y="465"
+     font-size="13px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#555555"
+     id="text38">Cost Benefit Analysis</text>
+  <text
+     x="900"
+     y="485"
+     font-size="12px"
+     font-style="italic"
+     text-anchor="middle"
+     fill="#555555"
+     id="text39">Pay only for active test execution time (~90% potential savings)</text>
+  <!-- Time Comparison at Bottom -->
+  <rect
+     x="100"
+     y="580"
+     width="1000"
+     height="80"
+     rx="8"
+     ry="8"
+     fill="#f5f5f5"
+     stroke="#e0e0e0"
+     stroke-width="1.5"
+     id="rect39" />
+  <text
+     x="600"
+     y="600"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text40">Resource Utilization Pattern Comparison</text>
+  <!-- Time chart - Scenario 1 -->
+  <rect
+     x="150"
+     y="620"
+     width="400"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#f0f0f0"
+     stroke="#e0e0e0"
+     stroke-width="1"
+     id="rect40" />
+  <rect
+     x="150"
+     y="620"
+     width="120"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#198754"
+     stroke="none"
+     id="rect41" />
+  <rect
+     x="270"
+     y="620"
+     width="140"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#6c757d"
+     stroke="none"
+     id="rect42" />
+  <rect
+     x="410"
+     y="620"
+     width="140"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#198754"
+     stroke="none"
+     id="rect43" />
+  <text
+     x="350"
+     y="650"
+     font-size="10px"
+     text-anchor="middle"
+     id="text43">Scenario 1: Daily On/Off Cycle - 8-10 hours active per day</text>
+  <!-- Time chart - Scenario 2 -->
+  <rect
+     x="650"
+     y="620"
+     width="400"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#f0f0f0"
+     stroke="#e0e0e0"
+     stroke-width="1"
+     id="rect44" />
+  <rect
+     x="650"
+     y="620"
+     width="40"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#198754"
+     stroke="none"
+     id="rect45" />
+  <rect
+     x="730"
+     y="620"
+     width="30"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#198754"
+     stroke="none"
+     id="rect46" />
+  <rect
+     x="800"
+     y="620"
+     width="50"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#198754"
+     stroke="none"
+     id="rect47" />
+  <rect
+     x="900"
+     y="620"
+     width="35"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#198754"
+     stroke="none"
+     id="rect48" />
+  <rect
+     x="980"
+     y="620"
+     width="45"
+     height="20"
+     rx="0"
+     ry="0"
+     fill="#198754"
+     stroke="none"
+     id="rect49" />
+  <text
+     x="850"
+     y="650"
+     font-size="10px"
+     text-anchor="middle"
+     id="text49">Scenario 2: On-Demand - Only active during actual test runs (1-2 hours total)</text>
+</svg>

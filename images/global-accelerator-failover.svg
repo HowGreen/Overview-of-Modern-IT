@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="649.69598"
+   viewBox="0 0 1000 649.69598"
+   version="1.1"
+   id="svg68"
+   sodipodi:docname="global-accelerator-failover.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview68"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.5842857"
+     inkscape:cx="499.94472"
+     inkscape:cy="392.56495"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg68" />
+  <!-- Background -->
+  <rect
+     width="1000"
+     height="649.69598"
+     fill="#f9f9f9"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.999998" />
+  <!-- Title -->
+  <!-- Global Users with Flags -->
+  <g
+     id="global-users"
+     transform="translate(0,-50.304035)">
+    <!-- US User -->
+    <g
+       id="us-user">
+      <rect
+         x="120"
+         y="60"
+         width="40"
+         height="25"
+         fill="#b22234"
+         stroke="#333333"
+         stroke-width="1"
+         id="rect2" />
+      <rect
+         x="120"
+         y="68"
+         width="40"
+         height="3"
+         fill="#ffffff"
+         id="rect3" />
+      <rect
+         x="120"
+         y="76"
+         width="40"
+         height="3"
+         fill="#ffffff"
+         id="rect4" />
+      <rect
+         x="120"
+         y="60"
+         width="16"
+         height="13"
+         fill="#3c3b6e"
+         id="rect5" />
+      <text
+         x="140"
+         y="95"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#333333"
+         id="text5">US User</text>
+      <text
+         x="140"
+         y="108"
+         text-anchor="middle"
+         font-family="monospace"
+         font-size="9px"
+         fill="#666666"
+         id="text6">198.51.100.42</text>
+    </g>
+    <!-- EU User -->
+    <g
+       id="eu-user">
+      <rect
+         x="320"
+         y="60"
+         width="40"
+         height="25"
+         fill="#003399"
+         stroke="#333333"
+         stroke-width="1"
+         id="rect6" />
+      <circle
+         cx="340"
+         cy="72"
+         r="2"
+         fill="#ffcc00"
+         stroke="none"
+         id="circle6" />
+      <circle
+         cx="332"
+         cy="68"
+         r="2"
+         fill="#ffcc00"
+         stroke="none"
+         id="circle7" />
+      <circle
+         cx="348"
+         cy="68"
+         r="2"
+         fill="#ffcc00"
+         stroke="none"
+         id="circle8" />
+      <circle
+         cx="328"
+         cy="76"
+         r="2"
+         fill="#ffcc00"
+         stroke="none"
+         id="circle9" />
+      <circle
+         cx="352"
+         cy="76"
+         r="2"
+         fill="#ffcc00"
+         stroke="none"
+         id="circle10" />
+      <circle
+         cx="332"
+         cy="80"
+         r="2"
+         fill="#ffcc00"
+         stroke="none"
+         id="circle11" />
+      <circle
+         cx="348"
+         cy="80"
+         r="2"
+         fill="#ffcc00"
+         stroke="none"
+         id="circle12" />
+      <circle
+         cx="340"
+         cy="84"
+         r="2"
+         fill="#ffcc00"
+         stroke="none"
+         id="circle13" />
+      <text
+         x="340"
+         y="95"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#333333"
+         id="text13">EU User</text>
+      <text
+         x="340"
+         y="108"
+         text-anchor="middle"
+         font-family="monospace"
+         font-size="9px"
+         fill="#666666"
+         id="text14">203.0.113.78</text>
+    </g>
+    <!-- Asia User -->
+    <g
+       id="asia-user">
+      <rect
+         x="520"
+         y="60"
+         width="40"
+         height="25"
+         fill="#ffffff"
+         stroke="#333333"
+         stroke-width="1"
+         id="rect14" />
+      <circle
+         cx="540"
+         cy="72"
+         r="8"
+         fill="#bc002d"
+         stroke="none"
+         id="circle14" />
+      <text
+         x="540"
+         y="95"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#333333"
+         id="text15">Asia User</text>
+      <text
+         x="540"
+         y="108"
+         text-anchor="middle"
+         font-family="monospace"
+         font-size="9px"
+         fill="#666666"
+         id="text16">192.0.2.156</text>
+    </g>
+    <!-- LATAM User -->
+    <g
+       id="latam-user">
+      <rect
+         x="720"
+         y="60"
+         width="40"
+         height="25"
+         fill="#009b3a"
+         stroke="#333333"
+         stroke-width="1"
+         id="rect16" />
+      <rect
+         x="720"
+         y="68"
+         width="40"
+         height="9"
+         fill="#fedf00"
+         id="rect17" />
+      <circle
+         cx="740"
+         cy="72"
+         r="5"
+         fill="#002776"
+         stroke="none"
+         id="circle17" />
+      <text
+         x="740"
+         y="95"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#333333"
+         id="text17">LATAM User</text>
+      <text
+         x="740"
+         y="108"
+         text-anchor="middle"
+         font-family="monospace"
+         font-size="9px"
+         fill="#666666"
+         id="text18">198.18.0.234</text>
+    </g>
+  </g>
+  <!-- Arrows from users to Static IPs -->
+  <path
+     d="m 140,59.695965 c 31.34328,37.41293 87.94362,22.70868 110,40"
+     stroke="#666666"
+     stroke-width="1"
+     fill="none"
+     marker-end="url(#arrowhead-gray)"
+     id="path18"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 340,59.695965 c 0,20 10,20 10,40"
+     stroke="#666666"
+     stroke-width="1"
+     fill="none"
+     marker-end="url(#arrowhead-gray)"
+     id="path19" />
+  <path
+     d="m 540,59.695965 c -15.86512,21.54782 -24.2178,28.51299 -90,40"
+     stroke="#666666"
+     stroke-width="1"
+     fill="none"
+     marker-end="url(#arrowhead-gray)"
+     id="path20"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 740,59.695965 c -8.89994,21.93477 -45.66612,19.61304 -68.4964,39.61304"
+     stroke="#666666"
+     stroke-width="1"
+     fill="none"
+     marker-end="url(#arrowhead-gray)"
+     id="path21"
+     sodipodi:nodetypes="cc" />
+  <!-- Static Anycast IPs -->
+  <g
+     id="static-ips"
+     transform="translate(0,-50.304035)">
+    <rect
+       x="250"
+       y="150"
+       width="200"
+       height="40"
+       fill="#e6e6fa"
+       stroke="#7b1fa2"
+       stroke-width="3"
+       rx="5"
+       id="rect21" />
+    <text
+       x="280"
+       y="173"
+       font-family="monospace"
+       font-size="14px"
+       font-weight="bold"
+       fill="#333333"
+       id="text21">📍 203.0.113.1</text>
+    <text
+       x="307.02597"
+       y="184.22609"
+       font-family="sans-serif"
+       font-size="9px"
+       fill="#7b1fa2"
+       id="text22">[STATIC • ANYCAST]</text>
+    <rect
+       x="550"
+       y="150"
+       width="200"
+       height="40"
+       fill="#e6e6fa"
+       stroke="#7b1fa2"
+       stroke-width="3"
+       rx="5"
+       id="rect22" />
+    <text
+       x="580"
+       y="173"
+       font-family="monospace"
+       font-size="14px"
+       font-weight="bold"
+       fill="#333333"
+       id="text23">📍 203.0.113.2</text>
+    <text
+       x="605.09119"
+       y="185"
+       font-family="sans-serif"
+       font-size="9px"
+       fill="#7b1fa2"
+       id="text24">[STATIC • ANYCAST]</text>
+    <!-- Badge -->
+    <rect
+       x="388.39139"
+       y="195"
+       width="223.21724"
+       height="25"
+       fill="#ffffff"
+       stroke="#ff9900"
+       stroke-width="2.04591"
+       rx="13.393034"
+       id="rect24" />
+    <text
+       x="500"
+       y="210"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="11px"
+       font-weight="bold"
+       fill="#ff9900"
+       id="text25">IPs Never Change During Failover</text>
+  </g>
+  <!-- AWS Edge Locations -->
+  <g
+     id="edge-locations"
+     transform="translate(0,-50.304035)">
+    <text
+       x="506.57822"
+       y="287.14758"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#666666"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan68"
+         x="506.57822"
+         y="287.14758">Global Accelerator</tspan><tspan
+         sodipodi:role="line"
+         id="tspan69"
+         x="506.57822"
+         y="302.14758">Edge Locations</tspan></text>
+    <!-- Edge Location 1 -->
+    <g
+       id="edge-1"
+       transform="translate(54.560531,26.699835)">
+      <circle
+         cx="200"
+         cy="270"
+         r="23.254999"
+         fill="#fff4e6"
+         stroke="#ff9900"
+         stroke-width="1.99999"
+         id="circle26" />
+      <text
+         x="199.61304"
+         y="264.16528"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="16px"
+         fill="#ff9900"
+         id="text27">📡</text>
+      <text
+         x="199.22609"
+         y="275.26538"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="9px"
+         fill="#666666"
+         id="text28">Virginia</text>
+    </g>
+    <!-- Edge Location 2 -->
+    <g
+       id="edge-2"
+       transform="translate(-3.4825872,27.473743)">
+      <circle
+         cx="400"
+         cy="270"
+         r="23.254999"
+         fill="#fff4e6"
+         stroke="#ff9900"
+         stroke-width="1.99999"
+         id="circle28" />
+      <text
+         x="397.67828"
+         y="264.16528"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="16px"
+         fill="#ff9900"
+         id="text29">📡</text>
+      <text
+         x="400.38696"
+         y="277.58707"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="9px"
+         fill="#666666"
+         id="text30">Frankfurt</text>
+    </g>
+    <!-- Edge Location 3 -->
+    <g
+       id="edge-3"
+       transform="translate(9.6738528,27.086789)">
+      <circle
+         cx="600"
+         cy="270"
+         r="23.254999"
+         fill="#fff4e6"
+         stroke="#ff9900"
+         stroke-width="1.99999"
+         id="circle30" />
+      <text
+         x="599.22607"
+         y="262.61746"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="16px"
+         fill="#ff9900"
+         id="text31">📡</text>
+      <text
+         x="599.61304"
+         y="276.03925"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="9px"
+         fill="#666666"
+         id="text32">Tokyo</text>
+    </g>
+    <!-- Edge Location 4 -->
+    <g
+       id="edge-4"
+       transform="translate(-97.512441,25.925926)">
+      <circle
+         cx="800"
+         cy="270"
+         r="23.254999"
+         fill="#fff4e6"
+         stroke="#ff9900"
+         stroke-width="1.99999"
+         id="circle32" />
+      <text
+         x="800"
+         y="259.90878"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="16px"
+         fill="#ff9900"
+         id="text33">📡</text>
+      <text
+         x="799.61304"
+         y="273.33057"
+         text-anchor="middle"
+         font-family="sans-serif"
+         font-size="9px"
+         fill="#666666"
+         id="text34">São Paulo</text>
+    </g>
+  </g>
+  <!-- Arrows from Static IPs to Edge Locations -->
+  <path
+     d="m 332.58707,140.46987 c 0,30 -54.03539,57.47374 -71.83528,81.28247"
+     stroke="#ff9900"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowhead-orange)"
+     opacity="0.7"
+     id="path34"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 334.90879,140.85682 c 0,30 36.84356,61.34329 56.19127,82.44334"
+     stroke="#ff9900"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowhead-orange)"
+     opacity="0.7"
+     id="path35"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 650,139.69596 c 0,30 -19.04367,57.47375 -36.06965,82.44334"
+     stroke="#ff9900"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowhead-orange)"
+     opacity="0.7"
+     id="path36"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 650,139.69596 c 0,30 31.979,62.1172 46.2963,79.34771"
+     stroke="#ff9900"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowhead-orange)"
+     opacity="0.7"
+     id="path37"
+     sodipodi:nodetypes="cc" />
+  <!-- AWS Global Network -->
+  <g
+     id="global-network"
+     transform="translate(0,-50.304035)">
+    <rect
+       x="50"
+       y="320"
+       width="900"
+       height="60"
+       fill="url(#networkGradient)"
+       stroke="#ff9900"
+       stroke-width="2"
+       rx="30"
+       id="rect37"
+       style="fill:url(#networkGradient)" />
+    <text
+       x="500.38696"
+       y="344.93918"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="16px"
+       font-weight="bold"
+       fill="#ffffff"
+       id="text37">AWS Global Network (Private Backbone)</text>
+    <!-- Network quality indicators -->
+    <text
+       x="189.55225"
+       y="368.45218"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text38">Low Latency</text>
+    <text
+       x="460.91763"
+       y="368.45218"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text39">High Throughput</text>
+    <text
+       x="778.71753"
+       y="370.38696"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text40">99.99% Availability</text>
+  </g>
+  <!-- Scenario Labels -->
+  <text
+     x="250"
+     y="359.69595"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#4caf50"
+     id="text41">Normal Operation</text>
+  <!-- Primary Region (Normal) -->
+  <g
+     id="primary-normal"
+     transform="translate(0,-50.304035)">
+    <rect
+       x="100"
+       y="430"
+       width="300"
+       height="140"
+       fill="#e8f5e9"
+       stroke="#4caf50"
+       stroke-width="2"
+       stroke-dasharray="5, 5"
+       rx="10"
+       id="rect42" />
+    <text
+       x="250"
+       y="450"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#333333"
+       id="text43">Primary Region (us-east-1)</text>
+    <!-- Health Check -->
+    <rect
+       x="120"
+       y="460"
+       width="120"
+       height="25"
+       fill="#c8e6c9"
+       stroke="#4caf50"
+       stroke-width="1"
+       rx="3"
+       id="rect43" />
+    <text
+       x="180"
+       y="477"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="11px"
+       fill="#333333"
+       id="text44">✓ Healthy</text>
+    <!-- ALB -->
+    <rect
+       x="120"
+       y="495"
+       width="260"
+       height="30"
+       fill="#ff9900"
+       stroke="#333333"
+       stroke-width="1"
+       rx="5"
+       id="rect44" />
+    <text
+       x="250"
+       y="515"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       id="text45">Application Load Balancer</text>
+    <!-- EC2 Instances -->
+    <rect
+       x="140"
+       y="535"
+       width="60"
+       height="25"
+       fill="#ec7211"
+       stroke="#333333"
+       stroke-width="1"
+       rx="3"
+       id="rect45" />
+    <text
+       x="170"
+       y="552"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text46">EC2</text>
+    <rect
+       x="220"
+       y="535"
+       width="60"
+       height="25"
+       fill="#ec7211"
+       stroke="#333333"
+       stroke-width="1"
+       rx="3"
+       id="rect46" />
+    <text
+       x="250"
+       y="552"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text47">EC2</text>
+    <rect
+       x="300"
+       y="535"
+       width="60"
+       height="25"
+       fill="#ec7211"
+       stroke="#333333"
+       stroke-width="1"
+       rx="3"
+       id="rect47" />
+    <text
+       x="330"
+       y="552"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text48">EC2</text>
+  </g>
+  <!-- DR Region (Standby) -->
+  <g
+     id="dr-standby"
+     opacity="0.4"
+     transform="translate(0,-50.304035)">
+    <rect
+       x="100"
+       y="590"
+       width="300"
+       height="80"
+       fill="#f5f5f5"
+       stroke="#999999"
+       stroke-width="2"
+       stroke-dasharray="5, 5"
+       rx="10"
+       id="rect48" />
+    <text
+       x="250"
+       y="610"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#666666"
+       id="text49">DR Region (us-west-2)</text>
+    <text
+       x="250"
+       y="630"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="11px"
+       fill="#999999"
+       id="text50">[ Standby ]</text>
+  </g>
+  <!-- Primary Region (Failed) -->
+  <!-- DR Region (Active) -->
+  <g
+     id="dr-active"
+     transform="translate(0.38695412,-92.09508)">
+    <rect
+       x="600"
+       y="590"
+       width="300"
+       height="140"
+       fill="#e3f2fd"
+       stroke="#2196f3"
+       stroke-width="2"
+       stroke-dasharray="5, 5"
+       rx="10"
+       id="rect53" />
+    <text
+       x="750"
+       y="610"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#333333"
+       id="text54">DR Region (us-west-2)</text>
+    <!-- Health Check -->
+    <rect
+       x="620"
+       y="620"
+       width="120"
+       height="25"
+       fill="#bbdefb"
+       stroke="#2196f3"
+       stroke-width="1"
+       rx="3"
+       id="rect54" />
+    <text
+       x="680"
+       y="637"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="11px"
+       fill="#333333"
+       id="text55">✓ Healthy</text>
+    <!-- ALB -->
+    <rect
+       x="620"
+       y="655"
+       width="260"
+       height="30"
+       fill="#ff9900"
+       stroke="#333333"
+       stroke-width="1"
+       rx="5"
+       id="rect55" />
+    <text
+       x="750"
+       y="675"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       id="text56">Application Load Balancer</text>
+    <!-- EC2 Instances -->
+    <rect
+       x="640"
+       y="695"
+       width="60"
+       height="25"
+       fill="#ec7211"
+       stroke="#333333"
+       stroke-width="1"
+       rx="3"
+       id="rect56" />
+    <text
+       x="670"
+       y="712"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text57">EC2</text>
+    <rect
+       x="720"
+       y="695"
+       width="60"
+       height="25"
+       fill="#ec7211"
+       stroke="#333333"
+       stroke-width="1"
+       rx="3"
+       id="rect57" />
+    <text
+       x="750"
+       y="712"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text58">EC2</text>
+    <rect
+       x="800"
+       y="695"
+       width="60"
+       height="25"
+       fill="#ec7211"
+       stroke="#333333"
+       stroke-width="1"
+       rx="3"
+       id="rect58" />
+    <text
+       x="830"
+       y="712"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="10px"
+       fill="#ffffff"
+       id="text59">EC2</text>
+  </g>
+  <!-- Traffic Flow Arrows -->
+  <!-- Normal Operation -->
+  <path
+     d="m 345.57767,329.30901 c 0,25 0,25 0,50"
+     stroke="#4caf50"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead-green)"
+     id="path59" />
+  <text
+     x="362.15588"
+     y="350.43945"
+     font-family="sans-serif"
+     font-size="10px"
+     fill="#4caf50"
+     id="text60">Active Traffic</text>
+  <!-- Failover Operation -->
+  <path
+     d="m 894.72084,382.32173 39.26419,111.08249 c 7.03734,19.90939 8.13241,51.83909 -5.92648,63.86922 -5.88421,5.03509 -13.27943,10.57228 -22.50299,16.47449"
+     stroke="#2196f3"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead-blue)"
+     id="path61"
+     sodipodi:nodetypes="ccc"
+     inkscape:path-effect="#path-effect71"
+     transform="translate(0,-50.304035)" />
+  <text
+     x="748.45215"
+     y="360.85681"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#f44336"
+     id="text42">During Failover</text>
+  <g
+     id="primary-failed"
+     transform="translate(0,-50.304035)">
+    <rect
+       x="600"
+       y="430.00085"
+       width="300"
+       height="93.567223"
+       fill="#ffebee"
+       stroke="#f44336"
+       stroke-width="2"
+       stroke-dasharray="5, 5"
+       rx="10"
+       id="rect50" />
+    <text
+       x="750"
+       y="450"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#333333"
+       id="text51">Primary Region (us-east-1)</text>
+    <!-- Health Check -->
+    <rect
+       x="620"
+       y="460"
+       width="120"
+       height="25"
+       fill="#ffcdd2"
+       stroke="#f44336"
+       stroke-width="1"
+       rx="3"
+       id="rect51" />
+    <text
+       x="680"
+       y="477"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="11px"
+       fill="#333333"
+       id="text52">✗ Failed</text>
+    <!-- Failed indicator -->
+    <text
+       x="750"
+       y="510"
+       text-anchor="middle"
+       font-family="sans-serif"
+       font-size="48px"
+       fill="#f44336"
+       opacity="0.3"
+       id="text53">⚠️</text>
+  </g>
+  <text
+     x="760"
+     y="434.69595"
+     font-family="sans-serif"
+     font-size="10px"
+     fill="#2196f3"
+     id="text61">Redirected Traffic</text>
+  <!-- Failover Speed Indicator -->
+  <rect
+     x="420"
+     y="429.69595"
+     width="160"
+     height="40"
+     fill="#ffffff"
+     stroke="#ff9900"
+     stroke-width="2"
+     rx="20"
+     id="rect61" />
+  <text
+     x="500"
+     y="447.69595"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ff9900"
+     id="text62">⚡ Failover in</text>
+  <text
+     x="500"
+     y="461.69595"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ff9900"
+     id="text63">&lt;30 seconds</text>
+  <!-- Gradient definition -->
+  <defs
+     id="defs68">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect71"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,38.234872,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect70"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect69"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,35.552447,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <linearGradient
+       id="networkGradient"
+       x1="12.846613"
+       y1="1216.7409"
+       x2="249.32917"
+       y2="1216.7409"
+       gradientTransform="scale(3.8142348,0.26217578)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#ff9900;stop-opacity:0.9"
+         id="stop63" />
+      <stop
+         offset="50%"
+         style="stop-color:#ff6600;stop-opacity:1"
+         id="stop64" />
+      <stop
+         offset="100%"
+         style="stop-color:#ff9900;stop-opacity:0.9"
+         id="stop65" />
+    </linearGradient>
+    <!-- Arrow markers -->
+    <marker
+       id="arrowhead-gray"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="2.5"
+       orient="auto">
+      <polygon
+         points="8,2.5 0,5 0,0 "
+         fill="#666666"
+         id="polygon65" />
+    </marker>
+    <marker
+       id="arrowhead-orange"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="2.5"
+       orient="auto">
+      <polygon
+         points="8,2.5 0,5 0,0 "
+         fill="#ff9900"
+         id="polygon66" />
+    </marker>
+    <marker
+       id="arrowhead-green"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="10,3 0,6 0,0 "
+         fill="#4caf50"
+         id="polygon67" />
+    </marker>
+    <marker
+       id="arrowhead-blue"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="10,3 0,6 0,0 "
+         fill="#2196f3"
+         id="polygon68" />
+    </marker>
+  </defs>
+</svg>

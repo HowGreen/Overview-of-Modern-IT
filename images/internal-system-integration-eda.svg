@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="700"
+   viewBox="0 0 1000 700"
+   version="1.1"
+   id="svg56"
+   sodipodi:docname="internal-system-integration-eda.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview56"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.913683"
+     inkscape:cx="433.95795"
+     inkscape:cy="620.0181"
+     inkscape:window-width="1882"
+     inkscape:window-height="2022"
+     inkscape:window-x="1934"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg56" />
+  <defs
+     id="defs5">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#unavailable-5"
+       id="pattern1"
+       patternTransform="rotate(45,-277.04132,162.25759)" />
+    <!-- Arrow markers -->
+    <marker
+       id="arrow-direct"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#d32f2f"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrow-event"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#2e7d32"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="arrow-aws"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#0277bd"
+         id="polygon3" />
+    </marker>
+    <!-- Patterns -->
+    <pattern
+       id="bottleneck"
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="20"
+       patternTransform="rotate(45)">
+      <rect
+         width="30"
+         height="20"
+         fill="#ffd0d0"
+         id="rect3" />
+      <line
+         x1="0"
+         y1="10"
+         x2="30"
+         y2="10"
+         stroke="#d32f2f"
+         stroke-width="1"
+         id="line3" />
+    </pattern>
+    <!-- Unavailable fill pattern -->
+    <pattern
+       id="unavailable"
+       patternUnits="userSpaceOnUse"
+       width="10"
+       height="10"
+       patternTransform="rotate(45)">
+      <rect
+         width="10"
+         height="10"
+         fill="#f44336"
+         id="rect4" />
+      <line
+         x1="0"
+         y1="5"
+         x2="10"
+         y2="5"
+         stroke="#b71c1c"
+         stroke-width="1"
+         id="line4" />
+      <line
+         x1="5"
+         y1="0"
+         x2="5"
+         y2="10"
+         stroke="#b71c1c"
+         stroke-width="1"
+         id="line5" />
+    </pattern>
+    <pattern
+       id="unavailable-5"
+       patternUnits="userSpaceOnUse"
+       width="10"
+       height="10"
+       patternTransform="rotate(45)">
+      <rect
+         width="10"
+         height="10"
+         fill="#f44336"
+         id="rect4-1" />
+      <line
+         x1="0"
+         y1="5"
+         x2="10"
+         y2="5"
+         stroke="#b71c1c"
+         stroke-width="1"
+         id="line4-7" />
+      <line
+         x1="5"
+         y1="0"
+         x2="5"
+         y2="10"
+         stroke="#b71c1c"
+         stroke-width="1"
+         id="line5-1" />
+    </pattern>
+  </defs>
+  <!-- Title and Introduction -->
+  <text
+     x="500"
+     y="40"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333"
+     id="text5">Internal System Integration Patterns</text>
+  <text
+     x="500"
+     y="70"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     text-anchor="middle"
+     fill="#555"
+     id="text6">Comparing Direct API calls vs. Event-Driven Architecture</text>
+  <!-- SCENARIO A: Tightly Coupled Integration -->
+  <rect
+     x="50"
+     y="100"
+     width="900"
+     height="250"
+     rx="10"
+     ry="10"
+     fill="#f8f9fa"
+     stroke="#dee2e6"
+     stroke-width="1"
+     stroke-dasharray="1,2"
+     id="rect6"
+     style="fill:#ccd3db;fill-opacity:1" />
+  <circle
+     cx="398.83026"
+     cy="205.22977"
+     r="15"
+     fill="#ffcdd2"
+     stroke="#d32f2f"
+     stroke-width="1.5"
+     id="circle1"
+     style="fill:#ffd552;fill-opacity:1" />
+  <text
+     x="398.83026"
+     y="210.22977"
+     font-family="Arial, sans-serif"
+     font-size="18px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text1"
+     style="fill:#535621;fill-opacity:1">⚠️</text>
+  <text
+     x="400.82001"
+     y="185.19936"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text14-4">Timeout</text>
+  <text
+     x="500"
+     y="125"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333"
+     id="text7">Scenario A: Tightly Coupled Integration</text>
+  <!-- HR System Box - Traffic Light Yellow (Blocked) -->
+  <rect
+     x="150"
+     y="175"
+     width="180"
+     height="100"
+     rx="5"
+     ry="5"
+     fill="#ffeb3b"
+     stroke="#f9a825"
+     stroke-width="2"
+     id="rect7" />
+  <text
+     x="240"
+     y="210"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#5d4037"
+     id="text8">Internal HR System</text>
+  <text
+     x="240"
+     y="230"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#5d4037"
+     id="text9">Employee Record</text>
+  <text
+     x="240"
+     y="250"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#5d4037"
+     id="text10">Update Blocked</text>
+  <text
+     x="240"
+     y="180"
+     font-family="Arial, sans-serif"
+     font-size="26"
+     text-anchor="middle"
+     fill="#5d4037"
+     id="text11">👥</text>
+  <!-- Spinning/waiting cursor near HR system to show blocked state -->
+  <!-- Direct API Call Connection -->
+  <path
+     d="M 330 225 H 420 Q 450 225 480 225 H 670"
+     stroke="#d32f2f"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrow-direct)"
+     stroke-dasharray="8,2"
+     id="path12" />
+  <!-- Bottleneck visualization -->
+  <rect
+     x="445"
+     y="205"
+     width="110"
+     height="40"
+     rx="5"
+     ry="5"
+     fill="url(#bottleneck)"
+     stroke="#d32f2f"
+     stroke-width="1"
+     id="rect12" />
+  <text
+     x="500"
+     y="185"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text13">Direct API Call</text>
+  <text
+     x="500"
+     y="200"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text14">(Synchronous)</text>
+  <text
+     x="500"
+     y="230"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text15">Bottleneck!</text>
+  <!-- Enhanced Timeout Error Visualization -->
+  <!-- Error/timeout dialog box -->
+  <rect
+     x="101.16309"
+     y="261.88382"
+     width="180"
+     height="70"
+     rx="5"
+     ry="5"
+     fill="#ffebee"
+     stroke="#d32f2f"
+     stroke-width="2"
+     id="rect15" />
+  <rect
+     x="101.16309"
+     y="261.88382"
+     width="180"
+     height="20"
+     rx="5"
+     ry="5"
+     fill="#d32f2f"
+     id="rect16" />
+  <text
+     x="191.1631"
+     y="276.88382"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text16">ERROR</text>
+  <text
+     x="191.1631"
+     y="301.88382"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text17">Connection Timeout</text>
+  <text
+     x="191.1631"
+     y="321.88382"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text18">Request to Payroll System failed</text>
+  <text
+     x="116.16309"
+     y="276.88382"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text19">⚠️</text>
+  <!-- Broken connection indicator -->
+  <!-- Payroll System Box - Unavailable (Red) -->
+  <rect
+     x="670"
+     y="175"
+     width="180"
+     height="100"
+     rx="5"
+     ry="5"
+     fill="url(#unavailable)"
+     stroke="#b71c1c"
+     stroke-width="2"
+     id="rect20" />
+  <text
+     x="697.58221"
+     y="195.21632"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#3f51b5"
+     id="text18-2">💵</text>
+  <text
+     x="760"
+     y="210"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text21">Internal Payroll System</text>
+  <text
+     x="760"
+     y="230"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text22"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="760"
+       y="230">Cannot Process</tspan><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="760"
+       y="247.5">Update Immediately</tspan></text>
+  <!-- Failed status error code -->
+  <!-- Tight Coupling Note -->
+  <text
+     x="500"
+     y="315"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text26">HR System is blocked waiting for Payroll System response</text>
+  <text
+     x="500"
+     y="335"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#d32f2f"
+     id="text27">Issues in Payroll System directly impact HR System performance</text>
+  <!-- SCENARIO B: Event-Driven Integration - Green theme -->
+  <rect
+     x="79.003494"
+     y="376.71658"
+     width="900"
+     height="290"
+     rx="10"
+     ry="10"
+     fill="#e8f5e9"
+     stroke="#81c784"
+     stroke-width="1"
+     id="rect27"
+     style="fill:#bee2be;fill-opacity:1" />
+  <rect
+     x="703.5899"
+     y="418.42194"
+     width="180"
+     height="100"
+     rx="5"
+     ry="5"
+     fill="url(#unavailable)"
+     stroke="#b71c1c"
+     stroke-width="2"
+     id="rect20-1"
+     style="fill:url(#pattern1)" />
+  <text
+     x="500"
+     y="405"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333"
+     id="text28">Scenario B: Event-Driven (Decoupled) Integration</text>
+  <!-- HR System Box - Green (Continues Processing) -->
+  <rect
+     x="113.49257"
+     y="455.70456"
+     width="215.80284"
+     height="111.72447"
+     rx="5.9945235"
+     ry="5.5862241"
+     fill="#4caf50"
+     stroke="#2e7d32"
+     stroke-width="2.3147"
+     id="rect28" />
+  <text
+     x="225.22464"
+     y="499.30301"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text29">Internal HR System</text>
+  <text
+     x="225.22464"
+     y="519.30304"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text30">Employee Record</text>
+  <text
+     x="225.22464"
+     y="539.30304"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text31">Updated (Continues Processing)</text>
+  <text
+     x="225.22464"
+     y="460.54724"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text32">👥</text>
+  <!-- Success indicator -->
+  <text
+     x="356.56683"
+     y="446.86633"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text33"
+     style="fill:#f8f8f8;fill-opacity:1">✓</text>
+  <!-- EventBridge - AWS Blue instead of Orange -->
+  <rect
+     x="429.22815"
+     y="420.84674"
+     width="180"
+     height="84"
+     rx="5"
+     ry="6"
+     fill="#ffffff"
+     stroke="#0277bd"
+     stroke-width="2"
+     id="rect33" />
+  <text
+     x="519.22809"
+     y="464.84674"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text34">Amazon EventBridge</text>
+  <text
+     x="519.22809"
+     y="484.84674"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text35">Event Bus</text>
+  <text
+     x="459.58646"
+     y="449.20505"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text36">🔄</text>
+  <!-- SQS Queue - AWS Blue with visible messages -->
+  <rect
+     x="428.81042"
+     y="533.8819"
+     width="179.74089"
+     height="89.441376"
+     rx="4.9928026"
+     ry="6.38867"
+     fill="#ffffff"
+     stroke="#0277bd"
+     stroke-width="2.25911"
+     id="rect36" />
+  <text
+     x="519.22809"
+     y="566.48853"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text37">Amazon SQS</text>
+  <text
+     x="521.41705"
+     y="614.94476"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text38">Payroll Updates Queue</text>
+  <text
+     x="453.68091"
+     y="561.75232"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text39">📩</text>
+  <!-- Message indicators in queue -->
+  <rect
+     x="508.23163"
+     y="577.28351"
+     width="25"
+     height="20"
+     rx="3"
+     ry="3"
+     fill="#e1f5fe"
+     stroke="#0277bd"
+     stroke-width="1"
+     id="rect39" />
+  <rect
+     x="475.29953"
+     y="577.42029"
+     width="25"
+     height="20"
+     rx="3"
+     ry="3"
+     fill="#e1f5fe"
+     stroke="#0277bd"
+     stroke-width="1"
+     id="rect40" />
+  <text
+     x="487.30301"
+     y="591.51477"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text40">📃</text>
+  <text
+     x="520.58636"
+     y="591.37793"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text41">📃</text>
+  <rect
+     x="540.32257"
+     y="577.28345"
+     width="25"
+     height="20"
+     rx="3"
+     ry="3"
+     fill="#e1f5fe"
+     stroke="#0277bd"
+     stroke-width="1"
+     id="rect41" />
+  <text
+     x="552.22809"
+     y="590.28345"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text42">📃</text>
+  <!-- Lambda Function - AWS Blue -->
+  <rect
+     x="720.00348"
+     y="554.71661"
+     width="150"
+     height="70"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#0277bd"
+     stroke-width="2"
+     id="rect42" />
+  <text
+     x="795.00348"
+     y="584.71661"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text43">AWS Lambda</text>
+  <text
+     x="795.00348"
+     y="604.71661"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text44">Process Updates</text>
+  <text
+     x="734.00348"
+     y="585.71661"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text45">λ</text>
+  <!-- Payroll System Box - Same unavailable state as in Scenario A -->
+  <!-- Failed status error code - same as in Scenario A -->
+  <text
+     x="731.17212"
+     y="438.63828"
+     font-family="Arial, sans-serif"
+     font-size="26px"
+     text-anchor="middle"
+     fill="#3f51b5"
+     id="text18-2-5">💵</text>
+  <!-- Event Flow Arrows -->
+  <!-- HR to EventBridge -->
+  <path
+     d="m 330.54724,477.41358 h 94.56544"
+     stroke="#2e7d32"
+     stroke-width="2.10954"
+     fill="none"
+     marker-end="url(#arrow-event)"
+     id="path50" />
+  <text
+     x="380.01959"
+     y="464.05527"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#2e7d32"
+     id="text51">Publishes Event</text>
+  <!-- EventBridge to SQS -->
+  <path
+     d="m 532.36179,505.94122 v 23.8436"
+     stroke="#0277bd"
+     stroke-width="1.78302"
+     fill="none"
+     marker-end="url(#arrow-aws)"
+     id="path51" />
+  <text
+     x="587.57031"
+     y="523.67743"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text52">Event Routed</text>
+  <!-- SQS to Lambda -->
+  <path
+     d="M 609.77537,590.09448 H 717.5721"
+     stroke="#0277bd"
+     stroke-width="2.11933"
+     fill="none"
+     marker-end="url(#arrow-aws)"
+     id="path52" />
+  <text
+     x="664.43665"
+     y="572.8111"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text53">Triggers Function</text>
+  <!-- Lambda to Payroll - Dashed arrow indicating not currently working -->
+  <path
+     d="m 768,553.62211 v -34"
+     stroke="#0277bd"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrow-aws)"
+     stroke-dasharray="4, 2"
+     id="path53" />
+  <text
+     x="793.5899"
+     y="453.42194"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text21-2">Internal Payroll System</text>
+  <text
+     x="793.5899"
+     y="473.42194"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text22-7"><tspan
+       sodipodi:role="line"
+       id="tspan1-6"
+       x="793.5899"
+       y="473.42194">Cannot Process</tspan><tspan
+       sodipodi:role="line"
+       id="tspan2-1"
+       x="793.5899"
+       y="490.92194">Update Immediately</tspan></text>
+  <text
+     x="857.94818"
+     y="538.98047"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#0277bd"
+     id="text54">(Will Update When Available)</text>
+  <!-- Decoupling Benefits Note -->
+  <text
+     x="500"
+     y="640"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#2e7d32"
+     id="text55">HR System continues processing without waiting for Payroll System</text>
+  <text
+     x="500"
+     y="660"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#2e7d32"
+     id="text56">Events are buffered in queue until Payroll System becomes available</text>
+</svg>

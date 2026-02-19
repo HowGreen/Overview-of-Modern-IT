@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="400"
+   viewBox="0 0 1200 400"
+   version="1.1"
+   style="font-family: Arial, sans-serif; font-size: 14px;"
+   id="svg41"
+   sodipodi:docname="improved-s3-lifecycle.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview41"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5345833"
+     inkscape:cx="293.23921"
+     inkscape:cy="39.098561"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg41" />
+  <title
+     id="title1">S3 Lifecycle Policy: Automated Data Tiering</title>
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead-lifecycle"
+       markerWidth="10"
+       markerHeight="7"
+       refX="8"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#555"
+         id="polygon1" />
+    </marker>
+    <style
+       id="style1">
+      .tier-box { stroke: #bbb; stroke-width: 2; rx: 12; ry: 12; }
+      .tier-label { font-weight: bold; text-anchor: middle; font-size: 18px; }
+      .tier-desc { text-anchor: middle; fill: #444; font-size: 12px; }
+      .tier-property { text-anchor: middle; fill: #555; font-size: 11px; }
+      .rule-label { text-anchor: middle; fill: #333; font-size: 13px; font-weight: bold; }
+      .rule-desc { text-anchor: middle; fill: #555; font-size: 11px; }
+      .connector { stroke: #555; stroke-width: 2.5; marker-end: url(#arrowhead-lifecycle); fill: none;}
+      .s3-object { fill: #f0f0f0; stroke: #666; stroke-width: 1; }
+      .s3-object-text { font-size: 12px; text-anchor: middle; fill: #333; }
+      .delete-icon { stroke: #D32F2F; stroke-width: 3; stroke-linecap: round; }
+      .title-text { font-size: 22px; font-weight: bold; text-anchor: middle; fill: #333; }
+      .subtitle-text { font-size: 14px; text-anchor: middle; fill: #666; }
+    </style>
+    <marker
+       id="arrowhead-lifecycle-9"
+       markerWidth="10"
+       markerHeight="7"
+       refX="8"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#555555"
+         id="polygon1-4" />
+    </marker>
+    <marker
+       id="arrowhead-lifecycle-9-2"
+       markerWidth="10"
+       markerHeight="7"
+       refX="8"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#555555"
+         id="polygon1-4-4" />
+    </marker>
+  </defs>
+  <!-- Title -->
+  <text
+     x="600"
+     y="35"
+     class="title-text"
+     id="text1">S3 Lifecycle Policy: Automated Data Tiering</text>
+  <text
+     x="600"
+     y="60"
+     class="subtitle-text"
+     id="text2">Cost optimization through automated transitioning between storage classes</text>
+  <!-- Initial Object -->
+  <g
+     id="initial-object"
+     transform="translate(59.799077,173.69671)">
+    <rect
+       x="-40"
+       y="-30"
+       width="80"
+       height="60"
+       class="s3-object"
+       rx="5"
+       ry="5"
+       fill="#f9f9f9"
+       id="rect2" />
+    <!-- New upload icon -->
+    <circle
+       cx="0"
+       cy="0"
+       r="25"
+       fill="#4caf50"
+       fill-opacity="0.1"
+       stroke="#4caf50"
+       stroke-width="1"
+       id="circle2" />
+    <path
+       d="M 0,-15 V 15"
+       stroke="#4caf50"
+       stroke-width="2.5"
+       id="path2" />
+    <path
+       d="M -15,0 H 15"
+       stroke="#4caf50"
+       stroke-width="2.5"
+       id="path3" />
+    <circle
+       cx="0"
+       cy="0"
+       r="7"
+       fill="#4caf50"
+       fill-opacity="0.3"
+       id="circle3" />
+    <text
+       y="45"
+       class="s3-object-text"
+       id="text3">S3 Object</text>
+  </g>
+  <!-- S3 Standard -->
+  <g
+     id="tier-standard"
+     transform="translate(193.30709,94.786859)">
+    <rect
+       width="180"
+       height="220"
+       class="tier-box"
+       fill="#e3f2fd"
+       id="rect4"
+       x="0"
+       y="0" />
+    <text
+       x="90"
+       y="35"
+       class="tier-label"
+       id="text5">S3 Standard</text>
+    <text
+       x="90"
+       y="180"
+       class="tier-desc"
+       id="text6">Frequent Access</text>
+    <text
+       x="90"
+       y="200.66386"
+       class="tier-property"
+       id="text8">Highest Performance, Highest Cost</text>
+    <g
+       transform="translate(90,110)"
+       id="g10">
+      <!-- S3 Standard Icon -->
+      <rect
+         x="-35"
+         y="-25"
+         width="70"
+         height="50"
+         class="s3-object"
+         rx="5"
+         ry="5"
+         fill="#ffffff"
+         id="rect8" />
+      <!-- Active object representation -->
+      <circle
+         cx="0"
+         cy="0"
+         r="18"
+         fill="#2196f3"
+         fill-opacity="0.3"
+         stroke="#2196f3"
+         stroke-width="1"
+         id="circle8" />
+      <circle
+         cx="0"
+         cy="0"
+         r="9"
+         fill="#2196f3"
+         fill-opacity="0.6"
+         id="circle9" />
+      <line
+         x1="-20"
+         y1="-20"
+         x2="20"
+         y2="-20"
+         stroke="#2196f3"
+         stroke-width="2"
+         id="line9" />
+      <line
+         x1="-20"
+         y1="20"
+         x2="20"
+         y2="20"
+         stroke="#2196f3"
+         stroke-width="2"
+         id="line10" />
+    </g>
+  </g>
+  <!-- Arrow 1 -->
+  <path
+     d="m 100.88922,175 c 26.42438,0 56.62368,0 90.59788,0"
+     class="connector"
+     id="path10" />
+  <path
+     d="m 374.53407,169.15592 c 32.41403,0 69.45865,0 111.13383,0"
+     class="connector"
+     id="path10-8"
+     style="font-size:14px;font-family:Arial, sans-serif;fill:none;stroke:#555555;stroke-width:2.40587;marker-end:url(#arrowhead-lifecycle-9)" />
+  <text
+     x="148.72115"
+     y="196.04128"
+     class="rule-label"
+     id="text10">Initial Upload</text>
+  <!-- S3 Standard-IA -->
+  <g
+     id="tier-ia"
+     transform="translate(489.79908,100)">
+    <rect
+       width="180"
+       height="220"
+       class="tier-box"
+       fill="#e1f5fe"
+       id="rect10"
+       x="0"
+       y="0" />
+    <text
+       x="90"
+       y="35"
+       class="tier-label"
+       id="text11">S3 Standard-IA</text>
+    <text
+       x="90"
+       y="180"
+       class="tier-desc"
+       id="text12">Infrequent Access</text>
+    <text
+       x="91.303284"
+       y="204.57372"
+       class="tier-property"
+       id="text14">Lower Cost, Small Retrieval Fee</text>
+    <g
+       transform="translate(90,110)"
+       id="g16">
+      <!-- S3 Standard-IA Icon -->
+      <rect
+         x="-35"
+         y="-25"
+         width="70"
+         height="50"
+         class="s3-object"
+         rx="5"
+         ry="5"
+         fill="#f8f8f8"
+         id="rect14" />
+      <!-- Infrequently accessed representation -->
+      <path
+         d="M -15,-15 H 15 V 15 H -15 Z"
+         fill="#90caf9"
+         fill-opacity="0.3"
+         stroke="#90caf9"
+         stroke-width="1"
+         id="path14" />
+      <path
+         d="M -8,-8 H 8 V 8 H -8 Z"
+         fill="#90caf9"
+         fill-opacity="0.6"
+         id="path15" />
+      <!-- Clock symbol for infrequent access -->
+      <circle
+         cx="20"
+         cy="-15"
+         r="10"
+         fill="#f8f8f8"
+         stroke="#90caf9"
+         stroke-width="1"
+         id="circle15" />
+      <line
+         x1="20"
+         y1="-15"
+         x2="20"
+         y2="-10"
+         stroke="#90caf9"
+         stroke-width="1.5"
+         id="line15" />
+      <line
+         x1="20"
+         y1="-15"
+         x2="23"
+         y2="-12"
+         stroke="#90caf9"
+         stroke-width="1.5"
+         id="line16" />
+    </g>
+  </g>
+  <path
+     d="m 670.50964,170.93697 c 22.04922,0 47.24834,0 75.59735,0"
+     class="connector"
+     id="path10-8-5"
+     style="font-size:14px;font-family:Arial, sans-serif;fill:none;stroke:#555555;stroke-width:1.98428;marker-end:url(#arrowhead-lifecycle-9-2)" />
+  <!-- Arrow 2 -->
+  <text
+     x="443.28265"
+     y="193.43469"
+     class="rule-label"
+     id="text16">Transition After 30 Days</text>
+  <!-- S3 Glacier -->
+  <g
+     id="tier-glacier"
+     transform="translate(749.79908,100)">
+    <rect
+       width="180"
+       height="220"
+       class="tier-box"
+       fill="#e8eaf6"
+       id="rect17"
+       x="0"
+       y="0" />
+    <text
+       x="90"
+       y="35"
+       class="tier-label"
+       id="text18">S3 Glacier Flex.</text>
+    <text
+       x="90"
+       y="180"
+       class="tier-desc"
+       id="text19">Archive</text>
+    <text
+       x="90"
+       y="198"
+       class="tier-property"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan41"
+         x="90"
+         y="198">Lowest storage cost,</tspan><tspan
+         sodipodi:role="line"
+         id="tspan42"
+         x="90"
+         y="211.75">slow retrieval</tspan></text>
+    <g
+       transform="translate(90,110)"
+       id="g23">
+      <!-- S3 Glacier Icon -->
+      <rect
+         x="-35"
+         y="-25"
+         width="70"
+         height="50"
+         class="s3-object"
+         rx="5"
+         ry="5"
+         fill="#e0e0e0"
+         id="rect21" />
+      <!-- Glacier/frozen storage representation -->
+      <path
+         d="M -20,-10 0,-20 20,-10 V 10 L 0,20 -20,10 Z"
+         fill="#9fa8da"
+         fill-opacity="0.3"
+         stroke="#9fa8da"
+         stroke-width="1"
+         id="path21" />
+      <!-- Snowflake pattern for cold storage -->
+      <line
+         x1="0"
+         y1="-12"
+         x2="0"
+         y2="12"
+         stroke="#9fa8da"
+         stroke-width="1.5"
+         id="line21" />
+      <line
+         x1="-10"
+         y1="-6"
+         x2="10"
+         y2="6"
+         stroke="#9fa8da"
+         stroke-width="1.5"
+         id="line22" />
+      <line
+         x1="-10"
+         y1="6"
+         x2="10"
+         y2="-6"
+         stroke="#9fa8da"
+         stroke-width="1.5"
+         id="line23" />
+      <circle
+         cx="0"
+         cy="0"
+         r="3"
+         fill="#9fa8da"
+         id="circle23" />
+    </g>
+  </g>
+  <!-- Arrow 3 -->
+  <text
+     x="718.92206"
+     y="196.69292"
+     class="rule-label"
+     id="text23">Transition After 90 Days</text>
+  <!-- Expired/Deleted -->
+  <g
+     id="tier-deleted"
+     transform="translate(1046.2911,98.045072)">
+    <rect
+       width="139.39447"
+       height="219.84518"
+       class="tier-box"
+       fill="#ffebee"
+       id="rect24"
+       x="-7.7423062"
+       y="0.077405751" />
+    <text
+       x="60"
+       y="35"
+       class="tier-label"
+       fill="#d32f2f"
+       id="text25">Expired</text>
+    <g
+       transform="translate(60,110)"
+       id="g28">
+      <!-- Trash can icon for deletion -->
+      <path
+         d="M -25,-20 H 25 L 20,15 H -20 Z"
+         fill="#ffcdd2"
+         stroke="#d32f2f"
+         stroke-width="2"
+         id="path25" />
+      <path
+         d="m -30,-20 h 60 v -5 h -60 z"
+         fill="#ffcdd2"
+         stroke="#d32f2f"
+         stroke-width="2"
+         id="path26" />
+      <line
+         x1="-10"
+         y1="-15"
+         x2="-10"
+         y2="10"
+         stroke="#d32f2f"
+         stroke-width="1.5"
+         id="line26" />
+      <line
+         x1="0"
+         y1="-15"
+         x2="0"
+         y2="10"
+         stroke="#d32f2f"
+         stroke-width="1.5"
+         id="line27" />
+      <line
+         x1="10"
+         y1="-15"
+         x2="10"
+         y2="10"
+         stroke="#d32f2f"
+         stroke-width="1.5"
+         id="line28" />
+      <path
+         d="m -5,-25 c 0,-5 10,-5 10,0"
+         fill="none"
+         stroke="#d32f2f"
+         stroke-width="2"
+         id="path28" />
+    </g>
+    <text
+       x="60"
+       y="180"
+       class="tier-desc"
+       id="text28">Object Deleted</text>
+    <text
+       x="60"
+       y="198"
+       class="tier-property"
+       id="text29">(Cost stops)</text>
+  </g>
+  <!-- Arrow 4 -->
+  <path
+     d="M 930.23758,167.83193 H 1031.2791"
+     class="connector"
+     id="path30" />
+  <text
+     x="976.31549"
+     y="196.04126"
+     class="rule-label"
+     id="text31">Expire After 365 Days</text>
+  <!-- Timeline -->
+  <line
+     x1="60.787937"
+     y1="327.38123"
+     x2="1086.3552"
+     y2="327.38123"
+     stroke="#888888"
+     stroke-width="2.13497"
+     id="line32" />
+  <text
+     x="75.869026"
+     y="370.82346"
+     class="tier-desc"
+     text-anchor="middle"
+     id="text33"
+     transform="scale(1.0674827,0.93678337)"
+     style="stroke-width:1.06748">Day 0</text>
+  <text
+     x="259.76682"
+     y="370.82346"
+     class="tier-desc"
+     text-anchor="middle"
+     id="text34"
+     transform="scale(1.0674827,0.93678335)"
+     style="stroke-width:1.06748">Day 30</text>
+  <text
+     x="537.31232"
+     y="370.82346"
+     class="tier-desc"
+     text-anchor="middle"
+     id="text35"
+     transform="scale(1.0674827,0.93678335)"
+     style="stroke-width:1.06748">Day 90</text>
+  <text
+     x="787.99817"
+     y="370.12784"
+     class="tier-desc"
+     text-anchor="middle"
+     id="text36"
+     transform="scale(1.0674827,0.93678334)"
+     style="stroke-width:1.06748">Day 365</text>
+  <text
+     x="1086.4921"
+     y="346.07791"
+     class="tier-desc"
+     text-anchor="middle"
+     id="text37">Deleted</text>
+  <!-- Vertical Timeline Markers -->
+  <line
+     x1="60.787937"
+     y1="322.38123"
+     x2="60.787937"
+     y2="332.38123"
+     stroke="#888888"
+     stroke-width="2.13497"
+     id="line37" />
+  <line
+     x1="277.29657"
+     y1="322.38123"
+     x2="277.29657"
+     y2="332.38123"
+     stroke="#888888"
+     stroke-width="2.13497"
+     id="line38" />
+  <line
+     x1="573.57147"
+     y1="322.38123"
+     x2="573.57147"
+     y2="332.38123"
+     stroke="#888888"
+     stroke-width="2.13497"
+     id="line39" />
+  <line
+     x1="841.17419"
+     y1="321.72958"
+     x2="841.17419"
+     y2="331.72958"
+     stroke="#888888"
+     stroke-width="2.13497"
+     id="line40" />
+  <line
+     x1="1086.3552"
+     y1="322.38123"
+     x2="1086.3552"
+     y2="332.38123"
+     stroke="#888888"
+     stroke-width="2.13497"
+     id="line41" />
+  <!-- Cost Efficiency Label -->
+  <text
+     x="579.74316"
+     y="371.29282"
+     class="rule-label"
+     id="text41">Increasing Cost Efficiency Over Time</text>
+  <path
+     d="M 180.72064,358.68625 H 980.72068"
+     stroke="#4caf50"
+     stroke-width="2"
+     id="path41" />
+  <polygon
+     points="1000,355 990,350 990,360 "
+     fill="#4caf50"
+     id="polygon41"
+     transform="translate(-9.5047211,3.6862477)" />
+</svg>

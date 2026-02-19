@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 900"
+   style="fill:#FFFFFF;"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   sodipodi:docname="iot-secure-backend-vpc.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview42"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="2.01"
+   inkscape:cx="379.85075"
+   inkscape:cy="586.31841"
+   inkscape:window-width="3840"
+   inkscape:window-height="2036"
+   inkscape:window-x="-12"
+   inkscape:window-y="-12"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+
+  <!-- Title -->
+  <text
+   x="600"
+   y="40"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:22px; font-weight:bold; text-anchor:middle; fill:#232F3E;"
+   id="text1">Secure IoT Backend VPC Architecture</text>
+  
+  <!-- AWS Cloud Background -->
+  <rect
+   x="74.974998"
+   y="50.474998"
+   width="1050.05"
+   height="838.04688"
+   rx="10.5005"
+   ry="10.74419"
+   style="fill:#f8f9fd;stroke:#b0b0b0;stroke-width:1;stroke-dasharray:none"
+   id="rect1" />
+  
+  <text
+   x="150"
+   y="100"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:14px; fill:#666666;"
+   id="text2">AWS Cloud</text>
+  
+  <!-- VPC Boundary -->
+  <rect
+   x="150"
+   y="120"
+   width="900"
+   height="700"
+   rx="10"
+   ry="10"
+   style="fill:#F0F8FF; stroke:#B0B0B0; stroke-width:2; stroke-dasharray:none;"
+   id="rect2" />
+  
+  <text
+   x="304.4776"
+   y="154.47762"
+   style="font-weight:bold;font-size:16px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#333333"
+   id="text3">Amazon VPC (IoT Backend)</text>
+  
+  <!-- Public Subnet Area -->
+  <rect
+   x="180"
+   y="180"
+   width="192.73631"
+   height="150"
+   rx="1.14724"
+   ry="5"
+   style="fill:#ffffff;stroke:#b0b0b0;stroke-width:1.5;stroke-dasharray:none"
+   id="rect3" />
+  
+  <text
+   x="214.67662"
+   y="199.00497"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;fill:#333333"
+   id="text4">Public Subnet(s)</text>
+  
+  <!-- NAT Gateway -->
+  <g
+   transform="translate(250, 250)"
+   id="g7">
+    <rect
+   x="-59.999996"
+   y="-40"
+   width="151.34329"
+   height="80"
+   rx="6.3059702"
+   ry="5"
+   style="fill:#e0f7ff;stroke:#42a5f5;stroke-width:1.5"
+   id="rect4" />
+    
+    <!-- NAT Gateway Icon -->
+    
+    
+    <text
+   x="-7.363184"
+   y="-17.412935"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#333333"
+   id="text5">NAT Gateway</text>
+    
+    <text
+   x="-7.363184"
+   y="2.5870647"
+   style="font-size:10px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text6">(For outbound traffic)</text>
+  </g>
+  
+  <!-- Internet Gateway -->
+  
+  
+  <!-- Private Subnet Area -->
+  <rect
+   x="180"
+   y="350"
+   width="840"
+   height="430"
+   rx="5"
+   ry="5"
+   style="fill:#FFFFFF; stroke:#B0B0B0; stroke-width:1.5; stroke-dasharray:none;"
+   id="rect6" />
+  
+  <text
+   x="250"
+   y="370"
+   style="font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; fill:#333333;"
+   id="text9">Private Subnet(s)</text>
+  
+  <!-- IoT Core Interface Endpoint -->
+  <g
+   transform="translate(709.95025,231.24378)"
+   id="g10">
+    
+    
+    <!-- IoT Core Interface Endpoint Icon -->
+    
+    
+    
+    
+    
+  </g>
+  
+  <!-- Application Logic Box -->
+  <g
+   transform="translate(350,467.41294)"
+   id="g20">
+    <rect
+   x="-150"
+   y="-80"
+   width="300"
+   height="160"
+   rx="5"
+   ry="5"
+   style="fill:#ffe0b2;stroke:#ffb74d;stroke-width:1.5"
+   id="rect10" />
+    
+    <!-- Security Group Visual -->
+    <rect
+   x="-160"
+   y="-90"
+   width="320"
+   height="180"
+   rx="8"
+   ry="8"
+   style="fill:none;stroke:#ffb74d;stroke-width:1;stroke-dasharray:5, 3"
+   id="rect11" />
+    
+    <text
+   x="0"
+   y="-65"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#333333"
+   id="text12">Processing Logic</text>
+    
+    <text
+   x="0"
+   y="-45"
+   style="font-size:12px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#666666"
+   id="text13">(Lambda/ECS/EC2 in Private Subnet)</text>
+    
+    <!-- Simple Server Icons -->
+    
+    
+    
+    
+    
+    
+    <text
+   x="-139.45274"
+   y="88.48259"
+   style="font-size:10px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text14">Security Group for Applications</text>
+  <g
+   id="Icon-Architecture/48/Arch_AWS-Lambda_48"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(-110.51741,-21.189059)"><g
+     id="Icon-Architecture-BG/48/Compute"
+     fill="#ed7100"><rect
+       id="Rectangle"
+       x="0"
+       y="0"
+       width="64"
+       height="64" /></g><path
+     d="M 22.679409,52 H 13.57407 l 10.263549,-21.59 4.56213,9.451 z M 24.726941,27.667 C 24.560628,27.321 24.21207,27.103 23.830648,27.103 h -0.003 c -0.382418,10e-4 -0.730977,0.222 -0.895297,0.569 L 11.097314,52.569 c -0.14739,0.31 -0.126477,0.674 0.05677,0.965 0.18125,0.29 0.499932,0.466 0.841519,0.466 h 11.314203 c 0.385406,0 0.73496,-0.223 0.900276,-0.572 l 6.19438,-13.144 c 0.128468,-0.274 0.127473,-0.592 -0.005,-0.864 z M 51.008238,52 H 41.985557 L 26.954726,19.578 C 26.791402,19.226 26.43886,19 26.052458,19 h -5.924496 l 0.007,-7 h 11.679691 l 14.960123,32.42 c 0.163325,0.354 0.515867,0.58 0.90426,0.58 h 3.32923 z m 0.995881,-9 H 48.31438 L 33.354257,10.58 C 33.190933,10.226 32.838391,10 32.450993,10 H 19.140049 c -0.548731,0 -0.994885,0.447 -0.995881,0.999 l -0.008,9 c 0,0.266 0.104567,0.52 0.290797,0.708 0.187226,0.188 0.440179,0.293 0.704088,0.293 h 6.286 L 40.447917,53.422 C 40.611241,53.774 40.962787,54 41.350185,54 H 52.004119 C 52.554841,54 53,53.552 53,53 v -9 c 0,-0.552 -0.445159,-1 -0.995881,-1 z"
+     id="AWS-Lambda_Icon_48_Squid"
+     fill="#ffffff" /></g><g
+   id="Icon-Architecture/48/Arch_Amazon-Elastic-Container-Service_48"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(-25.532338,-23.651746)"><g
+     id="Icon-Architecture-BG/48/Compute-1"
+     fill="#ed7100"><rect
+       id="Rectangle-1"
+       x="0"
+       y="0"
+       width="64"
+       height="64" /></g><path
+     d="m 50,36.382247 -6,-2.999958 v -8.381883 c 0,-0.362995 -0.197,-0.69799 -0.515,-0.873988 L 35,19.412484 v -6.662907 l 15,8.822877 z m 1.507,-16.243773 -17,-9.99986 C 34.199,9.9576164 33.815,9.9546164 33.504,10.132614 33.192,10.310611 33,10.641607 33,11.000602 v 8.999874 c 0,0.362995 0.197,0.69799 0.515,0.873988 L 42,25.588398 v 8.411882 c 0,0.378995 0.214,0.72499 0.553,0.894987 l 8,3.999944 c 0.141,0.07 0.294,0.104999 0.447,0.104999 0.183,0 0.365,-0.05 0.525,-0.148998 C 51.82,38.668215 52,38.347219 52,38.000224 V 21.000462 c 0,-0.353995 -0.188,-0.681991 -0.493,-0.861988 z M 32,51.82803 15,41.439176 V 21.554454 l 14,-8.749877 v 6.641907 l -7.53,4.705934 C 21.178,24.335415 21,24.655411 21,25.000406 v 12.999818 c 0,0.350995 0.185,0.67699 0.485,0.856988 l 10,5.999916 c 0.304,0.182997 0.682,0.190997 0.994,0.021 l 10.509,-5.73192 5.047,2.882959 z m 18.496,-10.69585 -7,-3.999944 c -0.302,-0.172998 -0.671,-0.175998 -0.975,-0.01 L 32.023,42.848156 23,37.434232 V 25.554398 l 7.53,-4.705934 C 30.822,20.665466 31,20.345471 31,20.000476 v -8.999874 c 0,-0.363995 -0.197,-0.697991 -0.516,-0.874988 -0.316,-0.1769975 -0.706,-0.1659977 -1.014,0.027 l -16,9.99986 C 13.178,20.335471 13,20.655467 13,21.000462 v 20.999706 c 0,0.347995 0.182,0.67099 0.479,0.853988 l 18,10.999846 C 31.639,53.951001 31.819,54 32,54 c 0.181,0 0.361,-0.049 0.521,-0.145998 l 18,-10.999846 c 0.302,-0.184997 0.484,-0.514993 0.4791,-0.868988 C 50.995,41.632173 50.803,41.307178 50.496,41.13218 Z"
+     id="Amazon-Elastic-Container-Service_Icon_48_Squid"
+     fill="#ffffff" /></g><g
+   id="Icon-Architecture/48/Arch_Amazon-EC2_48"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(56.741294,-23.696522)"><g
+     id="Icon-Architecture-BG/48/Compute-7"
+     fill="#ed7100"><rect
+       id="Rectangle-6"
+       x="0"
+       y="0"
+       width="64"
+       height="64" /></g><path
+     d="M 22,41 H 41 V 23 H 22 Z M 43,23 h 3 v 2 h -3 v 2 h 3 v 2 h -3 v 2 h 3 v 2 h -3 v 3 h 3 v 2 h -3 v 2 h 3 v 2 h -3.137 c -0.255,0.587 -0.84,1 -1.519,1 H 41 v 3 h -2 v -3 h -2 v 3 h -2 v -3 h -2 v 3 h -2 v -3 h -2 v 3 h -2 v -3 h -3 v 3 h -2 v -3 h -0.344 c -0.679,0 -1.264,-0.413 -1.519,-1 H 18 v -2 h 2 v -2 h -2 v -2 h 2 v -3 h -2 v -2 h 2 v -2 h -2 v -2 h 2 v -2 h -2 v -2 h 2 V 22.656 C 20,21.743 20.743,21 21.656,21 H 22 v -3 h 2 v 3 h 3 v -3 h 2 v 3 h 2 v -3 h 2 v 3 h 2 v -3 h 2 v 3 h 2 v -3 h 2 v 3 h 0.344 C 42.257,21 43,21.743 43,22.656 Z M 32,52 H 12 V 32 h 4 V 30 H 11.843 C 10.826,30 10,30.827 10,31.843 V 52.157 C 10,53.173 10.826,54 11.843,54 H 32.157 C 33.174,54 34,53.173 34,52.157 V 48 H 32 Z M 54,11.843 V 32.157 C 54,33.173 53.174,34 52.157,34 H 48 v -2 h 4 V 12 H 32 v 4 H 30 V 11.843 C 30,10.827 30.826,10 31.843,10 H 52.157 C 53.174,10 54,10.827 54,11.843 Z"
+     id="Amazon-EC2_Icon_48_Squid"
+     fill="#ffffff" /></g></g>
+  
+  <!-- Stream Analytics Box -->
+  <g
+   transform="translate(850,467.41294)"
+   id="g23">
+    <rect
+   x="-150"
+   y="-80"
+   width="300"
+   height="160"
+   rx="5"
+   ry="5"
+   style="fill:#e1bee7;stroke:#ba68c8;stroke-width:1.5"
+   id="rect20" />
+    
+    <!-- Security Group Visual -->
+    <rect
+   x="-160"
+   y="-90"
+   width="320"
+   height="180"
+   rx="8"
+   ry="8"
+   style="fill:none;stroke:#ba68c8;stroke-width:1;stroke-dasharray:5, 3"
+   id="rect21" />
+    
+    <text
+   x="0"
+   y="-65"
+   style="font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#333333"
+   id="text15">Stream Analytics</text>
+    
+    <text
+   x="0"
+   y="-45"
+   style="font-size:12px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#666666"
+   id="text16">(e.g., Managed Flink in Private Subnet)</text>
+    
+    <!-- Stream Icons -->
+    
+    
+    <text
+   x="21.492537"
+   y="88.48259"
+   style="font-size:10px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text17">Security Group for Analytics</text>
+  <g
+   id="Icon-Architecture/48/Arch_Amazon-Managed-Streaming-for-Apache-Kafka_48"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(-35.343284,-16.20896)"><g
+     id="Icon-Architecture-BG/48/Analytics"
+     fill="#8c4fff"><rect
+       id="Rectangle-2"
+       x="0"
+       y="0"
+       width="64"
+       height="64" /></g><path
+     d="m 29.372915,29.60812 v -7.117645 h 1.563542 v 3.162842 l 2.110091,-3.162842 h 1.730571 l -2.445136,3.327834 2.646756,3.789811 H 33.124626 L 30.936457,26.168292 V 29.60812 Z M 53,39.377631 52.476184,39.836608 c -2.184216,1.933903 -5.878604,1.932903 -8.066773,-0.004 l -1.04368,-0.913954 c -1.435059,-1.269936 -4.041293,-1.270936 -5.472399,-0.004 l -1.050598,0.920954 c -2.182238,1.933903 -5.88058,1.932904 -8.066772,-0.003 l -1.04368,-0.913954 c -1.436047,-1.270936 -4.041293,-1.268936 -5.47141,-0.004 l -1.052575,0.921954 c -1.090131,0.964952 -2.559782,1.448928 -4.028445,1.448928 -1.470639,0 -2.942266,-0.483976 -4.037339,-1.452928 l -0.519863,-0.454977 1.292739,-1.512924 0.524805,0.458977 c 1.434071,1.268936 4.039316,1.269936 5.47141,0.004 l 1.051587,-0.921954 c 2.182239,-1.931904 5.879592,-1.931904 8.065784,0.004 l 1.044668,0.913955 c 1.436048,1.270936 4.041293,1.268936 5.471411,0.004 L 36.59664,37.40673 c 2.182239,-1.933904 5.878603,-1.932904 8.066772,0.003 l 1.042692,0.913955 c 1.435059,1.268936 4.040304,1.269936 5.472399,0.004 l 0.528758,-0.462977 z m -1.915389,9.20154 1.292739,1.511924 -0.523816,0.458977 C 50.762414,51.516024 49.292763,52 47.824101,52 46.353462,52 44.880846,51.515024 43.787749,50.546073 l -1.044667,-0.912955 c -1.436048,-1.271936 -4.041293,-1.269936 -5.471411,-0.004 l -1.051586,0.920954 c -2.181251,1.931904 -5.879592,1.932904 -8.065784,-0.004 l -1.04368,-0.913955 c -1.435059,-1.269936 -4.041293,-1.269936 -5.472399,-0.003 l -1.051586,0.920954 c -2.182239,1.932904 -5.878604,1.932904 -8.066773,-0.004 L 12,50.091095 l 1.292739,-1.511924 0.524805,0.458977 c 1.434071,1.268937 4.040305,1.269937 5.472399,0.004 l 1.050598,-0.920954 c 2.182239,-1.932903 5.879592,-1.933903 8.066773,0.003 l 1.043679,0.913954 c 1.434071,1.268937 4.039317,1.269937 5.471411,0.004 l 1.052574,-0.921954 c 2.182239,-1.931903 5.879592,-1.932903 8.065785,0.004 l 1.043679,0.913954 c 1.435059,1.268937 4.039317,1.269937 5.472399,0.004 z m 0,-5.013749 1.292739,1.511924 -0.523816,0.458977 c -1.09112,0.965952 -2.560771,1.448928 -4.029433,1.448928 -1.470639,0 -2.943255,-0.483976 -4.036352,-1.452928 l -1.044667,-0.912954 c -1.436048,-1.270936 -4.041293,-1.269937 -5.471411,-0.004 l -1.051586,0.920954 c -2.181251,1.932903 -5.879592,1.932903 -8.065784,-0.004 l -1.04368,-0.913954 c -1.435059,-1.269936 -4.041293,-1.271936 -5.472399,-0.003 l -1.051586,0.920954 c -2.182239,1.932903 -5.878604,1.932903 -8.066773,-0.004 L 12,45.077346 l 1.292739,-1.511924 0.524805,0.458977 c 1.434071,1.269936 4.040305,1.269936 5.472399,0.003 l 1.050598,-0.919954 c 2.183227,-1.934904 5.881569,-1.932904 8.066773,0.003 l 1.043679,0.913955 c 1.434071,1.268936 4.039317,1.269936 5.471411,0.003 l 1.052574,-0.920954 c 2.182239,-1.932904 5.879592,-1.933904 8.065785,0.004 l 1.043679,0.913955 c 1.435059,1.269936 4.039317,1.269936 5.472399,0.003 z M 20.145839,29.9991 c 0.817352,0 1.4825,0.672966 1.4825,1.499925 0,0.826959 -0.665148,1.499925 -1.4825,1.499925 -0.817351,0 -1.482499,-0.672966 -1.482499,-1.499925 0,-0.826959 0.665148,-1.499925 1.482499,-1.499925 z M 32.005834,13.9999 c 0.817351,0 1.482499,0.672966 1.482499,1.499925 0,0.826959 -0.665148,1.499925 -1.482499,1.499925 -0.817352,0 -1.4825,-0.672966 -1.4825,-1.499925 0,-0.826959 0.665148,-1.499925 1.4825,-1.499925 z m 13.342493,17.499125 c 0,0.826959 -0.665148,1.499925 -1.482499,1.499925 -0.817352,0 -1.4825,-0.672966 -1.4825,-1.499925 0,-0.826959 0.665148,-1.499925 1.4825,-1.499925 0.817351,0 1.482499,0.672966 1.482499,1.499925 z M 32.005834,18.99965 c 0.537653,0 1.040714,-0.135993 1.495347,-0.357982 l 7.788063,10.546473 c -0.43882,0.498975 -0.734331,1.119944 -0.832176,1.810909 H 23.554599 c -0.09784,-0.690965 -0.393356,-1.311934 -0.832176,-1.810909 l 7.788063,-10.546473 c 0.454633,0.221989 0.957694,0.357982 1.495348,0.357982 z m -11.859995,15.9992 c 1.374771,0 2.554841,-0.821959 3.11226,-1.9999 h 17.496457 c 0.556431,1.177941 1.736501,1.9999 3.111272,1.9999 1.907482,0 3.459165,-1.569921 3.459165,-3.499825 0,-1.929903 -1.551683,-3.499825 -3.459165,-3.499825 -0.309348,0 -0.603872,0.055 -0.8895,0.131993 L 34.964902,17.283736 c 0.311325,-0.523974 0.500097,-1.129944 0.500097,-1.783911 C 35.464999,13.569922 33.913316,12 32.005834,12 c -1.907483,0 -3.459165,1.569922 -3.459165,3.499825 0,0.653967 0.188771,1.259937 0.500096,1.783911 l -8.011426,10.847457 c -0.285628,-0.077 -0.579163,-0.131993 -0.8895,-0.131993 -1.907482,0 -3.459165,1.569922 -3.459165,3.499825 0,1.929904 1.551683,3.499825 3.459165,3.499825 z"
+     id="Amazon-Managed-Streaming-for-Apache-Kafka-Icon_48_Squid"
+     fill="#ffffff" /></g></g>
+  
+  <!-- VPC Endpoints Area -->
+  <g
+   transform="translate(597.51244,687.81095)"
+   id="g27">
+    <rect
+   x="-400"
+   y="-60"
+   width="800"
+   height="120"
+   rx="5"
+   ry="5"
+   style="fill:#f8f9fd;stroke:#b0b0b0;stroke-width:1;stroke-dasharray:none"
+   id="rect23" />
+    
+    <text
+   x="0"
+   y="-40"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#333333"
+   id="text23">VPC Endpoints for Private AWS Service Access</text>
+    
+    <!-- KMS Endpoint -->
+    <g
+   transform="translate(-250,20)"
+   id="g24">
+      <path
+   d="m -35.659205,-30 h 70.820897 l 11.803483,10 v 50 h -94.427862 v -50 z"
+   style="fill:#a5d6a7;stroke:#66bb6a;stroke-width:1.5"
+   id="path23" />
+      
+      <text
+   x="0"
+   y="-10"
+   style="font-weight:bold;font-size:11px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#333333"
+   id="text19">KMS Interface</text>
+      
+      <text
+   x="0"
+   y="10"
+   style="font-size:10px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#666666"
+   id="text20">Endpoint (ENI)</text>
+    </g>
+    
+    <!-- S3 Endpoint -->
+    <g
+   transform="translate(0,20)"
+   id="g25">
+      <path
+   d="m -33.482588,-30 h 68.955226 l 11.492538,10 v 50 h -91.940302 v -50 z"
+   style="fill:#90caf9;stroke:#42a5f5;stroke-width:1.5"
+   id="path24" />
+      
+      <text
+   x="0"
+   y="-10"
+   style="font-weight:bold;font-size:11px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#333333"
+   id="text21">S3 Gateway</text>
+      
+      <text
+   x="0"
+   y="10"
+   style="font-size:10px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#666666"
+   id="text22">Endpoint</text>
+    </g>
+    
+    <!-- Kinesis Endpoint -->
+    <g
+   transform="translate(250,20)"
+   id="g26">
+      <path
+   d="m -33.606966,-30 h 71.194032 l 11.865672,10 v 50 h -94.925376 v -50 z"
+   style="fill:#ce93d8;stroke:#ab47bc;stroke-width:1.5"
+   id="path25" />
+      
+      <text
+   x="0"
+   y="-10"
+   style="font-weight:bold;font-size:11px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#333333"
+   id="text25">Kinesis Interface</text>
+      
+      <text
+   x="0"
+   y="10"
+   style="font-size:10px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#666666"
+   id="text24">Endpoint (ENI)</text>
+    </g>
+  </g>
+  
+  <!-- External AWS Services -->
+  <g
+   transform="translate(595.07488,852.76916)"
+   id="g34">
+    <!-- KMS Service -->
+    <g
+   transform="translate(-288.80597,0.49751244)"
+   id="g29">
+      <rect
+   x="-40.000004"
+   y="-30"
+   width="148.65672"
+   height="60"
+   rx="9.2910452"
+   ry="5"
+   style="fill:#ffffff;stroke:#ff9900;stroke-width:1.5"
+   id="rect13" />
+      
+      <!-- Key Icon -->
+      
+      
+      <text
+   x="15"
+   y="5"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#333333"
+   id="text28">AWS KMS</text>
+    <g
+   id="Icon-Architecture/32/Arch_AWS-Key-Management-Service_32"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(-27.865925,-20.112441)"><g
+     id="Icon-Architecture-BG/32/Security-Identity-Compliance"
+     fill="#dd344c"><rect
+       id="Rectangle-21"
+       x="0"
+       y="0"
+       width="40"
+       height="40" /></g><path
+     d="m 26.730605,26.496998 h 4 v -1 h -4 z m -5,0 h 4 v -1 h -4 z m -5,0 h 4 v -1 h -4 z m 6,-4 c 0,-0.551 0.449,-1 1,-1 0.552,0 1,0.449 1,1 0,0.551 -0.448,1 -1,1 -0.551,0 -1,-0.449 -1,-1 z m 3,0 c 0,-1.103 -0.897,-2 -2,-2 -1.102,0 -2,0.897 -2,2 0,1.103 0.898,2 2,2 1.103,0 2,-0.897 2,-2 z m -6,0 c 0,0.551 -0.448,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 0.552,0 1,0.449 1,1 z m -3,0 c 0,1.103 0.898,2 2,2 1.103,0 2,-0.897 2,-2 0,-1.103 -0.897,-2 -2,-2 -1.102,0 -2,0.897 -2,2 z m 17,-6.5 v 13 c 0,0.276 -0.223,0.5 -0.5,0.5 h -16.5 v -1 h 16 v -12 h -12 v -1 h 12.5 c 0.277,0 0.5,0.224 0.5,0.5 z m -19.685,3.024 c -0.206,0.067 -0.346,0.259 -0.346,0.476 v 11.763 l -1.304,1.063 -1.165,-1.963 v -1.863 c 0,-0.147 -0.065,-0.288 -0.177,-0.383 l -1.1979997,-1.006 1.2329997,-1.261 c 0.092,-0.094 0.142,-0.219 0.142,-0.35 v -1 c 0,-0.133 -0.052,-0.261 -0.147,-0.354 l -1.2289997,-1.223 1.2049997,-1.046 c 0.109,-0.095 0.171,-0.232 0.171,-0.377 v -2 c 0,-0.218 -0.141,-0.411 -0.348,-0.477 -2.7419997,-0.868 -4.3579997,-3.712 -3.7579997,-6.616 0.428,-2.072 2.021,-3.7329996 4.0599997,-4.2319996 1.73,-0.427 3.51,-0.055 4.879,1.017 1.367,1.0719996 2.15,2.6809996 2.15,4.4139996 0,2.32 -1.792,4.649 -4.168,5.418 z m 5.168,-5.418 c 0,-2.042 -0.923,-3.9379996 -2.532,-5.1999996 -1.611,-1.263 -3.699,-1.699 -5.736,-1.203 -2.4109997,0.591 -4.2949997,2.554 -4.7999997,5.0019996 -0.678,3.282 1.067,6.503 4.0849997,7.65 v 1.417 l -1.4369997,1.249 c -0.105,0.091 -0.167,0.222 -0.172,0.36 -0.005,0.14 0.049,0.274 0.148,0.372 l 1.4609997,1.455 v 0.588 l -1.4659997,1.501 c -0.098,0.099 -0.149,0.235 -0.142,0.374 0.007,0.139 0.07,0.268 0.177,0.358 l 1.4309997,1.204 v 1.767 c 0,0.09 0.025,0.178 0.071,0.255 l 1.531,2.581 c 0.074,0.125 0.199,0.211 0.343,0.237 0.028,0.005 0.057,0.008 0.087,0.008 0.114,0 0.226,-0.039 0.316,-0.113 l 1.938,-1.581 c 0.116,-0.095 0.183,-0.237 0.183,-0.387 v -11.647 c 2.297,-0.894 4.514,-3.249 4.514,-6.247 z m -6.608,1.301 c -0.765,0 -1.388,-0.623 -1.388,-1.388 0,-0.767 0.623,-1.39 1.388,-1.39 0.767,0 1.39,0.623 1.39,1.39 0,0.765 -0.623,1.388 -1.39,1.388 z m 0,-3.778 c -1.317,0 -2.388,1.072 -2.388,2.39 0,1.316 1.071,2.388 2.388,2.388 1.318,0 2.39,-1.072 2.39,-2.388 0,-1.318 -1.072,-2.39 -2.39,-2.39 z"
+     id="AWS-Key-Management-Service_Icon_32_Squid"
+     fill="#ffffff" /></g></g>
+    
+    <!-- S3 Service -->
+    <g
+   id="g31"
+   transform="translate(-25.870647,1.9900498)">
+      <rect
+   x="-40"
+   y="-30"
+   width="146.16916"
+   height="60"
+   rx="9.1355724"
+   ry="5"
+   style="fill:#ffffff;stroke:#569a31;stroke-width:1.5"
+   id="rect14" />
+      
+      <!-- Bucket Icon -->
+      
+      
+      <text
+   x="15"
+   y="5"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#333333"
+   id="text26">Amazon S3</text>
+    <g
+   id="Icon-Architecture/32/Arch_Amazon-Simple-Storage-Service_32"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(-30.030101,-19.619907)"><g
+     id="Icon-Architecture-BG/32/Storage"
+     fill="#7aa116"><rect
+       id="Rectangle-5"
+       x="0"
+       y="0"
+       width="40"
+       height="40" /></g><g
+     id="Icon-Service/32/Amazon-Simple-Storage-Service_32"
+     transform="translate(7.0002,6.0001)"
+     fill="#ffffff"><path
+       d="m 23.532,15.391 0.197,-1.459 c 2.092,1.199 2.135,1.694 2.134015,1.708 C 25.859,15.643 25.509,15.923 23.532,15.391 Z m -0.968,-0.288 c -2.842,-0.897 -6.66,-2.572 -8.841,-3.599 0,-0.007 0.004,-0.013 0.004,-0.02 0,-0.663 -0.54,-1.203 -1.203,-1.203 -0.663,0 -1.203,0.54 -1.203,1.203 0,0.664 0.54,1.203 1.203,1.203 0.29,0 0.546,-0.116 0.754,-0.287 1.269,0.594 5.797,2.676 9.15,3.713 L 21.249,24.85 C 21.249,25.716 17.575,27 12.5,27 7.425,27 3.751,25.716 3.746,24.784 L 1.283,6.563 C 3.458,8.155 8.074,9 12.5,9 16.926,9 21.543,8.155 23.718,6.563 Z M 1.003,4.489 C 1.032,3.609 5.104,1 12.5,1 19.895,1 23.97,3.609 24,4.489 V 4.603 C 23.81,6.231 19.137,8 12.5,8 5.863,8 1.209,6.231 1.018,4.604 Z M 25,4.5 C 25,2.665 20.131,0 12.5,0 4.869,0 0,2.665 0,4.5 V 4.567 L 2.751,24.85 c 0,2.046 5.022,3.15 9.749,3.15 4.726,0 9.749,-1.104 9.744,-3.083 l 1.152,-8.527 c 0.821,0.214 1.485,0.328 1.996,0.328 0.593,0 0.994,-0.144 1.236,-0.433 0.199,-0.238 0.275,-0.525 0.217,-0.831 C 26.708,14.716 25.797,13.919 23.89,12.87 L 23.869,12.896 25,4.567 Z"
+       id="Amazon-Simple-Storage-Service-Icon_32_Squid" /></g></g></g>
+    
+    <!-- Kinesis Service -->
+    <g
+   transform="translate(205.72139,4.9751244)"
+   id="g33">
+      <rect
+   x="-39.999996"
+   y="-30"
+   width="157.11443"
+   height="60"
+   rx="9.8196516"
+   ry="5"
+   style="fill:#ffffff;stroke:#7d2f8b;stroke-width:1.50001"
+   id="rect31" />
+      
+      <!-- Stream Icon -->
+      
+      
+      <text
+   x="15"
+   y="5"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#333333"
+   id="text27">Amazon Kinesis</text>
+    <g
+   id="Icon-Architecture/32/Arch_Amazon-Kinesis_32"
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   transform="translate(-29.8162,-19.590051)"><g
+     id="Icon-Architecture-BG/32/Analytics"
+     fill="#8c4fff"><rect
+       id="Rectangle-18"
+       x="0"
+       y="0"
+       width="40"
+       height="40" /></g><path
+     d="M 9.8864339,31.107251 H 10.89076 c 0,-4.043206 2.626314,-8.175993 22.10924,-8.175993 v -1.006524 c -20.367738,0 -23.1135661,4.642088 -23.1135661,9.182517 M 12.772868,34 h 1.004326 c 0,-3.63959 0,-9.140242 19.222806,-9.140242 V 23.853234 C 14.334595,23.853234 12.772868,28.865722 12.772868,34 M 8.0043263,13.749748 H 7 C 7,17.30479 11.787624,19.56041 21.233313,20.499497 11.787624,21.438583 7,23.69521 7,27.249245 H 8.0043263 C 8.0043263,24.91713 11.251313,21.002759 33,21.002759 v -1.006524 c -21.748687,0 -24.9956737,-3.913365 -24.9956737,-6.246487 M 10.89076,9.8927493 H 9.8864339 c 0,4.5404287 2.7458281,9.1815097 23.1135661,9.1815097 v -1.006524 c -19.482926,0 -22.10924,-4.132786 -22.10924,-8.1749857 M 33,16.139236 V 17.14576 C 14.334595,17.14576 12.772868,12.133271 12.772868,7 h 1.004326 c 0,3.63959 0,9.139236 19.222806,9.139236"
+     id="Amazon-Kinesis_Icon_32_Squid"
+     fill="#ffffff" /></g></g>
+  </g>
+  
+  <!-- IoT Core External Gateway -->
+  <g
+   transform="translate(597.88923,85.928223)"
+   id="g36">
+    
+    
+    <!-- IoT Core Icon -->
+    
+    
+    <text
+   x="7.9333601"
+   y="-15.422886"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-align:center;text-anchor:middle;fill:#333333"
+   id="text35"><tspan
+     sodipodi:role="line"
+     id="tspan43"
+     x="7.9333601"
+     y="-15.422886">Device Data from</tspan><tspan
+     sodipodi:role="line"
+     id="tspan44"
+     x="7.9333601"
+     y="-0.42288595">AWS IoT Core</tspan></text>
+    
+    
+  </g>
+  
+  <!-- Connection Lines and Arrows -->
+  <!-- From IoT Core to VPC Endpoint -->
+  
+  
+  
+  
+  <!-- From IoT Core VPC Endpoint to Processing Services -->
+  <path
+   d="M 600,295 H 390.79602 l -0.49751,75"
+   style="opacity:0.54;fill:none;stroke:#ff9900;stroke-width:1.5;marker-end:url(#marker44)"
+   id="path2"
+   sodipodi:nodetypes="ccc" />
+  
+  <path
+   d="M 600,95.572143 V 295 h 229.60199 l 0.49751,75"
+   style="fill:none;stroke:#ff9900;stroke-width:1.5;marker-end:url(#marker44);opacity:0.46"
+   id="path3"
+   sodipodi:nodetypes="cccc" />
+  
+  <!-- Horizontal Connection Bus -->
+  <path
+   d="m 349.50249,574.27861 h 500"
+   style="fill:none;stroke:#232f3e;stroke-width:1.5"
+   id="path4"
+   sodipodi:nodetypes="cc" />
+  
+  <!-- Vertical Connections to Bus -->
+  <path
+   d="m 349.50249,558.25871 v 16.0199"
+   style="fill:none;stroke:#232f3e;stroke-width:1.5"
+   id="path37"
+   sodipodi:nodetypes="cc" />
+  
+  <path
+   d="m 849.50249,556.76617 v 17.51244"
+   style="fill:none;stroke:#232f3e;stroke-width:1.5"
+   id="path38"
+   sodipodi:nodetypes="cc" />
+  
+  <!-- Outbound to NAT Gateway -->
+  <path
+   d="m 575.62189,347.51244 -1.24378,-99.50249 -229.35323,0.69652"
+   style="fill:none;stroke:#42a5f5;stroke-width:1.5;stroke-dasharray:5, 5;marker-end:url(#arrowheadBlue)"
+   id="path7"
+   sodipodi:nodetypes="ccc" />
+  
+  <g
+   transform="translate(580.74627,396.76617)"
+   id="g38">
+    <text
+   x="0"
+   y="-10"
+   style="font-size:10px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#666666"
+   id="text32">Outbound to Internet</text>
+    
+    <text
+   x="0"
+   y="5"
+   style="font-size:10px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#666666"
+   id="text33">(via NAT Gateway)</text>
+  </g>
+  
+  <!-- From NAT Gateway to Internet Gateway -->
+  <path
+   d="M 190,250 H 73.383085"
+   style="fill:none;stroke:#42a5f5;stroke-width:1.5;marker-end:url(#arrowheadBlue)"
+   id="path8"
+   sodipodi:nodetypes="cc" />
+  
+  <!-- From Services to VPC Endpoints -->
+  <path
+   d="m 599.50249,574.27861 0,50.54726"
+   style="fill:none;stroke:#232f3e;stroke-width:2;marker-end:url(#arrowhead)"
+   id="path39"
+   sodipodi:nodetypes="cc" />
+  
+  <g
+   transform="translate(536.06965,547.56219)"
+   id="g39">
+    <text
+   x="0"
+   y="0"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text34">Private AWS Service Access</text>
+    
+    <text
+   x="0"
+   y="15"
+   style="font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text39">(via Endpoints)</text>
+  </g>
+  
+  <!-- From Endpoints to AWS Services -->
+  <path
+   d="m 346.51742,738.70647 0.99502,81.54229"
+   style="fill:none;stroke:#66bb6a;stroke-width:1.5"
+   id="path10"
+   sodipodi:nodetypes="cc" />
+  
+  <g
+   transform="translate(364.0796,795.17413)"
+   id="g40">
+    <text
+   x="0"
+   y="0"
+   style="font-size:9px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text36">For Encryption/</text>
+    
+    <text
+   x="0"
+   y="12"
+   style="font-size:9px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text37">Decryption</text>
+  </g>
+  
+  <path
+   d="m 597.51244,739.20398 v 84.02986"
+   style="fill:none;stroke:#42a5f5;stroke-width:1.5"
+   id="path11"
+   sodipodi:nodetypes="cc" />
+  
+  <g
+   transform="translate(627.51244,767.81095)"
+   id="g41">
+    <text
+   x="0"
+   y="0"
+   style="font-size:9px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text38">To/From S3</text>
+  </g>
+  
+  <path
+   d="m 846.0199,737.71145 1.49254,88.50746"
+   style="fill:none;stroke:#ab47bc;stroke-width:1.5"
+   id="path12"
+   sodipodi:nodetypes="cc" />
+  
+  <g
+   transform="translate(857.11443,794.17911)"
+   id="g42">
+    <text
+   x="0"
+   y="0"
+   style="font-size:9px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text41">To/From</text>
+    
+    <text
+   x="0"
+   y="12"
+   style="font-size:9px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+   id="text40">Kinesis Streams</text>
+  </g>
+  
+  <!-- Arrow Markers -->
+  <defs
+   id="defs1"><marker
+   style="overflow:visible"
+   id="marker44"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Rounded arrow"
+   markerWidth="1"
+   markerHeight="1"
+   viewBox="0 0 1 1"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"><path
+     transform="scale(0.7)"
+     d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="path44" /></marker>
+     
+    <marker
+   id="arrowhead"
+   markerWidth="10"
+   markerHeight="7"
+   refX="9"
+   refY="3.5"
+   orient="auto">
+       <polygon
+   points="0 0, 10 3.5, 0 7"
+   style="fill:#232F3E;"
+   id="polygon1" />
+    </marker>
+    
+    <marker
+   id="arrowheadBlue"
+   markerWidth="10"
+   markerHeight="7"
+   refX="9"
+   refY="3.5"
+   orient="auto">
+       <polygon
+   points="0 0, 10 3.5, 0 7"
+   style="fill:#42A5F5;"
+   id="polygon2" />
+    </marker>
+    
+    <marker
+   id="arrowheadGreen"
+   markerWidth="10"
+   markerHeight="7"
+   refX="9"
+   refY="3.5"
+   orient="auto">
+       <polygon
+   points="0 0, 10 3.5, 0 7"
+   style="fill:#66BB6A;"
+   id="polygon3" />
+    </marker>
+    
+    <marker
+   id="arrowheadPurple"
+   markerWidth="10"
+   markerHeight="7"
+   refX="9"
+   refY="3.5"
+   orient="auto">
+       <polygon
+   points="0 0, 10 3.5, 0 7"
+   style="fill:#AB47BC;"
+   id="polygon4" />
+    </marker>
+  </defs>
+<g
+   style="fill:#000000;stroke-width:12.5"
+   id="g43"
+   transform="matrix(0.125,0,0,0.125,5.358209,215.17413)"><g
+     id="g2"
+     style="stroke-width:12.5">
+	<g
+   id="g1"
+   style="stroke-width:12.5">
+		<path
+   d="M 256,0 C 114.62,0 0,114.62 0,256 0,397.38 114.62,512 256,512 397.38,512 512,397.38 512,256 512,114.62 397.38,0 256,0 Z m -83.789,41.609 c -24.934,27.119 -44.68,66.125 -56.755,111.992 H 49.749 c 25.43,-50.86 69.12,-91.077 122.462,-111.992 z M 25.6,256 c 0,-26.999 5.077,-52.727 13.662,-76.8 h 70.494 c -4.608,24.294 -7.356,49.963 -7.356,76.8 0,26.837 2.748,52.506 7.347,76.8 H 39.262 C 30.677,308.727 25.6,283 25.6,256 Z m 24.149,102.4 h 65.707 c 12.083,45.867 31.821,84.872 56.755,111.991 C 118.869,449.476 75.179,409.259 49.749,358.4 Z M 243.2,485.188 C 199.39,476.936 161.323,426.948 141.841,358.4 H 243.2 Z m 0,-152.388 H 135.74 C 130.816,308.634 128,282.803 128,256 c 0,-26.803 2.816,-52.634 7.74,-76.8 H 243.2 Z m 0,-179.2 H 141.841 C 161.323,85.052 199.39,35.063 243.2,26.812 Z m 219.051,0 H 396.544 C 384.461,107.733 364.723,68.727 339.789,41.608 393.131,62.524 436.821,102.741 462.251,153.6 Z M 268.8,26.812 c 43.81,8.252 81.877,58.24 101.359,126.788 H 268.8 Z m 0,152.388 h 107.46 c 4.924,24.166 7.74,49.997 7.74,76.8 0,26.803 -2.816,52.634 -7.74,76.8 H 268.8 Z m 0,305.988 V 358.4 H 370.159 C 350.677,426.948 312.61,476.937 268.8,485.188 Z m 70.989,-14.797 c 24.934,-27.127 44.672,-66.125 56.755,-111.991 h 65.707 c -25.43,50.859 -69.12,91.076 -122.462,111.991 z M 402.244,332.8 c 4.608,-24.294 7.356,-49.963 7.356,-76.8 0,-26.837 -2.748,-52.506 -7.347,-76.8 h 70.494 c 8.576,24.073 13.653,49.801 13.653,76.8 0,27 -5.077,52.727 -13.662,76.8 z"
+   id="path1-0"
+   style="stroke-width:12.5" />
+	</g>
+</g></g><text
+   x="14.746191"
+   y="295.82587"
+   style="font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif;fill:#333333"
+   id="text5-8"
+   inkscape:transform-center-x="-29.850746"
+   inkscape:transform-center-y="4.4776119">Internet</text><path
+   d="m 207.12698,261.61104 v -2.838 l 1.774,1.419 z m -0.375,-5.7 c -0.301,-0.241 -0.714,-0.288 -1.059,-0.12 -0.345,0.167 -0.566,0.516 -0.566,0.901 v 7 c 0,0.385 0.221,0.734 0.566,0.901 0.139,0.067 0.287,0.099 0.434,0.099 0.223,0 0.444,-0.074 0.625,-0.219 l 4.375,-3.5 c 0.237,-0.19 0.375,-0.477 0.375,-0.781 0,-0.304 -0.138,-0.591 -0.375,-0.781 z m 24.001,-3.384 v -3.922 l 1.961,1.961 z m 4.082,-2.668 -4.375,-4.375 c -0.286,-0.286 -0.714,-0.372 -1.09,-0.217 -0.374,0.155 -0.617,0.52 -0.617,0.924 v 3.375 h -7.626 v -9.5 c 0,-0.553 -0.447,-1 -1,-1 h -7.694 v 2 h 6.694 v 8.5 h -6.875 v 2 h 6.875 v 8.501 h -6.694 v 2 h 7.694 c 0.553,0 1,-0.447 1,-1 v -9.501 h 7.626 v 3.376 c 0,0.404 0.244,0.77 0.617,0.924 0.124,0.052 0.254,0.076 0.383,0.076 0.26,0 0.516,-0.102 0.707,-0.293 l 4.375,-4.376 c 0.391,-0.391 0.391,-1.023 0,-1.414 z m -27.708,2.127 v -2.839 l 1.774,1.419 z m -0.375,-5.701 c -0.301,-0.241 -0.714,-0.287 -1.059,-0.12 -0.345,0.167 -0.566,0.516 -0.566,0.901 v 7.001 c 0,0.385 0.221,0.734 0.566,0.901 0.139,0.067 0.287,0.099 0.434,0.099 0.223,0 0.444,-0.074 0.625,-0.219 l 4.375,-3.501 c 0.237,-0.19 0.375,-0.477 0.375,-0.781 0,-0.304 -0.138,-0.591 -0.375,-0.781 z m 0.375,-4.8 v -2.838 l 1.774,1.419 z m -0.375,-5.7 c -0.301,-0.241 -0.714,-0.288 -1.059,-0.12 -0.345,0.167 -0.566,0.516 -0.566,0.901 v 7 c 0,0.385 0.221,0.734 0.566,0.901 0.139,0.067 0.287,0.099 0.434,0.099 0.223,0 0.444,-0.074 0.625,-0.219 l 4.375,-3.5 c 0.237,-0.19 0.375,-0.477 0.375,-0.781 0,-0.304 -0.138,-0.591 -0.375,-0.781 z m 10.75,33.908 c -11.028,0 -20.001,-8.973 -20.001,-20.002 0,-11.028 8.973,-20.001 20.001,-20.001 11.029,0 20.002,8.973 20.002,20.001 0,11.029 -8.973,20.002 -20.002,20.002 z m 0,-42.003 c -12.132,0 -22.001,9.869 -22.001,22.001 0,12.132 9.869,22.002 22.001,22.002 12.132,0 22.002,-9.87 22.002,-22.002 0,-12.132 -9.87,-22.001 -22.002,-22.001 z"
+   id="AWS-Amazon-VPC_NAT-gateway_Resource-Icon_light-bg"
+   fill="#8c4fff"
+   style="fill-rule:evenodd;stroke:none;stroke-width:1" /></svg>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 650 520"
+   style="fill:#f8f9fa;"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="iam-policy-least-privilege-s3-kms.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview64"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.4788462"
+     inkscape:cx="324.96407"
+     inkscape:cy="240.45329"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <!-- Background -->
+  <rect
+     x="0"
+     y="0"
+     width="650"
+     height="520"
+     style="fill:#f8f9fa;"
+     id="rect1" />
+  <!-- Policy Document Box -->
+  <rect
+     x="20"
+     y="20"
+     width="610"
+     height="480"
+     rx="8"
+     ry="8"
+     style="fill:#ffffff;stroke:#ced4da;stroke-width:1;"
+     id="rect2" />
+  <!-- Title -->
+  <!-- JSON Content -->
+  <!-- Opening brace -->
+  <text
+     x="29.651741"
+     y="34.817577"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text3">{</text>
+  <!-- Version -->
+  <text
+     x="39.651741"
+     y="54.817577"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text4">&quot;Version&quot;</text>
+  <text
+     x="104.65175"
+     y="54.817577"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text5">:</text>
+  <text
+     x="114.65175"
+     y="54.817577"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#006400"
+     id="text6">&quot;2012-10-17&quot;</text>
+  <text
+     x="194.65175"
+     y="54.817577"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text7">,</text>
+  <!-- Statement -->
+  <text
+     x="39.651741"
+     y="74.817581"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text8">&quot;Statement&quot;</text>
+  <text
+     x="124.65175"
+     y="74.817581"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text9">:</text>
+  <text
+     x="134.65175"
+     y="74.817581"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text10">[</text>
+  <!-- First Statement Object -->
+  <text
+     x="49.651741"
+     y="94.817581"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text11">{</text>
+  <!-- Sid -->
+  <text
+     x="59.651741"
+     y="114.81758"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text12">&quot;Sid&quot;</text>
+  <text
+     x="94.651741"
+     y="114.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text13">:</text>
+  <text
+     x="104.65175"
+     y="114.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#006400"
+     id="text14">&quot;AllowS3GetObjectForSensitiveData&quot;</text>
+  <text
+     x="359.65173"
+     y="114.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text15">,</text>
+  <!-- Effect -->
+  <text
+     x="59.651741"
+     y="134.81758"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text16">&quot;Effect&quot;</text>
+  <text
+     x="114.65175"
+     y="134.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text17">:</text>
+  <text
+     x="124.65175"
+     y="134.81758"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#006400"
+     id="text18">&quot;Allow&quot;</text>
+  <text
+     x="174.65175"
+     y="134.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text19">,</text>
+  <!-- Action (highlighted area) -->
+  <rect
+     x="54.651741"
+     y="144.81758"
+     width="180"
+     height="40"
+     rx="3"
+     ry="3"
+     style="opacity:0.6;fill:#fffbf0;stroke:#ffc107;stroke-width:1"
+     id="rect19" />
+  <text
+     x="59.651741"
+     y="159.81758"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text20">&quot;Action&quot;</text>
+  <text
+     x="114.65175"
+     y="159.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text21">:</text>
+  <text
+     x="124.65175"
+     y="159.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text22">[</text>
+  <text
+     x="69.651741"
+     y="179.81758"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#8b0000"
+     id="text23">&quot;s3:GetObject&quot;</text>
+  <text
+     x="59.939194"
+     y="196.5423"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text24">]</text>
+  <text
+     x="64.939194"
+     y="196.5423"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text25">,</text>
+  <!-- Resource (highlighted area) -->
+  <rect
+     x="54.651741"
+     y="204.81758"
+     width="520"
+     height="40"
+     rx="3"
+     ry="3"
+     style="opacity:0.6;fill:#f0fff4;stroke:#28a745;stroke-width:1"
+     id="rect25" />
+  <text
+     x="59.651741"
+     y="219.81758"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text26">&quot;Resource&quot;</text>
+  <text
+     x="124.65175"
+     y="219.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text27">:</text>
+  <text
+     x="134.65175"
+     y="219.81758"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text28">[</text>
+  <text
+     x="69.651741"
+     y="239.81758"
+     style="font-weight:bold;font-size:12px;font-family:Consolas, 'Courier New', monospace;fill:#8b0000"
+     id="text29">&quot;arn:aws:s3:::my-compliant-bucket/sensitive-data/*&quot;</text>
+  <text
+     x="59.651741"
+     y="257.40463"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text30">]</text>
+  <!-- End first statement -->
+  <text
+     x="49.651741"
+     y="272.40463"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text31">}</text>
+  <text
+     x="59.651741"
+     y="272.40463"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text32">,</text>
+  <!-- Second Statement Object -->
+  <text
+     x="49.651741"
+     y="292.40463"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text33">{</text>
+  <!-- Second Sid -->
+  <text
+     x="59.651741"
+     y="309.81757"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text34">&quot;Sid&quot;</text>
+  <text
+     x="94.651741"
+     y="309.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text35">:</text>
+  <text
+     x="104.65175"
+     y="309.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#006400"
+     id="text36">&quot;AllowKMSDecryptForSpecificKey&quot;</text>
+  <text
+     x="339.65173"
+     y="309.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text37">,</text>
+  <!-- Second Effect -->
+  <text
+     x="59.651741"
+     y="329.81757"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text38">&quot;Effect&quot;</text>
+  <text
+     x="114.65175"
+     y="329.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text39">:</text>
+  <text
+     x="124.65175"
+     y="329.81757"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#006400"
+     id="text40">&quot;Allow&quot;</text>
+  <text
+     x="174.65175"
+     y="329.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text41">,</text>
+  <!-- Second Action (highlighted area) -->
+  <rect
+     x="54.651741"
+     y="339.81757"
+     width="160"
+     height="40"
+     rx="3"
+     ry="3"
+     style="opacity:0.6;fill:#fffbf0;stroke:#ffc107;stroke-width:1"
+     id="rect41" />
+  <text
+     x="59.651741"
+     y="354.81757"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text42">&quot;Action&quot;</text>
+  <text
+     x="114.65175"
+     y="354.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text43">:</text>
+  <text
+     x="124.65175"
+     y="354.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text44">[</text>
+  <text
+     x="69.651741"
+     y="374.81757"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#8b0000"
+     id="text45">&quot;kms:Decrypt&quot;</text>
+  <text
+     x="59.939194"
+     y="391.54227"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text46">]</text>
+  <text
+     x="64.939194"
+     y="391.54227"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text47">,</text>
+  <!-- Second Resource (highlighted area) -->
+  <rect
+     x="54.651741"
+     y="399.81757"
+     width="560"
+     height="40"
+     rx="3"
+     ry="3"
+     style="opacity:0.6;fill:#f0fff4;stroke:#28a745;stroke-width:1"
+     id="rect47" />
+  <text
+     x="59.651741"
+     y="414.81757"
+     style="font-weight:bold;font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#001f3f"
+     id="text48">&quot;Resource&quot;</text>
+  <text
+     x="124.65175"
+     y="414.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text49">:</text>
+  <text
+     x="134.65175"
+     y="414.81757"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text50">[</text>
+  <text
+     x="69.651741"
+     y="429.81757"
+     style="font-weight:bold;font-size:11px;font-family:Consolas, 'Courier New', monospace;fill:#8b0000"
+     id="text51">&quot;arn:aws:kms:us-east-1:123456789012:key/1234abcd-12ab-34cd-56ef-1234567890ab&quot;</text>
+  <text
+     x="59.076839"
+     y="452.86621"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text52">]</text>
+  <!-- End second statement -->
+  <text
+     x="49.076839"
+     y="467.86621"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text53">}</text>
+  <!-- Close Statement array and policy -->
+  <text
+     x="39.076839"
+     y="482.86621"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text54">]</text>
+  <text
+     x="29.076838"
+     y="497.86621"
+     style="font-size:13px;font-family:Consolas, 'Courier New', monospace;fill:#000000"
+     id="text55">}</text>
+  <!-- Annotation arrows and labels for first statement -->
+  <!-- Arrow pointing to first Action -->
+  <path
+     d="M 141.85738,168.72858 285.05251,137.92703"
+     style="fill:none;stroke:#ffc107;stroke-width:2;marker-end:url(#arrowYellow)"
+     id="path55"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="294.76505"
+     y="142.41293"
+     style="font-weight:bold;font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#ffc107"
+     id="text56">Specific Action</text>
+  <text
+     x="294.76505"
+     y="155.41293"
+     style="font-size:10px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+     id="text57">Not s3:*</text>
+  <!-- Arrow pointing to first Resource -->
+  <path
+     d="M 171.73024,230.74074 365.80431,185.27916"
+     style="fill:none;stroke:#28a745;stroke-width:2;marker-end:url(#arrowGreen)"
+     id="path57"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="376.84079"
+     y="186.89055"
+     style="font-weight:bold;font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#28a745"
+     id="text58">Specific Resource</text>
+  <text
+     x="376.84079"
+     y="199.89055"
+     style="font-size:10px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+     id="text59">Not bucket/*</text>
+  <!-- Annotation for second statement -->
+  <!-- Arrow pointing to second Action -->
+  <path
+     d="m 145.42842,361.71641 117.03703,-32.2305"
+     style="fill:none;stroke:#ffc107;stroke-width:2;marker-end:url(#arrowYellow)"
+     id="path59"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="266.60309"
+     y="334.25925"
+     style="font-weight:bold;font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#ffc107"
+     id="text60">Specific KMS Action</text>
+  <text
+     x="266.60309"
+     y="347.25925"
+     style="font-size:10px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+     id="text61">Not kms:*</text>
+  <!-- Arrow pointing to second Resource -->
+  <path
+     d="M 291.58098,419.70426 362.91321,379.4251"
+     style="fill:none;stroke:#28a745;stroke-width:2;marker-end:url(#arrowGreen)"
+     id="path61"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="374.5246"
+     y="379.02432"
+     style="font-weight:bold;font-size:11px;font-family:Arial, Helvetica, sans-serif;fill:#28a745"
+     id="text62">Specific Key ARN</text>
+  <text
+     x="374.5246"
+     y="392.02432"
+     style="font-size:10px;font-family:Arial, Helvetica, sans-serif;fill:#666666"
+     id="text63">Not all keys</text>
+  <!-- Arrow markers -->
+  <defs
+     id="defs64">
+    <marker
+       id="arrowYellow"
+       markerWidth="8"
+       markerHeight="6"
+       refX="7"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 8 3, 0 6"
+         style="fill:#ffc107;"
+         id="polygon63" />
+    </marker>
+    <marker
+       id="arrowGreen"
+       markerWidth="8"
+       markerHeight="6"
+       refX="7"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 8 3, 0 6"
+         style="fill:#28a745;"
+         id="polygon64" />
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="cost_vs_rto_rpo_graph.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview37"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.015"
+     inkscape:cx="400"
+     inkscape:cy="300"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg37" />
+  <!-- Background -->
+  <rect
+     width="800"
+     height="600"
+     style="fill:#fafafa"
+     id="rect1" />
+  <!-- Graph area background -->
+  <rect
+     x="120"
+     y="80"
+     width="600"
+     height="420"
+     style="fill:white;stroke:#e0e0e0;stroke-width:1"
+     id="rect2" />
+  <!-- Grid lines (horizontal) -->
+  <line
+     x1="120"
+     y1="140"
+     x2="720"
+     y2="140"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line2" />
+  <line
+     x1="120"
+     y1="200"
+     x2="720"
+     y2="200"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line3" />
+  <line
+     x1="120"
+     y1="260"
+     x2="720"
+     y2="260"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line4" />
+  <line
+     x1="120"
+     y1="320"
+     x2="720"
+     y2="320"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line5" />
+  <line
+     x1="120"
+     y1="380"
+     x2="720"
+     y2="380"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line6" />
+  <line
+     x1="120"
+     y1="440"
+     x2="720"
+     y2="440"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line7" />
+  <!-- Grid lines (vertical) -->
+  <line
+     x1="220"
+     y1="80"
+     x2="220"
+     y2="500"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line8" />
+  <line
+     x1="320"
+     y1="80"
+     x2="320"
+     y2="500"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line9" />
+  <line
+     x1="420"
+     y1="80"
+     x2="420"
+     y2="500"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line10" />
+  <line
+     x1="520"
+     y1="80"
+     x2="520"
+     y2="500"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line11" />
+  <line
+     x1="620"
+     y1="80"
+     x2="620"
+     y2="500"
+     style="stroke:#f0f0f0;stroke-width:1"
+     id="line12" />
+  <!-- Axes -->
+  <line
+     x1="120"
+     y1="500"
+     x2="720"
+     y2="500"
+     style="stroke:#333;stroke-width:2"
+     id="line13" />
+  <line
+     x1="120"
+     y1="80"
+     x2="120"
+     y2="500"
+     style="stroke:#333;stroke-width:2"
+     id="line14" />
+  <!-- Y-axis label -->
+  <text
+     x="40"
+     y="290"
+     transform="rotate(-90 40 290)"
+     style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;fill:#333;text-anchor:middle"
+     id="text14">
+    DR Solution Cost
+  </text>
+  <!-- X-axis label -->
+  <text
+     x="420"
+     y="550"
+     style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;fill:#333;text-anchor:middle"
+     id="text15">
+    RTO / RPO (Recovery Time &amp; Point Objectives)
+  </text>
+  <!-- Cost curve (exponential-like) -->
+  <path
+     d="M 680 480 Q 600 470 520 450 Q 440 420 360 360 Q 280 280 220 180 Q 180 120 140 90"
+     style="fill:none;stroke:#d32f2f;stroke-width:4"
+     id="path15" />
+  <!-- Strategy markers and labels -->
+  <!-- Backup/Restore -->
+  <circle
+     cx="649.33667"
+     cy="475.94528"
+     r="6"
+     style="fill:#2196f3;stroke:#ffffff;stroke-width:2"
+     id="circle15" />
+  <rect
+     x="669.12103"
+     y="448.57379"
+     width="120"
+     height="50"
+     rx="5"
+     ry="5"
+     style="fill:#e3f2fd;stroke:#2196f3;stroke-width:1"
+     id="rect15" />
+  <text
+     x="679.12103"
+     y="466.57379"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#1976d2"
+     id="text16">Backup/Restore</text>
+  <text
+     x="679.12103"
+     y="481.57379"
+     style="font-size:10px;font-family:Arial, sans-serif;fill:#1565c0"
+     id="text17">High RTO/RPO</text>
+  <text
+     x="679.12103"
+     y="493.57379"
+     style="font-size:10px;font-family:Arial, sans-serif;fill:#1565c0"
+     id="text18">Low Cost</text>
+  <!-- Pilot Light -->
+  <circle
+     cx="549.33667"
+     cy="456.25208"
+     r="6"
+     style="fill:#ff9800;stroke:#ffffff;stroke-width:2"
+     id="circle18" />
+  <rect
+     x="558.88892"
+     y="400.61359"
+     width="100"
+     height="40"
+     rx="5"
+     ry="5"
+     style="fill:#fff3e0;stroke:#ff9800;stroke-width:1"
+     id="rect18" />
+  <text
+     x="568.88892"
+     y="418.61359"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#f57c00"
+     id="text19">Pilot Light</text>
+  <text
+     x="568.88892"
+     y="432.61359"
+     style="font-size:10px;font-family:Arial, sans-serif;fill:#ef6c00"
+     id="text20">Medium RTO/RPO</text>
+  <!-- Warm Standby -->
+  <circle
+     cx="420"
+     cy="400"
+     r="6"
+     style="fill:#4caf50;stroke:white;stroke-width:2"
+     id="circle20" />
+  <rect
+     x="403.01825"
+     y="346.35156"
+     width="110"
+     height="40"
+     rx="5"
+     ry="5"
+     style="fill:#e8f5e8;stroke:#4caf50;stroke-width:1"
+     id="rect20" />
+  <text
+     x="413.01825"
+     y="364.35156"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#388e3c"
+     id="text21">Warm Standby</text>
+  <text
+     x="413.01825"
+     y="378.35156"
+     style="font-size:10px;font-family:Arial, sans-serif;fill:#2e7d32"
+     id="text22">Lower RTO/RPO</text>
+  <!-- Multi-Site Active/Active -->
+  <circle
+     cx="207.29684"
+     cy="160.94527"
+     r="6"
+     style="fill:#9c27b0;stroke:#ffffff;stroke-width:2"
+     id="circle22" />
+  <rect
+     x="132.17247"
+     y="103.31675"
+     width="130"
+     height="50"
+     rx="5"
+     ry="5"
+     style="fill:#f3e5f5;stroke:#9c27b0;stroke-width:1"
+     id="rect22" />
+  <text
+     x="142.17247"
+     y="121.31675"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#7b1fa2"
+     id="text23">Multi-Site</text>
+  <text
+     x="142.17247"
+     y="135.31676"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#7b1fa2"
+     id="text24">Active/Active</text>
+  <text
+     x="142.17247"
+     y="149.31676"
+     style="font-size:10px;font-family:Arial, sans-serif;fill:#6a1b9a"
+     id="text25">Near-zero RTO/RPO</text>
+  <!-- Y-axis tick marks and labels -->
+  <line
+     x1="115"
+     y1="140"
+     x2="125"
+     y2="140"
+     style="stroke:#333;stroke-width:1"
+     id="line25" />
+  <text
+     x="110"
+     y="145"
+     style="font-family:Arial,sans-serif;font-size:12px;fill:#666;text-anchor:end"
+     id="text26">High</text>
+  <line
+     x1="115"
+     y1="260"
+     x2="125"
+     y2="260"
+     style="stroke:#333;stroke-width:1"
+     id="line26" />
+  <text
+     x="110"
+     y="265"
+     style="font-family:Arial,sans-serif;font-size:12px;fill:#666;text-anchor:end"
+     id="text27">Medium</text>
+  <line
+     x1="115"
+     y1="440"
+     x2="125"
+     y2="440"
+     style="stroke:#333;stroke-width:1"
+     id="line27" />
+  <text
+     x="110"
+     y="445"
+     style="font-family:Arial,sans-serif;font-size:12px;fill:#666;text-anchor:end"
+     id="text28">Low</text>
+  <!-- X-axis tick marks and labels -->
+  <line
+     x1="220"
+     y1="500"
+     x2="220"
+     y2="510"
+     style="stroke:#333;stroke-width:1"
+     id="line28" />
+  <text
+     x="220"
+     y="525"
+     style="font-family:Arial,sans-serif;font-size:11px;fill:#666;text-anchor:middle"
+     id="text29">Minutes</text>
+  <line
+     x1="320"
+     y1="500"
+     x2="320"
+     y2="510"
+     style="stroke:#333;stroke-width:1"
+     id="line29" />
+  <text
+     x="320"
+     y="525"
+     style="font-family:Arial,sans-serif;font-size:11px;fill:#666;text-anchor:middle"
+     id="text30">Hours</text>
+  <line
+     x1="520"
+     y1="500"
+     x2="520"
+     y2="510"
+     style="stroke:#333;stroke-width:1"
+     id="line30" />
+  <text
+     x="520"
+     y="525"
+     style="font-family:Arial,sans-serif;font-size:11px;fill:#666;text-anchor:middle"
+     id="text31">Days</text>
+  <line
+     x1="650"
+     y1="500"
+     x2="650"
+     y2="510"
+     style="stroke:#333;stroke-width:1"
+     id="line31" />
+  <text
+     x="650"
+     y="525"
+     style="font-family:Arial,sans-serif;font-size:11px;fill:#666;text-anchor:middle"
+     id="text32">Weeks</text>
+  <!-- Direction arrows -->
+  <defs
+     id="defs32">
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+    <marker
+       id="arrow"
+       markerWidth="8"
+       markerHeight="6"
+       refX="8"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 8 3, 0 6"
+         style="fill:#666"
+         id="polygon32" />
+    </marker>
+  </defs>
+  <!-- Arrow pointing left (decreasing RTO/RPO) -->
+  <!-- Title -->
+  <text
+     x="420"
+     y="40"
+     style="font-family:Arial,sans-serif;font-size:20px;font-weight:bold;fill:#333;text-anchor:middle"
+     id="text34">
+    DR Cost vs RTO/RPO Trade-off
+  </text>
+  <!-- Subtitle -->
+  <text
+     x="420"
+     y="60"
+     style="font-family:Arial,sans-serif;font-size:14px;fill:#666;text-anchor:middle"
+     id="text35">
+    The exponential relationship between recovery objectives and solution costs
+  </text>
+  <!-- Cost increase annotation -->
+  <path
+     d="m 331.17745,207.62852 q -50,-20 -100,-40"
+     style="fill:none;stroke:#f44336;stroke-width:2;stroke-dasharray:5, 3;marker-end:url(#RoundedArrow)"
+     id="path35" />
+  <text
+     x="339.90051"
+     y="201.65837"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#f44336"
+     id="text36">Exponential cost</text>
+  <text
+     x="339.90051"
+     y="216.65837"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;fill:#f44336"
+     id="text37">increase zone</text>
+</svg>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 600"
+   version="1.1"
+   id="svg44"
+   sodipodi:docname="appsync_architecture.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5075"
+     inkscape:cx="448.09287"
+     inkscape:cy="26.865672"
+     inkscape:window-width="1916"
+     inkscape:window-height="2022"
+     inkscape:window-x="-10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg44" />
+  <!-- Background -->
+  <rect
+     width="1000"
+     height="600"
+     style="fill:#f8f9fa"
+     id="rect1" />
+  <!-- Client(s) -->
+  <rect
+     x="50"
+     y="159.19183"
+     width="150"
+     height="140.80815"
+     rx="8"
+     ry="11.264652"
+     style="fill:#e3f2fd;stroke:#1976d2;stroke-width:2"
+     id="rect2" />
+  <text
+     x="119.84035"
+     y="205.60893"
+     style="font-weight:bold;font-size:14px;font-family:Arial, sans-serif;text-anchor:middle;fill:#1565c0"
+     id="text2">Client(s)</text>
+  <text
+     x="126.87625"
+     y="220.4493"
+     style="font-size:12px;font-family:Arial, sans-serif;text-anchor:middle;fill:#1976d2"
+     id="text3">(Mobile/Web)</text>
+  <!-- Mobile Icon -->
+  <rect
+     x="65.388603"
+     y="232.58414"
+     width="30.1"
+     height="30.5"
+     rx="3.01"
+     ry="3.05"
+     style="fill:#1976d2;stroke:#1565c0;stroke-width:0.999999"
+     id="rect3" />
+  <text
+     x="80.971321"
+     y="252.2635"
+     style="font-size:15.1497px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff;stroke-width:0.999999"
+     id="text4"
+     transform="scale(0.99342098,1.0066226)">📱</text>
+  <!-- Web Icon -->
+  <rect
+     x="160.4594"
+     y="233.05321"
+     width="30.1"
+     height="30.5"
+     rx="3.01"
+     ry="3.05"
+     style="fill:#1976d2;stroke:#1565c0;stroke-width:0.999999"
+     id="rect4" />
+  <text
+     x="176.67174"
+     y="252.72948"
+     style="font-size:15.1497px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff;stroke-width:0.999999"
+     id="text5"
+     transform="scale(0.99342098,1.0066226)">🌐</text>
+  <!-- AWS AppSync (Central Component) -->
+  <rect
+     x="341.79105"
+     y="151.99005"
+     width="300"
+     height="200"
+     rx="10"
+     ry="10"
+     style="fill:#fff3e0;stroke:#ff9800;stroke-width:3"
+     id="rect5" />
+  <text
+     x="491.79105"
+     y="176.99005"
+     style="font-weight:bold;font-size:16px;font-family:Arial, sans-serif;text-anchor:middle;fill:#e65100"
+     id="text6">AWS AppSync</text>
+  <text
+     x="491.79105"
+     y="196.99005"
+     style="font-size:12px;font-family:Arial, sans-serif;text-anchor:middle;fill:#bf360c"
+     id="text7">(Managed GraphQL API)</text>
+  <!-- AppSync Icon -->
+  <rect
+     x="318.9801"
+     y="177.55389"
+     width="77.067993"
+     height="24"
+     rx="6.4223328"
+     ry="2"
+     style="fill:#ff9800;stroke:#e65100;stroke-width:0.999999"
+     id="rect7" />
+  <text
+     x="356.51907"
+     y="194.55389"
+     style="font-size:8px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff"
+     id="text8">GQL API Endpoint</text>
+  <!-- GraphQL Schema -->
+  <rect
+     x="374.72638"
+     y="207.36612"
+     width="120"
+     height="51.25742"
+     rx="5"
+     ry="6.4071774"
+     style="fill:#e1f5fe;stroke:#0288d1;stroke-width:1"
+     id="rect8" />
+  <text
+     x="434.72638"
+     y="239.91347"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;text-anchor:middle;fill:#0277bd"
+     id="text9">GraphQL Schema</text>
+  <text
+     x="434.72638"
+     y="253.62355"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#01579b"
+     id="text10">(SDL)</text>
+  <!-- Schema Icon -->
+  <rect
+     x="383.94794"
+     y="211.7798"
+     width="16"
+     height="16"
+     rx="1"
+     ry="1"
+     style="fill:#0288d1;stroke:#0277bd;stroke-width:1"
+     id="rect10" />
+  <text
+     x="391.83066"
+     y="222.07622"
+     style="font-size:8px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff"
+     id="text11">📄</text>
+  <!-- Resolvers -->
+  <rect
+     x="512.8501"
+     y="292.26587"
+     width="120"
+     height="40"
+     rx="5"
+     ry="5"
+     style="fill:#e8f5e8;stroke:#388e3c;stroke-width:1"
+     id="rect11" />
+  <text
+     x="572.8501"
+     y="312.26587"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;text-anchor:middle;fill:#2e7d32"
+     id="text12">Resolvers</text>
+  <text
+     x="572.8501"
+     y="327.26587"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#1b5e20"
+     id="text13">(VTL/JS)</text>
+  <!-- Resolver Icon -->
+  <rect
+     x="517.8501"
+     y="297.26587"
+     width="16"
+     height="16"
+     rx="1"
+     ry="1"
+     style="fill:#388e3c;stroke:#2e7d32;stroke-width:1"
+     id="rect13" />
+  <text
+     x="525.85016"
+     y="308.26587"
+     style="font-size:8px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff"
+     id="text14">⚙</text>
+  <!-- Data Sources -->
+  <!-- DynamoDB -->
+  <rect
+     x="775.72424"
+     y="100.38858"
+     width="120"
+     height="60"
+     rx="6"
+     ry="6"
+     style="fill:#f3e5f5;stroke:#7b1fa2;stroke-width:2"
+     id="rect14" />
+  <text
+     x="835.72424"
+     y="125.38858"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;text-anchor:middle;fill:#6a1b9a"
+     id="text15">Amazon</text>
+  <text
+     x="835.72424"
+     y="140.38858"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;text-anchor:middle;fill:#6a1b9a"
+     id="text16">DynamoDB</text>
+  <text
+     x="835.72424"
+     y="151.63611"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#4a148c"
+     id="text17">(NoSQL Database)</text>
+  <!-- DynamoDB Icon -->
+  <rect
+     x="785.72424"
+     y="105.38858"
+     width="18"
+     height="18"
+     rx="2"
+     ry="2"
+     style="fill:#9c27b0;stroke:#7b1fa2;stroke-width:1"
+     id="rect17" />
+  <text
+     x="794.72424"
+     y="118.38858"
+     style="font-size:8px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff"
+     id="text18">DB</text>
+  <!-- Lambda -->
+  <rect
+     x="775.72424"
+     y="200.38858"
+     width="120"
+     height="60"
+     rx="6"
+     ry="6"
+     style="fill:#fff3e0;stroke:#ff9800;stroke-width:2"
+     id="rect18" />
+  <text
+     x="835.25519"
+     y="234.76976"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;text-anchor:middle;fill:#e65100"
+     id="text19">AWS Lambda</text>
+  <text
+     x="835.72424"
+     y="248.672"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#bf360c"
+     id="text20">(Serverless Functions)</text>
+  <!-- Lambda Icon -->
+  <rect
+     x="785.72424"
+     y="205.38858"
+     width="18"
+     height="18"
+     rx="2"
+     ry="2"
+     style="fill:#ff9800;stroke:#e65100;stroke-width:1"
+     id="rect20" />
+  <text
+     x="794.72424"
+     y="218.38858"
+     style="font-size:10px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff"
+     id="text21">λ</text>
+  <!-- OpenSearch -->
+  <rect
+     x="775.72424"
+     y="300.38858"
+     width="120"
+     height="60"
+     rx="6"
+     ry="6"
+     style="fill:#e8f5e8;stroke:#388e3c;stroke-width:2"
+     id="rect21" />
+  <text
+     x="835.72424"
+     y="320.38858"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;text-anchor:middle;fill:#2e7d32"
+     id="text22">Amazon</text>
+  <text
+     x="835.72424"
+     y="335.38858"
+     style="font-weight:bold;font-size:11px;font-family:Arial, sans-serif;text-anchor:middle;fill:#2e7d32"
+     id="text23">OpenSearch</text>
+  <text
+     x="835.72424"
+     y="350.38858"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#1b5e20"
+     id="text24">(Search Service)</text>
+  <!-- OpenSearch Icon -->
+  <rect
+     x="785.72424"
+     y="305.38858"
+     width="18"
+     height="18"
+     rx="2"
+     ry="2"
+     style="fill:#4caf50;stroke:#388e3c;stroke-width:1"
+     id="rect24" />
+  <text
+     x="794.72424"
+     y="318.38858"
+     style="font-size:8px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff"
+     id="text25">🔍</text>
+  <!-- HTTP Endpoint -->
+  <rect
+     x="775.72424"
+     y="400.38858"
+     width="120"
+     height="60"
+     rx="6"
+     ry="6"
+     style="fill:#f5f5f5;stroke:#666666;stroke-width:2"
+     id="rect25" />
+  <text
+     x="837.13141"
+     y="435.23883"
+     style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;text-anchor:middle;fill:#333333"
+     id="text26">HTTP Endpoint</text>
+  <text
+     x="837.13141"
+     y="449.61011"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#666666"
+     id="text27">(External API)</text>
+  <!-- HTTP Icon -->
+  <rect
+     x="785.72424"
+     y="405.38858"
+     width="18"
+     height="18"
+     rx="2"
+     ry="2"
+     style="fill:#666666;stroke:#333333;stroke-width:1"
+     id="rect27" />
+  <text
+     x="794.72424"
+     y="418.38858"
+     style="font-size:8px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff"
+     id="text28">🌐</text>
+  <!-- Arrow definitions -->
+  <defs
+     id="defs31">
+    <marker
+       id="queryArrow"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         style="fill:#2196f3"
+         id="polygon28" />
+    </marker>
+    <marker
+       id="responseArrow"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto-start-reverse"
+       viewBox="0 0 10 7"
+       preserveAspectRatio="xMidYMid">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         style="fill:#4caf50"
+         id="polygon29" />
+    </marker>
+    <marker
+       id="dataArrow"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         style="fill:#ff9800"
+         id="polygon30" />
+    </marker>
+    <marker
+       id="subscriptionArrow"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         style="fill:#e91e63"
+         id="polygon31" />
+    </marker>
+  </defs>
+  <!-- Query/Mutation Flow -->
+  <!-- 1. Client to AppSync -->
+  <path
+     id="line31"
+     style="stroke:#2196f3;stroke-width:3;marker-end:url(#queryArrow)"
+     d="M 202.10385,188.91708 H 288.1735"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="266.69754"
+     y="170.29352"
+     style="font-weight:bold;font-size:10px;font-family:Arial, sans-serif;text-anchor:middle;fill:#1976d2"
+     id="text31">1. GraphQL Query/Mutation</text>
+  <!-- 2. Internal AppSync processing (Schema validation) -->
+  <path
+     id="line32"
+     style="stroke:#0288d1;stroke-width:2;marker-end:url(#queryArrow)"
+     d="m 465.68428,259.4317 37.74506,22.9839"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="541.31299"
+     y="261.04568"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#0277bd"
+     id="text32"><tspan
+       sodipodi:role="line"
+       id="tspan44"
+       x="541.31299"
+       y="261.04568">2. Validate &amp; Route</tspan><tspan
+       sodipodi:role="line"
+       id="tspan45"
+       x="541.31299"
+       y="272.29568">Request</tspan></text>
+  <!-- 3. Resolvers to Data Sources -->
+  <path
+     id="line33"
+     style="stroke:#ff9800;stroke-width:2;marker-start:url(#responseArrow);marker-end:url(#dataArrow)"
+     d="M 646.24876,280.56487 763.05155,174.88018"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="650.88831"
+     y="378.98523"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#f57c00"
+     id="text33">3. Fetch/Write Data</text>
+  <path
+     id="line34"
+     style="stroke:#ff9800;stroke-width:2;marker-start:url(#responseArrow);marker-end:url(#dataArrow)"
+     d="M 650.85887,301.54179 757.08139,245.15705"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line35"
+     style="stroke:#ff9800;stroke-width:2;marker-start:url(#responseArrow);marker-end:url(#dataArrow)"
+     d="m 652.49367,326.0436 103.3415,-1.68613"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line36"
+     style="stroke:#ff9800;stroke-width:2;marker-start:url(#responseArrow);marker-end:url(#dataArrow)"
+     d="m 647.34783,342.64612 108.84259,55.6188"
+     sodipodi:nodetypes="cc" />
+  <!-- 4. Data Sources back to Resolvers -->
+  <text
+     x="649.0592"
+     y="398.40366"
+     style="font-size:9px;font-family:Arial, sans-serif;text-anchor:middle;fill:#388e3c"
+     id="text37">4. Data Returned</text>
+  <!-- 5. AppSync to Client -->
+  <path
+     id="line41"
+     style="stroke:#4caf50;stroke-width:3;marker-end:url(#responseArrow)"
+     d="m 337.81094,271.99005 -105.97015,0"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="273.88058"
+     y="293.62354"
+     style="font-weight:bold;font-size:10px;font-family:Arial, sans-serif;text-anchor:middle;fill:#388e3c"
+     id="text41">5. GraphQL Response</text>
+  <!-- WebSocket Subscription Flow -->
+  <path
+     d="M 62.431291,157.04084 C 69.72814,-51.748544 250.58043,43.366501 467.2471,43.366501 l 0,78.772799"
+     style="fill:none;stroke:#e91e63;stroke-width:3;stroke-dasharray:8, 4;marker-end:url(#subscriptionArrow)"
+     id="path41"
+     sodipodi:nodetypes="ccc" />
+  <text
+     x="453.84744"
+     y="30.049751"
+     style="font-weight:bold;font-size:10px;font-family:Arial, sans-serif;text-anchor:middle;fill:#c2185b"
+     id="text42">GraphQL Subscription (WebSocket)</text>
+  <!-- Real-time Data Push -->
+  <path
+     d="M 347.18076,149.33665 C 347.18076,82.669983 341.66667,83.830846 125,83.830846 v 46.748384"
+     style="fill:none;stroke:#e91e63;stroke-width:3;stroke-dasharray:8, 4;marker-end:url(#subscriptionArrow)"
+     id="path42"
+     sodipodi:nodetypes="ccc" />
+  <text
+     x="250.35187"
+     y="110.74721"
+     style="font-weight:bold;font-size:10px;font-family:Arial, sans-serif;text-anchor:middle;fill:#c2185b"
+     id="text43">Real-time Data Push</text>
+  <!-- Data Source Change Trigger (conceptual) -->
+</svg>

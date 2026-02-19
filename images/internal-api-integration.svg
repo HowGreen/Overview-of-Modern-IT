@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="600"
+   viewBox="0 0 1000 600"
+   font-family="Arial, sans-serif"
+   id="svg-internal-api-integration"
+   version="1.1"
+   sodipodi:docname="internal-api-integration.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.015"
+     inkscape:cx="500"
+     inkscape:cy="300"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg-internal-api-integration" />
+  <defs
+     id="defs3">
+    <!-- Arrow markers -->
+    <marker
+       id="arrow-request"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#007bff"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrow-internal-route"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#28a745"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="arrow-response"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#6c757d"
+         id="polygon3" />
+    </marker>
+  </defs>
+  <!-- Title -->
+  <text
+     x="500"
+     y="45"
+     font-size="24px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text3">Secure Internal API Integration via API Gateway</text>
+  <!-- VPC Boundary -->
+  <rect
+     id="rect-vpc-boundary"
+     x="30"
+     y="80"
+     width="940"
+     height="480"
+     rx="15"
+     ry="15"
+     fill="#f8f9fa"
+     stroke="#e9ecef"
+     stroke-width="1.5" />
+  <text
+     id="label-vpc"
+     x="60"
+     y="110"
+     font-size="13px"
+     font-style="italic"
+     fill="#6c757d">AWS Virtual Private Cloud (VPC)</text>
+  <!-- Private Subnet A -->
+  <rect
+     id="rect-subnet-a"
+     x="60"
+     y="130"
+     width="250"
+     height="400"
+     rx="8"
+     ry="8"
+     fill="#f8f9fa"
+     stroke="#e9ecef"
+     stroke-width="1.5"
+     stroke-dasharray="5,3" />
+  <text
+     x="90"
+     y="150"
+     font-size="11px"
+     fill="#6c757d"
+     id="text4">Private Subnet A</text>
+  <!-- Private Subnet B -->
+  <rect
+     id="rect-subnet-b"
+     x="690"
+     y="130"
+     width="250"
+     height="400"
+     rx="8"
+     ry="8"
+     fill="#f8f9fa"
+     stroke="#e9ecef"
+     stroke-width="1.5"
+     stroke-dasharray="5,3" />
+  <text
+     x="720"
+     y="150"
+     font-size="11px"
+     fill="#6c757d"
+     id="text5">Private Subnet B</text>
+  <!-- Internal Application A (Consuming Application) -->
+  <g
+     id="group-app-a">
+    <rect
+       id="rect-app-a"
+       x="80"
+       y="250"
+       width="200"
+       height="100"
+       rx="8"
+       ry="8"
+       fill="#e0f2f1"
+       stroke="#a7d8de"
+       stroke-width="1" />
+    <text
+       id="icon-app-a"
+       x="180"
+       y="290"
+       font-size="36px"
+       text-anchor="middle">💻 📱</text>
+    <text
+       id="label-app-a"
+       x="180"
+       y="325"
+       font-size="14px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#004d40">Internal Application A</text>
+    <text
+       x="180"
+       y="343"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#00695c"
+       id="text6">(e.g., Expense App)</text>
+    <!-- IAM Role indicator for App A -->
+    <rect
+       x="85"
+       y="360"
+       width="190"
+       height="20"
+       rx="3"
+       ry="3"
+       fill="#e0f2f1"
+       stroke="#a7d8de"
+       stroke-width="1"
+       id="rect6" />
+    <text
+       x="180"
+       y="374"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#004d40"
+       id="text7">IAM Role: ExpenseApp-ApiConsumer</text>
+  </g>
+  <!-- Arrow 1 (App A to API Gateway) - Request -->
+  <line
+     id="arrow-appA-to-apigw"
+     x1="280.02307"
+     y1="297.68634"
+     x2="388.0321"
+     y2="297.68634"
+     stroke="#007bff"
+     stroke-width="2.47943"
+     marker-end="url(#arrow-request)" />
+  <text
+     id="label-arrow1"
+     x="337.38577"
+     y="284.8056"
+     font-size="10.9095px"
+     text-anchor="middle"
+     fill="#007bff"
+     transform="scale(0.99004645,1.0100536)"
+     style="stroke-width:0.991772">HTTPS Request</text>
+  <!-- Security lock icon for request -->
+  <text
+     x="330"
+     y="315"
+     font-size="16px"
+     text-anchor="middle"
+     fill="#6c757d"
+     id="text8">🔒</text>
+  <!-- Response Arrow (API Gateway to App A) - Response -->
+  <line
+     id="arrow-apigw-to-appA-response"
+     x1="390"
+     y1="320"
+     x2="281.96329"
+     y2="320"
+     stroke="#6c757d"
+     stroke-width="1.48655"
+     stroke-dasharray="4, 2"
+     marker-end="url(#arrow-response)" />
+  <text
+     id="label-arrow1-response"
+     x="335"
+     y="337"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#6c757d">Response</text>
+  <!-- Amazon API Gateway -->
+  <g
+     id="group-api-gateway">
+    <rect
+       id="rect-api-gateway"
+       x="390"
+       y="200"
+       width="220"
+       height="200"
+       rx="8"
+       ry="8"
+       fill="#fff8e1"
+       stroke="#ffecb3"
+       stroke-width="1" />
+    <text
+       id="label-api-gateway-main"
+       x="500"
+       y="230"
+       font-size="16px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#e65100">Amazon API Gateway</text>
+    <!-- Security shield icon -->
+    <text
+       x="434.02985"
+       y="217.72803"
+       font-size="16px"
+       text-anchor="middle"
+       fill="#6c757d"
+       id="text9">🛡️</text>
+    <!-- Feature list -->
+    <text
+       x="500"
+       y="260"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text10">- Private/Regional Endpoint -</text>
+    <text
+       x="500"
+       y="280"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text11">- IAM Auth / Resource Policy -</text>
+    <text
+       x="500"
+       y="300"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text12">- Request Validation -</text>
+    <text
+       x="500"
+       y="320"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text13">- Monitoring (CloudWatch) -</text>
+    <text
+       x="500"
+       y="340"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#333333"
+       id="text14">- Security (WAF Integration) -</text>
+    <!-- VPC Link / VPC Endpoint -->
+    <rect
+       x="446.69675"
+       y="360.01352"
+       width="105.61149"
+       height="19.973019"
+       rx="10.56115"
+       ry="9.9865093"
+       fill="#ffffff"
+       stroke="#ffecb3"
+       stroke-width="1.02698"
+       id="rect14" />
+    <text
+       x="500"
+       y="374"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#e65100"
+       id="text15">VPC Link / Endpoint</text>
+  </g>
+  <!-- Arrow 2 (API Gateway to App B) - Request -->
+  <line
+     id="arrow-apigw-to-appB"
+     x1="609.69141"
+     y1="298.01801"
+     x2="717.70044"
+     y2="298.01801"
+     stroke="#28a745"
+     stroke-width="2.47943"
+     marker-end="url(#arrow-internal-route)" />
+  <text
+     id="label-arrow2"
+     x="670.36847"
+     y="285.13397"
+     font-size="10.9095px"
+     text-anchor="middle"
+     fill="#28a745"
+     transform="scale(0.99004645,1.0100536)"
+     style="stroke-width:0.991772">Secure Invocation</text>
+  <!-- Security lock icon for invocation -->
+  <text
+     x="665"
+     y="315"
+     font-size="16px"
+     text-anchor="middle"
+     fill="#6c757d"
+     id="text16">🔒</text>
+  <!-- Response Arrow (App B to API Gateway) - Response -->
+  <line
+     id="arrow-appB-to-apigw-response"
+     x1="720"
+     y1="320"
+     x2="612.61768"
+     y2="320"
+     stroke="#6c757d"
+     stroke-width="1.48204"
+     stroke-dasharray="4, 2"
+     marker-end="url(#arrow-response)" />
+  <text
+     id="label-arrow2-response"
+     x="665"
+     y="337"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#6c757d">Response</text>
+  <!-- Internal Application B (Providing Application/Backend) -->
+  <g
+     id="group-app-b">
+    <rect
+       id="rect-app-b"
+       x="720"
+       y="250"
+       width="200"
+       height="100"
+       rx="8"
+       ry="8"
+       fill="#e8f5e9"
+       stroke="#a5d6a7"
+       stroke-width="1" />
+    <text
+       id="icon-app-b"
+       x="820"
+       y="290"
+       font-size="36px"
+       text-anchor="middle">🖥️ 🗄️</text>
+    <text
+       id="label-app-b"
+       x="820"
+       y="325"
+       font-size="14px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#1b5e20">Internal Application B</text>
+    <text
+       x="820"
+       y="343"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2e7d32"
+       id="text17">(e.g., HR System Backend)</text>
+    <!-- IAM Role indicator for App B -->
+    <rect
+       x="725"
+       y="360"
+       width="190"
+       height="20"
+       rx="3"
+       ry="3"
+       fill="#e8f5e9"
+       stroke="#a5d6a7"
+       stroke-width="1"
+       id="rect17" />
+    <text
+       x="820"
+       y="374"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#1b5e20"
+       id="text18">IAM Role: HRSystem-ApiProvider</text>
+  </g>
+  <!-- Security Callout Box -->
+  <rect
+     x="375"
+     y="430"
+     width="250"
+     height="80"
+     rx="5"
+     ry="5"
+     fill="#f8f9fa"
+     stroke="#e9ecef"
+     stroke-width="1"
+     id="rect18" />
+  <text
+     x="500"
+     y="450"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#232f3e"
+     id="text19">Security Benefits</text>
+  <text
+     x="385"
+     y="470"
+     font-size="10px"
+     fill="#333333"
+     id="text20">• No public internet exposure for internal APIs</text>
+  <text
+     x="385"
+     y="485"
+     font-size="10px"
+     fill="#333333"
+     id="text21">• Fine-grained access control via IAM</text>
+  <text
+     x="385"
+     y="500"
+     font-size="10px"
+     fill="#333333"
+     id="text22">• Traffic monitoring and request validation</text>
+</svg>

@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 652.27026"
+   version="1.1"
+   id="svg60"
+   sodipodi:docname="dx-dxgw-tgw-topology.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   width="900"
+   height="652.27026"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview60"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="353.55339"
+     inkscape:cy="511.76853"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg60" />
+  <!-- White background -->
+  <rect
+     width="100%"
+     height="93.181465%"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.999999" />
+  <!-- Definitions for arrowheads -->
+  <defs
+     id="defs6">
+    <marker
+       style="overflow:visible"
+       id="marker61"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path61" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker60"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path60" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+    <marker
+       id="arrowBlack"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 V 6 L 9,3 Z"
+         fill="#374151"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrowBlackStart"
+       markerWidth="10"
+       markerHeight="10"
+       refX="0"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 9,0 V 6 L 0,3 Z"
+         fill="#374151"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrowOrange"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 V 6 L 9,3 Z"
+         fill="#ea580c"
+         id="path3" />
+    </marker>
+    <marker
+       id="arrowOrangeStart"
+       markerWidth="10"
+       markerHeight="10"
+       refX="0"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 9,0 V 6 L 0,3 Z"
+         fill="#ea580c"
+         id="path4" />
+    </marker>
+    <marker
+       id="arrowPurple"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 V 6 L 9,3 Z"
+         fill="#7c3aed"
+         id="path5" />
+    </marker>
+    <marker
+       id="arrowPurpleStart"
+       markerWidth="10"
+       markerHeight="10"
+       refX="0"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 9,0 V 6 L 0,3 Z"
+         fill="#7c3aed"
+         id="path6" />
+    </marker>
+  </defs>
+  <!-- Title annotation -->
+  <text
+     x="450"
+     y="25"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text6">Complete Enterprise Direct Connect Topology</text>
+  <!-- On-Premises Router -->
+  <rect
+     x="375"
+     y="50"
+     width="150"
+     height="70"
+     rx="5"
+     fill="#f3f4f6"
+     stroke="#374151"
+     stroke-width="2"
+     id="rect6" />
+  <text
+     x="450"
+     y="78"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text7">On-Premises</text>
+  <text
+     x="450"
+     y="96"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text8">Router</text>
+  <text
+     x="450"
+     y="112"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#6b7280"
+     id="text9">BGP Session</text>
+  <!-- Direct Connect Layer -->
+  <rect
+     x="200"
+     y="170"
+     width="500"
+     height="100"
+     rx="8"
+     fill="#fef3c7"
+     stroke="#f59e0b"
+     stroke-width="2"
+     stroke-dasharray="5, 5"
+     id="rect9" />
+  <text
+     x="469.73465"
+     y="188.51741"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#92400e"
+     id="text10">Direct Connect Location</text>
+  <!-- Individual DX connections in LAG -->
+  <rect
+     x="230"
+     y="210"
+     width="100"
+     height="45"
+     rx="4"
+     fill="#fed7aa"
+     stroke="#ea580c"
+     stroke-width="2"
+     id="rect10" />
+  <text
+     x="280"
+     y="228"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#9a3412"
+     id="text11">DX Circuit 1</text>
+  <text
+     x="280"
+     y="243"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#7c2d12"
+     id="text12">10 Gbps</text>
+  <rect
+     x="360"
+     y="210"
+     width="100"
+     height="45"
+     rx="4"
+     fill="#fed7aa"
+     stroke="#ea580c"
+     stroke-width="2"
+     id="rect12" />
+  <text
+     x="410"
+     y="228"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#9a3412"
+     id="text13">DX Circuit 2</text>
+  <text
+     x="410"
+     y="243"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#7c2d12"
+     id="text14">10 Gbps</text>
+  <rect
+     x="563.5213"
+     y="203.42178"
+     width="100"
+     height="45"
+     rx="4"
+     fill="#fed7aa"
+     stroke="#ea580c"
+     stroke-width="2"
+     id="rect14" />
+  <text
+     x="613.5213"
+     y="221.42178"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#9a3412"
+     id="text15">DX Circuit 3</text>
+  <text
+     x="613.5213"
+     y="236.42178"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#7c2d12"
+     id="text16">10 Gbps</text>
+  <!-- LAG annotation -->
+  <text
+     x="498.88611"
+     y="265.70868"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-style="italic"
+     fill="#92400e"
+     id="text17">Link Aggregation Group (LAG)</text>
+  <!-- Connection from On-Prem to DX -->
+  <path
+     d="M 450,133.93035 V 150 H 280 v 44.52184"
+     stroke="#374151"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowBlack)"
+     marker-start="url(#arrowBlackStart)"
+     id="path17"
+     style="marker-start:url(#RoundedArrow);marker-end:url(#marker60)"
+     sodipodi:nodetypes="cccc" />
+  <path
+     d="m 434.90879,150 -62.83029,0.38695 0.38695,44.13488"
+     stroke="#374151"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowBlack)"
+     marker-start="url(#arrowBlackStart)"
+     id="path18"
+     style="marker-start:url(#marker61);marker-end:url(#marker61)"
+     sodipodi:nodetypes="ccc" />
+  <path
+     d="m 463.93035,150 h 142.62576 l 0.77391,38.71752"
+     stroke="#374151"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowBlack)"
+     marker-start="url(#arrowBlackStart)"
+     id="path19"
+     style="marker-start:url(#RoundedArrow);marker-end:url(#marker60)"
+     sodipodi:nodetypes="ccc" />
+  <!-- Direct Connect Gateway -->
+  <rect
+     x="325"
+     y="310"
+     width="250"
+     height="80"
+     rx="8"
+     fill="#e0e7ff"
+     stroke="#4f46e5"
+     stroke-width="2.5"
+     id="rect19" />
+  <text
+     x="450"
+     y="338"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#3730a3"
+     id="text19">Direct Connect Gateway</text>
+  <text
+     x="450"
+     y="356"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#4338ca"
+     id="text20">(DXGW)</text>
+  <text
+     x="450"
+     y="374"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#4338ca"
+     id="text21">Global routing layer</text>
+  <!-- Transit VIF connections from DX to DXGW -->
+  <path
+     d="m 280,265.44776 v 19.95605 l 100,-0.70711 v 12.63402"
+     stroke="#ea580c"
+     stroke-width="2.5"
+     fill="none"
+     marker-end="url(#arrowOrange)"
+     marker-start="url(#arrowOrangeStart)"
+     id="path21"
+     style="marker-start:url(#RoundedArrow);marker-end:url(#marker60)"
+     sodipodi:nodetypes="cccc" />
+  <path
+     d="m 410,265.83472 v 20.27619 l 20,-0.35355 v 11.1864"
+     stroke="#ea580c"
+     stroke-width="2.5"
+     fill="none"
+     marker-end="url(#arrowOrange)"
+     marker-start="url(#arrowOrangeStart)"
+     id="path22"
+     style="marker-start:url(#RoundedArrow);marker-end:url(#marker60)"
+     sodipodi:nodetypes="cccc" />
+  <path
+     d="m 612.74737,261.96518 0.38696,23.79218 L 520,285.40381 v 12.21366"
+     stroke="#ea580c"
+     stroke-width="2.5"
+     fill="none"
+     marker-end="url(#arrowOrange)"
+     marker-start="url(#arrowOrangeStart)"
+     id="path23"
+     style="marker-start:url(#RoundedArrow);marker-end:url(#marker60)"
+     sodipodi:nodetypes="cccc" />
+  <!-- Transit VIF label -->
+  <text
+     x="210"
+     y="285"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#9a3412"
+     font-style="italic"
+     id="text23">Transit VIF</text>
+  <!-- Transit Gateways -->
+  <!-- Region 1 -->
+  <rect
+     x="90"
+     y="450"
+     width="180"
+     height="70"
+     rx="6"
+     fill="#dbeafe"
+     stroke="#0284c7"
+     stroke-width="2"
+     id="rect23" />
+  <text
+     x="180"
+     y="473"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#075985"
+     id="text24">Transit Gateway</text>
+  <text
+     x="180"
+     y="490"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#0c4a6e"
+     id="text25">us-east-1</text>
+  <text
+     x="180"
+     y="506"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#0c4a6e"
+     id="text26">Regional routing</text>
+  <!-- Region 2 -->
+  <rect
+     x="310"
+     y="450"
+     width="180"
+     height="70"
+     rx="6"
+     fill="#dbeafe"
+     stroke="#0284c7"
+     stroke-width="2"
+     id="rect26" />
+  <text
+     x="400"
+     y="473"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#075985"
+     id="text27">Transit Gateway</text>
+  <text
+     x="400"
+     y="490"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#0c4a6e"
+     id="text28">eu-west-1</text>
+  <text
+     x="400"
+     y="506"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#0c4a6e"
+     id="text29">Regional routing</text>
+  <!-- Region 3 -->
+  <rect
+     x="530"
+     y="450"
+     width="180"
+     height="70"
+     rx="6"
+     fill="#dbeafe"
+     stroke="#0284c7"
+     stroke-width="2"
+     id="rect29" />
+  <text
+     x="620"
+     y="473"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#075985"
+     id="text30">Transit Gateway</text>
+  <text
+     x="620"
+     y="490"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#0c4a6e"
+     id="text31">ap-southeast-1</text>
+  <text
+     x="620"
+     y="506"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#0c4a6e"
+     id="text32">Regional routing</text>
+  <!-- Connections from DXGW to TGWs -->
+  <path
+     d="M 318.4743,395.0304 249.26478,441.487"
+     stroke="#7c3aed"
+     stroke-width="2.5"
+     fill="none"
+     marker-end="url(#arrowPurple)"
+     marker-start="url(#arrowPurpleStart)"
+     id="path32"
+     style="marker-start:url(#RoundedArrow);marker-end:url(#marker60)"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 426.13046,399.2869 -23.42178,39.49143"
+     stroke="#7c3aed"
+     stroke-width="2.5"
+     fill="none"
+     marker-end="url(#arrowPurple)"
+     marker-start="url(#arrowPurpleStart)"
+     id="path33"
+     style="marker-start:url(#RoundedArrow);marker-end:url(#marker60)"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 533.66315,399.37325 41.06321,41.33986"
+     stroke="#7c3aed"
+     stroke-width="2.5"
+     fill="none"
+     marker-end="url(#arrowPurple)"
+     marker-start="url(#arrowPurpleStart)"
+     id="path34"
+     style="marker-start:url(#RoundedArrow);marker-end:url(#marker60)"
+     sodipodi:nodetypes="cc" />
+  <!-- VPCs -->
+  <!-- Region 1 VPCs -->
+  <rect
+     x="50"
+     y="580"
+     width="80"
+     height="50"
+     rx="4"
+     fill="#f0f9ff"
+     stroke="#0284c7"
+     stroke-width="1.5"
+     id="rect34" />
+  <text
+     x="90"
+     y="602"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#075985"
+     id="text34">VPC</text>
+  <text
+     x="90"
+     y="616"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#0c4a6e"
+     id="text35">10.1.0.0/16</text>
+  <rect
+     x="145"
+     y="580"
+     width="80"
+     height="50"
+     rx="4"
+     fill="#f0f9ff"
+     stroke="#0284c7"
+     stroke-width="1.5"
+     id="rect35" />
+  <text
+     x="185"
+     y="602"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#075985"
+     id="text36">VPC</text>
+  <text
+     x="185"
+     y="616"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#0c4a6e"
+     id="text37">10.2.0.0/16</text>
+  <rect
+     x="240"
+     y="580"
+     width="80"
+     height="50"
+     rx="4"
+     fill="#f0f9ff"
+     stroke="#0284c7"
+     stroke-width="1.5"
+     id="rect37" />
+  <text
+     x="280"
+     y="602"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#075985"
+     id="text38">VPC</text>
+  <text
+     x="280"
+     y="616"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#0c4a6e"
+     id="text39">10.3.0.0/16</text>
+  <!-- Region 2 VPCs -->
+  <rect
+     x="320"
+     y="580"
+     width="80"
+     height="50"
+     rx="4"
+     fill="#f0f9ff"
+     stroke="#0284c7"
+     stroke-width="1.5"
+     id="rect39" />
+  <text
+     x="360"
+     y="602"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#075985"
+     id="text40">VPC</text>
+  <text
+     x="360"
+     y="616"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#0c4a6e"
+     id="text41">10.10.0.0/16</text>
+  <rect
+     x="415"
+     y="580"
+     width="80"
+     height="50"
+     rx="4"
+     fill="#f0f9ff"
+     stroke="#0284c7"
+     stroke-width="1.5"
+     id="rect41" />
+  <text
+     x="455"
+     y="602"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#075985"
+     id="text42">VPC</text>
+  <text
+     x="455"
+     y="616"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#0c4a6e"
+     id="text43">10.11.0.0/16</text>
+  <!-- Region 3 VPCs -->
+  <rect
+     x="540"
+     y="580"
+     width="80"
+     height="50"
+     rx="4"
+     fill="#f0f9ff"
+     stroke="#0284c7"
+     stroke-width="1.5"
+     id="rect43" />
+  <text
+     x="580"
+     y="602"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#075985"
+     id="text44">VPC</text>
+  <text
+     x="580"
+     y="616"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#0c4a6e"
+     id="text45">10.20.0.0/16</text>
+  <rect
+     x="635"
+     y="580"
+     width="80"
+     height="50"
+     rx="4"
+     fill="#f0f9ff"
+     stroke="#0284c7"
+     stroke-width="1.5"
+     id="rect45" />
+  <text
+     x="675"
+     y="602"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#075985"
+     id="text46">VPC</text>
+  <text
+     x="675"
+     y="616"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#0c4a6e"
+     id="text47">10.21.0.0/16</text>
+  <!-- Connections from TGWs to VPCs -->
+  <path
+     d="M 130,520 90,580"
+     stroke="#0284c7"
+     stroke-width="2"
+     fill="none"
+     id="path47" />
+  <path
+     d="m 160,520 25,60"
+     stroke="#0284c7"
+     stroke-width="2"
+     fill="none"
+     id="path48" />
+  <path
+     d="m 210,520 70,60"
+     stroke="#0284c7"
+     stroke-width="2"
+     fill="none"
+     id="path49" />
+  <path
+     d="m 360,520 v 60"
+     stroke="#0284c7"
+     stroke-width="2"
+     fill="none"
+     id="path50" />
+  <path
+     d="m 420,520 35,60"
+     stroke="#0284c7"
+     stroke-width="2"
+     fill="none"
+     id="path51" />
+  <path
+     d="m 590,520 -10,60"
+     stroke="#0284c7"
+     stroke-width="2"
+     fill="none"
+     id="path52" />
+  <path
+     d="m 640,520 35,60"
+     stroke="#0284c7"
+     stroke-width="2"
+     fill="none"
+     id="path53" />
+  <!-- "..." annotations for more VPCs -->
+  <!-- Bottom annotation -->
+  <text
+     x="449"
+     y="674"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#6b7280"
+     font-style="italic"
+     id="text60" />
+</svg>

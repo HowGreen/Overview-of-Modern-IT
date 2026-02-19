@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 500"
+   version="1.1"
+   id="svg48"
+   sodipodi:docname="multi-az-architecture.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs48" />
+  <sodipodi:namedview
+     id="namedview48"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.548"
+     inkscape:cx="400.08455"
+     inkscape:cy="250"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg48" />
+  <!-- Background -->
+  <rect
+     width="800"
+     height="500"
+     fill="white"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="400"
+     y="30"
+     font-family="Arial"
+     font-size="20"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text1">Public-Facing Application: Multi-AZ High Availability Architecture</text>
+  <!-- AWS Cloud Border -->
+  <rect
+     x="50"
+     y="50"
+     width="700"
+     height="420"
+     rx="10"
+     ry="10"
+     fill="none"
+     stroke="#232F3E"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     id="rect2" />
+  <text
+     x="100"
+     y="70"
+     font-family="Arial"
+     font-size="16"
+     id="text2">AWS Cloud</text>
+  <!-- Region Border -->
+  <rect
+     x="70.0019"
+     y="77.183411"
+     width="659.99622"
+     height="372.8147"
+     rx="7.9999542"
+     ry="8.0608587"
+     fill="none"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect3" />
+  <text
+     x="120"
+     y="100"
+     font-family="Arial"
+     font-size="14"
+     id="text3">Region</text>
+  <!-- Availability Zone 1 -->
+  <rect
+     x="89.987656"
+     y="143.66296"
+     width="199.82613"
+     height="294.80484"
+     rx="4.9956532"
+     ry="4.7549171"
+     fill="#e8f4fa"
+     stroke="#147eba"
+     stroke-width="1.01416"
+     id="rect4" />
+  <text
+     x="112.7734"
+     y="159.72943"
+     font-family="Arial"
+     font-size="12px"
+     text-anchor="middle"
+     id="text4">AZ 1</text>
+  <!-- Availability Zone 2 -->
+  <rect
+     x="299.80508"
+     y="143.66296"
+     width="199.82613"
+     height="294.80484"
+     rx="4.9956532"
+     ry="4.7549171"
+     fill="#e8f4fa"
+     stroke="#147eba"
+     stroke-width="1.01416"
+     id="rect5" />
+  <text
+     x="322.77338"
+     y="159.72943"
+     font-family="Arial"
+     font-size="12px"
+     text-anchor="middle"
+     id="text5">AZ 2</text>
+  <!-- Availability Zone 3 -->
+  <rect
+     x="509.62253"
+     y="143.66296"
+     width="199.82613"
+     height="294.80484"
+     rx="4.9956532"
+     ry="4.7549171"
+     fill="#e8f4fa"
+     stroke="#147eba"
+     stroke-width="1.01416"
+     id="rect6" />
+  <text
+     x="532.77338"
+     y="159.72943"
+     font-family="Arial"
+     font-size="12px"
+     text-anchor="middle"
+     id="text6">AZ 3</text>
+  <!-- Internet Gateway -->
+  <polygon
+     points="380,110 400,90 420,110 "
+     fill="#53565a"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="polygon6"
+     transform="translate(-0.84554679,-10.992108)" />
+  <text
+     x="462.2886"
+     y="94.768883"
+     font-family="Arial"
+     font-size="10px"
+     text-anchor="middle"
+     id="text7">Internet Gateway</text>
+  <!-- Route 53 -->
+  <circle
+     cx="282.25479"
+     cy="102.67193"
+     r="20"
+     fill="#e7157b"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="circle7" />
+  <text
+     x="282.25479"
+     y="106.67193"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text8">Route 53</text>
+  <text
+     x="280"
+     y="132"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     id="text9">DNS Health Checks</text>
+  <!-- Load Balancer -->
+  <rect
+     x="130"
+     y="170"
+     width="540"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#693CC5"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect9" />
+  <text
+     x="400"
+     y="190"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     fill="white"
+     id="text10">Elastic Load Balancer</text>
+  <!-- Web Tier -->
+  <rect
+     x="109.98991"
+     y="219.98991"
+     width="160.00557"
+     height="67.201683"
+     rx="3.0001044"
+     ry="2.8800721"
+     fill="#ff9900"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect10" />
+  <text
+     x="190"
+     y="240"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     id="text11">Web Tier ASG</text>
+  <text
+     x="148.45547"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text12">EC2</text>
+  <text
+     x="178.45547"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text13">EC2</text>
+  <text
+     x="208.45547"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text14">EC2</text>
+  <rect
+     x="319.99722"
+     y="219.98991"
+     width="160.00557"
+     height="67.201683"
+     rx="3.0001044"
+     ry="2.8800721"
+     fill="#ff9900"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect14" />
+  <text
+     x="400"
+     y="240"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     id="text15">Web Tier ASG</text>
+  <text
+     x="358.45547"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text16">EC2</text>
+  <text
+     x="388.45547"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text17">EC2</text>
+  <text
+     x="418.45547"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text18">EC2</text>
+  <rect
+     x="530.00452"
+     y="219.98991"
+     width="160.00557"
+     height="67.201683"
+     rx="3.0001044"
+     ry="2.8800721"
+     fill="#ff9900"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect18" />
+  <text
+     x="610"
+     y="240"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     id="text19">Web Tier ASG</text>
+  <text
+     x="568.45544"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text20">EC2</text>
+  <text
+     x="598.45544"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text21">EC2</text>
+  <text
+     x="628.45544"
+     y="269"
+     font-family="Arial"
+     font-size="8px"
+     text-anchor="middle"
+     id="text22">EC2</text>
+  <!-- App Tier -->
+  <rect
+     x="109.4363"
+     y="323.24689"
+     width="160"
+     height="40"
+     rx="3"
+     ry="3"
+     fill="#1d8102"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect22" />
+  <text
+     x="189.43629"
+     y="348.24689"
+     font-family="Arial"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text23">App Tier ASG</text>
+  <rect
+     x="319.43631"
+     y="323.24689"
+     width="160"
+     height="40"
+     rx="3"
+     ry="3"
+     fill="#1d8102"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect23" />
+  <text
+     x="399.43631"
+     y="348.24689"
+     font-family="Arial"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text24">App Tier ASG</text>
+  <rect
+     x="529.43628"
+     y="323.24689"
+     width="160"
+     height="40"
+     rx="3"
+     ry="3"
+     fill="#1d8102"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="rect24" />
+  <text
+     x="609.43628"
+     y="348.24689"
+     font-family="Arial"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text25">App Tier ASG</text>
+  <!-- SQS Queue -->
+  <rect
+     x="300"
+     y="290"
+     width="200"
+     height="30"
+     rx="15"
+     ry="15"
+     fill="#CC2F90"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect25" />
+  <text
+     x="400"
+     y="310"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     fill="white"
+     id="text26">SQS Queue (Decoupling)</text>
+  <!-- Data Tier -->
+  <rect
+     x="110"
+     y="370"
+     width="160"
+     height="40"
+     rx="3"
+     ry="3"
+     fill="#3B48CC"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect26" />
+  <text
+     x="190"
+     y="395"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     fill="white"
+     id="text27">RDS Primary (AZ1)</text>
+  <rect
+     x="530"
+     y="370"
+     width="160"
+     height="40"
+     rx="3"
+     ry="3"
+     fill="#3B48CC"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="rect27" />
+  <text
+     x="610"
+     y="395"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     fill="white"
+     id="text28">RDS Standby (AZ3)</text>
+  <!-- Read Replica -->
+  <rect
+     x="320"
+     y="370"
+     width="160"
+     height="40"
+     rx="3"
+     ry="3"
+     fill="#3B48CC"
+     stroke="#232F3E"
+     stroke-width="1"
+     stroke-dasharray="5,2"
+     id="rect28" />
+  <text
+     x="400"
+     y="395"
+     font-family="Arial"
+     font-size="12"
+     text-anchor="middle"
+     fill="white"
+     id="text29">RDS Read Replica</text>
+  <!-- Internet Users -->
+  <circle
+     cx="398.02707"
+     cy="49.007893"
+     r="8"
+     fill="#ffffff"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="circle29" />
+  <text
+     x="398.02707"
+     y="74.154449"
+     font-family="Arial"
+     font-size="10px"
+     text-anchor="middle"
+     id="text30">Users</text>
+  <!-- Connections -->
+  <!-- User to Internet Gateway -->
+  <!-- Internet Gateway to Load Balancer -->
+  <line
+     x1="399.29538"
+     y1="99.289742"
+     x2="399.29538"
+     y2="170"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line31" />
+  <polyline
+     points="280,130 400,150"
+     stroke="#232f3e"
+     stroke-width="1"
+     stroke-dasharray="4, 2"
+     fill="none"
+     id="polyline31"
+     transform="matrix(0.8541219,0.3636452,-0.3540469,0.87727737,109.06915,-108.10605)" />
+  <!-- Load Balancer to Web Tier -->
+  <line
+     x1="190"
+     y1="200"
+     x2="190"
+     y2="220"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="line32" />
+  <line
+     x1="400"
+     y1="200"
+     x2="400"
+     y2="220"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="line33" />
+  <line
+     x1="610"
+     y1="200"
+     x2="610"
+     y2="220"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="line34" />
+  <!-- Web Tier to App Tier -->
+  <line
+     x1="190.00034"
+     y1="287.74521"
+     x2="190.00034"
+     y2="322.6832"
+     stroke="#232f3e"
+     stroke-width="1.03427"
+     id="line35" />
+  <line
+     x1="400"
+     y1="290"
+     x2="400"
+     y2="290"
+     stroke="#232F3E"
+     stroke-width="1"
+     id="line36" />
+  <line
+     x1="610.28149"
+     y1="287.74521"
+     x2="610.28149"
+     y2="322.38193"
+     stroke="#232f3e"
+     stroke-width="1.03427"
+     id="line37" />
+  <!-- Web Tier to SQS -->
+  <line
+     x1="270.56369"
+     y1="264.86472"
+     x2="300.56369"
+     y2="299.86472"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line38" />
+  <line
+     x1="529.07623"
+     y1="272.36819"
+     x2="499.96545"
+     y2="300.25302"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line39" />
+  <!-- App Tier to DB -->
+  <line
+     x1="188.59242"
+     y1="363.24689"
+     x2="188.59242"
+     y2="370"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line40" />
+  <line
+     x1="399.29538"
+     y1="363.24689"
+     x2="399.29538"
+     y2="370"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line41" />
+  <line
+     x1="609.99835"
+     y1="363.24689"
+     x2="609.99835"
+     y2="370"
+     stroke="#232f3e"
+     stroke-width="1"
+     id="line42" />
+  <!-- DB Replication -->
+  <line
+     x1="270"
+     y1="390"
+     x2="320"
+     y2="390"
+     stroke="#232F3E"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line43" />
+  <line
+     x1="480"
+     y1="390"
+     x2="530"
+     y2="390"
+     stroke="#232F3E"
+     stroke-width="1"
+     stroke-dasharray="3,2"
+     id="line44" />
+  <polyline
+     points="190,390 230,410 570,410 610,390"
+     stroke="#232f3e"
+     stroke-width="1"
+     fill="none"
+     id="polyline44"
+     transform="matrix(1.0230728,0,0,1.5883167,-9.9337611,-208.42563)" />
+  <text
+     x="400"
+     y="425"
+     font-family="Arial"
+     font-size="10"
+     text-anchor="middle"
+     id="text44">Synchronous Replication (Multi-AZ)</text>
+  <!-- Legend -->
+  <rect
+     x="633.51141"
+     y="80.619659"
+     width="83.039154"
+     height="12.100504"
+     rx="2.6222894"
+     ry="2.4201007"
+     fill="#693cc5"
+     stroke="#232f3e"
+     stroke-width="1.00961"
+     id="rect44" />
+  <text
+     x="648.06549"
+     y="92.317039"
+     font-family="Arial"
+     font-size="6.71779px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text45"
+     transform="scale(1.0409349,0.9606749)"
+     style="stroke-width:0.839722">Load Balancer</text>
+  <rect
+     x="633.51141"
+     y="96.753654"
+     width="83.039154"
+     height="12.100504"
+     rx="2.6222894"
+     ry="2.4201007"
+     fill="#ff9900"
+     stroke="#232f3e"
+     stroke-width="1.00961"
+     id="rect45" />
+  <text
+     x="648.06549"
+     y="109.11149"
+     font-family="Arial"
+     font-size="6.71779px"
+     text-anchor="middle"
+     id="text46"
+     transform="scale(1.0409349,0.9606749)"
+     style="stroke-width:0.839722">Auto Scaling Group</text>
+  <rect
+     x="633.51141"
+     y="112.88765"
+     width="83.039154"
+     height="12.100504"
+     rx="13.111445"
+     ry="12.100504"
+     fill="#cc2f90"
+     stroke="#232f3e"
+     stroke-width="1.00961"
+     id="rect46" />
+  <text
+     x="648.06549"
+     y="125.90594"
+     font-family="Arial"
+     font-size="6.71779px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text47"
+     transform="scale(1.0409349,0.9606749)"
+     style="stroke-width:0.839722">Decoupling (SQS)</text>
+  <rect
+     x="633.51141"
+     y="129.02167"
+     width="83.039154"
+     height="12.100504"
+     rx="2.6222894"
+     ry="2.4201007"
+     fill="#3b48cc"
+     stroke="#232f3e"
+     stroke-width="1.00961"
+     id="rect47" />
+  <text
+     x="648.06549"
+     y="142.70038"
+     font-family="Arial"
+     font-size="6.71779px"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text48"
+     transform="scale(1.0409349,0.9606749)"
+     style="stroke-width:0.839722">Database (RDS)</text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.1852px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#496181;fill-opacity:1;stroke:#53565a;stroke-width:2.24244;stroke-dasharray:4.48489, 4.48489;stroke-dashoffset:0;stroke-opacity:1"
+     x="376.37686"
+     y="112.8159"
+     id="text49"
+     transform="matrix(1.0073438,-0.11629424,0.11967414,0.97889379,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan48"
+       x="376.37686"
+       y="112.8159"
+       style="stroke-width:2.24244">+</tspan></text>
+</svg>

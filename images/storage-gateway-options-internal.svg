@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="629"
+   viewBox="0 0 1000 629"
+   version="1.1"
+   id="svg55"
+   sodipodi:docname="storage-gateway-options-internal.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview55"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.5342857"
+     inkscape:cx="479.03044"
+     inkscape:cy="342.50282"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg55" />
+  <defs
+     id="defs3">
+    <!-- Arrow markers with different colors -->
+    <marker
+       id="arrow-green"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#4caf50"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrow-blue"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#1976d2"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="arrow-purple"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#7b1fa2"
+         id="polygon3" />
+    </marker>
+  </defs>
+  <!-- Title and Subtitle -->
+  <text
+     x="500"
+     y="35"
+     font-family="Arial, sans-serif"
+     font-size="22px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text3">AWS Storage Gateway Options</text>
+  <text
+     x="500"
+     y="60"
+     font-family="Arial, sans-serif"
+     font-size="15px"
+     text-anchor="middle"
+     fill="#555555"
+     id="text4">Bridging On-Premises Systems with AWS Cloud Storage</text>
+  <!-- Main Zones -->
+  <!-- On-Premises Data Center / Internal Network Zone -->
+  <rect
+     x="10.95408"
+     y="88.954079"
+     width="420.09186"
+     height="511.03888"
+     rx="10.002186"
+     ry="8.8110142"
+     fill="#f0f4f8"
+     stroke="#b0b7c0"
+     stroke-width="1.40816"
+     id="rect4" />
+  <text
+     x="221"
+     y="114"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#37474f"
+     id="text5">On-Premises Data Center / Internal Network</text>
+  <!-- AWS Cloud Zone -->
+  <rect
+     x="569.95575"
+     y="89.955704"
+     width="420.08859"
+     height="513.40314"
+     rx="10.00211"
+     ry="8.851778"
+     fill="#fef8e8"
+     stroke="#f0d49b"
+     stroke-width="1.41141"
+     id="rect5" />
+  <text
+     x="780"
+     y="115"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#b3832c"
+     id="text6">AWS Cloud</text>
+  <!-- Connectivity Line Between Zones with Lock Icon -->
+  <rect
+     x="427.73361"
+     y="161.7821"
+     width="146.1111"
+     height="387.11221"
+     rx="0"
+     ry="0"
+     fill="#e0e0e0"
+     stroke="#b0b0b0"
+     stroke-width="1.23891"
+     id="rect6" />
+  <text
+     x="503.5513"
+     y="173.5513"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     text-anchor="middle"
+     fill="#555555"
+     id="text7">Secure Connection</text>
+  <text
+     x="503.5513"
+     y="188.5513"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-style="italic"
+     text-anchor="middle"
+     fill="#555555"
+     id="text8">(Direct Connect, VPN, HTTPS)</text>
+  <!-- Lock icon for secure connection -->
+  <text
+     x="500.39459"
+     y="214.27283"
+     font-family="Arial, sans-serif"
+     font-size="18px"
+     text-anchor="middle"
+     fill="#777777"
+     id="text9">🔒</text>
+  <!-- On-Premises Systems -->
+  <!-- Application Servers -->
+  <rect
+     x="30"
+     y="274"
+     width="100"
+     height="60"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#607d8b"
+     stroke-width="1.5"
+     id="rect9" />
+  <text
+     x="80"
+     y="304"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text10">🖥️</text>
+  <text
+     x="80"
+     y="349"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text11">Application</text>
+  <text
+     x="80"
+     y="364"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text12">Servers</text>
+  <!-- File Servers -->
+  <rect
+     x="27"
+     y="144"
+     width="100"
+     height="60"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#607d8b"
+     stroke-width="1.5"
+     id="rect12" />
+  <text
+     x="77"
+     y="174"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text13">📂</text>
+  <text
+     x="77"
+     y="219"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text14">File</text>
+  <text
+     x="77"
+     y="234"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text15">Servers</text>
+  <!-- Backup Infrastructure -->
+  <rect
+     x="29"
+     y="391"
+     width="100"
+     height="60"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#607d8b"
+     stroke-width="1.5"
+     id="rect15" />
+  <text
+     x="79"
+     y="421"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text16">📼</text>
+  <text
+     x="79"
+     y="466"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text17">Backup</text>
+  <text
+     x="79"
+     y="481"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#607d8b"
+     id="text18">Infrastructure</text>
+  <!-- AWS Storage Gateway Appliance -->
+  <rect
+     x="211"
+     y="259"
+     width="180"
+     height="200"
+     rx="5"
+     ry="5"
+     fill="#e0e0e0"
+     stroke="#555555"
+     stroke-width="2.1"
+     id="rect18" />
+  <text
+     x="301"
+     y="284"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text19">AWS Storage Gateway</text>
+  <text
+     x="301"
+     y="304"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#555555"
+     id="text20">(VM or Hardware Appliance)</text>
+  <!-- Gateway Types -->
+  <!-- File Gateway -->
+  <rect
+     x="229"
+     y="314"
+     width="140"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#e8f5e9"
+     stroke="#4caf50"
+     stroke-width="1.5"
+     id="rect20" />
+  <text
+     x="299"
+     y="334"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2e7d32"
+     id="text21">File Gateway</text>
+  <!-- Volume Gateway -->
+  <rect
+     x="231.39459"
+     y="350.94589"
+     width="140"
+     height="46"
+     rx="3"
+     ry="4.5999999"
+     fill="#e3f2fd"
+     stroke="#1976d2"
+     stroke-width="1.86"
+     id="rect21" />
+  <text
+     x="300.39459"
+     y="367.94589"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#0d47a1"
+     id="text22">Volume Gateway</text>
+  <!-- Tape Gateway -->
+  <rect
+     x="231"
+     y="404"
+     width="140"
+     height="30"
+     rx="3"
+     ry="3"
+     fill="#f3e5f5"
+     stroke="#7b1fa2"
+     stroke-width="1.5"
+     id="rect22" />
+  <text
+     x="301"
+     y="424"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#4a148c"
+     id="text23">Tape Gateway</text>
+  <!-- AWS Cloud Services -->
+  <!-- S3 for File Gateway -->
+  <rect
+     x="604"
+     y="175.08118"
+     width="120"
+     height="80"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#e65100"
+     stroke-width="1.5"
+     id="rect23" />
+  <text
+     x="660"
+     y="211.08118"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text24">📦</text>
+  <text
+     x="660"
+     y="230.08118"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text25">Amazon S3</text>
+  <text
+     x="660"
+     y="245.08118"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text26">(File Storage)</text>
+  <!-- S3 for Volume Gateway -->
+  <rect
+     x="605.57837"
+     y="332.84329"
+     width="120"
+     height="80"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#e65100"
+     stroke-width="1.5"
+     id="rect26" />
+  <text
+     x="664"
+     y="367.08118"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text27">📦</text>
+  <text
+     x="664.57837"
+     y="388.84329"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text28">Amazon S3</text>
+  <text
+     x="663"
+     y="401.08118"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text29">(Volume Storage)</text>
+  <!-- S3 for Tape Gateway -->
+  <rect
+     x="607"
+     y="474.08118"
+     width="120"
+     height="80"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#e65100"
+     stroke-width="1.5"
+     id="rect29" />
+  <text
+     x="667"
+     y="508.08118"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text30">📦</text>
+  <text
+     x="666"
+     y="533.08118"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text31">Amazon S3</text>
+  <text
+     x="671"
+     y="548.08118"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#e65100"
+     id="text32">(Virtual Tapes)</text>
+  <!-- S3 Glacier -->
+  <rect
+     x="829.76208"
+     y="505.40024"
+     width="120"
+     height="80"
+     rx="5"
+     ry="5"
+     fill="#ffffff"
+     stroke="#01579b"
+     stroke-width="1.5"
+     id="rect32" />
+  <text
+     x="889.76208"
+     y="540.40021"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     fill="#01579b"
+     id="text33">❄️</text>
+  <text
+     x="891.76208"
+     y="565.40021"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#01579b"
+     id="text34">S3 Glacier</text>
+  <text
+     x="891.76208"
+     y="580.40021"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#01579b"
+     id="text35">(Deep Archive)</text>
+  <!-- Text Labels for the flows -->
+  <text
+     x="182.38895"
+     y="179.33484"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#4caf50"
+     id="text36">SMB/NFS Access</text>
+  <text
+     x="501.84894"
+     y="266.59528"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#4caf50"
+     id="text37">Files stored as</text>
+  <text
+     x="501.84894"
+     y="281.59528"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#4caf50"
+     id="text38">Objects in S3</text>
+  <text
+     x="166"
+     y="290"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#1976d2"
+     id="text39">iSCSI</text>
+  <text
+     x="166"
+     y="305"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#1976d2"
+     id="text40">Block Storage</text>
+  <text
+     x="507.37317"
+     y="352.23788"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#1976d2"
+     id="text41">Volume Snapshots /</text>
+  <text
+     x="507.37317"
+     y="367.23788"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#1976d2"
+     id="text42">Data Tiered to S3</text>
+  <text
+     x="166"
+     y="402.05411"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#7b1fa2"
+     id="text43">iSCSI</text>
+  <text
+     x="166"
+     y="417.05411"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#7b1fa2"
+     id="text44">(VTL Interface)</text>
+  <text
+     x="506.84329"
+     y="430.92447"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#7b1fa2"
+     id="text45">Virtual Tapes</text>
+  <text
+     x="506.84329"
+     y="445.92447"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#7b1fa2"
+     id="text46">(Online Storage)</text>
+  <text
+     x="787.1026"
+     y="502.63812"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#7b1fa2"
+     id="text47">Archive to</text>
+  <text
+     x="787.1026"
+     y="517.63812"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#7b1fa2"
+     id="text48">Cold Storage</text>
+  <!-- Connection Paths - IMPROVED WITH SPECIFIC ADJUSTMENTS -->
+  <!-- File Gateway Connections - diagonal to upper right of box -->
+  <path
+     d="M 127,174 229,314"
+     stroke="#4caf50"
+     stroke-width="1.8"
+     fill="none"
+     marker-end="url(#arrow-green)"
+     id="path48" />
+  <!-- File Gateway to S3 connection - graceful counter-clockwise curve -->
+  <path
+     d="m 368.96417,329.05259 q 99.68166,0 149.02901,-35.23574 49.34736,-36.13922 82.90356,-63.24363"
+     stroke="#4caf50"
+     stroke-width="1.69973"
+     fill="none"
+     marker-end="url(#arrow-green)"
+     id="path49" />
+  <!-- Application Servers to Volume Gateway - straight diagonal to middle of side -->
+  <path
+     d="m 130,304 101,66"
+     stroke="#1976d2"
+     stroke-width="1.8"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path50" />
+  <!-- Volume Gateway to S3 connection -->
+  <path
+     d="m 370.60541,374.34047 q 99,0 169,0 50,0 64,0"
+     stroke="#1976d2"
+     stroke-width="1.8"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path51" />
+  <!-- Tape Gateway Connections -->
+  <path
+     d="m 129,421 q 51,0 102,0"
+     stroke="#7b1fa2"
+     stroke-width="1.8"
+     fill="none"
+     marker-end="url(#arrow-purple)"
+     id="path52" />
+  <!-- Tape Gateway to S3 - curve down below text -->
+  <path
+     d="m 371.00612,420.96691 q 58.60536,0 98.33781,31.00388 49.66556,40.005 109.26423,57.00713 14.89967,3.00037 26.8194,3.00037"
+     stroke="#7b1fa2"
+     stroke-width="1.79408"
+     fill="none"
+     marker-end="url(#arrow-purple)"
+     id="path53" />
+  <!-- Adjusted arrow for Archive to Cold Storage -->
+  <path
+     d="m 727,514.08117 q 43,20 100,30"
+     stroke="#7b1fa2"
+     stroke-width="1.8"
+     fill="none"
+     marker-end="url(#arrow-purple)"
+     id="path54" />
+  <!-- Volume Gateway Modes Text -->
+  <text
+     x="252.39459"
+     y="378.94589"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     text-anchor="start"
+     fill="#1976d2"
+     id="text54">• Cached Volumes Mode</text>
+  <text
+     x="252.39459"
+     y="391.94589"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     text-anchor="start"
+     fill="#1976d2"
+     id="text55">• Stored Volumes Mode</text>
+</svg>
