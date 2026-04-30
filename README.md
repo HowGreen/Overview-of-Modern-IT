@@ -52,7 +52,7 @@ The textbook uses a narrative voice — an experienced Solutions Architect refle
 
 ├── process/
 
-│   └── prompt\_template.md        # Final version of the prompt used to generate each section
+│   └── Project Description3.txt        # Representative version of the prompt used to generate each section
 
 ├── output/                       # Compiled ePub (built with Pandoc)
 
