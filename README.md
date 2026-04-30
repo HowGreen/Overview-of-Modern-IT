@@ -56,8 +56,6 @@ The textbook uses a narrative voice — an experienced Solutions Architect refle
 
 ├── output/                       # Compiled ePub (built with Pandoc)
 
-├── custom-styles.css             # ePub styling
-
 └── README.md
 
 ```
